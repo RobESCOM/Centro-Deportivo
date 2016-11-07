@@ -1,0 +1,2 @@
+# Centro-Deportivo
+Aplicación web que permite la gestión de un centro deportivo mediante el alta, baja, consulta y modificaciones de clientes, venta de membresías, profesores, áreas del centro deportivo, cursos, y servicios. Este sistema define los distintos tipos de usuario que pueden existir para la administración del lugar, tales como, recepcionista, ejecutivo de ventas, gerente de sucursal, encargado de área, dueño, administrador del sistema y el cliente como usuario final del sistema. 
