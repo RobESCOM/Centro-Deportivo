@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sucursales</title>
+        <link rel="stylesheet" href="assets/css/misEstilos.css">
+        <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css"> -->
+        <script src = "assets/js/jquery-ui/external/jquery/jquery.js"></script>
+        <script src="assets/js/jquery-ui/jquery-ui.js"></script>
+        <script src="assets/js/FuncionesJS.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRaT4lwc9zAeSrMllEl14BVXP7gV65m6Y&signed_in=true&callback=initMap"></script>
+        <script>
+            $(function () {
+                $("#tabs").tabs();
+            });
+
+            $(function () {
+                $("#datepicker").datepicker({
+                    changeMonth: true,
+                    changeYear: true
+                });
+            });
+            
+            $("#age").tooltip({
+                classes: {
+                    "ui-tooltip": "highlight"
+                }
+            });
+
+            function fun() {
+                alert("Pulso fun");
+            }
+
+            $(".selector").button({
+                icon: {icon: "ui-icon-gear"}
+            });
+        </script>
+    </head>
+    <body onload="ocultar()">
+
+        <div class="center" id="tabs">
+            <ul>
+                <li class="tabs"><a class="lnk" href="#tabs-1">Alta</a></li>
+                <li class="tabs"><a class="lnk" href="#tabs-2" onclick="mostrarDatos(this)">Actualizar</a></li>
+                <li class="tabs"><a class="lnk" href="#tabs-3" onclick="mostrarDatos(this)">Baja</a></li>
+            </ul>
+            <a href="inicio.html">Inicio</a>
+            <div id="tabs-1">
+                <form action = "RegSuc" method="POST">
+                    <label for="nameS">Nombre de la sucursal</label>
+                    <input type="text" id="nameS" name="nameS" placeholder="On The Run" required>
+
+                    <h4><label>Direccion</label></h4>
+                    <label for="calle">Calle</label>
+                    <input type="text" id="calle" name="calle" placeholder="Av. siempre viva" required>
+
+                    <label for="col">Colonia</label>
+                    <input type="text" id="col" name="col" placeholder="A momentary lapse of reason" required>
+
+                    <label for="del">Delegacion o municipio</label>
+                    <input type="text" id="del" name="del" placeholder="Ciudadano del mundo" required>
+
+                    <label for="cp">Codigo postal</label>
+                    <input type="text" id="cp" name="cp" placeholder="1984" onblur="verificarCP()" required>
+
+                    <div class="oculto" id="hideCP" title="Codigo Postal no valido" >
+                        <span style="float:left; margin:0 7px 50px 0;"></span>
+                        <p>Introduzca un codigo postal valido. Ejemplo 07510.</p>
+                    </div>
+
+                    <div id="fechita">
+                        <p id="age" title="Oh! no, god please help me!!">Fecha de inauguracion 
+                            <input type="text" id="datepicker" onclick="mostrarFecha()">
+                        </p>
+                    </div>
+
+                    <label for="state">Estado</label>
+                    <select id="state" name="state">
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        <option value="Baja California">Baja California</option>
+                        <option value="Baja California sur">Baja California sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                        <option value="Ciudad de Mexico">Ciudad de Mexico</option>
+                        <option value="Durango">Durango</option>
+                        <option value="Estado de México">Estado de México</option>
+                        <option value="Guanajuato">Guanajuato</option>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="Michoacán">Michoacán</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Nayarit">Nayarit</option>
+                        <option value="Nuevo León">Nuevo León</option>
+                        <option value="Oaxaca">Oaxaca</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Queretaro">Queretaro</option>
+                        <option value="Quintana Roo">Quintana Roo</option>
+                        <option value="San Luis Potosí">San Luis Potosí</option>
+                        <option value="Sinaloa">Sinaloa</option>
+                        <option value="Sonora">Sonora</option>
+                        <option value="Tabasco">Tabasco</option>
+                        <option value="Tamaulipas">Tamaulipas</option>
+                        <option value="Tlaxcala">Tlaxcala</option>
+                        <option value="Veracruz">Veracruz</option>
+                        <option value="Yucatán">Yucatán</option>
+                        <option value="Zacatecas">Zacatecas</option>
+                    </select>
+
+                    <section id="teles">
+                        <h4>Telefono(s)</h4>
+                        <input type="text" id="tel" name="tels" placeholder="01 800 Any colour you like" onblur="verificarTel()" required>
+                        <span id="mas" class="ui-icon-circle-plus" onclick="moreTel()">+</span>
+                    </section>
+
+                    <section id="mails">
+                        <h4>Mail(s)</h4>
+                        <input type="email" id="email" name="email" placeholder="nile@song.more" onblur="moreMail()" required>
+                    </section>
+                    
+                    <section id="area">
+                        <h4>Áreas</h4>
+                        <details id="areas">
+                            <summary onclick="mostrarAreas()">¿Con que áreas cuanta la sucursal?</summary>
+                            <!-- <label>Valor: </label><input type="checkbox" value="Valor" name="areasSuc"/> -->
+                        </details>
+                    </section>
+                    
+                    <h4>Datos del gerente</h4>
+                    <label for="adminPila">Nombre</label>
+                    <input type="text" id="adminPila" name="adminPila" placeholder="Pink" required>
+
+                    <label for="adminFap">Primer apellido</label>
+                    <input type="text" id="adminFap" name="adminFap" placeholder="Floyd" required>
+
+                    <label for="adminSap">Segundo apellido</label>
+                    <input type="text" id="adminSap" name="adminSap" placeholder="Floyd" required>
+
+                    <label>Direccion</label>
+                    <input type="text" id="dirG" name="dirG" placeholder="calle the wall" required>
+
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="tabs-2">
+                <table id="update" class="tablas">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre Sucursal</th>
+                        <th>Estado</th>
+                        <th>Telefono</th>
+                        <th>Mail</th>
+                    </tr> 
+                </table>
+            </div>
+
+            <div id="tabs-3">
+                <table id="bajas" class="tablas">
+
+
+                </table>
+            </div>
+
+            <div>
+                <div id="floating-panel">
+                    <b>Start: </b>
+                    <select id="inicio" name="state">
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        <option value="Baja California">Baja California</option>
+                        <option value="Baja California sur">Baja California sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                        <option value="Ciudad de Mexico">Ciudad de Mexico</option>
+                        <option value="Durango">Durango</option>
+                        <option value="Estado de México">Estado de México</option>
+                        <option value="Guanajuato">Guanajuato</option>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="Michoacán">Michoacán</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Nayarit">Nayarit</option>
+                        <option value="Nuevo León">Nuevo León</option>
+                        <option value="Oaxaca">Oaxaca</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Queretaro">Queretaro</option>
+                        <option value="Quintana Roo">Quintana Roo</option>
+                        <option value="San Luis Potosí">San Luis Potosí</option>
+                        <option value="Sinaloa">Sinaloa</option>
+                        <option value="Sonora">Sonora</option>
+                        <option value="Tabasco">Tabasco</option>
+                        <option value="Tamaulipas">Tamaulipas</option>
+                        <option value="Tlaxcala">Tlaxcala</option>
+                        <option value="Veracruz">Veracruz</option>
+                        <option value="Yucatán">Yucatán</option>
+                        <option value="Zacatecas">Zacatecas</option>
+                    </select>
+                    <b>End: </b>
+                    <select id="fin" name="state">
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        <option value="Baja California">Baja California</option>
+                        <option value="Baja California sur">Baja California sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                        <option value="Ciudad de Mexico">Ciudad de Mexico</option>
+                        <option value="Durango">Durango</option>
+                        <option value="Estado de México">Estado de México</option>
+                        <option value="Guanajuato">Guanajuato</option>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="Michoacán">Michoacán</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Nayarit">Nayarit</option>
+                        <option value="Nuevo León">Nuevo León</option>
+                        <option value="Oaxaca">Oaxaca</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Queretaro">Queretaro</option>
+                        <option value="Quintana Roo">Quintana Roo</option>
+                        <option value="San Luis Potosí">San Luis Potosí</option>
+                        <option value="Sinaloa">Sinaloa</option>
+                        <option value="Sonora">Sonora</option>
+                        <option value="Tabasco">Tabasco</option>
+                        <option value="Tamaulipas">Tamaulipas</option>
+                        <option value="Tlaxcala">Tlaxcala</option>
+                        <option value="Veracruz">Veracruz</option>
+                        <option value="Yucatán">Yucatán</option>
+                        <option value="Zacatecas">Zacatecas</option>
+                    </select>
+                </div>
+                <div id ="map" class="center"></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,176 @@
+
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.center {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    left: 0;
+    top: 50%;
+    text-align: left;
+    font-size: 18px;
+
+    border-radius: 5px;
+    background-color: #E5E6E8;/*#f2f2f2;*/
+    padding: 20px;
+}
+
+body {
+    background-image: url("../../images/velvet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tabs {
+    background-color: #50A6F0;/*#0B4FFA;*/
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+} 
+
+.tabs:hover/*, .tabs:active*/ {
+    background-color: #0B4FFA;
+}
+
+.lnk {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* estilo que oculta los mensajes a mostrar*/
+.oculto {
+    display : none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+/* Estilos de tabla */
+.tablas {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tablas td, .tablas th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tablas tr:nth-child(even){background-color: #f2f2f2;}
+
+.tablas tr:hover {background-color: #ddd;}
+
+.tablas th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#ui-datepicker-div {
+    width: 270px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    background-color: #B1C7CF;
+}
+
+.ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+.ui-datepicker-calendar {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.ui-datepicker-month, .ui-datepicker-year {
+    width: 40%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ui-datepicker-prev ui-corner-all, .ui-datepicker-next ui-corner-all {
+    display: inline;
+}
+
+.ui-datepicker-next ui-corner-all {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#mas {
+    background-color: green; 
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/*Estilos para el mapa*/
+#map {
+    height: 400px;
+    width: 815px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px;
+    margin: 10px;
+    border-color: #212f35;
+    align-content: center;
+}
+
+#floating-panel {
+    position: relative;
+    width: 250px;
+    height: 180px;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+

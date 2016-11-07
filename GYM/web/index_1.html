@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+        <title>Deportivo San Pancho</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="Container"> 
+            
+                <form method="post" action="Registro">
+                    <div>
+                        <label for="cliente">Tipo de cliente:*</label>
+                        <label for="cliente1"><input type="radio" name="tipoCliente" value="Persona Física" />Persona Física</label>
+                        <label for="cliente2"><input type="radio" name="tipoCliente" value="Persona Moral" />Persona Moral</label>
+                        <label for="cliente3"><input type="radio" name="tipoCliente" value="Menor de Edad" />Menor de Edad</label>
+                        <a href="inicio.html">Menu inicio</a>
+                    </div>
+                    
+                    <div class="DatosPersonales">
+                        <h3>DATOS PERSONALES</h3>
+                        <div>
+                            <label for="nombre">Nombre(s):*</label>
+                            <input type="text" name="nombreCliente" />
+                        </div>
+                        <div>
+                            <label for="apPaterno">Apellido Paterno:*</label>
+                            <input type="text" name="apPaterno" />
+                        </div>
+                        <div>
+                            <label for="apMaterno">Apellido Materno:</label>
+                            <input type="text" name="apMaterno" />
+                        </div>
+                        <div>
+                            <label for="fNacimiento">Fecha de Nacimiento:*</label>
+                            <input type="text" name="fechaNacimiento" placeholder="dd/mm/aaaa" />
+                        </div>
+                        <div>
+                            <label for="genero">Sexo:*</label>
+                            <label for="hombre"><input type="radio" name="sexo" />Masculino</label>
+                            <label for="mujer"><input type="radio" name="sexo" />Femenino</label>                                    
+                        </div>
+                        <div>
+                            <label for="curp">CURP:*</label>
+                            <input type="text" name="curp" />
+                        </div>
+                        <div>
+                            <label for="RFC">RFC:</label>
+                            <input type="text" name="rfc" />
+                        </div>                       
+                    </div>
+                    <div class="Domicilio">
+                        <h4>DOMICILIO</h4>
+                        <div>
+                            <label for="calle">Calle:*</label>
+                            <input type="text" name="calle" />
+                        </div>
+                        <div>
+                            <label for="ext">Núm Ext:*</label>
+                            <input type="text" name="numeroExt" />
+                        </div>
+                        <div>
+                            <label for="int">Núm Int:</label>
+                            <input type="text" name="numeroInt" />
+                        </div>
+                        <div>
+                            <label for="col">Colonia:*</label>
+                            <input type="text" name="colonia" />
+                        </div>
+                        <div>
+                            <label for="localidad">Localidad:*</label>
+                            <input type="text" name="delMuni" />
+                        </div>
+                        <div>
+                            <label for="edo">Estado:*</label>
+                            <input type="text" name="estado" />                    
+                        </div>
+                        <div>
+                            <label for="pais">País:*</label>
+                            <input type="text" name="pais" />
+                        </div>
+                        <div>
+                            <label for="cp">CP:*</label>
+                            <input type="text" name="codigoPostal" />
+                        </div>
+                    </div>
+                    
+                    <div class="MediosContacto">
+                        <h4>MEDIOS DE CONTACTO</h4>
+                        <div>
+                            <label for="casa">Teléfono de casa:</label>
+                            <input type="text" name="telCasa" placeholder="Ej:(55) 22334455"/>
+                            <label for="cel">Celular:*</label>
+                            <input type="text" name="telCel" placeholder="Ej:(044) 5522334455" />
+                            <label for="otro">Oficina:</label>
+                            <input type="text" name="telOficina" placeholder="Ej:(55) 22334455" />      
+                        </div>
+                        <div>
+                            <label for="email">Correo electrónico:*</label>
+                            <input type="email" name="correo"  placeholder="correo@ejemplo.com" />
+                        </div>
+                        <div>
+                            <label for="face">Facebook:</label>
+                            <input type="text" name="facebook" placeholder="Usuario de Facebook" />
+                            <label for="twit">Twitter:</label>
+                            <input type="text" name="twitter" placeholder="@usuario" />
+                        </div>
+                    </div>
+                    
+                    <div id="DatosMedicos">
+                        <h4>DATOS MÉDICOS</h4>
+                        <div>
+                            <label for="sangre">Tipo de sangre:*</label>
+                            <select>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>0+</option>
+                                <option>0-</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="enfermedades">Enfermedades:*</label><br>
+                            <label for="diabetes"><input type="checkbox" name="enfermedades" value="Diabetes" />Diabetes</label><br>
+                            <label for="cardiopatia"><input type="checkbox" name="enfermedades" value="Cardiopatia" />Cardiopatía</label><br>
+                            <label for="cancer"><input type="checkbox" name="enfermedades" value="Cancer" />Cáncer</label><br>
+                            <label for="cerebrovascular"><input type="checkbox" name="enfermedades" value="cerebrovascular" />Cerebrovascular</label><br>
+                            <label for="higado"><input type="checkbox" name="enfermedades" value="Higado" />Hígado</label><br>
+                            <label for="pulmonar"><input type="checkbox" name="enfermedades" value="Pulmonar" />Pulmonar</label><br>
+                            <label for="riñon"><input type="checkbox" name="enfermedades" value="Riñón" />Riñon</label><br>
+                            <label for="obesidad"><input type="checkbox" name="enfermedades" value="Obesidad" />Obesidad</label>
+                        </div>
+                        <div>
+                            <label for="condicion">Condición médica:</label><br>
+                            <textarea cols="100" rows="10"></textarea>
+                        </div>                      
+                    </div>
+                   
+                    <div id="Observaciones">
+                        <h4>OBSERVACIONES</h4>
+                        <div>
+                            <textarea cols="100" rows="10"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="Button">
+                        <button type="submit">Registrarse</button>
+                    </div>
+                    
+                </form>
+            </div>      
+    </body>
+</html>
