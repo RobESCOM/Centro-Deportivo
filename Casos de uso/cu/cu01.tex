@@ -2,6 +2,7 @@
 % \IUref{IUModPS}{Modificar Planta de Selección}
 % \IUref{IUEliPS}{Eliminar Planta de Selección}
 
+<<<<<<< HEAD
 
 % Copie este bloque por cada caso de uso:
 %-------------------------------------- COMIENZA descripción del caso de uso.
@@ -17,10 +18,24 @@
 una membresía. El registro de la información del cliente sólo lo podrá realizar la recepcionista, ejecutivo de ventas y el propio cliente.
 	}
 		\UCitem{Versión}{1.0}
+=======
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU1}{Registrar cliente.}{
+		Permite registrar los datos de un cliente mayor de 18 años para poder adquirir una membresía. El registro de la información del cliente sólo lo podrá realizar la recepcionista, ejecutivo de ventas y el propio cliente.
+	}
+		\UCitem{Versión}{0.1}
+>>>>>>> 115291a33f296179e1593a286f9632d9eba1a438
 		\UCitem{Actor}{Ejecutivo de Ventas, Recepcionista y Cliente.}
 		\UCitem{Propósito}{Tener un historial sobre las membresías y/o servicios contratados por el cliente.}
 		\UCitem{Entradas}{Nombre(s), Apellido Paterno, Apellido Materno, Fecha de Nacimiento, CURP, RFC, Sexo, Calle, Número exterior, Número interior, Colonia, Estado, Delegación/Municipio, Código Postal, Calle anterior, calle Posterior, Referencias, Correo electrónico, Teléfonos, Tipo de sangre, Enfermedades, Condición médica.}
 		\UCitem{Origen}{Teclado.}
+<<<<<<< HEAD
 		\UCitem{Salidas}{Mensaje de registro exitoso, número de cliente, envío de correo electrónico de confirmación a la cuenta de correo del cliente, muestra la \IUref{IU3}{Pantalla de Venta de Membresía}}
 		\UCitem{Destino}{Servidor de correo, pantalla.}
 		\UCitem{Precondiciones}{No tener registrado otro cliente con la misma CURP y contar con la mayoría de edad (+18).}
@@ -60,3 +75,31 @@ una membresía. El registro de la información del cliente sólo lo podrá reali
 		
 
 	
+=======
+		\UCitem{Salidas}{Mensaje de registro exitoso, número de cliente, envío de correo electrónico de confirmación a la cuenta de correo del cliente, muestra la \IUref{IU24}{Pantalla de Venta de Membresía}. }
+		\UCitem{Destino}{Servidor de correo, pantalla.}
+		\UCitem{Precondiciones}{No tener registrado otro cliente con la misma CURP y contar con la mayoría de edad (+18).}
+		\UCitem{Postcondiciones}{Habrá un cliente más registrado en el sistema.}
+		\UCitem{Errores}{{\bf E1-} ``El cliente es menor de edad.'' -> El sistema muestra el Mensaje {\bf MSG1-}``Debes ser mayor de 18 años para continuar con el registro y adquirir tú membresía. Una vez finalizado el registro podrás dar de alta a un afiliado menor de edad'' y continua al paso...
+		
+				{\bf E2-} ``Existe un registro con la misma CURP.'' -> El sistema muestra el Mensaje {\bf MSG2-}``Este cliente ya existe. Ingresa una nueva CURP o consulta los clientes registrados.'' y continua al paso 1.
+				
+				{\bf E3-} ``No se ingresaron todos los datos obligatorios.'' -> El sistema muestra el Mensaje {\bf MSG3-}``Ingresa los campos obligatorios para continuar'' y continua al paso...}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Roberto Mendoza Saavedra}
+		\UCitem{Revisó}{}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Selecciona del menú principal la opción Áreas.
+		\UCpaso Muestra las opciones que el gerente pueda realizar: Registrar Áreas, Consultar Áreas, 			Eliminar Áreas, Dar de Baja Áreas y Actualizar Áreas.
+		\UCpaso[\UCactor] Selecciona la opción de Consultar áreas.
+		\UCpaso Mostrará los datos de las áreas registradas mediante una tabla.
+		\UCpaso[\UCactor] Podrá visualizar los datos de las áreas registradas.
+		\UCpaso[\UCactor] Regresará al menú de opciones mediante el botón de menú de inicio.
+				
+	\end{UCtrayectoria}
+%-------------------------------------- TERMINA descripción del caso de uso.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+>>>>>>> 115291a33f296179e1593a286f9632d9eba1a438

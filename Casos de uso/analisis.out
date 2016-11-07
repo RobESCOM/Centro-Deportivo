@@ -7,6 +7,7 @@
 \BOOKMARK [2][-]{subsection.2.1.1}{Descripci\363n completa}{section.2.1}% 7
 \BOOKMARK [2][-]{subsection.2.1.2}{Atributos importantes}{section.2.1}% 8
 \BOOKMARK [2][-]{subsection.2.1.3}{Trayectorias del Caso de Uso}{section.2.1}% 9
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.2.2}{CU2 Consultar datos del cliente.}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.1}{Descripci\363n completa}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.2}{Atributos importantes}{section.2.2}% 12
@@ -87,3 +88,81 @@
 \BOOKMARK [2][-]{subsection.3.0.21}{IU38 Pantalla de opciones para la recepsionista}{subsection.3.0.1}% 87
 \BOOKMARK [2][-]{subsection.3.0.22}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.3.0.1}% 88
 \BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 89
+=======
+\BOOKMARK [1][-]{section.2.2}{CU6.0 Consultar \301reas Registradas}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Descripci\363n completa}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Atributos importantes}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.3}{Trayectorias del Caso de Uso}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{CU7.0 Registrar \341reas}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{Descripci\363n completa}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{Atributos importantes}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.3}{Trayectorias del Caso de Uso}{section.2.3}% 17
+\BOOKMARK [1][-]{section.2.4}{CU8.0 Eliminar \341reas}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.4.1}{Descripci\363n completa}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.2}{Atributos importantes}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.3}{Trayectorias del Caso de Uso}{section.2.4}% 21
+\BOOKMARK [1][-]{section.2.5}{CU9.0 Actualizar datos de \341rea}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.5.1}{Descripci\363n completa}{section.2.5}% 23
+\BOOKMARK [2][-]{subsection.2.5.2}{Atributos importantes}{section.2.5}% 24
+\BOOKMARK [2][-]{subsection.2.5.3}{Trayectorias del Caso de Uso}{section.2.5}% 25
+\BOOKMARK [1][-]{section.2.6}{CU10.0 Desactivar \341rea}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.6.1}{Descripci\363n completa}{section.2.6}% 27
+\BOOKMARK [2][-]{subsection.2.6.2}{Atributos importantes}{section.2.6}% 28
+\BOOKMARK [2][-]{subsection.2.6.3}{Trayectorias del Caso de Uso}{section.2.6}% 29
+\BOOKMARK [1][-]{section.2.7}{CU11 Registrar en el sistema una nueva sucursal.}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.7.1}{Descripci\363n completa}{section.2.7}% 31
+\BOOKMARK [2][-]{subsection.2.7.2}{Atributos importantes}{section.2.7}% 32
+\BOOKMARK [2][-]{subsection.2.7.3}{Trayectorias del Caso de Uso}{section.2.7}% 33
+\BOOKMARK [1][-]{section.2.8}{CU12 Actualizar los datos de una sucursal.}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.8.1}{Descripci\363n completa}{section.2.8}% 35
+\BOOKMARK [2][-]{subsection.2.8.2}{Atributos importantes}{section.2.8}% 36
+\BOOKMARK [2][-]{subsection.2.8.3}{Trayectorias del Caso de Uso}{section.2.8}% 37
+\BOOKMARK [1][-]{section.2.9}{CU13 Baja de sucursal.}{chapter.2}% 38
+\BOOKMARK [2][-]{subsection.2.9.1}{Descripci\363n completa}{section.2.9}% 39
+\BOOKMARK [2][-]{subsection.2.9.2}{Atributos importantes}{section.2.9}% 40
+\BOOKMARK [2][-]{subsection.2.9.3}{Trayectorias del Caso de Uso}{section.2.9}% 41
+\BOOKMARK [1][-]{section.2.10}{CU14 Ubicar mapa geograficamente}{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.10.1}{Descripci\363n completa}{section.2.10}% 43
+\BOOKMARK [2][-]{subsection.2.10.2}{Atributos importantes}{section.2.10}% 44
+\BOOKMARK [2][-]{subsection.2.10.3}{Trayectorias del Caso de Uso}{section.2.10}% 45
+\BOOKMARK [1][-]{section.2.11}{CU15 Eliminar del sistema una sucursal.}{chapter.2}% 46
+\BOOKMARK [2][-]{subsection.2.11.1}{Descripci\363n completa}{section.2.11}% 47
+\BOOKMARK [2][-]{subsection.2.11.2}{Atributos importantes}{section.2.11}% 48
+\BOOKMARK [2][-]{subsection.2.11.3}{Trayectorias del Caso de Uso}{section.2.11}% 49
+\BOOKMARK [1][-]{section.2.12}{CU26 Registrar pago de membres\355a en sucursal.}{chapter.2}% 50
+\BOOKMARK [2][-]{subsection.2.12.1}{Descripci\363n completa}{section.2.12}% 51
+\BOOKMARK [2][-]{subsection.2.12.2}{Atributos importantes}{section.2.12}% 52
+\BOOKMARK [2][-]{subsection.2.12.3}{Trayectorias del Caso de Uso}{section.2.12}% 53
+\BOOKMARK [1][-]{section.2.13}{CU28.0 Registrar ingreso a \341rea}{chapter.2}% 54
+\BOOKMARK [2][-]{subsection.2.13.1}{Descripci\363n completa}{section.2.13}% 55
+\BOOKMARK [2][-]{subsection.2.13.2}{Atributos importantes}{section.2.13}% 56
+\BOOKMARK [2][-]{subsection.2.13.3}{Trayectorias del Caso de Uso}{section.2.13}% 57
+\BOOKMARK [1][-]{section.2.14}{CU29.0 Registrar salida de \341rea}{chapter.2}% 58
+\BOOKMARK [2][-]{subsection.2.14.1}{Descripci\363n completa}{section.2.14}% 59
+\BOOKMARK [2][-]{subsection.2.14.2}{Atributos importantes}{section.2.14}% 60
+\BOOKMARK [2][-]{subsection.2.14.3}{Trayectorias del Caso de Uso}{section.2.14}% 61
+\BOOKMARK [0][-]{chapter.3}{Modelo de la Interacci\363n}{}% 62
+\BOOKMARK [1][-]{subsection.3.0.1}{IU18 Pantalla de men\372 de ocpiones de la secci\363n \341reas.}{chapter.3}% 63
+\BOOKMARK [2][-]{subsection.3.0.2}{IU19 Pantalla de registro de \341rea}{subsection.3.0.1}% 64
+\BOOKMARK [2][-]{subsection.3.0.3}{IU20 Pantalla de Eliminar \341reas}{subsection.3.0.1}% 65
+\BOOKMARK [2][-]{subsection.3.0.4}{IU22 Pantalla de Actualizaci\363n de \341reas}{subsection.3.0.1}% 66
+\BOOKMARK [2][-]{subsection.3.0.5}{IU23 Pantalla de Control de Acceso}{subsection.3.0.1}% 67
+\BOOKMARK [2][-]{subsection.3.0.6}{IU33 Pantalla de visualizaci\363n de sucursal en mapa.}{subsection.3.0.1}% 68
+\BOOKMARK [2][-]{subsection.3.0.7}{IU32 Pantalla de formulario para registro de nueva sucursal.}{subsection.3.0.1}% 69
+\BOOKMARK [2][-]{subsection.3.0.8}{IU99 Pantalla dar de baja sucursales}{subsection.3.0.1}% 70
+\BOOKMARK [2][-]{subsection.3.0.9}{IU97 Pantalla para consultar sucursales registradas}{subsection.3.0.1}% 71
+\BOOKMARK [2][-]{subsection.3.0.10}{IU34 A\361adir otro campo}{subsection.3.0.1}% 72
+\BOOKMARK [2][-]{subsection.3.0.11}{IU35 A\361adir otro email}{subsection.3.0.1}% 73
+\BOOKMARK [2][-]{subsection.3.0.12}{IU37 P\341gina de inicio}{subsection.3.0.1}% 74
+\BOOKMARK [2][-]{subsection.3.0.13}{IU23 Pantalla de Control de Acceso}{subsection.3.0.1}% 75
+\BOOKMARK [2][-]{subsection.3.0.14}{IU33 Pantalla de visualizaci\363n de sucursal en mapa.}{subsection.3.0.1}% 76
+\BOOKMARK [2][-]{subsection.3.0.15}{IU32 Pantalla de formulario para registro de nueva sucursal.}{subsection.3.0.1}% 77
+\BOOKMARK [2][-]{subsection.3.0.16}{IU99 Pantalla dar de baja sucursales}{subsection.3.0.1}% 78
+\BOOKMARK [2][-]{subsection.3.0.17}{IU97 Pantalla para consultar sucursales registradas}{subsection.3.0.1}% 79
+\BOOKMARK [2][-]{subsection.3.0.18}{IU34 A\361adir otro campo}{subsection.3.0.1}% 80
+\BOOKMARK [2][-]{subsection.3.0.19}{IU35 A\361adir otro email}{subsection.3.0.1}% 81
+\BOOKMARK [2][-]{subsection.3.0.20}{IU37 P\341gina de inicio}{subsection.3.0.1}% 82
+\BOOKMARK [2][-]{subsection.3.0.21}{IU38 Pantalla de opciones para la recepsionista}{subsection.3.0.1}% 83
+\BOOKMARK [2][-]{subsection.3.0.22}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.3.0.1}% 84
+\BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 85
+>>>>>>> 115291a33f296179e1593a286f9632d9eba1a438

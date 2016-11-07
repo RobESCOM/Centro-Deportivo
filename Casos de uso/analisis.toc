@@ -8,6 +8,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Descripci\IeC {\'o}n completa}{6}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Atributos importantes}{6}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Trayectorias del Caso de Uso}{6}{subsection.2.1.3}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {2.2}CU2 Consultar datos del cliente.}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Descripci\IeC {\'o}n completa}{8}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Atributos importantes}{8}{subsection.2.2.2}
@@ -220,3 +221,213 @@
 \contentsline {subsubsection}{Comandos}{52}{section*.132}
 \contentsline {subsubsection}{Mensajes}{52}{section*.133}
 \contentsline {chapter}{\numberline {4}Modelo del Dominio del problema}{54}{chapter.4}
+=======
+\contentsline {section}{\numberline {2.2}CU6.0 Consultar \IeC {\'A}reas Registradas}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Descripci\IeC {\'o}n completa}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Atributos importantes}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Trayectorias del Caso de Uso}{8}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}CU7.0 Registrar \IeC {\'a}reas}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Descripci\IeC {\'o}n completa}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Atributos importantes}{9}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Trayectorias del Caso de Uso}{9}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}CU8.0 Eliminar \IeC {\'a}reas}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Descripci\IeC {\'o}n completa}{11}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Atributos importantes}{11}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Trayectorias del Caso de Uso}{12}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}CU9.0 Actualizar datos de \IeC {\'a}rea}{13}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Descripci\IeC {\'o}n completa}{13}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Atributos importantes}{13}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Trayectorias del Caso de Uso}{13}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}CU10.0 Desactivar \IeC {\'a}rea}{15}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Descripci\IeC {\'o}n completa}{15}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Atributos importantes}{15}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Trayectorias del Caso de Uso}{15}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}CU11 Registrar en el sistema una nueva sucursal.}{17}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Descripci\IeC {\'o}n completa}{17}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Atributos importantes}{17}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Trayectorias del Caso de Uso}{17}{subsection.2.7.3}
+\contentsline {section}{\numberline {2.8}CU12 Actualizar los datos de una sucursal.}{20}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Descripci\IeC {\'o}n completa}{20}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Atributos importantes}{20}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Trayectorias del Caso de Uso}{20}{subsection.2.8.3}
+\contentsline {section}{\numberline {2.9}CU13 Baja de sucursal.}{22}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Descripci\IeC {\'o}n completa}{22}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Atributos importantes}{22}{subsection.2.9.2}
+\contentsline {subsection}{\numberline {2.9.3}Trayectorias del Caso de Uso}{22}{subsection.2.9.3}
+\contentsline {section}{\numberline {2.10}CU14 Ubicar mapa geograficamente}{24}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Descripci\IeC {\'o}n completa}{24}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Atributos importantes}{24}{subsection.2.10.2}
+\contentsline {subsection}{\numberline {2.10.3}Trayectorias del Caso de Uso}{24}{subsection.2.10.3}
+\contentsline {section}{\numberline {2.11}CU15 Eliminar del sistema una sucursal.}{25}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Descripci\IeC {\'o}n completa}{25}{subsection.2.11.1}
+\contentsline {subsection}{\numberline {2.11.2}Atributos importantes}{25}{subsection.2.11.2}
+\contentsline {subsection}{\numberline {2.11.3}Trayectorias del Caso de Uso}{25}{subsection.2.11.3}
+\contentsline {section}{\numberline {2.12}CU26 Registrar pago de membres\IeC {\'\i }a en sucursal.}{27}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}Descripci\IeC {\'o}n completa}{27}{subsection.2.12.1}
+\contentsline {subsection}{\numberline {2.12.2}Atributos importantes}{27}{subsection.2.12.2}
+\contentsline {subsection}{\numberline {2.12.3}Trayectorias del Caso de Uso}{27}{subsection.2.12.3}
+\contentsline {section}{\numberline {2.13}CU28.0 Registrar ingreso a \IeC {\'a}rea}{29}{section.2.13}
+\contentsline {subsection}{\numberline {2.13.1}Descripci\IeC {\'o}n completa}{29}{subsection.2.13.1}
+\contentsline {subsection}{\numberline {2.13.2}Atributos importantes}{29}{subsection.2.13.2}
+\contentsline {subsection}{\numberline {2.13.3}Trayectorias del Caso de Uso}{29}{subsection.2.13.3}
+\contentsline {section}{\numberline {2.14}CU29.0 Registrar salida de \IeC {\'a}rea}{31}{section.2.14}
+\contentsline {subsection}{\numberline {2.14.1}Descripci\IeC {\'o}n completa}{31}{subsection.2.14.1}
+\contentsline {subsection}{\numberline {2.14.2}Atributos importantes}{31}{subsection.2.14.2}
+\contentsline {subsection}{\numberline {2.14.3}Trayectorias del Caso de Uso}{31}{subsection.2.14.3}
+\contentsline {chapter}{\numberline {3}Modelo de la Interacci\IeC {\'o}n}{33}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}IU18 Pantalla de men\IeC {\'u} de ocpiones de la secci\IeC {\'o}n \IeC {\'a}reas.}{33}{subsection.3.0.1}
+\contentsline {subsubsection}{Objetivo}{33}{section*.2}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{33}{section*.3}
+\contentsline {subsubsection}{Salidas}{33}{section*.4}
+\contentsline {subsubsection}{Entradas}{34}{section*.5}
+\contentsline {subsubsection}{Comandos}{34}{section*.6}
+\contentsline {subsubsection}{Mensajes}{34}{section*.7}
+\contentsline {subsection}{\numberline {3.0.2}IU19 Pantalla de registro de \IeC {\'a}rea}{34}{subsection.3.0.2}
+\contentsline {subsubsection}{Objetivo}{34}{section*.8}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{34}{section*.9}
+\contentsline {subsubsection}{Salidas}{34}{section*.10}
+\contentsline {subsubsection}{Entradas}{34}{section*.11}
+\contentsline {subsubsection}{Comandos}{34}{section*.12}
+\contentsline {subsubsection}{Mensajes}{34}{section*.13}
+\contentsline {subsection}{\numberline {3.0.3}IU20 Pantalla de Eliminar \IeC {\'a}reas}{34}{subsection.3.0.3}
+\contentsline {subsubsection}{Objetivo}{34}{section*.14}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{35}{section*.15}
+\contentsline {subsubsection}{Salidas}{35}{section*.16}
+\contentsline {subsubsection}{Entradas}{35}{section*.17}
+\contentsline {subsubsection}{Comandos}{35}{section*.18}
+\contentsline {subsubsection}{Mensajes}{35}{section*.19}
+\contentsline {subsection}{\numberline {3.0.4}IU22 Pantalla de Actualizaci\IeC {\'o}n de \IeC {\'a}reas}{36}{subsection.3.0.4}
+\contentsline {subsubsection}{Objetivo}{36}{section*.20}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{36}{section*.21}
+\contentsline {subsubsection}{Salidas}{36}{section*.22}
+\contentsline {subsubsection}{Entradas}{36}{section*.23}
+\contentsline {subsubsection}{Comandos}{36}{section*.24}
+\contentsline {subsubsection}{Mensajes}{37}{section*.25}
+\contentsline {subsection}{\numberline {3.0.5}IU23 Pantalla de Control de Acceso}{37}{subsection.3.0.5}
+\contentsline {subsubsection}{Objetivo}{37}{section*.26}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{37}{section*.27}
+\contentsline {subsubsection}{Salidas}{37}{section*.28}
+\contentsline {subsubsection}{Entradas}{37}{section*.29}
+\contentsline {subsubsection}{Comandos}{38}{section*.30}
+\contentsline {subsubsection}{Mensajes}{38}{section*.31}
+\contentsline {subsection}{\numberline {3.0.6}IU33 Pantalla de visualizaci\IeC {\'o}n de sucursal en mapa.}{38}{subsection.3.0.6}
+\contentsline {subsubsection}{Objetivo}{38}{section*.32}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{38}{section*.33}
+\contentsline {subsubsection}{Salidas}{39}{section*.34}
+\contentsline {subsubsection}{Entradas}{39}{section*.35}
+\contentsline {subsubsection}{Comandos}{39}{section*.36}
+\contentsline {subsubsection}{Mensajes}{39}{section*.37}
+\contentsline {subsection}{\numberline {3.0.7}IU32 Pantalla de formulario para registro de nueva sucursal.}{39}{subsection.3.0.7}
+\contentsline {subsubsection}{Objetivo}{39}{section*.38}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{39}{section*.39}
+\contentsline {subsubsection}{Salidas}{39}{section*.40}
+\contentsline {subsubsection}{Entradas}{39}{section*.41}
+\contentsline {subsubsection}{Comandos}{40}{section*.42}
+\contentsline {subsubsection}{Mensajes}{40}{section*.43}
+\contentsline {subsection}{\numberline {3.0.8}IU99 Pantalla dar de baja sucursales}{40}{subsection.3.0.8}
+\contentsline {subsubsection}{Objetivo}{40}{section*.44}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{40}{section*.45}
+\contentsline {subsubsection}{Salidas}{40}{section*.46}
+\contentsline {subsubsection}{Entradas}{40}{section*.47}
+\contentsline {subsubsection}{Comandos}{40}{section*.48}
+\contentsline {subsubsection}{Mensajes}{40}{section*.49}
+\contentsline {subsection}{\numberline {3.0.9}IU97 Pantalla para consultar sucursales registradas}{41}{subsection.3.0.9}
+\contentsline {subsubsection}{Objetivo}{41}{section*.50}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{41}{section*.51}
+\contentsline {subsubsection}{Salidas}{41}{section*.52}
+\contentsline {subsubsection}{Entradas}{41}{section*.53}
+\contentsline {subsubsection}{Comandos}{41}{section*.54}
+\contentsline {subsubsection}{Mensajes}{41}{section*.55}
+\contentsline {subsection}{\numberline {3.0.10}IU34 A\IeC {\~n}adir otro campo}{41}{subsection.3.0.10}
+\contentsline {subsubsection}{Objetivo}{41}{section*.56}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{41}{section*.57}
+\contentsline {subsubsection}{Salidas}{42}{section*.58}
+\contentsline {subsubsection}{Entradas}{42}{section*.59}
+\contentsline {subsubsection}{Comandos}{42}{section*.60}
+\contentsline {subsubsection}{Mensajes}{42}{section*.61}
+\contentsline {subsection}{\numberline {3.0.11}IU35 A\IeC {\~n}adir otro email}{42}{subsection.3.0.11}
+\contentsline {subsubsection}{Objetivo}{42}{section*.62}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{42}{section*.63}
+\contentsline {subsubsection}{Salidas}{43}{section*.64}
+\contentsline {subsubsection}{Entradas}{43}{section*.65}
+\contentsline {subsubsection}{Comandos}{43}{section*.66}
+\contentsline {subsubsection}{Mensajes}{43}{section*.67}
+\contentsline {subsection}{\numberline {3.0.12}IU37 P\IeC {\'a}gina de inicio}{43}{subsection.3.0.12}
+\contentsline {subsubsection}{Objetivo}{43}{section*.68}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{43}{section*.69}
+\contentsline {subsubsection}{Salidas}{43}{section*.70}
+\contentsline {subsubsection}{Entradas}{43}{section*.71}
+\contentsline {subsubsection}{Comandos}{44}{section*.72}
+\contentsline {subsubsection}{Mensajes}{44}{section*.73}
+\contentsline {subsection}{\numberline {3.0.13}IU23 Pantalla de Control de Acceso}{44}{subsection.3.0.13}
+\contentsline {subsubsection}{Objetivo}{44}{section*.74}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{44}{section*.75}
+\contentsline {subsubsection}{Salidas}{44}{section*.76}
+\contentsline {subsubsection}{Entradas}{44}{section*.77}
+\contentsline {subsubsection}{Comandos}{44}{section*.78}
+\contentsline {subsubsection}{Mensajes}{45}{section*.79}
+\contentsline {subsection}{\numberline {3.0.14}IU33 Pantalla de visualizaci\IeC {\'o}n de sucursal en mapa.}{45}{subsection.3.0.14}
+\contentsline {subsubsection}{Objetivo}{45}{section*.80}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{45}{section*.81}
+\contentsline {subsubsection}{Salidas}{45}{section*.82}
+\contentsline {subsubsection}{Entradas}{45}{section*.83}
+\contentsline {subsubsection}{Comandos}{45}{section*.84}
+\contentsline {subsubsection}{Mensajes}{45}{section*.85}
+\contentsline {subsection}{\numberline {3.0.15}IU32 Pantalla de formulario para registro de nueva sucursal.}{45}{subsection.3.0.15}
+\contentsline {subsubsection}{Objetivo}{45}{section*.86}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{46}{section*.87}
+\contentsline {subsubsection}{Salidas}{46}{section*.88}
+\contentsline {subsubsection}{Entradas}{46}{section*.89}
+\contentsline {subsubsection}{Comandos}{46}{section*.90}
+\contentsline {subsubsection}{Mensajes}{46}{section*.91}
+\contentsline {subsection}{\numberline {3.0.16}IU99 Pantalla dar de baja sucursales}{46}{subsection.3.0.16}
+\contentsline {subsubsection}{Objetivo}{46}{section*.92}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{46}{section*.93}
+\contentsline {subsubsection}{Salidas}{46}{section*.94}
+\contentsline {subsubsection}{Entradas}{47}{section*.95}
+\contentsline {subsubsection}{Comandos}{47}{section*.96}
+\contentsline {subsubsection}{Mensajes}{47}{section*.97}
+\contentsline {subsection}{\numberline {3.0.17}IU97 Pantalla para consultar sucursales registradas}{47}{subsection.3.0.17}
+\contentsline {subsubsection}{Objetivo}{47}{section*.98}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{47}{section*.99}
+\contentsline {subsubsection}{Salidas}{48}{section*.100}
+\contentsline {subsubsection}{Entradas}{48}{section*.101}
+\contentsline {subsubsection}{Comandos}{48}{section*.102}
+\contentsline {subsubsection}{Mensajes}{48}{section*.103}
+\contentsline {subsection}{\numberline {3.0.18}IU34 A\IeC {\~n}adir otro campo}{48}{subsection.3.0.18}
+\contentsline {subsubsection}{Objetivo}{48}{section*.104}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{48}{section*.105}
+\contentsline {subsubsection}{Salidas}{48}{section*.106}
+\contentsline {subsubsection}{Entradas}{48}{section*.107}
+\contentsline {subsubsection}{Comandos}{49}{section*.108}
+\contentsline {subsubsection}{Mensajes}{49}{section*.109}
+\contentsline {subsection}{\numberline {3.0.19}IU35 A\IeC {\~n}adir otro email}{49}{subsection.3.0.19}
+\contentsline {subsubsection}{Objetivo}{49}{section*.110}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{49}{section*.111}
+\contentsline {subsubsection}{Salidas}{49}{section*.112}
+\contentsline {subsubsection}{Entradas}{49}{section*.113}
+\contentsline {subsubsection}{Comandos}{49}{section*.114}
+\contentsline {subsubsection}{Mensajes}{49}{section*.115}
+\contentsline {subsection}{\numberline {3.0.20}IU37 P\IeC {\'a}gina de inicio}{50}{subsection.3.0.20}
+\contentsline {subsubsection}{Objetivo}{50}{section*.116}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{50}{section*.117}
+\contentsline {subsubsection}{Salidas}{50}{section*.118}
+\contentsline {subsubsection}{Entradas}{50}{section*.119}
+\contentsline {subsubsection}{Comandos}{50}{section*.120}
+\contentsline {subsubsection}{Mensajes}{50}{section*.121}
+\contentsline {subsection}{\numberline {3.0.21}IU38 Pantalla de opciones para la recepsionista}{50}{subsection.3.0.21}
+\contentsline {subsubsection}{Objetivo}{50}{section*.122}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{50}{section*.123}
+\contentsline {subsubsection}{Salidas}{51}{section*.124}
+\contentsline {subsubsection}{Entradas}{51}{section*.125}
+\contentsline {subsubsection}{Comandos}{51}{section*.126}
+\contentsline {subsubsection}{Mensajes}{51}{section*.127}
+\contentsline {subsection}{\numberline {3.0.22}IU39 Pantalla para el registro del pago de membres\IeC {\'\i }a}{51}{subsection.3.0.22}
+\contentsline {subsubsection}{Objetivo}{51}{section*.128}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{51}{section*.129}
+\contentsline {subsubsection}{Salidas}{51}{section*.130}
+\contentsline {subsubsection}{Entradas}{51}{section*.131}
+\contentsline {subsubsection}{Comandos}{51}{section*.132}
+\contentsline {subsubsection}{Mensajes}{51}{section*.133}
+\contentsline {chapter}{\numberline {4}Modelo del Dominio del problema}{53}{chapter.4}
+>>>>>>> 115291a33f296179e1593a286f9632d9eba1a438

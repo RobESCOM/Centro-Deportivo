@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            body{
+            text-align:center;
+            font-family:verdana, arial, helvetica, sans-serif;
+            }
+
+            #formulario{
+            border:solid 2px #708090;
+            background:#dcdcdc;
+            margin:0 auto;
+            width:400px;
+            padding:15px;
+            }
+            #formulario h1 {
+            font-size:24px;
+            font-weight:bold;
+            margin-bottom:10px;
+            }
+            #formulario label{
+            display:block;
+            font-weight:bold;
+            text-align:right;
+            width:140px;
+            float:left;
+            }
+            #formulario .detalle{
+            color:#666666;
+            display:block;
+            font-size:11px;
+            font-weight:normal;
+            text-align:right;
+            width:140px;
+            }
+            #formulario input{
+            float:left;
+            font-size:12px;
+            padding:4px 2px;
+            border:solid 1px #708090;
+            width:200px;
+            margin:2px 0 20px 10px;
+            }
+            #formulario button{
+            clear:both;
+            margin:0 auto;
+            width:100px;
+            height:31px;
+            background:#696969;
+            text-align:center;
+            line-height:31px;
+            color:#FFFFFF;
+            font-size:11px;
+            font-weight:bold;
+        </style>
+        
+    </head>
+    <body>
+        <h2>Club Deportivo San Pancho</h2>
+    <div id="formulario">
+    <form id="form" name="form" method="post" action="registroArea.jsp">
+    <h1>Registro de Área</h1>
+
+    <label>Nombre Area
+    </label>
+    <input type="text" name="nomArea" placeholder ="Ingrese nombre del Area"/>
+
+    <label>Tipo
+    </label>
+    <input type="text" name="tipoArea" placeholder ="Cesped, Duela, Crsital"/>
+    
+    <label>Ancho
+    </label>
+    <input type="text" name="anchoDim" placeholder ="Ejemplo: 10m"/>
+
+    <label>Largo
+    </label>
+    <input type="text" name="largoDim" placeholder ="Ejemplo: 15m"/>
+
+    <label>Alto
+    </label>
+    <input type="text" name="altoDim" placeholder ="Ejemplo: 4m"/>
+
+    <label>Responsable
+    </label>
+    <input type="text" name="respArea" placeholder ="Nombre del responsable"/>
+    
+    <label>Descripción
+    </label>
+    <input type="text" name="descArea" placeholder ="Breve reseña del lugar"/>
+
+    <button type="submit">Enviar</button>
+    </form>
+</div><br><br><br><br>
+<center><a href="index.html">Regresar al menu</a></center> 
+
+    </body>
+</html>
