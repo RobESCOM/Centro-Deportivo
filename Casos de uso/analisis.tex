@@ -1,0 +1,72 @@
+\documentclass[oneside,10pt]{book}
+
+\usepackage{cdtBook}
+\usepackage{usecases}
+
+\title{Análisis de requerimientos del proyecto Deportivo San Pancho}
+\subtitle{Sistema de Control}
+\author{Equipo: RGBA Group}
+%\organization{Escuela Superior de Cómputo, IPN}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\frontmatter
+\tableofcontents
+
+\mainmatter
+
+%=========================================================
+\chapter{Modelo de Negocios}
+
+\cfinput{reglas}
+
+%=========================================================
+\chapter{Modelo de Casos de Uso}
+	
+	\begin{figure}[htbp!]
+		\centering
+			\includegraphics[width=0.8\textwidth]{images/CasosDeUso}
+		\caption{Diagrama de Casos de Uso del sistema.}
+	\end{figure}
+
+\cfinput{cu/cu06}
+\cfinput{cu/cu07}
+\cfinput{cu/cu08}	
+\cfinput{cu/cu09}
+\cfinput{cu/cu10}
+\cfinput{cu/cu11}
+\cfinput{cu/cu12}
+\cfinput{cu/cu13}
+\cfinput{cu/cu14}
+\cfinput{cu/cu15}
+\cfinput{cu/cu26}
+\cfinput{cu/cu28}
+\cfinput{cu/cu29}
+
+%%=========================================================
+\chapter{Modelo de la Interacción}
+
+{\color{UCInterfaceColor} 
+	Esta sección se queda deliberadamente en blanco debido a que el diseño de las interfaces dependerá de la plataforma a utilizar por cada equipo.\\	
+}
+
+\cfinput{Pantallas/IU23}
+\cfinput{Pantallas/IU24}
+%\cfinput{Pantallas/IU25}
+
+
+%=========================================================
+\chapter{Modelo del Dominio del problema}
+
+	\begin{figure}[htbp!]
+		\centering
+			\includegraphics[width=0.8\textwidth]{images/baseGYMver2}
+		\caption{Diseño de la Base de Datos.}
+	\end{figure}
+	
+\end{document}

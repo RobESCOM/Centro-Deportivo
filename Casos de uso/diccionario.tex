@@ -1,0 +1,435 @@
+\subsection{Definiciones}
+\begin{description}
+\item [Digito:]{
+\begin{lstlisting}
+[0|1|2|3|4|5|6|7|8|9]\end{lstlisting}
+}
+\item [Real:]{
+\begin{lstlisting}
+1{Digito}38 + . + 1{Digito}38\end{lstlisting}
+}
+\item [Letra:]{
+\begin{lstlisting}
+[a-z|A-Z]\end{lstlisting}
+}
+\item [Carácter:]{
+\begin{lstlisting}
+[Letra|.|_|Digito]\end{lstlisting}
+}
+\item [Fecha:]{
+\begin{lstlisting}
+{Digito}4 + / + [0|1] + [0|1|2] + / + [0|1|2|3] + Digito *año/mes/día*\end{lstlisting}
+}
+\end{description}
+
+\subsection{Datos Generales}
+
+%Termino para determinar los datos de un lugar
+\subsubsection{Datos del Lugar.}\label{Datos_Lugar}
+\begin{lstlisting}
+Datos del Lugar = @ identificador + Datos Generales del Lugar + Fecha de cierre.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador.}
+			\begin{description}
+				\item [Significado:] Valor que identifica al Lugar de forma única.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}3\end{lstlisting}}
+			\end{description}
+		\item \textbf{Datos Generales del Lugar.}
+			\begin{description}
+				\item [Significado:] Los atributos que el usuario puede modificar del Lugar.
+				\item [Composición:] \ref{Datos_Generales}
+			\end{description}
+		\item \textbf{Fecha de cierre.}
+			\begin{description}
+				\item [Significado:] Indica la fecha en la cual el Lugar dejo de operar.
+				\item [Valores:]{\begin{lstlisting}
+Fecha\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+
+%Termino generico para determinar los datos que tiene todo Lugar
+\subsubsection{Datos Generales del Lugar}\label{Datos_Estacion_Transferencia}\label{Datos_PlantaComposta}\label{Datos_SitioDisposicion}\label{Datos_CentroAcopio}\label{Datos_PuntoEspecifico}\label{Datos_Generales}\label{Datos_Planta_Seleccion}\label{Datos_TiraderoClandestino}
+ \lstset{breaklines=false}
+\begin{lstlisting}
+Datos Generales del Lugar = Nombre + Ubicación + Estatus.
+\end{lstlisting}
+\lstset{breaklines=true}
+	\begin{itemize}
+		\item \textbf{Nombre.}
+			\begin{description}
+				\item [Significado:] Nombre que identifica al Lugar.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}100\end{lstlisting}}
+			\end{description}
+		\item \textbf{Ubicación.}
+			\begin{description}
+				\item [Significado:] Información necesaria de la ubicación del Lugar.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}255\end{lstlisting}}
+			\end{description}
+		\item \textbf{Estatus.}
+			\begin{description}
+				\item [Significado:] Indica si el Lugar se encuentra en operación.
+				\item [Valores:]{\begin{lstlisting}
+Digito\end{lstlisting}}
+					\subitem El valor 0 identifica como activo al Lugar.
+					\subitem El valor 1 identifica como inactivo al Lugar.
+			\end{description}
+	\end{itemize}
+
+\subsection{Area de Recolección.}
+
+\subsubsection{Datos completos del Area de Recolección.}
+\begin{lstlisting}
+Area de Recolección= @ identificador + Datos del Area.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador.}
+			\begin{description}
+				\item [Significado:] Valor que identifica el Area de Recolección de forma única, es la referencia a al identificador de un Generador.\ref{idGenerador}
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+		\item \textbf{Datos del Área.}
+			\begin{description}
+				\item [Significado:] Atributos que el usuario puede modificar.
+				\item [Composición:] \ref{Datos_AreaRecoleccion}
+			\end{description}
+	\end{itemize}
+
+\subsubsection{Datos del Area de Recolección}\label{Datos_AreaRecoleccion}
+\begin{lstlisting}
+Datos del Area = Nombre + Descripción.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{Nombre.}
+			\begin{description}
+				\item [Significado:] Nombre del Area de Recolección.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}50\end{lstlisting}}
+			\end{description}
+		\item \textbf{Descripción.}
+			\begin{description}
+				\item [Significado:] Breve descripción del Area de Recolección.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}255\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+\subsection{Esquema de Recolección.}
+
+\subsubsection{Datos completos del Esquema de Recolección.}
+\begin{lstlisting}
+Esquema de Recolección= @ identificador + Datos del Esquema.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador.}
+			\begin{description}
+				\item [Significado:] Valor que identifica el Esquema de Recolección de forma única.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+		\item \textbf{Datos del Esquema.}
+			\begin{description}
+				\item [Significado:] Atributos que el usuario puede modificar.
+				\item [Composición:] \ref{Datos_EsquemaRecoleccion}
+			\end{description}
+	\end{itemize}
+
+\subsubsection{Datos del Esquema de Recolección}\label{Datos_EsquemaRecoleccion}
+\begin{lstlisting}
+Datos del Esquema = Nombre + Descripción.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{Nombre.}
+			\begin{description}
+				\item [Significado:] Nombre del Esquema de Recolección.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}50\end{lstlisting}}
+			\end{description}
+		\item \textbf{Descripción.}
+			\begin{description}
+				\item [Significado:] Breve descripción del Esquema de Recolección.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}250\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+\subsection{Generador.}
+
+\subsubsection{Datos completos del Generador.}\label{Datos_Generadores}
+\begin{lstlisting}
+Generador= @ identificador de Delegación +  @ identificador de Generador.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador de Delegación.}
+			\begin{description}
+				\item [Significado:] Valor que identifica la Delegación del Generador.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+		\item \textbf{identificador de Generador.}\label{idGenerador}
+			\begin{description}
+				\item [Significado:] Valor que identifica el Generador de forma única.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+\subsection{Planta de Composta.}
+
+\subsubsection{Datos completos de la Planta de Composta.}
+\begin{lstlisting}
+Planta de Composta= identificador de Delegacion + Datos del Lugar + Capacidad Instalada + Área Responsable.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador de Delegación.}
+			\begin{description}
+				\item [Significado:] Valor que identifica el Planta de Composta de forma única.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}4\end{lstlisting}}
+			\end{description}
+		\item \textbf{Datos del Lugar.}
+			\begin{description}
+				\item [Significado:] Atributos que definen qué es una Planta de Composta.
+				\item [Composición:] \ref{Datos_Lugar}
+			\end{description}
+		\item \textbf{Capacidad Instalada.}
+			\begin{description}
+				\item [Significado:] Capacidad que tiene la Planta de Composta.
+				\item [Valores:]{\begin{lstlisting}
+Real\end{lstlisting}}
+			\end{description}
+		\item \textbf{Área Responsable.}
+			\begin{description}
+				\item [Significado:] El área que dio de alta la Planta de Composta.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}4\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+\subsection{Tiradero Clandestino.}
+
+\subsubsection{Datos completos del Tiradero Clandestino.}
+\begin{lstlisting}
+Tiradero Clandestino= @ id Generador + Datos del Lugar
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{id Generador.}
+			\begin{description}
+				\item [Significado:] Valor que identifica el Tiradero Clandestino de forma única.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}4\end{lstlisting}}
+			\end{description}
+		\item \textbf{Datos del Lugar.}
+			\begin{description}
+				\item [Significado:] Atributos que definen qué es un Tiradero Clandestino.
+				\item [Composición:] \ref{Datos_Lugar}
+			\end{description}
+	\end{itemize}
+
+\subsection{Transacciónes}\label{Datos_Transferencia}\label{Datos_Entrega}
+\subsubsection{Datos completos de Transacción}
+\begin{lstlisting}
+Datos completos de Transacción = @ identificador de Transacción + Transacción + Fecha de Transacción.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador de Transacción.}\label{IdTransaccion}
+			\begin{description}
+				\item [Significado:] Identifica de forma única cada transacción.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}10\end{lstlisting}}
+			\end{description}
+		\item \textbf{Transacción.}
+			\begin{description}
+				\item [Significado:] Indica los datos que el usuario ingresa en el sistema.
+				\item [Composición:]\ref{Datos_Transaccion}
+			\end{description}
+		\item \textbf{Fecha de Transacción.}
+			\begin{description}
+				\item [Significado:] Indica si el mes y el año en cual se realizo la transacción.
+				\item [Composición:] \ref{Fecha_Transaccion}.
+			\end{description}
+	\end{itemize}
+
+\subsubsection{Transacción}\label{Datos_Transaccion}
+\begin{lstlisting}
+Transacción = identificador de Origen + Cantidad.
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador de Origen.}
+			\begin{description}
+				\item [Significado:] Identificador del lugar de origen.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}4\end{lstlisting}}
+			\end{description}
+		\item \textbf{Cantidad.}
+			\begin{description}
+				\item [Significado:] Indica la cantidad enviada al destino en Toneladas.
+				\item [Valores:]{\begin{lstlisting}
+Real\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+		
+\subsubsection{Transferencia}
+\begin{lstlisting}
+Transferencia = identificador de Transacción + identificador del Destino.
+\end{lstlisting}
+\lstset{breaklines=true}
+	\begin{itemize}
+		\item \textbf{identificador de Transacción.}
+			\begin{description}
+				\item [Significado:] Valor que identificador la transferencia de forma unica, es la referencia al identificador de Transacción\ref{IdTransaccion}.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}10\end{lstlisting}}
+			\end{description}
+
+		\item \textbf{identificador del Destino.}
+			\begin{description}
+				\item [Significado:] Identificador del lugar de destino.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}4\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+\subsubsection{Entrega de Composta}
+\begin{lstlisting}
+Transferencia = identificador de Transacción + Destino.
+\end{lstlisting}
+\lstset{breaklines=true}
+	\begin{itemize}
+		\item \textbf{identificador de Transacción.}
+			\begin{description}
+				\item [Significado:] Valor que identifica la entrega de forma unica,Valor que identifica el Area de Recolección de forma única, es la referencia al identificador de Transacción\ref{IdTransaccion}.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}10\end{lstlisting}}
+			\end{description}
+
+		\item \textbf{Destino.}
+			\begin{description}
+				\item [Significado:] Destino de la transacción.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}100\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+\subsubsection{Fecha de Transacción}\label{Fecha_Transaccion}
+\begin{lstlisting}
+Fecha de Transacción = @ Año + @ Mes + @ identificador de Infraestructura + Estatus
+\end{lstlisting}
+\lstset{breaklines=true}
+	\begin{itemize}
+		\item \textbf{Año.}
+			\begin{description}
+				\item [Significado:] Año en el que se realiza la transacción.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}4\end{lstlisting}}
+			\end{description}
+
+		\item \textbf{Mes.}
+			\begin{description}
+				\item [Significado:] Mes en el que se realiza la transacción.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+		\item \textbf{identificador.}
+			\begin{description}
+				\item [Significado:] Indica de que infraestructura se esta realizando la transacción.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+		\item \textbf{Estatus.}
+			\begin{description}
+				\item [Significado:] Indica si se pueden realizan transacciones en ese mes y año.
+				\item [Valores:]{\begin{lstlisting}
+[0|1]\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Tipo de Vehículo}
+
+\subsubsection{Datos completos del Tipo de Vehículo.}
+\begin{lstlisting}
+Tipo de Vehículo =  @  identificador + Datos del Tipo de Vehículo
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{identificador.}
+			\begin{description}
+				\item [Significado:]Identificador del Tipo de Vehículo.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+		\item \textbf{Datos del Punto.}
+			\begin{description}
+				\item [Significado:] Atributos que el usuario puede modificar.
+				\item [Composición:] \ref{Datos_Tipo_Vehiculo}
+			\end{description}
+	\end{itemize}
+
+\subsubsection{Datos del Tipo de Vehículo}\label{Datos_Tipo_Vehiculo}
+\begin{lstlisting}
+Datos del Tipo de Vehículo =  Nombre + Descripción + Capacidad
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{Nombre.}
+			\begin{description}
+				\item [Significado:] Nombre del Tipo de Vehículo.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}100\end{lstlisting}}
+			\end{description}
+		\item \textbf{Descripción.}
+			\begin{description}
+				\item [Significado:] Breve descripción del Tipo de Vehículo.
+				\item [Valores:]{\begin{lstlisting}
+1{Carácter}255\end{lstlisting}}
+			\end{description}
+		\item \textbf{Capacidad.}
+			\begin{description}
+				\item [Significado:] Cantidad máxima de carga que puede soportar este tipo de Vehículo.
+				\item [Valores:]{\begin{lstlisting}
+Real\end{lstlisting}}
+			\end{description}
+	\end{itemize}
+
+\subsection{Vehículo}
+
+\subsubsection{Datos completos del Vehículo.}
+\begin{lstlisting}
+Vehículo =  @  Delegación + Datos del Vehículo
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{Delegación}
+			\begin{description}
+				\item [Significado:] Identificador de la Delegación a la cuál pertenece el vehículo.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+		\item \textbf{Datos del vehículo.}
+			\begin{description}
+				\item [Significado:] Los atributos que puede modificar el usuario.
+				\item [Composición:] \ref{Datos_Vehiculo}
+			\end{description}
+	\end{itemize}
+
+\subsubsection{Datos del Vehículo}\label{Datos_Vehiculo}
+\begin{lstlisting}
+Datos del Vehículo =  @  Placa + Tipo de Vehículo
+\end{lstlisting}
+	\begin{itemize}
+		\item \textbf{Placa.}
+			\begin{description}
+				\item [Significado:] Matrícula del Vehículo.
+				\item [Valores:]{\begin{lstlisting}
+5{Carácter}10\end{lstlisting}}
+			\end{description}
+		\item \textbf{Tipo de Vehículo.}
+			\begin{description}
+				\item [Significado:] Identificador del Tipo de Vehículo.
+				\item [Valores:]{\begin{lstlisting}
+1{Digito}2\end{lstlisting}}
+			\end{description}
+	\end{itemize}

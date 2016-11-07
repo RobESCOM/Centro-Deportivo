@@ -1,0 +1,73 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%-------------------------------------- COMIENZA caso de uso para actualizar datos
+\begin{UseCase}{CU12}{Actualizar los datos de una sucursal.}{
+		Modificar los datos del registro de una sucursal que se encuentrán almacenados en la base de datos del sistema.
+	}
+		\UCitem{Versión}{0.1}
+		\UCitem{Actor}{Gerente de operación de negocio.}
+		\UCitem{Propósito}{Los datos de una sucursal, tales como el gerente y personal e incluso la dirección de una sucursal, no son permanentes y estos tienden a cambiar.}
+		\UCitem{Entradas}{Los nuevos datos para actualizar un registro son seleccionados por el actor.}
+		\UCitem{Origen}{El teclado del equipo de computo del actor.}
+		\UCitem{Salidas}{Mensaje de que la modificación de los datos del regitro de la sucursal seleccionados fue exitosa. Mensaje de error en el caso de que no se llene de manera correcta un campo.}
+		\UCitem{Destino}{La pantalla del equipo de cómputo del actor.}
+		\UCitem{Precondiciones}{1. El actor debió haber ingresado al sistema.
+		
+2. Debe existir el registro a modificar.}
+		\UCitem{Postcondiciones}{Se tendrá una actualización de los datos del registro en la base de datos del sistema.}
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Fernández Quiñones Isaac.}
+		\UCitem{Revisó}{}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Entra a la plataforma en línea. 
+		\UCpaso Despliega la \IUref{IU23}{Pantalla de Control de Acceso}\label{CU12Login} para entrar en el sistema.
+		\UCpaso[\UCactor] Proporciona sus credenciales para ingresar al sistema.
+		\UCpaso Válida que el actor se encuentre dado de alta en el sistema. Se utiliza la regla \BRref{BR117}{Determinar si el usuario tiene acceso al sistema.} \Trayref{A}.
+		\UCpaso Despliega la \IUref{IU97}{Pantalla para consultar sucursales registradas}.\label{CU12SeleccionSucursal}
+		\UCpaso[\UCactor] Hace click sobre la fila de la sucursal que desea actualizar datos.
+		\UCpaso Muestra los datos de la sucursal en un formulario. Este formulario contiene los datos previos a la modificación.
+		\UCpaso[\UCactor] modifica los campos necesarios y presiona el boton \IUbutton{Actualizar}. \label{Cu12ModificarDatos}
+		\UCpaso Verifica los datos proporcionados por el \UCactor. \BRref{BR118}{Determinar si los datos de los campos de un formulario son del tipo adecuado} \Trayref{B}.
+		\UCpaso Almacena los cambios en la base de datos.
+		\UCpaso Muestra el \IUref{UI88}{Datos actualizados satisfactoriamente}. 
+		\UCpaso[\UCactor] Presiona el botón \IUbutton{Aceptar}. 
+		\UCpaso Pregunta si quiere modificar algún otro registro de una sucursal. \Trayref{C} \Trayref{D}
+	\end{UCtrayectoria}
+	
+		\begin{UCtrayectoriaA}{A}{El actor no cuenta con las credenciales validas para poder ingresar al sistema.}
+			\UCpaso Muestra el Mensaje {\bf MSG1-}``Usuario [{\em y/o}] contraseña no validos.''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Continua en el paso \ref{CU12Login} del \UCref{CU12}
+		\end{UCtrayectoriaA}
+		
+		\begin{UCtrayectoriaA}{B}{Alguno de los campos no se especifico o los datos no concuerdan con el tipo esperado.}
+			\UCpaso Muestra el Mensaje {\bf MSG1-}``Un [{\em campo}] no se lleno correctamente.''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Pone el foco en el campo donde se encontro el primer error y marca los demas campos con algun error en valor proporcionado por el usuario.
+			\UCpaso[\UCactor] Corrige el valor erroneo, del campo que tiene el foco y los demas campos con valor erroneo, a un valor correcto.
+			\UCpaso Continua en el paso \ref{Cu12ModificarDatos} del caso de uso \UCref{CU12}.
+		\end{UCtrayectoriaA}
+ 
+		\begin{UCtrayectoriaA}{C}{}
+			\UCpaso[\UCactor] Presiona el boton \IUbutton{Si}.
+			\UCpaso Continua en el paso \ref{CU12SeleccionSucursal} del caso de uso \UCref{CU12}.
+		\end{UCtrayectoriaA}
+		
+		\begin{UCtrayectoriaA}{D}{}
+			\UCpaso[\UCactor] Presiona el boton \IUbutton{No}.
+			\UCpaso Termina el caso de uso \UCref{CU12}.
+		\end{UCtrayectoriaA}
+%------------------------------------- TERMINA caso de uso para actualizar datos de sucursal

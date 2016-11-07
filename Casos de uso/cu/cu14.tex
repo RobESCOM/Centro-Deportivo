@@ -1,0 +1,79 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+
+%------------------------------------- COMIENZA caso de uso para ver sucursales en mapa
+\begin{UseCase}{CU14}{Ubicar mapa geograficamente}{
+		Se muestra en la pantalla de ubicació un mapa, en el cual se podrán ubicar las diferentes sucursales establecidas en distintos estados de la república Mexicana.
+	}
+		\UCitem{Versión}{0.1}
+		\UCitem{Actor}{Usuario}
+		\UCitem{Propósito}{El usuario podrá localizar y trazar la mejor ruta para poder llegar a su sucursal de preferencia.}
+		\UCitem{Entradas}{Selección de la sucursal mostrada en pantalla}
+		\UCitem{Origen}{Teclado}
+		\UCitem{Salidas}{Se muestra la ubicación de la sucursal en el mapa.}
+		\UCitem{Destino}{Pantalla del actor}
+		\UCitem{Precondiciones}{ninguna}
+		\UCitem{Postcondiciones}{ninguna}
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Fernández Quiñones Isaac.}
+		\UCitem{Revisó}{}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Ingresa a la plataforma web.
+		\UCpaso El sistema muestra la \IUref{IU37}{Página de inicio.}
+		\UCpaso[\UCactor] Selecciona la opción Ubicanos.
+		\UCpaso Despliega la \IUref{IU33}{Pantalla de visualización de sucursal en mapa.}
+		\UCpaso[\UCactor] Selecciona el estado en el que vive.
+		\UCpaso Muestra la sucursal principal del estado seleccionado por el usuario.
+		\UCpaso[\UCactor] Selecciona la sucursal mas cercana a su hogar.
+		\UCpaso Pone una marca sobre la sucursal seleccionada por el [\UCactor].
+	\end{UCtrayectoria}
+
+%%PLANTILLA
+%%--------------------------------------
+%\begin{UseCase}{ID}{Nombre}{
+%		Descripcion
+%	}
+%		\UCitem{Versión}{0.1}
+%		\UCitem{Actor}{}
+%		\UCitem{Propósito}{}
+%		\UCitem{Entradas}{}
+%		\UCitem{Origen}{}
+%		\UCitem{Salidas}{}
+%		\UCitem{Destino}{}
+%		\UCitem{Precondiciones}{}
+%		\UCitem{Postcondiciones}{}
+%		\UCitem{Errores}{ }
+%		\UCitem{Tipo}{Caso de uso primario}
+%		\UCitem{Observaciones}{}
+%		\UCitem{Autor}{Fernández Quiñones Isaac.}
+%	\end{UseCase}
+%
+%	\begin{UCtrayectoria}{Principal}
+%		\UCpaso[\UCactor] Ingresa a la plataforma web e ingresa su usuario y contraseña mediante la \IUref{IU23}{Pantalla de Control de Acceso}\label{CU17Login} para entrar en el sistema.
+%		\UCpaso Válida que el actor se encuentre dado de alta en el sistema. Se utiliza la regla \BRref{BR117}{Determinar si el usuario tiene acceso al sistema.} \Trayref{A}.
+%		\UCpaso Despliega la \IUref{IU32}{Pantalla de visualización de datos} para  consultar las sucursales registradas y un mapa en el cual podra ver la ubicación de cada sucursal y saber la distancia que  hay entre ellas.
+%		\UCpaso[\UCactor] Selecciona las sucursales \Trayref{B}\label{CU17SeleccionarSeminario}.
+%		\UCpaso verifica los datos introducidos por el \UCactor. \BRref{BR118}{Determinar si los datos de los campos de un formulario son del tipo adecuado} \Trayref{C}.
+%		\UCpaso Almacena los datos en la base de datos.
+%		\UCpaso Muestra el \IUref{UI88}{Mensaje de registro exitoso}. 
+%		\UCpaso Pregunta al estudiante si desea imprimir un comprobante de la inscripción.		
+%	\end{UCtrayectoria}
+%		
+%		\begin{UCtrayectoriaA}{A}{El Estudiante no puede inscribir un Seminario}
+%			\UCpaso Muestra el Mensaje {\bf MSG1-}``El Estudiante [{\em Número de Boleta}] aun no puede inscribirse al seminario.''.
+%			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+%			\UCpaso[] Termina el caso de uso.
+%		\end{UCtrayectoriaA}

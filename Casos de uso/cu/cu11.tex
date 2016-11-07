@@ -1,0 +1,93 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU11}{Registrar en el sistema una nueva sucursal.}{
+		Almacenar los datos referentes a una sucursal próxima a inaugurarse.
+	}
+		\UCitem{Versión}{0.1}
+		\UCitem{Actor}{Gerente de operación de negocio}
+		\UCitem{Propósito}{Registrar una nueva sucursal en el sistema tiene como propósito ampliar las posibilidades de los clientes para asistir a las áreas y cursos que tenga la sucursal.}
+		\UCitem{Entradas}{Los datos de entrada son el nombre de la sucursal, dirección, código postal, estado en el que se encuentra ubicada la sucursal, teléfonos, correo electrónico, datos referentes al gerente, áreas con las que cuenta la sucursal, servicios con los que cuenta la sucursal. }
+		\UCitem{Origen}{Los datos de entrada tienen su origen a través del teclado del computador del actor.}
+		\UCitem{Salidas}{Se mostrará un mensaje de registro exitoso en el caso de que no haya errores, si los hay se mostrará un mensaje que informe de dicho error.}
+		\UCitem{Destino}{Los mensajes a mostrar se desplegaran en la pantalla del computador del actor. Los datos se enviarán al servidor para procesarlos.}
+		\UCitem{Precondiciones}{El actor ingreso al sistema mediante un login. El sistema se encuentra en la pantalla de formulario para dar de alta una nueva sucursal, en el cual el actor llenará todos los campos que el formulario muestre.}
+		\UCitem{Postcondiciones}{En la base de datos del sistema se tendra un nuevo registro de una sucursal, de las áreas con la que ésta cuenta, de los servicios que ofrece la sucursal y los datos del gerente de la sucursal.}
+		\UCitem{Errores}{ 1. Los datos proporcionados por el actor no son del tipo específicado en los campos del formulario.
+
+2. La sucursal ya se encuentra registrada.
+
+3. La persona que se específica con el cargo de gerente de sucursal ya se encuentra como gerente de otra sucursal.
+
+4. Es responsabilidad del actor añadir las áreas y servicios con los que realmente cuente la sucursal próxima a inaugurarse. }
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Fernández Quiñones Isaac.}
+		\UCitem{Revisó}{}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Ingresa a la plataforma web y proporciona su userName y password mediante la \IUref{IU23}{Pantalla de Control de Acceso}\label{CU11Login} para acceder al sistema.
+		\UCpaso Válida que el actor se encuentre dado de alta en el sistema. Se utiliza la regla \BRref{BR117}{Determinar si el usuario tiene acceso al sistema.} \Trayref{A}.
+		\UCpaso Despliega la \IUref{IU32}{Pantalla de formulario para registro de nueva sucursal} que contiene los campos necesarios para registrar en el sistema la nueva sucursal.
+		\UCpaso[\UCactor] Introduce el nombre de la nueva sucursal.
+		\UCpaso[\UCactor] Selecciona la fecha de inauguración de la sucursal.
+		\UCpaso[\UCactor] Selecciona el estado en el que se encontrará ubicada la nueva sucursal.
+		\UCpaso[\UCactor] Escribe el número teléfonico que será asociado a la sucursal. \Trayref{B}\label{CU11AgregarTelefono}.
+		\UCpaso[\UCactor] Escribe el correo electrónico que será asignado a la sucursal. \Trayref{C}\label{CU11AgregarMail}.
+		\UCpaso[\UCactor] Introduce la calle donde se encuentra ubicada la sucursal.
+		\UCpaso[\UCactor] Proporciona el nombre de la colonia donde esta la sucursal.
+		\UCpaso[\UCactor] Escribe el nombre de la delegación a la que pertenece la sucursal.
+		\UCpaso[\UCactor] Proporciona el código postal de la sucursal.
+		\UCpaso[\UCactor] Da click sobre el triangulo que apunta a la pregunta ¿Con qué áreas cuenta la sucursal?
+		\UCpaso	Muestra un listado de los nombres de áreas que se encuentran almacenados en la base de datos.
+		\UCpaso[\UCactor] Selecciona las áreas con las que cuenta la nueva sucursal.
+		\UCpaso[\UCactor] Da click sobre el triangulo que apunta a la pregunta ¿Con qué servicios cuenta la sucursal?
+		\UCpaso	Muestra un listado de los nombres de los servicios que se encuentran almacenados en la base de datos.
+		\UCpaso[\UCactor] Selecciona los servicios con los que contará la nueva sucursal.		
+		\UCpaso[\UCactor] Proporciona el nombre del gerente de la nueva sucursal.
+		\UCpaso[\UCactor] Proporciona el primer y segundo apellido del gerente de la nueva sucursal.
+		\UCpaso[\UCactor] Introduce la direccion del gerente de la nueva sucursal.
+		\UCpaso[\UCactor] Llena el campo descripción. Esta es información de la sucursal.
+		\UCpaso[\UCactor] Presiona el botón \IUbutton{Envíar}. \label{CU11EnviarFormulario}.
+		\UCpaso verifica los datos introducidos por el \UCactor. \BRref{BR118}{Determinar si los datos de los campos de un formulario son del tipo adecuado} \Trayref{D}.
+		\UCpaso Almacena los datos en la base de datos.
+		\UCpaso Muestra el \IUref{UI88}{Mensaje de registro exitoso}. 
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El actor no cuenta con las credenciales válidas para poder ingresar al sistema.}
+			\UCpaso Muestra el mensaje {\bf MSG1-}``Usuario [{\em y/o}] contraseñas no validos.''.
+			\UCpaso[\UCactor] Oprimé el botón \IUbutton{Aceptar}.
+			\UCpaso Continua en el paso \ref{CU11Login} del \UCref{CU11}.
+		\end{UCtrayectoriaA}
+		
+		\begin{UCtrayectoriaA}{B}{Se desea ingresar más de un teléfono}
+			\UCpaso[\UCactor] Presionó el botón "más" de la interfaz de usuario \IUref{IU34}{Añadir otro campo}, para agregar un número teléfonico distinto.
+			\UCpaso Muestra un campo de texto adicional para el llenado del mismo con un número teléfonico.
+			\UCpaso Continua en el paso \ref{CU11AgregarTelefono} del \UCref{CU11}. 
+		\end{UCtrayectoriaA}
+		
+		\begin{UCtrayectoriaA}{C}{Se desea agregar un correo electrónico}
+			\UCpaso[\UCactor] Presionó el botón "más" de la interfaz de usuario \IUref{IU35}{Añadir otro email}.
+			\UCpaso Muestra un campo de texto adicional para el llenado del mismo con un correo electrónico.
+			\UCpaso Continua en el paso \ref{CU11AgregarMail} del \UCref{CU11}. 
+		\end{UCtrayectoriaA}		
+		
+		\begin{UCtrayectoriaA}{D}{Alguno de los campos no se específico o los datos no concuerdan con el tipo de dato esperado.}
+			\UCpaso Muestra el mensaje {\bf MSG1-}``Uno o más [{\em campos}] no tienen el formato adecuado''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Pone el foco en el campo donde se encontro el primer error y marca con un color el borde de los demás campos que tengan un tipo de dato no esperado por el campo, para que el usuario pueda identificar cuales campos necesita corregir. 
+			\UCpaso[\UCactor] Corrige el valor erroneo, del campo que tiene el foco y los demas campos con valor erroneo, a un valor correcto.
+			\UCpaso Continua en el paso \ref{CU11EnviarFormulario} del \UCref{CU11}.
+		\end{UCtrayectoriaA}
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
