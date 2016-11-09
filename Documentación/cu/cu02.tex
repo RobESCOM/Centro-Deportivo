@@ -1,0 +1,41 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU2}{Consultar datos del cliente.}{
+		Permite consultar la información de los clientes para conocer la información general del cliente, membresías, servicios y cursos que tiene relacionados.
+	}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Gerente de Operaciones, Gerente de Sucursal, Ejecutivo de Ventas, Recepcionista y Cliente.}
+		\UCitem{Propósito}{Conocer en cualquier momento la información personal, de contacto, ubicación y médica de los clientes, así como también, las membresías, servicios y cursos que cada uno tiene.}
+		\UCitem{Entradas}{Nombre(s) del cliente, Apellido paterno, Apellido materno o CURP.}
+		\UCitem{Origen}{Teclado.}
+		\UCitem{Salidas}{Registro del cliente con toda la información relacionada a él.}
+		\UCitem{Destino}{Pantalla.}
+		\UCitem{Precondiciones}{El cliente debe estar registrado en el sistema.}
+		\UCitem{Postcondiciones}{Ninguna.}
+		\UCitem{Errores}{{\bf E6:} ``La clave CURP, nombre o apellidos no existen'' -- El sistema muestra el Mensaje {\bf MSG6-}``La clave CURP, nombre(s) o apellidos no existen. Ingresa un dato válido'' y continua al paso 3.}		
+		\UCitem{Tipo}{Caso de uso primario que extiende al \UCref{CU90}.}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Roberto Mendoza Saavedra}
+		\UCitem{Revisor}{}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes, seleccionando la opción de ``Clientes'' que aparece en la \IUref{IU2}{Pantalla de perfil}.
+		\UCpaso[\UCactor] Solicita la consulta de los datos de un cliente seleccionando la opción de ``Consultar'' de la \IUref{IU5}{Pantalla de Clientes}.
+		\UCpaso Solicita el nombre(s), apellido paterno, materno o CURP del cliente mediante la \IUref{IU6}{Pantalla de Búsqueda de Cliente}.
+		\UCpaso[\UCactor] Proporciona el nombre(s), apellido paterno, materno o CURP, dependiendo el filtro de búsqueda que desee.
+		\UCpaso Verifica si los datos que se ingresaron coinciden con algún registro [E6].
+		\UCpaso Muestra el registro del cliente con toda la información relacionada a él a través de la \IUref{IU7}{Pantalla de Consulta}. La consulta de datos del cliente se realiza bajo la \BRref{BR100}{Control de la información del cliente.} 
+	\end{UCtrayectoria}
+	
+	%-------------------------------------- TERMINA descripción del caso de uso.
+
+		
+
+	
