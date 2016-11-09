@@ -1,0 +1,28 @@
+\subsection{IU24 Pantalla de Consultar un Curso}
+
+
+\subsubsection{Objetivo}
+	Consultar  un registro de curso en el sistema,
+
+\subsubsection{Diseño}
+	Esta pantalla aparece al seleccionar la pestaña Consultar un curso{IU21.1}{Pantalla de acceso a gerente de sursal} del acceso a gerente de sucursal. . 
+
+\IUfig[.5]{gui/consultarcurso}{IU24}{Pantalla de Consultar un Curso.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+Nombre de curso, costo, horario, fecha de inicio,area, fecha de termino,nombre de instructor y su  horario en formato 24:00
+
+\subsubsection{Comandos}
+	\begin{itemize}
+	\item \IUbutton{Enviar}: Verifica que el curso se encuentre registrado. Si la verificación es correcta, se consulta el curso de la base de datos por su campo consultado \IUref{IU24.1}{Pantalla de Consultar un curso}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG24} Error al consultar curso, vuelva a intentarlo.
+	\end{Citemize}
+	

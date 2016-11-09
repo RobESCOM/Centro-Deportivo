@@ -1,0 +1,27 @@
+\subsection{IU30 Pantalla de registrar usuario por area}
+
+
+\subsubsection{Objetivo}
+	El Sistema registrara los clientes  que tengan acceso a una area con su targeta de acceso en el sistema de gimnasios san pancho.
+
+\subsubsection{Diseño}
+Esta pantalla aparece al ingresar  a una de alas areas de una sucursal {IU21.1}{Pantalla de acceso a areas. 
+
+\IUfig[.5]{gui/registrarusrarea}{IU30.1}{Pantalla de registrar cliente a area en el sistema.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+Nombre de Curso,costo horario, fecha de inicio, fecha de termino y numero de Cliente de Gimnasios San Pancho
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Enviar}: Verifica que el curso se encuentre registrado y el cliente de igual forma. Si la verificación es correcta, se asocia un cliente a un curso en la base de datos del sistema la \IUref{IU22.1}{Pantalla de Alta de cliente en curso}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG25} Error al registrar cliente a un curso, vuelva a intentarlo.
+	\end{Citemize}
