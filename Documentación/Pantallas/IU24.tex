@@ -29,6 +29,37 @@ Número de Boleta y Contraseña del Estudiante.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsection{IU32 Pantalla de formulario para registro de nueva sucursal.}
+
+\subsubsection{Objetivo}
+	Mostrarlos campos necesarios para dar de alta en el sistema una nueva sucursal.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece cuando el gerente de operación se registro en el sistema.
+
+\IUfig[.5]{gui/registro}{IU32}{Pantalla de formulario para registro de nueva sucursal}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+	Nombre de la sucursal, fecha de inauguración, estado, teléfonos, correos electrónicos, dirección de la sucursal, áreas, que tendrá la nueva sucursal, datos del gerente de la sucursal y una descripción de la sucursal.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Entrar}: Muestra los campos que son necesarios se llenen para dar de alta la sucursal \IUref{IU22}{Pantalla de registro de nueva sucursal}.
+	\item \IUbutton{Ayuda}: Muestra la ayuda de esta pantalla \IUref{IU50}{Pantalla de Ayuda}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Ninguno.
+	\end{Citemize}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{IU33 Pantalla de visualización de sucursal en mapa.}
 
 \subsubsection{Objetivo}
@@ -58,100 +89,6 @@ Nombre de las sucursales
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-
-\subsection{IU32 Pantalla de formulario para registro de nueva sucursal.}
-
-\subsubsection{Objetivo}
-	Mostrarlos campos necesarios para dar de alta en el sistema una nueva sucursal.
-
-\subsubsection{Diseño}
-	Esta pantalla aparece cuando el gerente de operación se registro en el sistema.
-
-\IUfig[.5]{gui/registro}{IU32}{Pantalla de formulario para registro de nueva sucursal}
-
-\subsubsection{Salidas}
-
-	Ninguna.
-
-\subsubsection{Entradas}
-	Nombre de la sucursal, fecha de inauguración, estado, teléfonos, correos electrónicos, dirección de la sucursal, áreas, que tendrá la nueva sucursal, datos del gerente de la sucursal y una descripción de la sucursal.
-
-\subsubsection{Comandos}
-\begin{itemize}
-	\item \IUbutton{Entrar}: Muestra los campos que son necesarios se llenen para dar de alta la sucursal \IUref{IU22}{Pantalla de registro de nueva sucursal}.
-	\item \IUbutton{Ayuda}: Muestra la ayuda de esta pantalla \IUref{IU50}{Pantalla de Ayuda}.
-\end{itemize}
-
-\subsubsection{Mensajes}
-	\begin{Citemize}
-		\item {\bf MSG5} Ninguno.
-	\end{Citemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-\subsection{IU99 Pantalla dar de baja sucursales}
-
-\subsubsection{Objetivo}
-	Mostrar en forma tabular las sucursales existentes. Así se podrá seleccionar cual sucursal se quiere eliminar
-
-\subsubsection{Diseño}
-	Esta pantalla aparece cuando el gerente de operación se registro en el sistema.
-
-\IUfig[.5]{gui/baja}{IU99}{Pantalla dar de baja sucursales}
-
-\subsubsection{Salidas}
-
-	Ninguna.
-
-\subsubsection{Entradas}
-	Ninguna.
-
-\subsubsection{Comandos}
-\begin{itemize}
-	\item \IUbutton{Entrar}: Muestra en forma tablar las sucursales registradas en el sistema. sucursal \IUref{IU99}{Pantalla dar de baja sucursales}.
-	\item \IUbutton{Ayuda}: Muestra la ayuda de esta pantalla \IUref{IU50}{Pantalla de Ayuda}.
-\end{itemize}
-
-\subsubsection{Mensajes}
-	\begin{Citemize}
-		\item {\bf MSG5} Ninguno.
-	\end{Citemize}
-	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{IU97 Pantalla para consultar sucursales registradas}
-
-\subsubsection{Objetivo}
-	Mostrar en forma tabular las sucursales existentes. Así se podrá seleccionar cual sucursal se quiere actualizar
-
-\subsubsection{Diseño}
-	Esta pantalla aparece cuando el gerente de operación se registro en el sistema.
-
-\IUfig[.5]{gui/consulta}{IU97}{Pantalla para consultar sucursales registradas}
-
-\subsubsection{Salidas}
-
-	Ninguna.
-
-\subsubsection{Entradas}
-	Ninguna.
-
-\subsubsection{Comandos}
-\begin{itemize}
-	\item \IUbutton{Entrar}: Muestra en forma tablar las sucursales registradas en el sistema. sucursal \IUref{IU97}{Pantalla para consultar sucursales registradas}.
-	\item \IUbutton{Ayuda}: Muestra la ayuda de esta pantalla \IUref{IU50}{Pantalla de Ayuda}.
-\end{itemize}
-
-\subsubsection{Mensajes}
-	\begin{Citemize}
-		\item {\bf MSG5} Ninguno.
-	\end{Citemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 
 \subsection{IU34 Añadir otro campo}
 
@@ -210,6 +147,37 @@ Nombre de las sucursales
 \subsubsection{Mensajes}
 	\begin{Citemize}
 		\item {\bf MSG5} Pide la confirmación para añadir otro campo.
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU97 Pantalla para consultar sucursales registradas}
+
+\subsubsection{Objetivo}
+	Mostrar en forma tabular las sucursales existentes. Así se podrá seleccionar cual sucursal se quiere actualizar
+
+\subsubsection{Diseño}
+	Esta pantalla aparece cuando el gerente de operación se registro en el sistema.
+
+\IUfig[.5]{gui/consulta}{IU97}{Pantalla para consultar sucursales registradas}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+	Ninguna.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Entrar}: Muestra en forma tablar las sucursales registradas en el sistema. sucursal \IUref{IU97}{Pantalla para consultar sucursales registradas}.
+	\item \IUbutton{Ayuda}: Muestra la ayuda de esta pantalla \IUref{IU50}{Pantalla de Ayuda}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Ninguno.
 	\end{Citemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
@@ -301,3 +269,37 @@ Nombre de las sucursales
 	\begin{Citemize}
 		\item Ninguno.
 	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\subsection{IU99 Pantalla dar de baja sucursales}
+
+\subsubsection{Objetivo}
+	Mostrar en forma tabular las sucursales existentes. Así se podrá seleccionar cual sucursal se quiere eliminar
+
+\subsubsection{Diseño}
+	Esta pantalla aparece cuando el gerente de operación se registro en el sistema.
+
+\IUfig[.5]{gui/baja}{IU99}{Pantalla dar de baja sucursales}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+	Ninguna.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Entrar}: Muestra en forma tablar las sucursales registradas en el sistema. sucursal \IUref{IU99}{Pantalla dar de baja sucursales}.
+	\item \IUbutton{Ayuda}: Muestra la ayuda de esta pantalla \IUref{IU50}{Pantalla de Ayuda}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Ninguno.
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	

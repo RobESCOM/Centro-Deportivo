@@ -11,51 +11,67 @@
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %------------------------------------- COMIENZA caso de uso para dar de baja sucursal
 \begin{UseCase}{CU13}{Baja de sucursal.}{
-		En el caso de cierre definitvo o cierre temporal de una sucursal se dará de baja la sucursal pero no se eliminará el registro de la base de datos.
+		En el caso de cierre definitvo o cierre temporal de una sucursal, ésta se dará de baja del sistema. No se eliminará el registro del sistema, únicamente la sucursal dada de baja desaparecerá de la lista de sucursales abiertas al público.
 	}
-		\UCitem{Versión}{0.1}
+		\UCitem{Versión}{0.2}
 		\UCitem{Actor}{Gerente de operación de negocio}
-		\UCitem{Propósito}{Quitar de las tablas que se muestran en la pantalla de los computadores de los clientes, gerentes, intructores, etc. el registro de la sucursal para que ningún usuario trate de acceder a registrar un curso y advertir a los usuarios que la sucursal no está disponible.}
-		\UCitem{Entradas}{La fecha de cierre temporal o definitivo de la sucursal, además de una descripción explicando el por que se origina el cierre temporal o definitivo.}
-		\UCitem{Origen}{El teclado del computador del actor.}
+		\UCitem{Propósito}{Quitar de las tablas de sucursales disponibles el registro de la sucursal, con el fin que ningún usuario acceda al sistema y trate registrar un curso o adquirir un servicio de la sucursal que no esta o estará abierta al público.}
+		\UCitem{Entradas}{La fecha de cierre temporal o definitivo, además de una descripción explicando el motivo que origina el cierre temporal o definitivo de la sucursal.}
+		\UCitem{Origen}{Teclado}
 		\UCitem{Salidas}{Se mostrará el mensaje {\bf MSG3-}``La [{\em sucursal}] fue dada de baja.''.}
 		\UCitem{Destino}{La pantalla del equipo de cómputo del actor.}
 		\UCitem{Precondiciones}{La sucursal no debe estar dada de baja.}
 		\UCitem{Postcondiciones}{El sistema tendrá una sucursal más dada de baja. No se mostrará más éste registro a los usuarios, tales como el gerente de sucursal, clientes, instructores, etc. Para el actor, gerente de operaciones de negocio, si estarán disponibles las sucursales dadas de baja.}
-		\UCitem{Errores}{1. La sucursal no se puede dar de baja.
+		\UCitem{Errores}{1. No se lleno el campo de descripción del cierre temporal o definitivo.
 
-2. No se lleno el campo de descripción del cierre temporal o definitivo.
-
-3. La fecha ingresada es pasada con respecto la fecha en el que se  intenta dar de baja la sucursal en el sistema.}
+2. No se lleno el campo de la fecha de cierre.}
 		\UCitem{Tipo}{Caso de uso primario}
-		\UCitem{Observaciones}{La fecha ingresada debe ser la actual o no mayor a un mes, o se puede poner cualquier fecha que no sea pasada a la fecha del registro de la sucursal.}
+		\UCitem{Observaciones}{La fecha de cierre pude ser pasada, si y solo si no se rebasa una semana de atraso con respecto a la fecha del día en el que se pretende dar de baja la sucursal.}
 		\UCitem{Autor}{Fernández Quiñones Isaac.}
 		\UCitem{Revisó}{}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] Ingresa a la plataforma web.
+		\UCpaso Muestra la \IUref{IU37}{Página de inicio}.
+		\UCpaso[\UCactor] Da click sobre el icono menú.
+		\UCpaso Muestra un listado de las opciones disponibles.
+		\UCpaso[\UCactor] Selecciona la opción login.
 		\UCpaso Muestra la \IUref{IU23}{Pantalla de Control de Acceso} \label{CU13Login}.
 		\UCpaso[\UCactor] Proporciona su userName y password.
 		\UCpaso Válida que el actor se encuentre dado de alta en el sistema. Se utiliza la regla \BRref{BR117}{Determinar si el usuario tiene acceso al sistema.} \Trayref{A}.
+		\UCpaso Verifica que el userName y password sean correctos.\Trayref{B}
+		\UCpaso Despliega la pantalla de bienvenida para el actor. Cuenta con la opciones de modificar, actualizar registrar y dar de baja sucursal.
+		\UCpaso[\UCactor] Selecciona la opción dar de baja sucursal.
 		\UCpaso Despliega la \IUref{IU99}{Pantalla dar de baja sucursales}.\label{CU13DarBaja}
-		\UCpaso[\UCactor] Da click sobre la sucursal que quiere dar de baja.		
+		\UCpaso[\UCactor] Da click sobre la sucursal que quiere dar de baja.
 		\UCpaso Procesa la solicitud del [\UCactor].
 		\UCpaso Muestra el \IUref{UI88}{Mensaje de baja exitosa}. 
-		\UCpaso Pregunta al actor si desea dar de baja otra sucursal. \Trayref{B}.
+		\UCpaso Pregunta al actor si desea dar de baja otra sucursal. \Trayref{D}.
 	\end{UCtrayectoria}
 		
-		\begin{UCtrayectoriaA}{A}{El actor no cuenta con las credenciales válidas para poder ingresar al sistema.}
+		\begin{UCtrayectoriaA}{A}{El actor no esta registrado en el sistema}
+			\UCpaso Muestra el mensaje {\bf MSG1-}``Lo sentimos el userName no se encontro en el sistema. Por favor registrate en el sistema para poder acceder.''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Fin del caso de uso.
+		\end{UCtrayectoriaA}
+		
+		\begin{UCtrayectoriaA}{B}{Las credenciales proporcionadas son incorrectas}
 			\UCpaso Muestra el mensaje {\bf MSG1-}``Usuario [{\em y/o}] contraseña no validos.''.
 			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Almacena de manera temporal la hora en el que se intentó ingresar al sistema.
+			\UCpaso Verifica que el usuario que intenta acceder no haya cometido mas de 5 errores. \Trayref{C}
 			\UCpaso Continua en el paso \ref{CU13Login} del \UCref{CU13}
-		\end{UCtrayectoriaA}
+		\end{UCtrayectoriaA}		
+
+		\begin{UCtrayectoriaA}{C}{El actor ingreso en 5 ocaciones sus credenciales de manera incorrecta.}
+			\UCpaso Bloquea la cuenta del actor.
+			\UCpaso Muestra el mensaje {\bf MSG1-}``Cuenta bloqueada por 5 minutos.''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Continua en el paso \ref{CU13Login} del \UCref{CU13}
+		\end{UCtrayectoriaA}		
 		
-		\begin{UCtrayectoriaA}{B}{El actor dice que desea dar de baja otra sucursal.}
+		\begin{UCtrayectoriaA}{D}{El actor desea dar de baja otra sucursal.}
 			\UCpaso Continua en el paso \ref{CU13DarBaja} del \UCref{CU13}
-		\end{UCtrayectoriaA}
-		
-		\begin{UCtrayectoriaA}{C}{El actor dice que no desea dar de baja otra sucursal.}
-			\UCpaso Termina el caso de uso.
 		\end{UCtrayectoriaA}
 %------------------------------------- TERMINA caso de uso para dar de baja sucursal
