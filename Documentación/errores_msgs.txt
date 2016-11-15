@@ -44,9 +44,15 @@ MSG14 = Usted no se encuentra identificado en el sistema.
 
 MSG15 = Ingrese su clave de acceso.
 
-MSG16 = El registro fue exitoso.
+MSG16 = Registro exitoso. Tú número de cliente y/o empleado es: [{\em Número de cliente}]
 
-MSG17 = Acceso correcto
+MSG17 = Registro exitoso. Tú número de cliente es: [{\em Número de cliente}]. Ahora, puedes cotizar la membresía que mejor se adapte a lo que buscas...COTÍZALA y acude a tú sucursal más cercana.
+
+MSG18 = Los datos se han actualizado exitosamente
+
+MSG19 = 
+
+MSG19 = Acceso correcto
 
 
 

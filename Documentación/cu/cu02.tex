@@ -8,8 +8,8 @@
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 	\begin{UseCase}{CU2}{Consultar datos del cliente.}{
 		Permite consultar la información de los clientes para conocer la información general del cliente, membresías, servicios y cursos que tiene relacionados.
-	}
-		\UCitem{Versión}{1.0}
+}
+		\UCitem{Versión}{1.1}
 		\UCitem{Actor}{Gerente de Operaciones, Gerente de Sucursal, Ejecutivo de Ventas, Recepcionista y Cliente.}
 		\UCitem{Propósito}{Conocer en cualquier momento la información personal, de contacto, ubicación y médica de los clientes, así como también, las membresías, servicios y cursos que cada uno tiene.}
 		\UCitem{Entradas}{Nombre(s) del cliente, Apellido paterno, Apellido materno o CURP.}
@@ -18,21 +18,30 @@
 		\UCitem{Destino}{Pantalla.}
 		\UCitem{Precondiciones}{El cliente debe estar registrado en el sistema.}
 		\UCitem{Postcondiciones}{Ninguna.}
-		\UCitem{Errores}{{\bf E5:} ``La clave CURP, nombre o apellidos no existen'' -- El sistema muestra el Mensaje {\bf MSG5|-}``La clave CURP, nombre(s) o apellidos no existen. Ingresa un dato válido'' y continua al paso 3.}		
-		\UCitem{Tipo}{Caso de uso primario que extiende al \UCref{CU90}.}
+		\UCitem{Errores}{{\bf E5:} ``La clave CURP, nombre o apellidos no existen'' -- El sistema muestra el Mensaje {\bf MSG5-}``La clave CURP, nombre(s) o apellidos no existen. Ingresa un dato válido'' y continua al paso 4.}
+		\UCitem{Tipo}{Caso de uso que extiende del \UCref{CU31}.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Roberto Mendoza Saavedra}
 		\UCitem{Revisor}{}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes, seleccionando la opción de ``Clientes'' que aparece en la \IUref{IU2}{Pantalla de perfil}.
-		\UCpaso[\UCactor] Solicita la consulta de los datos de un cliente seleccionando la opción de ``Consultar'' de la \IUref{IU5}{Pantalla de Clientes}.
-		\UCpaso Solicita el nombre(s), apellido paterno, materno o CURP del cliente mediante la \IUref{IU6}{Pantalla de Búsqueda de Cliente}.
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes, seleccionando la opción de ``Clientes'' que aparece en la \IUref{IU6}{Pantalla de perfil de empleado} \Trayref{A}.
+		\UCpaso Muestra las operaciones disponibles para el actor mediante la \IUref{IU7}{Pantalla de operaciones del empleado.}
+		\UCpaso[\UCactor] Solicita la consulta de los datos de un cliente seleccionando la opción de ``Consultar'' de la \IUref{IU7}{Pantalla de operaciones del empleado.}
+		\UCpaso Solicita el nombre(s), apellido paterno, materno o CURP del cliente mediante la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
 		\UCpaso[\UCactor] Proporciona el nombre(s), apellido paterno, materno o CURP, dependiendo el filtro de búsqueda que desee.
-		\UCpaso Verifica si los datos que se ingresaron coinciden con algún registro [E6].
-		\UCpaso Muestra el registro del cliente con toda la información relacionada a él a través de la \IUref{IU7}{Pantalla de Consulta}. La consulta de datos del cliente se realiza bajo la \BRref{BR100}{Control de la información del cliente.} 
+		\UCpaso[\UCactor] Solicita la búsqueda del registro(s) presionando el botón \IUbutton{Buscar} de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
+		\UCpaso Verifica si los datos que se ingresaron coinciden con algún registro [E5].
+		\UCpaso Muestra un registro breve del cliente(s) con los datos de Nombre, Apellido paterno, Apellido materno, CURP y las opciones de ``Editar'' y ``Eliminar'' a través de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
+		\UCpaso[\UCactor] Consulta toda la información del cliente seleccionando la CURP del cliente.
+		\UCpaso Muestra toda la información relacionada al cliente a través de la \IUref{IU9.1}{Pantalla de Búsqueda de Cliente-consulta}. La consulta de datos del cliente se realiza bajo la \BRref{BR100}{Control de la información del cliente.} 
 	\end{UCtrayectoria}
+	
+	\begin{UCtrayectoriaA}{A}{El actor que desea consultar los datos será el propio cliente.}
+			\UCpaso[\UCactor] Solicita la consulta de su información seleccionando la opción de ``Mi info'' de la \IUref{IU5}{Perfil de usuario.}
+			\UCpaso Muestra la información del cliente en la \IUref{IU5.1}{Perfil de usuario-consulta.}
+		\end{UCtrayectoriaA}
 	
 	%-------------------------------------- TERMINA descripción del caso de uso.
 
