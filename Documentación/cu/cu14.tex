@@ -11,36 +11,43 @@
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 
 %------------------------------------- COMIENZA caso de uso para ver sucursales en mapa
-\begin{UseCase}{CU14}{Ubicar mapa geograficamente}{
-		Se muestra en la pantalla de ubicació un mapa, en el cual se podrán ubicar las diferentes sucursales establecidas en distintos estados de la república Mexicana.
+\begin{UseCase}{CU14}{Ubicar geográficamente una sucursal}{
+		Se muestra en la pantalla de ubicación un mapa, en el cual se podrán ubicar las diferentes sucursales establecidas en distintos estados de la república Mexicana. De esta manera el afiliado podrá saber que sucursal se encuentra más cerca de su domicilio.
 	}
-		\UCitem{Versión}{0.1}
-		\UCitem{Actor}{Usuario}
-		\UCitem{Propósito}{El usuario podrá localizar y trazar la mejor ruta para poder llegar a su sucursal de preferencia.}
-		\UCitem{Entradas}{Selección de la sucursal mostrada en pantalla}
+		\UCitem{Versión}{0.2}
+		\UCitem{Actor}{Afiliado, Cliente}
+		\UCitem{Propósito}{El usuario podrá localizar la sucursal más cercana, como también trazar la mejor ruta para poder llegar a ésta.}
+		\UCitem{Entradas}{Selecció del estado de la república Mexicana. Selección de la sucursal mostrada en pantalla.}
 		\UCitem{Origen}{Teclado}
-		\UCitem{Salidas}{Se muestra la ubicación de la sucursal en el mapa.}
+		\UCitem{Salidas}{Un icono sobre el mapa ubicado en la dirección de la sucursal.}
 		\UCitem{Destino}{Pantalla del actor}
-		\UCitem{Precondiciones}{ninguna}
-		\UCitem{Postcondiciones}{ninguna}
+		\UCitem{Precondiciones}{1. Debe existir al menos una sucursal almacenada en el sistema.}
+		\UCitem{Postcondiciones}{Ninguna}
 		\UCitem{Errores}{}
 		\UCitem{Tipo}{Caso de uso primario}
-		\UCitem{Observaciones}{}
+		\UCitem{Observaciones}{Se deberá mostrar un mensaje que informe al actor si la sucursal que seleccionó se encuentra cerrada por tiempo definido. No se debe mostrar ninguna sucursal que su estado se encuentre como cierre definitivo.}
 		\UCitem{Autor}{Fernández Quiñones Isaac.}
-		\UCitem{Revisó}{}
+		\UCitem{Revisó}{Roberto Mendoza}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] Ingresa a la plataforma web.
 		\UCpaso El sistema muestra la \IUref{IU37}{Página de inicio.}
-		\UCpaso[\UCactor] Selecciona la opción Ubicanos.
+		\UCpaso[\UCactor] Da click sobre la opción "Ubicanos".
 		\UCpaso Despliega la \IUref{IU33}{Pantalla de visualización de sucursal en mapa.}
-		\UCpaso[\UCactor] Selecciona el estado en el que vive.
+		\UCpaso Carga las estados de la república Mexicana donde hay sucursales disponibles.
+		\UCpaso Pone un icono en la ubicación de la sucursal más cercana al actor. \Trayref{A}
 		\UCpaso Muestra la sucursal principal del estado seleccionado por el usuario.
 		\UCpaso[\UCactor] Selecciona la sucursal mas cercana a su hogar.
 		\UCpaso Pone una marca sobre la sucursal seleccionada por el [\UCactor].
 	\end{UCtrayectoria}
 
+	\begin{UCtrayectoriaA}{A}{No se puede saber la ubicación del actor.}
+		\UCpaso Muestra el mensaje {\bf MSG1-}``Usuario [{\em y/o}] contraseñas no validos.''.
+		\UCpaso[\UCactor] Oprimé el botón \IUbutton{Aceptar}.
+		\UCpaso Continua en el paso \ref{CU11Login} del \UCref{CU15}.
+	\end{UCtrayectoriaA}
+		
 %%PLANTILLA
 %%--------------------------------------
 %\begin{UseCase}{ID}{Nombre}{

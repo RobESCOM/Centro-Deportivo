@@ -177,6 +177,31 @@ public class CRUD {
         return row;
     }
     
+    public String getUbicaciones() {
+        String sql = "SELECT nombre FROM area";
+        String row = ""; 
+        
+        try {
+            sentencia = con.getConn().createStatement();
+            ResultSet r = sentencia.executeQuery( sql );
+            int n;
+            
+            while( r.next() ) {
+                n = r.getMetaData().getColumnCount();
+                
+                for( int i = 1; i <= n; i++ ) {
+                    row += r.getString( i );
+                }
+                row += "**";
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return row;
+    }
+    
+    
     /* public static void main( String args[] ) {
         CRUD test = new CRUD();
         

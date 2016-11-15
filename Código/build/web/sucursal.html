@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sucursal</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="spectral/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script src ="assets/js/jquery-ui/external/jquery/jquery.js"></script>
+        <script src="assets/js/jquery-ui/jquery-ui.js"></script> 
+        <script src="assets/js/FuncionesJS.js"></script>
+        <script>
+            $(function () {
+                $("#datepicker").datepicker({
+                    changeMonth: true,
+                    changeYear: true
+                });
+            });
+
+            $("#age").tooltip({
+                classes: {
+                    "ui-tooltip": "highlight"
+                }
+            });
+
+            function fun() {
+                alert("Pulso fun");
+            }
+
+            $(".selector").button({
+                icon: {icon: "ui-icon-gear"}
+            });
+        </script>
+    </head>
+    <body>
+
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="inicio.html">Deportivo San Pancho</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="inicio.html">Home</a></li>
+                                    <li><a href="regSucursal.html">Consultar sucursal</a></li>
+                                    <li><a href="delSucursal.html">Eliminar sucursal</a></li>
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>Regstro sucursal</h2>
+                    <p>Welcom to the jungle</p>
+                </header>
+                <section class="wrapper style5">
+                    <h3>Registrar Sucursal</h3>
+                    <div class="inner">
+                        <section>
+                            <h4>Formulario</h4>
+                            <form method="post" action = "RegSuc">
+                                <div class="row uniform">
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="nameS">Nombre de la sucursal</label>
+                                        <input type="text" id="nameS" name="nameS" placeholder="On The Run" required>
+
+                                        <p id="age" title="Oh! no, god please help me!!">Fecha de inauguracion 
+                                            <input type="text" id="datepicker" onclick="mostrarFecha()">
+                                        </p>
+
+                                        <label for="state">Estado</label>
+                                        <select id="state" name="state">
+                                            <option value="Aguascalientes">Aguascalientes</option>
+                                            <option value="Baja California">Baja California</option>
+                                            <option value="Baja California sur">Baja California sur</option>
+                                            <option value="Campeche">Campeche</option>
+                                            <option value="Chiapas">Chiapas</option>
+                                            <option value="Chihuahua">Chihuahua</option>
+                                            <option value="Coahuila">Coahuila</option>
+                                            <option value="Colima">Colima</option>
+                                            <option value="Ciudad de Mexico">Ciudad de Mexico</option>
+                                            <option value="Durango">Durango</option>
+                                            <option value="Estado de México">Estado de México</option>
+                                            <option value="Guanajuato">Guanajuato</option>
+                                            <option value="Guerrero">Guerrero</option>
+                                            <option value="Hidalgo">Hidalgo</option>
+                                            <option value="Jalisco">Jalisco</option>
+                                            <option value="Michoacán">Michoacán</option>
+                                            <option value="Morelos">Morelos</option>
+                                            <option value="Nayarit">Nayarit</option>
+                                            <option value="Nuevo León">Nuevo León</option>
+                                            <option value="Oaxaca">Oaxaca</option>
+                                            <option value="Puebla">Puebla</option>
+                                            <option value="Queretaro">Queretaro</option>
+                                            <option value="Quintana Roo">Quintana Roo</option>
+                                            <option value="San Luis Potosí">San Luis Potosí</option>
+                                            <option value="Sinaloa">Sinaloa</option>
+                                            <option value="Sonora">Sonora</option>
+                                            <option value="Tabasco">Tabasco</option>
+                                            <option value="Tamaulipas">Tamaulipas</option>
+                                            <option value="Tlaxcala">Tlaxcala</option>
+                                            <option value="Veracruz">Veracruz</option>
+                                            <option value="Yucatán">Yucatán</option>
+                                            <option value="Zacatecas">Zacatecas</option>
+                                        </select>
+
+                                        <section id="teles">
+                                            <h4>Telefono(s)</h4>
+                                            <input type="text" id="tel" name="tels" placeholder="01 800 Any colour you like" onblur="verificarTel()" required>
+                                            <span id="mas" class="ui-icon-circle-plus" onclick="moreTel()">+</span>
+                                        </section>
+
+                                        <section id="mails">
+                                            <h4>Mail(s)</h4>
+                                            <input type="email" id="email" name="email" placeholder="nile@song.more" onblur="moreMail()" required>
+                                        </section>
+                                    </div>
+
+                                    <div class="oculto" id="hideCP" title="Codigo Postal no valido" >
+                                        <span style="float:left; margin:0 7px 50px 0;"></span>
+                                        <p>Introduzca un codigo postal valido. Ejemplo 07510.</p>
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <h4><label>Direccion</label></h4>
+                                        <label for="calle">Calle</label>
+                                        <input type="text" id="calle" name="calle" placeholder="Av. siempre viva" required>
+
+                                        <label for="col">Colonia</label>
+                                        <input type="text" id="col" name="col" placeholder="A momentary lapse of reason" required>
+
+                                        <label for="del">Delegacion o municipio</label>
+                                        <input type="text" id="del" name="del" placeholder="Ciudadano del mundo" required>
+
+                                        <label for="cp">Codigo postal</label>
+                                        <input type="text" id="cp" name="cp" placeholder="1984" onblur="verificarCP()" required>
+                                    </div>
+
+                                    <div class="12u$">
+                                        <section id="area">
+                                            <h4>Áreas</h4>
+                                            <div class="6u 12u$(xsmall)">
+                                            <details id="areas">
+                                                <summary onclick="mostrarAreas()">¿Con que áreas cuanta la sucursal?</summary>
+                                                <!-- <label>Valor: </label><input type="checkbox" value="Valor" name="areasSuc"/> -->
+                                                
+                                            </details>
+                                            </div>
+                                        </section>    
+
+                                        <h4>Datos del gerente</h4>
+                                        <label for="adminPila">Nombre</label>
+                                        <input type="text" id="adminPila" name="adminPila" placeholder="Pink" required>
+
+                                        <label for="adminFap">Primer apellido</label>
+                                        <input type="text" id="adminFap" name="adminFap" placeholder="Floyd" required>
+
+                                        <label for="adminSap">Segundo apellido</label>
+                                        <input type="text" id="adminSap" name="adminSap" placeholder="Floyd" required>
+
+                                        <label>Direccion</label>
+                                        <input type="text" id="dirG" name="dirG" placeholder="calle the wall" required>
+                                    </div>
+
+                                    <div class="12u$">
+                                        <h4>Descripcion</h4>
+                                        <textarea name="demo-message" id="demo-message" placeholder="Descripcion (opcional)" rows="6"></textarea>
+                                    </div>
+                                    <div class="12u$">
+                                        <ul class="actions">
+                                            <li><input type="submit" value="Enviar" class="special" /></li>
+                                            <li><input type="reset" value="Reset" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <!--<script src="spectral/js/jquery.min.js"></script>
+        <script src="spectral/js/jquery.scrollex.min.js"></script> -->
+        <script src="spectral/js/jquery.scrolly.min.js"></script> 
+        <script src="spectral/js/skel.min.js"></script>
+        <script src="spectral/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="spectral/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cleintes</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="spectral/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    </head>
+    <body>
+
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Spectral</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="inicio.html">Home</a></li>
+                                    <li><a href="sucursal.html">Sucursal</a></li>
+                                    <li><a href="">Areas</a></li>
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>Elements</h2>
+                    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+                </header>
+
+                <section class="wrapper style5">
+                    <h3>Registrar Sucursal</h3>
+                    <div class="inner">
+                        <section>
+                            <h4>Formulario</h4>
+                            <form method="post" action = "Registro">
+                                <div class="row uniform">
+
+                                    <div class="12u$(xsmall)">
+                                        <div>
+                                            <h4>Tipo cliente: *</h4>
+                                            <input type="radio" id="cliente1" name="tipoCliente" value="Persona Física" />
+                                            <label for="cliente1">Persona Física</label>
+                                            <input type="radio" id="cliente2" name="tipoCliente" value="Persona Moral" />
+                                            <label for="cliente2">Persona Moral</label>
+                                            <input type="radio" id="cliente3" name="tipoCliente" value="Menor de Edad" />
+                                            <label for="cliente3">Menor de Edad</label>
+                                            <a href="inicio.html">Menu inicio</a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="12u$">
+                                        <h3>DATOS PERSONALES</h3>
+
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="nombre">Nombre(s):*</label>
+                                        <input type="text" name="nombreCliente" />
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="apPaterno">Apellido Paterno:*</label>
+                                        <input type="text" name="apPaterno" />
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="apMaterno">Apellido Materno:</label>
+                                        <input type="text" name="apMaterno" />
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="fNacimiento">Fecha de Nacimiento:*</label>
+                                        <input type="text" name="fechaNacimiento" placeholder="dd/mm/aaaa" />
+                                    </div>
+                                    <div class="12u$(xsmall)">
+                                        <h6>Sexo: *</h6>
+                                        <input type="radio" id="hombre" name="sexo" />
+                                        <label for="hombre">Masculino</label>
+                                        <input type="radio" id="mujer" name="sexo" />
+                                        <label for="mujer">Femenino</label>                                    
+                                    </div>
+                                    <div>
+                                        <label for="curp">CURP:*</label>
+                                        <input type="text" name="curp" />
+                                    </div>
+                                    <div>
+                                        <label for="RFC">RFC:</label>
+                                        <input type="text" name="rfc" />
+                                    </div>
+                                </div>
+
+                                <div class="12u$(xsmall)">
+                                    <h4>DOMICILIO</h4>
+                                </div>
+
+                                <div class="row uniform">
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="calle">Calle:*</label>
+                                        <input type="text" name="calle" />
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="ext">Núm Ext:*</label>
+                                        <input type="text" name="numeroExt" />
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="int">Núm Int:</label>
+                                        <input type="text" name="numeroInt" />
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="col">Colonia:*</label>
+                                        <input type="text" name="colonia" />
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="localidad">Localidad:*</label>
+                                        <input type="text" name="delMuni" />
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="edo">Estado:*</label>
+                                        <input type="text" name="estado" />                    
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="pais">País:*</label>
+                                        <input type="text" name="pais" />
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="cp">CP:*</label>
+                                        <input type="text" name="codigoPostal" />
+                                    </div>
+                                </div>
+
+                                <div class="12u$">
+                                    <div class="MediosContacto">
+                                        <h4>MEDIOS DE CONTACTO</h4>
+                                        <div>
+                                            <label for="casa">Teléfono de casa:</label>
+                                            <input type="text" name="telCasa" placeholder="Ej:(55) 22334455"/>
+                                            <label for="cel">Celular:*</label>
+                                            <input type="text" name="telCel" placeholder="Ej:(044) 5522334455" />
+                                            <label for="otro">Oficina:</label>
+                                            <input type="text" name="telOficina" placeholder="Ej:(55) 22334455" />      
+                                        </div>
+                                        <div>
+                                            <label for="email">Correo electrónico:*</label>
+                                            <input type="email" name="correo"  placeholder="correo@ejemplo.com" />
+                                        </div>
+                                        <div>
+                                            <label for="face">Facebook:</label>
+                                            <input type="text" name="facebook" placeholder="Usuario de Facebook" />
+                                            <label for="twit">Twitter:</label>
+                                            <input type="text" name="twitter" placeholder="@usuario" />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row uniform">
+                                    <h4>DATOS MÉDICOS</h4>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="sangre">Tipo de sangre:*</label>
+                                        <select id="sangre">
+                                            <option>AB+</option>
+                                            <option>AB-</option>
+                                            <option>A+</option>
+                                            <option>A-</option>
+                                            <option>B+</option>
+                                            <option>B-</option>
+                                            <option>0+</option>
+                                            <option>0-</option>
+                                        </select>
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <h4>Enfermedades:*</h4>
+                                        <input type="checkbox" name="enfermedades" value="Diabetes" id="diabetes"/>
+                                        <label for="diabetes">Diabetes</label>
+                                        <input type="checkbox" name="enfermedades" value="Cardiopatia" id="cardiopatia"/>
+                                        <label for="cardiopatia">Cardiopatía</label>
+                                        <input type="checkbox" name="enfermedades" value="Cancer" id="cancer"/>
+                                        <label for="cancer">Cáncer</label>
+                                        <input type="checkbox" name="enfermedades" value="cerebrovascular" id="cerebrovascular"/>
+                                        <label for="cerebrovascular">Cerebrovascular</label>
+                                        <input type="checkbox" name="enfermedades" value="Higado" id="higado"/>
+                                        <label for="higado">Hígado</label>
+                                        <input type="checkbox" name="enfermedades" value="Pulmonar" id="pulmonar"/>
+                                        <label for="pulmonar">Pulmonar</label>
+                                        <input type="checkbox" name="enfermedades" value="Riñón" id="riñon"/>
+                                        <label for="riñon">Riñon</label>
+                                        <input type="checkbox" name="enfermedades" value="Obesidad" id="obesidad"/>
+                                        <label for="obesidad">Obesidad</label>
+                                    </div>
+
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <label for="condicion">Condición médica:</label><br>
+                                    <textarea cols="100" rows="10"></textarea>
+                                </div>
+                                <div class="12u$">
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Enviar" class="special" /></li>
+                                        <li><input type="reset" value="Reset" /></li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="spectral/js/jquery.min.js"></script>
+        <script src="spectral/js/jquery.scrollex.min.js"></script>
+        <script src="spectral/js/jquery.scrolly.min.js"></script> 
+        <script src="spectral/js/skel.min.js"></script>
+        <script src="spectral/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="spectral/js/main.js"></script>
+
+    </body>
+</html>

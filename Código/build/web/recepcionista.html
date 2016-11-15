@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sucursal</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="spectral/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script src ="assets/js/jquery-ui/external/jquery/jquery.js"></script>
+        <script src="assets/js/jquery-ui/jquery-ui.js"></script> 
+        <script src="assets/js/FuncionesJS.js"></script>
+        <script>
+            $(function () {
+                $("#datepicker").datepicker({
+                    changeMonth: true,
+                    changeYear: true
+                });
+            });
+
+            $("#age").tooltip({
+                classes: {
+                    "ui-tooltip": "highlight"
+                }
+            });
+
+            function fun() {
+                alert("Pulso fun");
+            }
+
+            $(".selector").button({
+                icon: {icon: "ui-icon-gear"}
+            });
+        </script>
+    </head>
+    <body>
+
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="inicio.html">Deportivo San Pancho</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="inicio.html">Home</a></li>
+                                    <li><a href="regSucursal.html">Consultar sucursal</a></li>
+                                    <li><a href="delSucursal.html">Eliminar sucursal</a></li>
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>Registro de pago</h2>
+                    <p>Welcom to the jungle</p>
+                </header>
+                <section class="wrapper style5">
+                    <h3>Registrar Pago membresía</h3>
+                    <div class="inner">
+                        <section>
+                            <h4>Formulario</h4>
+                            <form method="post" action = "RegSuc">
+                                <div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+                                        <label for="nameS">Identificación del cliente</label>
+                                        <input type="text" id="nameS" name="nameS" placeholder="CURP o UserName" required>
+									</div>
+
+                                    <div class="6u 12u$(xsmall)">
+										<label for="nameS">Monto a pagar</label>
+                                        <input type="text" id="nameS" name="nameS" placeholder="$precio de la membresía" required>
+                                    </div>
+
+                                    <div class="12u$">
+
+                                        <h4>Datos del gerente</h4>
+                                        <label for="adminPila">Id de cliente</label>
+                                        <input type="text" id="adminPila" name="adminPila" placeholder="Pink" required>
+
+                                        <label for="adminFap">Primer apellido</label>
+                                        <input type="text" id="adminFap" name="adminFap" placeholder="Floyd" required>
+
+                                        <label for="adminSap">Segundo apellido</label>
+                                        <input type="text" id="adminSap" name="adminSap" placeholder="Floyd" required>
+
+                                        <label>Direccion</label>
+                                        <input type="text" id="dirG" name="dirG" placeholder="calle the wall" required>
+                                    </div>
+
+                                    <div class="12u$">
+                                        <h4>Descripcion</h4>
+                                        <textarea name="demo-message" id="demo-message" placeholder="Descripcion (opcional)" rows="6"></textarea>
+                                    </div>
+                                    <div class="12u$">
+                                        <ul class="actions">
+                                            <li><input type="submit" value="Registrar Cliente" class="special" /></li>
+                                            <li><input type="reset" value="Registrar Pago de membresía" /></li>
+											<li><input type="reset" value="Consultar ventas" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <!--<script src="spectral/js/jquery.min.js"></script>
+        <script src="spectral/js/jquery.scrollex.min.js"></script> -->
+        <script src="spectral/js/jquery.scrolly.min.js"></script> 
+        <script src="spectral/js/skel.min.js"></script>
+        <script src="spectral/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="spectral/js/main.js"></script>
+    </body>
+</html>
