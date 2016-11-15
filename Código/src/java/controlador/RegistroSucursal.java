@@ -1,8 +1,15 @@
 package controlador;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.StringTokenizer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -38,7 +45,7 @@ public class RegistroSucursal extends HttpServlet {
             out.println("<script>"
                     + "function iniciar() {demora = setInterval('ajustar()',1000);}"
                     + "function ajustar() { tiempo = new Date(); segundos = tiempo.getSeconds(); indice = segundos % 10;"
-                    + " document.getElementById('seg').innerHTML = indice; if( indice%4 == 0  ) { location.href='http://localhost:8080/GYM/tabs.html' } }"
+                    + " document.getElementById('seg').innerHTML = indice; if( indice%4 == 0  ) { location.href='http://localhost:8080/GYM/sucursal.html' } }"
                     + "</script>");
             out.println("<title>Servlet RegistroSucursal</title>");            
             out.println("</head>");
@@ -69,6 +76,11 @@ public class RegistroSucursal extends HttpServlet {
             namAdmin += " " + request.getParameter("adminFap");
             namAdmin += " " + request.getParameter("adminSap");
             String dirAdmin = request.getParameter("dirG");
+            
+            String address = getAdressForURL( calle, colonia, deleg, estado );
+            String latLon[] = obtenerLatitud_Longitud( address );
+            System.out.println("Direc " + address );
+            System.out.println("LAtLon " + latLon[0] + " " + latLon[1] );
             
             cruds.insertarSuc( nameSucursal, calle, colonia, deleg, codep, estado, tel, mail );
             //cruds.insertarAdmin( namAdmin, dirAdmin ); Pedo con las Foreign key 
@@ -120,5 +132,68 @@ public class RegistroSucursal extends HttpServlet {
        }
        
        return datos;
+    }
+    
+    private String getAdressForURL( String calle, String col, String del, String est ) {
+        String address = "";
+        String addAux = calle + "+" + col + "+" + del + "+" + est;
+        StringTokenizer token = new StringTokenizer( addAux, " " );
+        
+        while( token.hasMoreTokens() ) {
+            address += token.nextToken() + "+";
+        }
+        
+        address = address.substring(0, address.length() - 1 );
+        
+        return address;
+    }
+    
+    private String[] obtenerLatitud_Longitud( String direccion ) {
+        String latLon[] = new String[2];
+        
+        try {
+            URL url = new URL("https://maps.googleapis.com/maps/api/geocode/json?address=" + direccion + "&key=AIzaSyCRaT4lwc9zAeSrMllEl14BVXP7gV65m6Y");
+            
+            BufferedReader in = new BufferedReader(new InputStreamReader( url.openStream() ) );
+            
+            String inputLine, lat="NARIZ", lon="NARIZ";
+            int pos, pos2, end = 0;
+            
+            while( ( inputLine = in.readLine() ) != null && end == 0) {
+                //System.out.println(inputLine); Imprime los datos obtenidos de la url
+                pos = inputLine.indexOf("location");
+                
+                if( pos != -1 ) {
+                    while( ( inputLine = in.readLine() ) != null ) {
+                        pos = inputLine.indexOf("lat");
+                        if( pos != -1 )
+                            lat = inputLine;
+                        pos = inputLine.indexOf("lng");
+                        if( pos != -1 ) {
+                            lon = inputLine;
+                            end = 1;
+                            break;
+                        }
+                    }
+                }
+            }   in.close();
+            pos = lat.indexOf("\"");
+            pos2 = lon.indexOf("\"");
+            
+            if( pos != -1 && pos2 != -1 ) {
+                latLon[0] = lat.substring( pos + 8 );
+                latLon[1] = lon.substring( pos2 + 8 );
+            }
+        } catch (MalformedURLException ex) {
+            latLon[0] = null;
+            latLon[1] = null;
+            Logger.getLogger(RegistroSucursal.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            latLon[0] = null;
+            latLon[1] = null;
+            Logger.getLogger(RegistroSucursal.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return latLon;
     }
 }
