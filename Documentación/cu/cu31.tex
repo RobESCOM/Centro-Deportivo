@@ -8,20 +8,20 @@
 
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
-	\begin{UseCase}{CU4}{Dar de baja un cliente.}{
-		Permite dar de baja a un cliente cuando se venza su membresía o el cliente pida la cancelación de la misma.
+	\begin{UseCase}{CU4}{Ingresar al sistema.}{
+		Permite a un actor autenticarse mediante su nombre de usuario y contraseña para poder realizar operaciones dentro del sistema.
 	}
-		\UCitem{Versión}{1.1}
-		\UCitem{Actor}{Gerente de Operaciones, Gerente de Sucursal, Recepcionista.}
-		\UCitem{Propósito}{Realizar la baja de un cliente ya sea temporal o definitivamente a causa del vencimiento de su membresía o la cancelación de la misma por parte del cliente.}
-		\UCitem{Entradas}{Nombre(s) del cliente, Apellido paterno, Apellido materno o CURP.}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Gerente de Operaciones, Gerente de Sucursal, Recepcionista, Ejecutivo de Ventas, Instructor, Encargado de área, Cliente, Usario y RH.}
+		\UCitem{Propósito}{Disponer de las funcionalidades del sistema en cualquier momento mediante el nombre de usuario y contraseña.}
+		\UCitem{Entradas}{Nombre de usuario y contraseña.}
 		\UCitem{Origen}{Teclado.}
-		\UCitem{Salidas}{Mensaje de baja exitosa, correo electrónico de aviso sobre la baja de su registro.}
-		\UCitem{Destino}{Pantalla y servidor de correo.}
+		\UCitem{Salidas}{\IUref{IU6}{Pantalla de perfil de empleado.} o \IUref{IU5}{Perfil de usuario.}}
+		\UCitem{Destino}{Pantalla.}
 		\UCitem{Precondiciones}{El cliente debe contar con un registro previo.}
-		\UCitem{Postcondiciones}{Registro inactivo.}
-		\UCitem{Errores}{{\bf E5:} ``La clave CURP, nombre o apellidos no existen'' -- El sistema muestra el Mensaje {\bf MSG5-}``La clave CURP, nombre(s) o apellidos no existen. Ingresa un dato válido'' y continua al paso 3.}
-		\UCitem{Tipo}{Caso de uso que extiende del \UCref{CU31}.}
+		\UCitem{Postcondiciones}{}
+		\UCitem{Errores}{{\bf E16:} ``Nombre de usuario y/o contraseña son incorrectos'' -- El sistema muestra el Mensaje {\bf MSG16-}``El nombre de usuario y/o contraseña son incorrectos. Veríficalos.'' y continua al paso 3.}
+		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Roberto Mendoza Saavedra}
 		\UCitem{Revisor}{}

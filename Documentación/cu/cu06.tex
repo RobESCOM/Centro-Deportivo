@@ -18,7 +18,7 @@
 		\UCitem{Salidas}{Se mostrará el nombre del área con todos sus atributos tales como:
 			      Nombre,tipo de material, ancho, largo, capacidad,responsable.}
 		\UCitem{Destino}{Los daros serán mostrados en la pantalla mediante una tabla.}
-		\UCitem{Precondiciones}{Para visualizar las áreas se requiere, que el área se encuentre 		registrada, en caso de haber áreas registradas no se mostrará dato alguno en la tabla, pero se podrá accesar al área de consulta.}
+		\UCitem{Precondiciones}{Para visualizar las áreas se requiere, que el área se encuentre registrada, en caso de haber áreas registradas no se mostrará dato alguno en la tabla, pero se podrá accesar al área de consulta.}
 		\UCitem{Postcondiciones}{El actor podrá regresar al menú de opciones para realizar otras operaciones en el sistema.}
 		\UCitem{Errores}{Que el sistema no detecte datos incorrectos y se visualicen en el la tabla de consulta.}
 		\UCitem{Tipo}{Caso de uso primario}
@@ -28,20 +28,20 @@
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] ingresa al sistema mediante el formulario de login.
-		\UCpaso toma la sesión de gerente de sucursal.
-		\UCpaso muestra en la página principal las opciones que tiene disponibles para realizar 					operaciones el actor.
-		\UCpaso[\UCactor] selecciona del menú la opción Áreas.
-		\UCpaso muestra las opciones que el gerente pueda realizar: Registrar Áreas, Consultar Áreas, Eliminar Áreas, Dar de Baja Áreas y Actualizar Áreas.
-		\UCpaso[\UCactor] selecciona la opción de Consultar Áreas.
-		\UCpaso mostrará los datos de las áreas registradas mediante una tabla [TA].		
-		\UCpaso[\UCactor] podrá visualizar los datos de las áreas registradas.
-		\UCpaso[\UCactor] finaliza su operación dentro del área de consulta.
-		\UCpaso[\UCactor] regresará al menú de opciones de la sección Plantilla UI  1.2 mediante el botón de menú de inicio.				
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU6}{Pantalla de perfil de empleado}.
+		\UCpaso Toma la sesión de gerente de sucursal.
+		\UCpaso Muestra en la página principal las opciones que tiene disponibles para realizar operaciones el actor.
+		\UCpaso[\UCactor] Selecciona del menú la opción Áreas.
+		\UCpaso Muestra las opciones que el gerente pueda realizar: Registrar Áreas, Consultar Áreas, Eliminar Áreas, Dar de Baja Áreas y Actualizar Áreas. En la sección \IUref{IU18}{Pantalla de menu de opciones áreas}.
+		\UCpaso[\UCactor] Selecciona la opción de Consultar Áreas.
+		\UCpaso Mostrará los datos de las áreas registradas mediante una tabla  \Trayref{A}.		
+		\UCpaso[\UCactor] Podrá visualizar los datos de las áreas registradas.
+		\UCpaso[\UCactor] Finaliza su operación dentro del área de consulta.
+		\UCpaso[\UCactor] Regresará al menú de opciones de la sección \IUref{IU18}{Pantalla de menu de opciones áreas} mediante el botón de menú de inicio.				
 	\end{UCtrayectoria}
 
 \begin{UCtrayectoriaA}{A}{No existe ningun dato registrado.}
-			\UCpaso[\UCactor] muestra el mensaje MSG 10: “No se encontró ningún registro”.
-			\UCpaso[\UCactor] finaliza su operación dentro del área de consulta. 
-			\UCpaso[\UCactor] puede regresar al menú de opciones de la sección Plantilla UI 1.2 mediante el botón de menú de inicio.
+			\UCpaso[\UCactor] Muestra el mensaje {\bf MS7-}``No existe ningun registro''
+			\UCpaso[\UCactor] Finaliza su operación dentro del área de consulta. 
+			\UCpaso[\UCactor] Puede regresar al menú de opciones de la sección \IUref{IU18}{Pantalla de menu de opciones áreas} mediante el botón de menú de inicio.
 		\end{UCtrayectoriaA}

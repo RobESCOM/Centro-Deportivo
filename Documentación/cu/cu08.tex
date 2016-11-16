@@ -6,13 +6,13 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 	\begin{UseCase}{CU8.0}{Eliminar áreas}{
-		En esta sección el gerente podrá dar de baja un área que se encuentre registrada, ya sea a 				causa de posibles errores como duplicación de contenido o error a la hora del registro.
+		En esta sección el gerente podrá dar de baja un área que se encuentre registrada, ya sea a causa de posibles errores como duplicación de contenido o error a la hora del registro.
 	}
 		\UCitem{Versión}{1.0}
 		\UCitem{Actor}{Gerente de sucursal}
 		\UCitem{Propósito}{Que se agreguen nuevas áreas para realizar alguna actividad.}
 		\UCitem{Entradas}{Nombre del área por medio de lista desplegable.}
-		\UCitem{Origen}{Los datos serán digitados desde el teclado o bien seleccionados desde una 				lista desplegable.}
+		\UCitem{Origen}{Los datos serán digitados desde el teclado o bien seleccionados desde una lista desplegable.}
 		\UCitem{Salidas}
 		{
 		En caso de que se haya eliminado el área:
@@ -33,15 +33,21 @@
 	\end{UseCase}
 
 \begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] ingresa al sistema mediante el formulario  Plantilla UI:Login.
-		\UCpaso toma la sesión de gerente de sucursal.
-		\UCpaso muestra en la página principal del gerente de sucursal, las opciones que tiene disponibles para realizar operaciones el actor. 
-		\UCpaso[\UCactor] selecciona del menú principal la opción Áreas.
-		\UCpaso muestra las opciones que el gerente pueda realizar.
-		\UCpaso[\UCactor] selecciona la opción eliminar áreas.
-		\UCpaso carga en una lista las áreas registradas [TA].
-		\UCpaso[\UCactor] selecciona de la lista delegable el área que desea eliminar.
-		\UCpaso[\UCactor] confirma la operación y presiona el botón eliminar.
-		\UCpaso elimina el dato y muestra un mensaje confirmando que el dato fue eliminado correctamente.
-		\UCpaso muestra una opción para regresar al menú de opciones. 
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU23}{Pantalla de perfil de empleado}.
+		\UCpaso Toma la sesión de gerente de sucursal.
+		\UCpaso Muestra en la página principal del gerente de sucursal, las opciones que tiene disponibles para realizar operaciones el actor. En la sección \IUref{IU18}{Pantalla de menu de opciones áreas}.
+		\UCpaso[\UCactor] Selecciona del menú principal la opción Áreas.
+		\UCpaso Muestra las opciones que el gerente pueda realizar.
+		\UCpaso[\UCactor] Selecciona la opción eliminar áreas.
+		\UCpaso Carga en una lista las áreas registradas \Trayref{A}.
+		\UCpaso[\UCactor] Selecciona de la lista delegable el área que desea eliminar.
+		\UCpaso[\UCactor] Confirma la operación y presiona el botón eliminar.
+		\UCpaso Elimina el dato y muestra un mensaje {\bf MS7-}``El dato fue eliminado correctamente''.
+		\UCpaso Muestra una opción para regresar al menú de opciones.En la sección \IUref{IU18}{Pantalla de menu de opciones áreas}.. 
 	\end{UCtrayectoria}
+
+\begin{UCtrayectoriaA}{A}{No existe ningun dato registrado.}
+			\UCpaso[\UCactor] Muestra el mensaje {\bf MS7-}``No existe ningun registro''
+			\UCpaso[\UCactor] Finaliza su operación dentro del área de consulta. 
+			\UCpaso[\UCactor] Puede regresar al menú de opciones de la sección \IUref{IU18}{Pantalla de menu de opciones áreas} mediante el botón de menú de inicio.
+		\end{UCtrayectoriaA}

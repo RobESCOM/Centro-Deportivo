@@ -22,29 +22,34 @@
 
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Ingresa al sistema mediante el formulario de login.
-		\UCpaso toma la sesión de gerente de sucursal.
-		\UCpaso muestra en la página principal del gerente de sucursal, las opciones que tiene disponibles para realizar operaciones el actor. 
-		\UCpaso[\UCactor] selecciona del menú, la opción Áreas.
-		\UCpaso muestra las opciones que el gerente pueda realizar.
-		\UCpaso[\UCactor] selecciona la opción de Registrar Áreas.
-		\UCpaso mostrará la Plantilla UI 23 para registrar un área.
-		\UCpaso[\UCactor] ingresa el nombre del área [TA].
-		\UCpaso[\UCactor] confirma el registro presionando el botón de registrar.
-		\UCpaso muestra el mensaje MSG: 45 “Campos obligatorios”  mostrados en la Plantilla UI 24 “Campos obligatorios”.
-		\UCpaso[\UCactor] ingresa el dato correspondiente en el campo largo y confirma él envío [TB].
-		\UCpaso manda un mensaje MSG: 45 “Campos obligatorios” .
-		\UCpaso[\UCactor] ingresa el dato en el campo ancho [TB].
-		\UCpaso[\UCactor] confirma el registro y presiona el botón registrar.
-		\UCpaso muestra el mensaje MSG: 45 “Campos obligatorios”  mostrados en la Plantilla UI 24 “Campos obligatorios”.
-		\UCpaso[\UCactor] confirma el registro presionando el botón registrar.
-		\UCpaso manda un mensaje mensaje MSG: 45 “Campos obligatorios” , refiriéndose a  que el campo responsable debe ser ingresado.
-		\UCpaso[\UCactor] ingresa en nombre en el campo responsable [TA].
-		\UCpaso[\UCactor] confirma el registro, presionando el botón de registrar área.
-		\UCpaso hace el registro y muestra una pantalla con un mensaje, diciendo que el registro fue exitoso.
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU6}{Pantalla de perfil de empleado}.
+		\UCpaso Toma la sesión de gerente de sucursal.
+		\UCpaso Muestra en la página principal del gerente de sucursal, las opciones que tiene disponibles para realizar operaciones el actor. 
+		\UCpaso[\UCactor] Selecciona del menú, la opción Áreas.
+		\UCpaso Muestra las opciones que el gerente pueda realizar.
+		\UCpaso[\UCactor] Selecciona la opción de Registrar Áreas.
+		\UCpaso Mostrará \IUref{IU19}{Pantalla para registro de áreas}  para registrar un área.
+		\UCpaso[\UCactor] Ingresa el nombre del área \Trayref{A}.
+		\UCpaso[\UCactor] Confirma el registro presionando el botón de registrar.
+		\UCpaso Muestra {\bf MS3-}``Ingresa los campos obligatorios marcados con * para continuar.''  mostrados en la \IUref{IU19}{Pantalla para registro de áreas} .
+		\UCpaso[\UCactor] Ingresa el dato correspondiente en el campo largo y confirma él envío \Trayref{B}.
+		\UCpaso Muestra {\bf MS3-}``Ingresa los campos obligatorios marcados con * para continuar.'' .
+		\UCpaso[\UCactor] Ingresa el dato en el campo ancho \Trayref{B}.
+		\UCpaso[\UCactor] Confirma el registro y presiona el botón registrar.
+		\UCpaso Muestra el mensaje {\bf MS3-}``Ingresa los campos obligatorios marcados con * para continuar.''
+		\UCpaso[\UCactor] Confirma el registro presionando el botón registrar.
+		\UCpaso Manda un mensaje mensaje {\bf MS3-}``Ingresa los campos obligatorios marcados con * para continuar.'' , refiriéndose a  que el campo responsable debe ser ingresado.
+		\UCpaso[\UCactor] Ingresa en nombre en el campo responsable \Trayref{A}.
+		\UCpaso[\UCactor] Confirma el registro, presionando el botón de registrar área.
+		\UCpaso Hace el registro y muestra una pantalla con un {\bf MS19-}``El registro fue exitoso.''
 	\end{UCtrayectoria}
 		
 		\begin{UCtrayectoriaA}{A}{El gerente de sucursal introduce espacios en blanco al inicio o caracteres especiales en el campo.}
 			\UCpaso[\UCactor] introduce espacios en blanco al inicio o caracteres especiales en el campo nombre.
-			\UCpaso mostrará MSG:12 
+			\UCpaso mostrará {\bf MS4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo, mostrados en la \IUref{IU19}{Pantalla para registro de áreas}.''
+		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaB}{B}{El gerente de sucursal introduce tipo de dato }
+			\UCpaso[\UCactor] introduce espacios en blanco al inicio o caracteres especiales en el campo nombre.
+			\UCpaso mostrará {\bf MS4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo, mostrados en la \IUref{IU19}{Pantalla para registro de áreas}.''
 		\end{UCtrayectoriaA}
