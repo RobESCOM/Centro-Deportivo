@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Inscribir Usuario a Curso</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="spectral/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script src ="assets/js/jquery-ui/external/jquery/jquery.js"></script>
+        <script src="assets/js/jquery-ui/jquery-ui.js"></script> 
+        <script src="assets/js/FuncionesJS.js"></script>
+        <script>
+            $(function () {
+                $("#datepicker").datepicker({
+                    changeMonth: true,
+                    changeYear: true
+                });
+            });
+
+            $("#age").tooltip({
+                classes: {
+                    "ui-tooltip": "highlight"
+                }
+            });
+
+            function fun() {
+                alert("Pulso fun");
+            }
+
+            $(".selector").button({
+                icon: {icon: "ui-icon-gear"}
+            });
+        </script>
+    </head>
+    <body>
+
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="homeGteSuc.html">Gerente de Sucursal</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="inicio.html">Home</a></li>
+                                    <li><a href="regSucursal.html">Consultar sucursal</a></li>
+                                    <li><a href="delSucursal.html">Eliminar sucursal</a></li>
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>Inscribir Usuario a Curso</h2>
+                    
+                </header>
+                <section class="wrapper style5">
+                    <h3>Inscribir Usuario a un curso en el sistema</h3>
+                    <div class="inner">
+                    
+                    <section>
+                            <h4>Datos de Cliente</h4>
+                            <form method="post" action = "RegCur">
+                                <div class="row uniform">
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="nameS">Nombre de Cliente</label>
+                                        <input type="text" id="nameC" name="nameC" placeholder="Mario Camacho" required>
+
+                                        <label for="nameS">ID Cliente</label>
+                                        <input type="text" id="idC" name="idC" placeholder="12354" required>
+
+
+                                        
+                      <label for="Sucursal">Sucursal de Asistencia</label>
+                                          <select id="Sucursal" name="Sucursal">
+                                            <option value=" " >Seleccione Sucursal</option>
+                          <option>Altavista</option>
+                          <option>Vallejo</option>
+                          <option >Buenavista</option>
+                          <option >Politecnico</option>
+                          <option >Zona rosa</option>
+                          <option >Condesa</option>
+                          <option >Polanco</option>
+                          <option >Anzures</option>
+                          <option >Plaza Delta</option>
+                          <option >Aragon</option>
+                          <option >Nezahualcoyothl</option>
+                                          </select>
+                                        </section>
+
+                                        <section id="Area">
+                                            
+                    <!---->
+                        <section>
+                            <h4>Datos de Curso</h4>
+                            <form method="post" action = "RegCur">
+                                <div class="row uniform">
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="nameS">Nombre de Curso</label>
+                                        <input type="text" id="nameC" name="nameC" placeholder="Spinnig" required>
+
+                                        <label for="nameS">idCusro</label>
+                                        <input type="text" id="idC" name="idC" placeholder="1654" required>
+
+                                        <p id="age" title="01/01/2017">Fecha de inicio 
+                                            <input type="text" id="datepicker" onclick="mostrarFecha()">
+                                        </p>
+
+                                        <p id="age" title="01/01/2017">Fecha de termino
+                                            <input type="text" id="datepicker" onclick="mostrarFecha()">
+                                        </p>
+
+                                        <label for="horario">Horario</label>
+                                        <select id="horario" name="horario">
+                                            <option>L-V 7:00hrs a 9:00hrs</option>
+                          <option>L-V 9:00hrs a 11:00hrs</option>
+                          <option>L-V 11:00hrs a 13:00hrs</option>
+                          <option>L-V 14:00hrs a 16:00hrs</option>
+                          <option>L-V 17:00hrs a 19:00hrs</option>
+                          <option>L-V 20:00hrs a 22:00hrs</option>
+                          <option>LMiV 8:00hrs a 9:00hrs</option>
+                          <option>LMiV 10:00hrs a 11:00hrs</option>
+                          <option>LMiV 12:00hrs a 13:00hrs</option>
+                          <option>LMiV 16:00hrs a 17:00hrs</option>
+                          <option>LMiV 19:00hrs a 20:00hrs</option>
+                          <option>MJS 8:00hrs a 10:00hrs</option>
+                          <option>MJS 10:00hrs a 12:00hrs</option>
+                          <option>MJS 13:00hrs a 15:00hrs</option>
+                          <option>MJS 17:00hrs a 19:00hrs</option>
+                                        </select>
+
+
+                                        <section id="Area">
+                                            
+                                            <label for="Area">Area</label>
+                                            <select id="Area" name="Area">
+                                            <option value=" " >Seleccione el Area</option>
+                          <option>Sala 1</option>
+                          <option>Sala 2</option>
+                          <option>Sala 3</option>
+                                          </select>
+                                        </section>
+
+                                    
+                                    <div class="12u$">
+                                        <ul class="actions">
+                                            <li><input type="submit" value="Enviar" class="special" /></li>
+                                            <li><input type="reset" value="Reset" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </article>
+
+        <!-- Scripts -->
+        <!--<script src="spectral/js/jquery.min.js"></script>
+        <script src="spectral/js/jquery.scrollex.min.js"></script> -->
+        <script src="spectral/js/jquery.scrolly.min.js"></script> 
+        <script src="spectral/js/skel.min.js"></script>
+        <script src="spectral/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="spectral/js/main.js"></script>
+    </body>
+</html>
