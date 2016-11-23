@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2016 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.22)  23 NOV 2016 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **analisis.tex
 (./analisis.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -27,20 +27,20 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 Package: cdtBook 2010/05/30, v1.0 CDT-ESCOM-IPN Plantilla para reportes de la C
 oordinación
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -252,15 +252,11 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -276,8 +272,8 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -317,8 +313,8 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -341,25 +337,25 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/01/15 v5.0o Spanish support from the babel system
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \es@quottoks=\toks16
 \es@quotdepth=\count89
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
+Package babel Info: Making " an active character on input line 533.
+Package babel Info: Making . an active character on input line 634.
+Package babel Info: Making < an active character on input line 679.
+Package babel Info: Making > an active character on input line 679.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/cmbright/cmbright.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cmbright/cmbright.sty
 Package: cmbright 2005/04/13 v8.1 (WaS)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -427,59 +423,59 @@ LaTeX Info: Redefining \LaTeXe on input line 139.
 LaTeX Font Info:    Try loading font information for OT1+cmbr on input line 144
 .
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/cmbright/ot1cmbr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/cmbright/ot1cmbr.fd
 File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 144.
+Package color Info: Driver file: pdftex.def on input line 143.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+(/usr/share/texlive/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
@@ -492,14 +488,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )))
 \wpXoffset=\skip46
 \wpYoffset=\skip47
@@ -510,7 +507,7 @@ Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 \tileX=\skip52
 \tileY=\skip53
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip54
 \f@ncyO@elh=\skip55
 \f@ncyO@erh=\skip56
@@ -521,14 +518,14 @@ Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 \f@ncyO@olf=\skip61
 \f@ncyO@orf=\skip62
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count94
@@ -544,7 +541,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks18
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fncychap/fncychap.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip63
 \mylen=\skip64
@@ -554,7 +551,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip68
 \pxx=\skip69
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/marvosym/marvosym.sty
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
 
@@ -574,7 +571,7 @@ Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 40.
 
 ) (./usecases.sty (./requerimientos.sty
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip70
 \LTright=\skip71
@@ -592,101 +589,101 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count101
 \LT@p@ftn=\toks19
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 Package hobsub Info: Skipping package `atbegshi' (already loaded).
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen117
 \Hy@linkcounter=\count102
 \Hy@pagecounter=\count103
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count104
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
-Package hyperref Info: Hyper figures OFF on input line 4446.
-Package hyperref Info: Link nesting OFF on input line 4451.
-Package hyperref Info: Hyper index ON on input line 4454.
-Package hyperref Info: Plain pages OFF on input line 4461.
-Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4691.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count105
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5044.
+LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen118
 \Fld@menulength=\count106
 \Field@Width=\dimen119
 \Fld@charsize=\dimen120
-Package hyperref Info: Hyper figures OFF on input line 6298.
-Package hyperref Info: Link nesting OFF on input line 6303.
-Package hyperref Info: Hyper index ON on input line 6306.
-Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring ON on input line 6316.
-Package hyperref Info: Link coloring with OCG OFF on input line 6323.
-Package hyperref Info: PDF/A mode OFF on input line 6328.
-LaTeX Info: Redefining \ref on input line 6368.
-LaTeX Info: Redefining \pageref on input line 6372.
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count107
 \c@Item=\count108
 \c@Hfootnote=\count109
@@ -694,22 +691,22 @@ LaTeX Info: Redefining \pageref on input line 6372.
 
 Package hyperref Message: Driver: hpdftex.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count110
 \c@bookmark@seq@number=\count111
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip74
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -717,10 +714,10 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen121
 \extrarowheight=\dimen122
@@ -731,14 +728,14 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \everycr=\toks22
 \minrowclearance=\skip77
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen123
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty
+(/usr/share/texlive/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty
 Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
 \c@@cf@currentpos=\count112
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count113
 \lst@gtempboxa=\box30
 \lst@token=\toks23
@@ -752,13 +749,13 @@ Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
 \lst@lineno=\count118
 \lst@maxwidth=\dimen127
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count119
 \lst@skipnumbers=\count120
 \lst@framebox=\box31
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
@@ -769,6 +766,9 @@ LaTeX Info: Redefining \% on input line 23.
 
 
 LaTeX Warning: Label `CU21.0Login' multiply defined.
+
+
+LaTeX Warning: Label `IU21.0' multiply defined.
 
 )
 \openout1 = `analisis.aux'.
@@ -789,7 +789,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen128
@@ -802,18 +802,18 @@ LaTeX Info: Redefining \% on input line 13.
 \MPnumerator=\count125
 \makeMPintoPDFobject=\count126
 \everyMPtoPDFconversion=\toks25
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -854,11 +854,11 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 13.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count127
 )
@@ -874,13 +874,13 @@ LaTeX Info: Redefining \nameref on input line 13.
 LaTeX Font Info:    Try loading font information for OML+cmbrm on input line 16
 .
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Try loading font information for OMS+cmbrs on input line 16
 .
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/cmbright/omscmbrs.fd
+(/usr/share/texlive/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 Package babel Info: Redefining spanish shorthand <<
@@ -910,8 +910,7 @@ Package babel Info: Redefining spanish shorthand "?
  [1
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./anal
-isis.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./analisis.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -950,7 +949,7 @@ Package babel Info: Redefining spanish shorthand "?
 [1
 
 
-] <images/headerInp.png, id=571, 1858.945pt x 358.33875pt>
+] <images/headerInp.png, id=599, 1858.945pt x 358.33875pt>
 File: images/headerInp.png Graphic file (type png)
 
 <use images/headerInp.png>
@@ -966,7 +965,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <5> not available
 (Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 85.
 LaTeX Font Info:    Try loading font information for U+mvs on input line 85.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/marvosym/umvs.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 
 Package spanish Warning: Replacing `OT1/cmbr/m/sc' by 
 (spanish)                faked small caps on input line 85.
@@ -1248,7 +1247,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 29.
-<images/CasosDeUso.png, id=655, 695.59875pt x 318.18875pt>
+<images/CasosDeUso.png, id=690, 695.59875pt x 318.18875pt>
 File: images/CasosDeUso.png Graphic file (type png)
 
 <use images/CasosDeUso.png>
@@ -1282,7 +1281,7 @@ Package babel Info: Redefining spanish shorthand "?
  [5
 
  <./images/CasosDeUso.png>]
-<images/uc/default.png, id=662, 926.46124pt x 57.21375pt>
+<images/uc/default.png, id=697, 926.46124pt x 57.21375pt>
 File: images/uc/default.png Graphic file (type png)
 
 <use images/uc/default.png>
@@ -1329,7 +1328,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
-<images/uc/iu.png, id=663, 61.22874pt x 55.20625pt>
+<images/uc/iu.png, id=698, 61.22874pt x 55.20625pt>
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 26.
@@ -1387,7 +1386,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
 [6 <./images/uc/default.png> <./images/uc/iu.png>]
-<images/uc/actor.png, id=675, 96.36pt x 74.2775pt>
+<images/uc/actor.png, id=710, 96.36pt x 74.2775pt>
 File: images/uc/actor.png Graphic file (type png)
  <use images/uc/actor.png>
 Package pdftex.def Info: images/uc/actor.png used on input line 44.
@@ -1398,7 +1397,7 @@ File: images/uc/iu.png Graphic file (type png)
 Package pdftex.def Info: images/uc/iu.png used on input line 44.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 
-<images/uc/usecase.png, id=677, 91.34125pt x 61.22874pt>
+<images/uc/usecase.png, id=712, 91.34125pt x 61.22874pt>
 File: images/uc/usecase.png Graphic file (type png)
 
 <use images/uc/usecase.png>
@@ -3249,75 +3248,84 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 27.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
+Overfull \hbox (66.51054pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2.9 on input line 26.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 26.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 26.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
  []
 
 File: images/uc/actor.png Graphic file (type png)
 <use images/uc/actor.png>
-Package pdftex.def Info: images/uc/actor.png used on input line 30.
+Package pdftex.def Info: images/uc/actor.png used on input line 29.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
-Package pdftex.def Info: images/uc/iu.png used on input line 30.
+Package pdftex.def Info: images/uc/iu.png used on input line 29.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 File: images/uc/usecase.png Graphic file (type png)
  <use images/uc/usecase.png>
-Package pdftex.def Info: images/uc/usecase.png used on input line 31.
+Package pdftex.def Info: images/uc/usecase.png used on input line 30.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 File: images/uc/actor.png Graphic file (type png)
 
 <use images/uc/actor.png>
-Package pdftex.def Info: images/uc/actor.png used on input line 32.
+Package pdftex.def Info: images/uc/actor.png used on input line 31.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/uc/usecase.png Graphic file (type png)
  <use images/uc/usecase.png>
-Package pdftex.def Info: images/uc/usecase.png used on input line 33.
+Package pdftex.def Info: images/uc/usecase.png used on input line 32.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 File: images/uc/actor.png Graphic file (type png)
 
 <use images/uc/actor.png>
-Package pdftex.def Info: images/uc/actor.png used on input line 34.
+Package pdftex.def Info: images/uc/actor.png used on input line 33.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/uc/usecase.png Graphic file (type png)
  <use images/uc/usecase.png>
-Package pdftex.def Info: images/uc/usecase.png used on input line 35.
+Package pdftex.def Info: images/uc/usecase.png used on input line 34.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 File: images/uc/actor.png Graphic file (type png)
 
 <use images/uc/actor.png>
-Package pdftex.def Info: images/uc/actor.png used on input line 36.
+Package pdftex.def Info: images/uc/actor.png used on input line 35.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/uc/actor.png Graphic file (type png)
  <use images/uc/actor.png>
-Package pdftex.def Info: images/uc/actor.png used on input line 37.
+Package pdftex.def Info: images/uc/actor.png used on input line 36.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/uc/usecase.png Graphic file (type png)
 
 <use images/uc/usecase.png>
-Package pdftex.def Info: images/uc/usecase.png used on input line 38.
+Package pdftex.def Info: images/uc/usecase.png used on input line 37.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 File: images/uc/usecase.png Graphic file (type png)
  <use images/uc/usecase.png>
-Package pdftex.def Info: images/uc/usecase.png used on input line 39.
+Package pdftex.def Info: images/uc/usecase.png used on input line 38.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 File: images/headerInp.png Graphic file (type png)
 
 <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 40.
+Package pdftex.def Info: images/headerInp.png used on input line 39.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -3327,47 +3335,47 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 [22]
+File: images/uc/actor.png Graphic file (type png)
+ <use images/uc/actor.png>
+Package pdftex.def Info: images/uc/actor.png used on input line 42.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/uc/actor.png Graphic file (type png)
  <use images/uc/actor.png>
 Package pdftex.def Info: images/uc/actor.png used on input line 43.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/uc/actor.png Graphic file (type png)
- <use images/uc/actor.png>
+
+<use images/uc/actor.png>
 Package pdftex.def Info: images/uc/actor.png used on input line 44.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
-File: images/uc/usecase.png Graphic file (type png)
-
-<use images/uc/usecase.png>
-Package pdftex.def Info: images/uc/usecase.png used on input line 45.
-(pdftex.def)             Requested size: 16.40865pt x 11.0pt.
-File: images/uc/actor.png Graphic file (type png)
- <use images/uc/actor.png>
-Package pdftex.def Info: images/uc/actor.png used on input line 46.
-(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 44.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 ) (./cu/cu11.tex
 File: images/headerInp.png Graphic file (type png)
 
@@ -7406,7 +7414,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 63.
-(./Pantallas/IU23.tex
+(./Pantallas/IU21_0.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
@@ -7423,47 +7431,451 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
-<images/gui/menuOpciones.png, id=1721, 1076.02pt x 603.25375pt>
+<images/gui/iu21-0.png, id=1755, 1308.89pt x 603.25375pt>
+File: images/gui/iu21-0.png Graphic file (type png)
+
+<use images/gui/iu21-0.png>
+Package pdftex.def Info: images/gui/iu21-0.png used on input line 10.
+(pdftex.def)             Requested size: 235.0pt x 108.30484pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 19.
+ [60
+
+ <./images/gui/iu21-0.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmbr on input line 21.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/cmbright/omscmbr.fd
+File: omscmbr.fd 2005/04/13 v8.1 (WaS)
+)
+LaTeX Font Info:    Font shape `OMS/cmbr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmbrs/m/n' tried instead on input line 21.
+File: images/uc/iu.png Graphic file (type png)
+
+<use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 21.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 22.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+) (./Pantallas/IU21_1.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{IU21.0}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 ...rincipal de acceso a Gerente de Sucursal.}
+                                                  
+<images/gui/Iu21-1.png, id=1767, 1239.63126pt x 578.16pt>
+File: images/gui/Iu21-1.png Graphic file (type png)
+
+<use images/gui/Iu21-1.png>
+Package pdftex.def Info: images/gui/Iu21-1.png used on input line 10.
+(pdftex.def)             Requested size: 235.0pt x 109.5957pt.
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 21.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: images/headerInp.png Graphic file (type png)
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 23.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 23.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 23.
+[61 <./images/gui/Iu21-1.png (PNG copy)>]
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 27.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+)
+(./Pantallas/IU21_2.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+<images/gui/IU21-2.png, id=1784, 480.79625pt x 596.2275pt>
+File: images/gui/IU21-2.png Graphic file (type png)
+
+<use images/gui/IU21-2.png>
+Package pdftex.def Info: images/gui/IU21-2.png used on input line 9.
+(pdftex.def)             Requested size: 235.0pt x 291.42621pt.
+File: images/headerInp.png Graphic file (type png)
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 18.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 18.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 18.
+[62 <./images/gui/IU21-2.png (PNG copy)>]
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 20.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: images/uc/iu.png Graphic file (type png)
+
+<use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 26.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+) (./Pantallas/IU22_1.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+<images/gui/IU22.png, id=1798, 1145.27875pt x 513.92pt>
+File: images/gui/IU22.png Graphic file (type png)
+
+<use images/gui/IU22.png>
+Package pdftex.def Info: images/gui/IU22.png used on input line 10.
+(pdftex.def)             Requested size: 235.0pt x 105.44838pt.
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 21.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: images/headerInp.png Graphic file (type png)
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 27.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 27.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 27.
+[63 <./images/gui/IU22.png (PNG copy)>]) (./Pantallas/IU23_1.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+<images/gui/IU23.png, id=1815, 1277.77374pt x 526.96875pt>
+File: images/gui/IU23.png Graphic file (type png)
+
+<use images/gui/IU23.png>
+Package pdftex.def Info: images/gui/IU23.png used on input line 9.
+(pdftex.def)             Requested size: 235.0pt x 96.91678pt.
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 20.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+) (./Pantallas/IU24_1.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+<images/gui/IU24.png, id=1817, 1279.78125pt x 514.92375pt>
+File: images/gui/IU24.png Graphic file (type png)
+
+<use images/gui/IU24.png>
+Package pdftex.def Info: images/gui/IU24.png used on input line 10.
+(pdftex.def)             Requested size: 235.0pt x 94.55226pt.
+File: images/headerInp.png Graphic file (type png)
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 10.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 10.
+[64 <./images/gui/IU23.png (PNG copy)>]
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 21.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+)
+(./Pantallas/IU25_1.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ <images/gui/IU25.png, id=1832, 410.53375pt x 570.13pt>
+File: images/gui/IU25.png Graphic file (type png)
+
+<use images/gui/IU25.png>
+Package pdftex.def Info: images/gui/IU25.png used on input line 11.
+(pdftex.def)             Requested size: 235.0pt x 326.35199pt.
+File: images/headerInp.png Graphic file (type png)
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 20.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 20.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 20.
+[65 <./images/gui/IU24.png (PNG copy)>]
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 22.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+)
+(./Pantallas/IU23.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+<images/gui/menuOpciones.png, id=1848, 1076.02pt x 603.25375pt>
 File: images/gui/menuOpciones.png Graphic file (type png)
 
 <use images/gui/menuOpciones.png>
 Package pdftex.def Info: images/gui/menuOpciones.png used on input line 9.
 (pdftex.def)             Requested size: 235.0pt x 131.74051pt.
+File: images/headerInp.png Graphic file (type png)
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 9.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 18.
- [60
-
- <./images/gui/menuOpciones.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmbr on input line 20.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/cmbright/omscmbr.fd
-File: omscmbr.fd 2005/04/13 v8.1 (WaS)
-)
-LaTeX Font Info:    Font shape `OMS/cmbr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmbrs/m/n' tried instead on input line 20.
+(babel)             in language  on input line 9.
+[66 <./images/gui/IU25.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand >>
@@ -7477,12 +7889,48 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 33.
 
-<images/gui/registroArea.png, id=1731, 548.0475pt x 638.385pt>
+<images/gui/registroArea.png, id=1859, 548.0475pt x 638.385pt>
 File: images/gui/registroArea.png Graphic file (type png)
 
 <use images/gui/registroArea.png>
 Package pdftex.def Info: images/gui/registroArea.png used on input line 41.
 (pdftex.def)             Requested size: 235.0pt x 273.74039pt.
+File: images/headerInp.png Graphic file (type png)
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 46.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 46.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 46.
+[67 <./images/gui/menuOpciones.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand >>
@@ -7496,7 +7944,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 61.
 
-<images/gui/EliminaAreas.png, id=1732, 630.355pt x 685.56125pt>
+<images/gui/EliminaAreas.png, id=1873, 630.355pt x 685.56125pt>
 File: images/gui/EliminaAreas.png Graphic file (type png)
 
 <use images/gui/EliminaAreas.png>
@@ -7537,7 +7985,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
-[61]
+[68 <./images/gui/registroArea.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand >>
@@ -7550,53 +7998,16 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 91.
-File: images/headerInp.png Graphic file (type png)
- <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 96.
-(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 38.75003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 96.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 96.
-[62 <./images/gui/registroArea.png>]
-<images/gui/registroArea2.png, id=1759, 522.95375pt x 630.355pt>
+<images/gui/registroArea2.png, id=1885, 522.95375pt x 630.355pt>
 File: images/gui/registroArea2.png Graphic file (type png)
 
 <use images/gui/registroArea2.png>
 Package pdftex.def Info: images/gui/registroArea2.png used on input line 99.
 (pdftex.def)             Requested size: 235.0pt x 283.26277pt.
-) (./Pantallas/IU24.tex
 File: images/headerInp.png Graphic file (type png)
-
-<use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 1.
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 99.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -7606,17 +8017,30 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 99.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 99.
+[69 <./images/gui/EliminaAreas.png>]) (./Pantallas/IU24.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
@@ -7629,21 +8053,44 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
-[63 <./images/gui/EliminaAreas.png>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
+File: images/headerInp.png Graphic file (type png)
 
-<images/gui/Login.png, id=1773, 354.32375pt x 252.945pt>
+<use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 6.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 6.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 6.
+[70 <./images/gui/registroArea2.png>]
+<images/gui/Login.png, id=1913, 354.32375pt x 252.945pt>
 File: images/gui/Login.png Graphic file (type png)
 
 <use images/gui/Login.png>
@@ -7653,42 +8100,6 @@ File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 20.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-File: images/headerInp.png Graphic file (type png)
- <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 21.
-(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 38.75003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 21.
-[64 <./images/gui/registroArea2.png>]
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 21.
@@ -7705,8 +8116,44 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 32.
+File: images/headerInp.png Graphic file (type png)
 
-<images/gui/registro.png, id=1788, 1186.4325pt x 659.46375pt>
+<use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 37.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 37.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 37.
+[71 <./images/gui/Login.png>]
+<images/gui/registro.png, id=1927, 1186.4325pt x 659.46375pt>
 File: images/gui/registro.png Graphic file (type png)
 
 <use images/gui/registro.png>
@@ -7720,43 +8167,6 @@ File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 52.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-File: images/headerInp.png Graphic file (type png)
-
-<use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 53.
-(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 38.75003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 53.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 53.
-[65 <./images/gui/Login.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand >>
@@ -7770,7 +8180,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 63.
 
-<images/gui/mapaU.png, id=1804, 1016.29688pt x 435.12563pt>
+<images/gui/mapaU.png, id=1930, 1016.29688pt x 435.12563pt>
 File: images/gui/mapaU.png Graphic file (type png)
 
 <use images/gui/mapaU.png>
@@ -7778,7 +8188,7 @@ Package pdftex.def Info: images/gui/mapaU.png used on input line 71.
 (pdftex.def)             Requested size: 235.0pt x 100.61458pt.
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 80.
+Package pdftex.def Info: images/headerInp.png used on input line 71.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -7788,33 +8198,32 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 80.
-[66 <./images/gui/registro.png> <./images/gui/mapaU.png>]
+(babel)             in language  on input line 71.
+[72 <./images/gui/registro.png>]
 File: images/uc/iu.png Graphic file (type png)
-
-<use images/uc/iu.png>
+ <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 82.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 Package babel Info: Redefining spanish shorthand <<
@@ -7830,7 +8239,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 93.
 
-<images/gui/NTelefon.png, id=1819, 392.96812pt x 127.97812pt>
+<images/gui/NTelefon.png, id=1945, 392.96812pt x 127.97812pt>
 File: images/gui/NTelefon.png Graphic file (type png)
 
 <use images/gui/NTelefon.png>
@@ -7840,6 +8249,43 @@ File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 112.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+File: images/headerInp.png Graphic file (type png)
+
+<use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 113.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 113.
+[73 <./images/gui/mapaU.png>]
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 113.
@@ -7856,44 +8302,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 124.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 124.
-File: images/headerInp.png Graphic file (type png)
 
-<use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 126.
-(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 38.75003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 126.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 126.
-[67 <./images/gui/NTelefon.png>]
-<images/gui/NMail.png, id=1837, 395.22656pt x 115.18031pt>
+<images/gui/NMail.png, id=1963, 395.22656pt x 115.18031pt>
 File: images/gui/NMail.png Graphic file (type png)
 
 <use images/gui/NMail.png>
@@ -7907,28 +8317,10 @@ File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 144.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 155.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 155.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 155.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 155.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 155.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 155.
-
-<images/gui/consulta.png, id=1840, 800.23969pt x 367.3725pt>
-File: images/gui/consulta.png Graphic file (type png)
-
-<use images/gui/consulta.png>
-Package pdftex.def Info: images/gui/consulta.png used on input line 163.
-(pdftex.def)             Requested size: 235.0pt x 107.88065pt.
 File: images/headerInp.png Graphic file (type png)
- <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 172.
+
+<use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 145.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -7938,30 +8330,49 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 172.
-[68 <./images/gui/NMail.png>]
+(babel)             in language  on input line 145.
+[74 <./images/gui/NTelefon.png> <./images/gui/NMail.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 155.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 155.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 155.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 155.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 155.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 155.
+
+<images/gui/consulta.png, id=1980, 800.23969pt x 367.3725pt>
+File: images/gui/consulta.png Graphic file (type png)
+
+<use images/gui/consulta.png>
+Package pdftex.def Info: images/gui/consulta.png used on input line 163.
+(pdftex.def)             Requested size: 235.0pt x 107.88065pt.
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 174.
@@ -7982,8 +8393,44 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 186.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 186.
+File: images/headerInp.png Graphic file (type png)
 
-<images/gui/inicio.png, id=1858, 1023.07219pt x 548.80031pt>
+<use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 188.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 188.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 188.
+[75 <./images/gui/consulta.png>]
+<images/gui/inicio.png, id=1999, 1023.07219pt x 548.80031pt>
 File: images/gui/inicio.png Graphic file (type png)
 
 <use images/gui/inicio.png>
@@ -7993,42 +8440,6 @@ File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 205.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-File: images/headerInp.png Graphic file (type png)
- <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 211.
-(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 38.75003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 211.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 211.
-[69 <./images/gui/consulta.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand >>
@@ -8042,21 +8453,16 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 216.
 
-<images/gui/opcionRecepcionista.png, id=1876, 752.0597pt x 239.39438pt>
+<images/gui/opcionRecepcionista.png, id=2001, 752.0597pt x 239.39438pt>
 File: images/gui/opcionRecepcionista.png Graphic file (type png)
 
 <use images/gui/opcionRecepcionista.png>
 Package pdftex.def Info: images/gui/opcionRecepcionista.png used on input line 
 224.
 (pdftex.def)             Requested size: 235.0pt x 74.80324pt.
-File: images/uc/iu.png Graphic file (type png)
- <use images/uc/iu.png>
-Package pdftex.def Info: images/uc/iu.png used on input line 235.
-(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 File: images/headerInp.png Graphic file (type png)
-
-<use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 241.
+ <use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 230.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -8066,30 +8472,34 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 241.
-[70 <./images/gui/inicio.png> <./images/gui/opcionRecepcionista.png>]
+(babel)             in language  on input line 230.
+[76 <./images/gui/inicio.png>]
+File: images/uc/iu.png Graphic file (type png)
+ <use images/uc/iu.png>
+Package pdftex.def Info: images/uc/iu.png used on input line 235.
+(pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 246.
 Package babel Info: Redefining spanish shorthand >>
@@ -8103,7 +8513,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 246.
 
-<images/gui/pagoMem.png, id=1891, 712.16063pt x 484.81125pt>
+<images/gui/pagoMem.png, id=2018, 712.16063pt x 484.81125pt>
 File: images/gui/pagoMem.png Graphic file (type png)
 
 <use images/gui/pagoMem.png>
@@ -8125,16 +8535,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 276.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 276.
-
-<images/gui/baja.png, id=1893, 1184.425pt x 552.0625pt>
-File: images/gui/baja.png Graphic file (type png)
-
-<use images/gui/baja.png>
-Package pdftex.def Info: images/gui/baja.png used on input line 284.
-(pdftex.def)             Requested size: 235.0pt x 109.52603pt.
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 284.
+Package pdftex.def Info: images/headerInp.png used on input line 278.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -8144,30 +8547,36 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 284.
-[71 <./images/gui/pagoMem.png>]
+(babel)             in language  on input line 278.
+[77 <./images/gui/opcionRecepcionista.png>]
+<images/gui/baja.png, id=2035, 1184.425pt x 552.0625pt>
+File: images/gui/baja.png Graphic file (type png)
+
+<use images/gui/baja.png>
+Package pdftex.def Info: images/gui/baja.png used on input line 284.
+(pdftex.def)             Requested size: 235.0pt x 109.52603pt.
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 295.
@@ -8176,11 +8585,10 @@ File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 296.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-)
 File: images/headerInp.png Graphic file (type png)
 
 <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 75.
+Package pdftex.def Info: images/headerInp.png used on input line 297.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -8190,86 +8598,127 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 75.
-[72 <./images/gui/baja.png>]
+(babel)             in language  on input line 297.
+[78 <./images/gui/pagoMem.png> <./images/gui/baja.png>])
+File: images/headerInp.png Graphic file (type png)
+
+<use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 81.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 81.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 81.
+[79]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 75.
-<images/baseGYMver2.png, id=1921, 557.83406pt x 392.21532pt>
+(babel)             in language  on input line 81.
+<images/baseGYMver2.png, id=2055, 557.83406pt x 392.21532pt>
 File: images/baseGYMver2.png Graphic file (type png)
 
 <use images/baseGYMver2.png>
-Package pdftex.def Info: images/baseGYMver2.png used on input line 79.
+Package pdftex.def Info: images/baseGYMver2.png used on input line 85.
 (pdftex.def)             Requested size: 376.00143pt x 264.37483pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 83.
- [73
+(babel)             in language  on input line 89.
+[80
 
  <./images/baseGYMver2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (./analisis.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `analisis.out' has not changed.
-(rerunfilecheck)             Checksum: 9E1E28B9448E8CCA38F052EF8D321D07;9465.
+(rerunfilecheck)             Checksum: CA37511D14F47D9F0273DE173178AB45;10173.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -8277,13 +8726,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 10922 strings out of 493014
- 150266 string characters out of 6133351
- 254203 words of memory out of 5000000
- 13310 multiletter control sequences out of 15000+600000
+ 11047 strings out of 493029
+ 151409 string characters out of 6136234
+ 254694 words of memory out of 5000000
+ 13340 multiletter control sequences out of 15000+600000
  16117 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,16n,45p,680b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8302,9 +8751,6 @@ laced by a fixed one
 pdfTeX warning (dest): name{UI25.1} has been referenced but does not exist, rep
 laced by a fixed one
 
-pdfTeX warning (dest): name{IU25.1} has been referenced but does not exist, rep
-laced by a fixed one
-
 pdfTeX warning (dest): name{IU24.1} has been referenced but does not exist, rep
 laced by a fixed one
 
@@ -8314,19 +8760,10 @@ ced by a fixed one
 pdfTeX warning (dest): name{UI22.1} has been referenced but does not exist, rep
 laced by a fixed one
 
-pdfTeX warning (dest): name{IU23.1} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{IU22.1} has been referenced but does not exist, rep
-laced by a fixed one
-
 pdfTeX warning (dest): name{UI21} has been referenced but does not exist, repla
 ced by a fixed one
 
 pdfTeX warning (dest): name{IU21.1} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{IU21.0} has been referenced but does not exist, rep
 laced by a fixed one
 
 pdfTeX warning (dest): name{UI88} has been referenced but does not exist, repla
@@ -8365,19 +8802,19 @@ ed by a fixed one
 pdfTeX warning (dest): name{IU8} has been referenced but does not exist, replac
 ed by a fixed one
 
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr9.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/hfbright/hfbrsl8.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on analisis.pdf (77 pages, 2212823 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/hfbright/hfbr9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/hfbright/hfbrbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/hfbright/hfbrsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hf
+bright/hfbrsl8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/h
+fbrsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym
+.pfb>
+Output written on analisis.pdf (84 pages, 2855032 bytes).
 PDF statistics:
- 2146 PDF objects out of 2487 (max. 8388607)
- 2001 compressed objects within 21 object streams
- 885 named destinations out of 1000 (max. 500000)
- 1042 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2292 PDF objects out of 2487 (max. 8388607)
+ 2131 compressed objects within 22 object streams
+ 948 named destinations out of 1000 (max. 500000)
+ 1133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
