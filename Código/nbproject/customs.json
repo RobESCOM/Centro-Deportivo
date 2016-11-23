@@ -1,0 +1,12 @@
+{
+    "elements": {
+        "a": {
+            "attributes": {
+                "href": {}
+            }
+        },
+        "li": {},
+        "span": {}
+    },
+    "attributes": {}
+}

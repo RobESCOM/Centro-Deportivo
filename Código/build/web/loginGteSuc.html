@@ -1,0 +1,88 @@
+<!-- Modulo Cursos  -->
+<!-- Carrillo Mendoza Martin Alejandro -->
+<!-- Home Gte de Sucursal -->
+<!-- ADOO -->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Login Gerente de Sucursal</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="spectral/css/main.css" />
+        <script src ="assets/js/jquery-ui/external/jquery/jquery.js"></script>
+        <script src="assets/js/jquery-ui/jquery-ui.js"></script> 
+        <script src="assets/js/FuncionesJS.js"></script>
+    </head>
+    <body>	
+
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="inicio.html">Deportivo San Pancho</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="inicio.html">Home</a></li>
+                                    <li><a href="regSucursal.html">Consultar sucursal</a></li>
+                                    <li><a href="delSucursal.html">Eliminar sucursal</a></li>
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <article id="main">
+                <header>
+                    <h2>Login Gerente de Sucursal</h2>
+                    <p>Lindavista</p>
+                </header>
+                <section class="wrapper style5">
+                    <li>Acceder como:</li>
+                    <div class="inner">
+                        <div class="12u$" align="center">
+                            <SCRIPT  language=JavaScript>
+                                function go() {
+                                    if (document.form.password.value == '1234' && document.form.login.value == 'GERENTE') {
+                                        document.form.submit();
+                                    } else {
+                                        alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+                                    }
+                                }
+                            </SCRIPT> 
+                            <FORM name=form action="homeGteSuc.html">
+                                <div class="form-group" align="center">
+                                    <P>No Gerente:    <INPUT type=text name=login> </P>
+                                </div>
+                                <div class="form-group" align="center">
+                                    <P>Contraseña: <INPUT type=password name=password> </P>
+                                </div>
+                                <P><div class="form-group" align="center"></P>
+                                    <INPUT onclick=go() type=button value=Acceder> <INPUT onclick=go() type=button value=Limpiar>
+                                </div>
+                            </FORM> 
+
+                            </section>
+                        </div>
+                </section>
+                <!-- Scripts -->
+                <!--<script src="spectral/js/jquery.min.js"></script>
+                <script src="spectral/js/jquery.scrollex.min.js"></script> -->
+                <script src="spectral/js/jquery.scrolly.min.js"></script> 
+                <script src="spectral/js/skel.min.js"></script>
+                <script src="spectral/js/util.js"></script>
+                <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+                <script src="spectral/js/main.js"></script>
+        </div>
+    </div>
+</section>
+</article>
+
+
+</div>
+</body>
+</html>

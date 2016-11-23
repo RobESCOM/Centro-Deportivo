@@ -129,29 +129,6 @@ public class CRUD {
         }
     }
     
-    public void update( String name, String price, String desc, int ID ) {
-        String sql="";
-      
-        if(price.equals("")||desc.equals(""))
-        {
-            sql = " UPDATE platillos SET nombre = '"+name+"' WHERE idPlatillo="+ID;
-        }
-        else if(name.equals("")||desc.equals("")){
-            sql = " UPDATE platillos SET precio = "+price+"WHERE idPlatillo="+ID;
-        }
-        else if(name.equals("")||price.equals("")){
-            sql = " UPDATE platillos SET descripcion = "+desc+"WHERE idPlatillo="+ID; 
-        }
-        try {
-            sentencia = con.getConn().createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE );
-            sentencia.executeUpdate( sql );
-            System.out.println("¡¡El registro finalizo con exito!!");
-        } catch (SQLException ex) {
-            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-    }
-    
     public String getNombreAreas() {
         String sql = "SELECT nombre FROM area";
         String row = ""; 
@@ -192,6 +169,7 @@ public class CRUD {
                 for( int i = 1; i <= n; i++ ) {
                     row += r.getString( i );
                 }
+                
                 row += "**";
             }
         } catch (SQLException ex) {
@@ -201,7 +179,65 @@ public class CRUD {
         return row;
     }
     
+    public String consultarEstados() {
+       String sql = "SELECT * FROM estado"; 
+       String row = "";
+       
+       try {
+           sentencia = con.getConn().createStatement();
+           ResultSet r = sentencia.executeQuery(sql);
+           int n;
+           
+           while( r.next() ) {
+                n = r.getMetaData().getColumnCount();
+                
+                for( int i = 1; i <= n; i++ ) {
+                    if( i == 1 ) {
+                        row += r.getString( i );
+                        row += "_";
+                    } else {
+                        row += r.getString( i );
+                    }
+                }
+                
+                row += "**";
+           }
+       } catch( SQLException ex ) {
+           Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+       }
+       
+       return row.substring(0, row.length() - 2 );
+    }
     
+    public String consultarDelegaciones( String idState ) {
+       String sql = "SELECT idDeleg_Mun, nombre FROM deleg_mun WHERE Estado_idEstado = " + idState; 
+       String row = "";
+       
+       try {
+           sentencia = con.getConn().createStatement();
+           ResultSet r = sentencia.executeQuery(sql);
+           int n;
+           
+           while( r.next() ) {
+                n = r.getMetaData().getColumnCount();
+                
+                for( int i = 1; i <= n; i++ ) {
+                    if( i == 1 ) {
+                        row += r.getString( i );
+                        row += "_";
+                    } else {
+                        row += r.getString( i );
+                    }
+                }
+                
+                row += "**";
+           }
+       } catch( SQLException ex ) {
+           Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+       }
+       
+       return ( row.equals("") )? row:row.substring(0, row.length() - 2 );
+    }
     /* public static void main( String args[] ) {
         CRUD test = new CRUD();
         

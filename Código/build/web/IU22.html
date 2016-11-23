@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Baja Curso</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="spectral/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script src ="assets/js/jquery-ui/external/jquery/jquery.js"></script>
+        <script src="assets/js/jquery-ui/jquery-ui.js"></script> 
+        <script src="assets/js/FuncionesJS.js"></script>
+        <script>
+            $(function () {
+                $("#datepicker").datepicker({
+                    changeMonth: true,
+                    changeYear: true
+                });
+            });
+
+            $("#age").tooltip({
+                classes: {
+                    "ui-tooltip": "highlight"
+                }
+            });
+
+            function fun() {
+                alert("Pulso fun");
+            }
+
+            $(".selector").button({
+                icon: {icon: "ui-icon-gear"}
+            });
+        </script>
+    </head>
+    <body>
+
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="homeGteSuc.html">Gerente de Sucursal</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="inicio.html">Home</a></li>
+                                    <li><a href="regSucursal.html">Consultar sucursal</a></li>
+                                    <li><a href="delSucursal.html">Eliminar sucursal</a></li>
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>Eliminar registro de Curso</h2>
+                </header>
+                <section class="wrapper style5">
+                    <h3>Eliminar Curso</h3>
+                    <div class="inner">
+                        <section>
+                            <h4>Cursos Registrados</h4>
+                            <a href="#tabs-3" onclick="mostrarDatos(this)">Consultar</a>
+                            <div class="table-wrapper">
+                                <table id="bajas">
+                                    <tr>
+                                        <th>ID Curso</th>
+                                        <th>Nombre Curso</th>
+                                        <th>Instructor</th>
+                                        <th>Area</th>
+                                        <th>Costo</th>
+                                        <th>Finicio</th>
+                                        <th>Ftermino</th>
+                                        <th>Sucursal</th>
+                                    </tr> 
+                                </table>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </article>
+
+        <!-- Scripts -->
+        <!--<script src="spectral/js/jquery.min.js"></script>
+        <script src="spectral/js/jquery.scrollex.min.js"></script> -->
+        <script src="spectral/js/jquery.scrolly.min.js"></script> 
+        <script src="spectral/js/skel.min.js"></script>
+        <script src="spectral/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="spectral/js/main.js"></script>
+    </body>
+</html>

@@ -1,4 +1,3 @@
-
 /* Variables globales para la identificacion de telelfonos y correos */
 var contTels = 2;
 var contMail = 2;
@@ -8,44 +7,46 @@ function verificarCP() {
     var regExp = /([a-z]|[A-Z])/g;
     var result = cp.match(regExp);
 
-    if (result !== null) {
-        alert("Codigo postal no valido");//mostrarMensaje("#hideCP");
-        document.getElementById("cp").focus();
+    if ( result !== null ) {
+        alert("Codigo postal no valido"); //mostrarMensaje("#hideCP");
+        document.getElementById("cp").value = "";
     } else {
         result = document.getElementById("cp").value;
 
         if (result.length > 6) {
             alert("Codigo postal no debe ser mayor a 5 digitos");
-            document.getElementById("cp").focus();
+            document.getElementById("cp").value = "";
         }
     }
 }
 
-function verificarTel(id) {
+function verificarTel( id ) {
+    var tel;
+    
     if (typeof id === "undefined") {
         id = document.getElementById("tel");
-        var tel = id.value;
+        tel = id.value;
     } else {
         tel = id.value;
     }
 
     var regExp = /([a-z]|[A-Z])/g;
-    var result = tel.match(regExp);
+    var result = tel.match( regExp );
 
-    if (result !== null) {
+    if( result !== null ) {
         alert("Inserte un numero");
-        id.focus();
+        id.value = "";
     } else {
         result = id.value;
 
-        if (result.length <= 15 && result !== "") {
+        if( result.length <= 15 && result !== "" ) {
             //Numero valido
         } else if (result === "") {
             alert("introduzca un numero telefonico valido");
-            id.focus();
+            id.value = "";
         } else {
             alert("El numero telefonico no debe contener mas de 15 digitos");
-            id.focus();
+            id.value = "";
         }
     }
 }
@@ -58,13 +59,11 @@ function moreTel() {
         document.getElementById("teles").appendChild(newTel).id = "tel" + contTels;
         document.getElementById("tel" + contTels).setAttribute("type", "text");
         document.getElementById("tel" + contTels).setAttribute("placeholder", "01 800 i wanna be sedated");
-        document.getElementById("tel" + contTels).focus();
         document.getElementById("tel" + contTels).setAttribute("onblur", "verificarTel(this)");
-        document.getElementById("tel" + contTels++).focus();
     }
 }
 
-function mostrarFecha() { 
+function mostrarFecha() {
     document.getElementById("ui-datepicker-div").style.display = "block";
 }
 //Fucnion original para verificar y aniadir mas telefonos
@@ -127,13 +126,69 @@ function moreMail(id) {
             document.getElementById("mails").appendChild(newTel).id = "mails" + contMail;
             document.getElementById("mails" + contMail).setAttribute("type", "email");
             document.getElementById("mails" + contMail).setAttribute("placeholder", "nile@song.com");
-            document.getElementById("mails" + contMail).focus();
             document.getElementById("mails" + contMail++).setAttribute("onblur", "moreMail(this)");
         }
     } else {
         alert("Direccion de correo electronica no valida");
-        id.focus();
+        id.value = "";
     }
+}
+
+function mostrarEstado() {
+    var x = "needState";
+    
+    $.ajax({
+        type: "post",
+        url: "EstadoMexico",
+        data: {consultar: x},
+        success: function (data) {
+            var states = data.split("**");
+            var len = states.length;
+            var dato;
+            var select = document.getElementById("state");
+            var option;
+            
+            for( var i = 0; i < len; i++ ) {
+                dato = states[i].split("_");
+                option = document.createElement("option");
+                option.value = dato[0];
+                option.text = dato[1];
+                select.add(option);  
+            }
+            
+            select.setAttribute("onchange", "selectMunicipio()");
+        }
+    });
+}
+
+function selectMunicipio() {
+    var index = document.getElementById("state").selectedIndex;
+    var idState = document.getElementById("state").options[index].value; //Lee el id del estado
+    
+    $.ajax({
+        type: "post",
+        url: "EstadoMexico",
+        data: {deleg: idState},
+        success: function (data) {
+            if( data !== "" ) {
+                var deleg = data.split("**");
+                var len = deleg.length;
+                var dato;
+                var select = document.getElementById("del");
+                var option;
+            
+                for( var i = 0; i < len; i++ ) {
+                    dato = deleg[i].split("_");
+                    option = document.createElement("option");
+                    option.value = dato[0];
+                    option.text = dato[1];
+                    select.add(option);  
+                }
+            } else {
+                alert("No se encontro ni madres!!");
+            }
+        }
+    });
 }
 
 /* Funcion jquery fundamental añadir jquery para poder usar*/
@@ -181,8 +236,13 @@ function mostrarDatos(idTab) {
                 var len = sucursales.length;
                 var sucData, len2;
                 var cabecera = "<tr> <th>ID</th><th>Nombre Sucursal</th><th>Estado</th><th>Telefono</th><th>Mail</th></tr>";
-                document.getElementById("bajas").innerHTML = cabecera;
-                document.getElementById("update").innerHTML = cabecera;
+
+                if (tabDelete === "#tabs-3") {
+                    document.getElementById("bajas").innerHTML = cabecera;
+                } else {
+                    document.getElementById("update").innerHTML = cabecera;
+                }
+
 
                 for (var i = 0; i < len; i++) {
                     sucData = sucursales[i].split("__");
@@ -230,21 +290,30 @@ function mostrarAreas() {
             if (data !== "") {
                 var areas = data.split("**");
                 var len = areas.length;
-                id.innerHTML = "<summary onclick='mostrarAreas()'>¿Con que áreas cuanta la sucursal?</summary>";
-                
-                for( var i = 0; i < len-1; i++ ) {
-                    var etiqueta = document.createElement("label");
-                    var text = document.createTextNode( areas[i] );
-                    etiqueta.appendChild( text );
-                    
-                    var input = document.createElement("input");
-                    input.setAttribute("type", "checkbox" );
-                    input.setAttribute("value", areas[i] );
-                    input.setAttribute("name", "areasSuc" );
+                id.innerHTML = "<summary>¿Con que áreas cuanta la sucursal?</summary>";
 
-                    id.appendChild( etiqueta );
-                    id.appendChild( input );
+                /*<div class="6u 12u$(small)">
+                 <input type="checkbox" id="demo-copy" name="demo-copy">
+                 <label for="demo-copy">Email me a copy</label>
+                 </div> */
+                var div = document.createElement("div");
+                div.setAttribute("class", "12u$(small)");
+
+                for (var i = 0; i < len - 1; i++) {
+                    var etiqueta = document.createElement("label");
+                    var text = document.createTextNode(areas[i]);
+                    etiqueta.appendChild(text);
+                    etiqueta.setAttribute("for", areas[i]);
+
+                    var input = document.createElement("input");
+                    input.setAttribute("type", "checkbox");
+                    input.setAttribute("id", areas[i]);
+                    input.setAttribute("name", "areasSuc");
+
+                    div.appendChild(input);
+                    div.appendChild(etiqueta);
                 }
+                id.appendChild(div);
             } else {
                 alert("No hay datos que mostrar");
 
@@ -261,20 +330,20 @@ function ocultar() {
 
 /*Funciones js para mapa*/
 /*function initMap() {
-    var uluru = {lat: 19.50477246893206, lng: -99.14681971429444};
-    document.getElementById('map').style.display = "block";
-
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 17,
-        center: uluru
-    });
-
-    var marker = new google.maps.Marker({
-        position: uluru,
-        icon: 'images/pesas.png',
-        map: map
-    });
-} */
+ var uluru = {lat: 19.50477246893206, lng: -99.14681971429444};
+ document.getElementById('map').style.display = "block";
+ 
+ var map = new google.maps.Map(document.getElementById('map'), {
+ zoom: 17,
+ center: uluru
+ });
+ 
+ var marker = new google.maps.Marker({
+ position: uluru,
+ icon: 'images/pesas.png',
+ map: map
+ });
+ } */
 
 /*      var marker = new google.maps.Marker({
  position : latlon,
@@ -328,9 +397,110 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     });
 }
 
+function mostrarUbicacion() {
+    var mapOptions = {
+        zoom: 16,
+        center: {lat: 19.5045672, lng: -99.1469098}
+    };
+    var chicago = {lat: 19.5045672, lng: -99.1469098};
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    var centerControlDiv = document.createElement('div');
+    var centerControl = new CenterControl(centerControlDiv, map, chicago);
 
+    centerControlDiv.index = 1;
+    centerControlDiv.style['padding-top'] = '10px';
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
+    
+    getUbicacionEstado_Sucursal();
+}
 
+function CenterControl(controlDiv, map, center) {
+    // We set up a variable for this since we're adding event listeners later.
+    var control = this;
 
+    // Set the center property upon construction
+    control.center_ = center;
+    controlDiv.style.clear = 'both';
+
+    // Set CSS for the control border
+    var goCenterUI = document.createElement('div');
+    goCenterUI.id = 'goCenterUI';
+    goCenterUI.title = 'Selecciona un estado';
+    controlDiv.appendChild(goCenterUI);
+
+    var goCenterText = document.createElement('select');
+    goCenterText.id = 'goCenterText';
+    var optionState = document.createElement('option');
+    optionState.setAttribute("value", 'Aguascalientes');
+    var text = document.createTextNode("Aguascalientes");
+    optionState.appendChild(text);
+    goCenterText.appendChild(optionState);
+    goCenterUI.appendChild(goCenterText);
+
+    // Set CSS for the setCenter control border
+    var setCenterUI = document.createElement('div');
+    setCenterUI.id = 'setCenterUI';
+    setCenterUI.title = 'Selecciona tu sucursal';
+    controlDiv.appendChild(setCenterUI);
+
+    var setCenterText = document.createElement('select');
+    setCenterText.id = 'setCenterText';
+    var optionSuc = document.createElement('option');
+    optionSuc.setAttribute("value", "Kilamangiro");
+    var nameSuc = document.createTextNode("Kilamangiro");
+    optionSuc.appendChild(nameSuc);
+    setCenterText.appendChild(optionSuc);
+    setCenterUI.appendChild(setCenterText);
+
+    // Set up the click event listener for 'Center Map': Set the center of the map
+    // to the current center of the control.
+    goCenterUI.addEventListener('click', function () {
+        var currentCenter = control.getCenter();
+        map.setCenter(currentCenter);
+    });
+
+    // Set up the click event listener for 'Set Center': Set the center of the
+    // control to the current center of the map.
+    setCenterUI.addEventListener('click', function () {
+        var newCenter = map.getCenter();
+        control.setCenter(newCenter);
+    });
+}
+
+/**
+ * Define a property to hold the center state.
+ * @private
+ */
+CenterControl.prototype.center_ = null;
+
+/**
+ * Gets the map center.
+ * @return {?google.maps.LatLng}
+ */
+CenterControl.prototype.getCenter = function () {
+    return this.center_;
+};
+
+/**
+ * Sets the map center.
+ * @param {?google.maps.LatLng} center
+ */
+CenterControl.prototype.setCenter = function (center) {
+    this.center_ = center;
+};
+
+function getUbicacionEstado_Sucursal() {
+    var mge = "Sucursales";
+    
+    $.ajax( {
+        type: "post", //metodo a utilizar
+        url: "UbicacionSucursal", //nombre del servlet en el servidor
+        data: { getUbicacion: mge }, //mensaje: correo variable que se recibe en servlet mge contenido que se envia
+        success: function (data) {
+            alert( data );
+        }
+    });
+}
 
 
 

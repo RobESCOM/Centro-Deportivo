@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Sucursal</title>
+        <title>Registro de sucursal</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -34,7 +34,7 @@
             });
         </script>
     </head>
-    <body>
+    <body onload="mostrarEstado()">
 
         <!-- Page Wrapper -->
         <div id="page-wrapper">
@@ -62,7 +62,7 @@
             <!-- Main -->
             <article id="main">
                 <header>
-                    <h2>Regstro sucursal</h2>
+                    <h2>Registro sucursal</h2>
                     <p>Welcom to the jungle</p>
                 </header>
                 <section class="wrapper style5">
@@ -83,43 +83,12 @@
 
                                         <label for="state">Estado</label>
                                         <select id="state" name="state">
-                                            <option value="Aguascalientes">Aguascalientes</option>
-                                            <option value="Baja California">Baja California</option>
-                                            <option value="Baja California sur">Baja California sur</option>
-                                            <option value="Campeche">Campeche</option>
-                                            <option value="Chiapas">Chiapas</option>
-                                            <option value="Chihuahua">Chihuahua</option>
-                                            <option value="Coahuila">Coahuila</option>
-                                            <option value="Colima">Colima</option>
-                                            <option value="Ciudad de Mexico">Ciudad de Mexico</option>
-                                            <option value="Durango">Durango</option>
-                                            <option value="Estado de México">Estado de México</option>
-                                            <option value="Guanajuato">Guanajuato</option>
-                                            <option value="Guerrero">Guerrero</option>
-                                            <option value="Hidalgo">Hidalgo</option>
-                                            <option value="Jalisco">Jalisco</option>
-                                            <option value="Michoacán">Michoacán</option>
-                                            <option value="Morelos">Morelos</option>
-                                            <option value="Nayarit">Nayarit</option>
-                                            <option value="Nuevo León">Nuevo León</option>
-                                            <option value="Oaxaca">Oaxaca</option>
-                                            <option value="Puebla">Puebla</option>
-                                            <option value="Queretaro">Queretaro</option>
-                                            <option value="Quintana Roo">Quintana Roo</option>
-                                            <option value="San Luis Potosí">San Luis Potosí</option>
-                                            <option value="Sinaloa">Sinaloa</option>
-                                            <option value="Sonora">Sonora</option>
-                                            <option value="Tabasco">Tabasco</option>
-                                            <option value="Tamaulipas">Tamaulipas</option>
-                                            <option value="Tlaxcala">Tlaxcala</option>
-                                            <option value="Veracruz">Veracruz</option>
-                                            <option value="Yucatán">Yucatán</option>
-                                            <option value="Zacatecas">Zacatecas</option>
+                                            
                                         </select>
 
                                         <section id="teles">
                                             <h4>Telefono(s)</h4>
-                                            <input type="text" id="tel" name="tels" placeholder="01 800 Any colour you like" onblur="verificarTel()" required>
+                                            <input type="text" id="tel" name="tels" placeholder="01 800 Any colour you like" onblur="verificarTel(this)" required>
                                             <span id="mas" class="ui-icon-circle-plus" onclick="moreTel()">+</span>
                                         </section>
 
@@ -143,8 +112,10 @@
                                         <input type="text" id="col" name="col" placeholder="A momentary lapse of reason" required>
 
                                         <label for="del">Delegacion o municipio</label>
-                                        <input type="text" id="del" name="del" placeholder="Ciudadano del mundo" required>
-
+                                        <select id="del" name="del">
+                                            
+                                        </select>
+                                        
                                         <label for="cp">Codigo postal</label>
                                         <input type="text" id="cp" name="cp" placeholder="1984" onblur="verificarCP()" required>
                                     </div>
