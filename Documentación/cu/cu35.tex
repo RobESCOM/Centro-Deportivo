@@ -1,0 +1,51 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+\begin{UseCase}{CU35}{Asignar instructor a curso.}{
+		Los cursos ofrecidos en cada sucursal tienen que ser impartidos por un personal calificado, éste no necesariamente debe contar con una certificación. Este caso de uso se implenta cuando se registra en el sistema a un nuevo empleado con el puesto de instructor o cada vez que se vayan a abrir nuevos cursos.
+	}
+		\UCitem{Versión}{0.2}
+		\UCitem{Actor}{Gerente de sucursal.}
+		\UCitem{Propósito}{Mantener al usuario de las instalaciones del GYM al tanto de quien es la persona encargada de instruirlo en el curso al cual está inscrito o va a inscribir. También mantiene informado al instructor, al enviarle un correo electrónico, en que horarios fue asignado y que cursos imparte.}
+		\UCitem{Entradas}{Selección de la sucursal, selección del curso de la lista desplegable, selección del instructor de la lista desplegable.}
+		\UCitem{Origen}{Teclado.}
+		\UCitem{Salidas}{Mensaje de asignación satisfactoria. Correo al instructor con los cursos y horarios a los que fue asignado. }
+		\UCitem{Destino}{Pantalla. Servidor de correo electrónico.}
+		\UCitem{Precondiciones}{1. Debe de existir al menos un curso registrado en el sistema.
+		
+		2. Los cursos registrados ya tienen una sucursal y horario asignado.
+		
+		3. Debe existir en el sistema al menos una sucursal y que al menos cuente con una área.}
+		\UCitem{Postcondiciones}{El sistema tendrá registradas las asignaciones de los intructores que impartirán los cursos ofertados por las distintas sucursales. }
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{El instructor puede ser asignado a una o máximo dos sucursales, éstas no pueden ser muy lejanas. }
+		\UCitem{Autor}{Fernández Quiñones Isaac.}
+		\UCitem{Reviso}{}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Ingresa a la plataforma web.
+		\UCpaso Muestra la \IUref{IU23}{Pantalla de Control de Acceso} \label{CU35Login} para entrar en el sistema.
+		\UCpaso[\UCactor] Ingresa su usuario y contraseña. \label{CU35Credenciales}
+		\UCpaso Válida que el actor se encuentre dado de alta en el sistema. Se utiliza la regla \BRref{BR117}{Determinar si el usuario tiene acceso al sistema.} \Trayref{A}.
+		%Faltan mas pasos 		
+		
+		
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El actor no esta dado de alta en el sistema.}
+			\UCpaso Muestra el Mensaje {\bf MSG1-}``El usuario o contraseña no son correctos.''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Muestra el Mensaje {\bf MSG1-}``Contacte al gerente de operaciones para que lo registre o teclee nuevamente su usuario y contraseña.''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso Continua en el paso \ref{CU35Credenciales} del \UCref{CU35}.
+		\end{UCtrayectoriaA}
