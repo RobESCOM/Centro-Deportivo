@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import modelo.*;
+import modelo.entidades.Direccion;
+import modelo.entidades.Sucursal;
 /**
  *
  * @author Bad MotherFucker
@@ -45,7 +47,7 @@ public class RegistroSucursal extends HttpServlet {
             out.println("<script>"
                     + "function iniciar() {demora = setInterval('ajustar()',1000);}"
                     + "function ajustar() { tiempo = new Date(); segundos = tiempo.getSeconds(); indice = segundos % 10;"
-                    + " document.getElementById('seg').innerHTML = indice; if( indice%4 == 0  ) { location.href='http://localhost:8080/GYM/sucursal.html' } }"
+                    + " document.getElementById('seg').innerHTML = indice; if( indice%4 == 0  ) { location.href='http://localhost:8080/Código/sucursal.html' } }"
                     + "</script>");
             out.println("<title>Servlet RegistroSucursal</title>");            
             out.println("</head>");
@@ -65,26 +67,48 @@ public class RegistroSucursal extends HttpServlet {
         String eliminarSuc = request.getParameter("eliminar");
         
         if( consulta == null && codep != null ) {
-            String nameSucursal = request.getParameter("nameS");
-            String calle = request.getParameter("calle");
-            String colonia = request.getParameter("col");
-            String deleg = request.getParameter("del");
-            String estado = request.getParameter("state");
-            String tel = request.getParameter("tels");
-            String mail = request.getParameter("email");
+            Sucursal nuevaSucursal = new Sucursal();
+            
+            nuevaSucursal.setNombre( request.getParameter("nameS") );
+            
+            nuevaSucursal.getDireccion().setCalle( request.getParameter("calle") );
+            nuevaSucursal.getDireccion().setColonia( request.getParameter("col") );
+            nuevaSucursal.getDireccion().setMunicipio( request.getParameter("del") );
+            nuevaSucursal.getDireccion().setIdEstado( Integer.parseInt( request.getParameter("state") ) );
+            nuevaSucursal.getDireccion().setNumExt( Integer.parseInt( request.getParameter("numExt") ) );
+            nuevaSucursal.getDireccion().setCodigoPostal( Integer.parseInt( request.getParameter("cp") ) );
+            
+            nuevaSucursal.setInauguracion( request.getParameter("datepicker") );
+            nuevaSucursal.addTel( request.getParameter("tels") );
+            nuevaSucursal.addMail( request.getParameter("email") );
+            
+            /* Checar que pedo con estos puntos */
             String namAdmin = request.getParameter("adminPila");
             namAdmin += " " + request.getParameter("adminFap");
             namAdmin += " " + request.getParameter("adminSap");
             String dirAdmin = request.getParameter("dirG");
             
-            String address = getAdressForURL( calle, colonia, deleg, estado );
+            String address = getAdressForURL( nuevaSucursal.getDireccion().getCalle(), nuevaSucursal.getDireccion().getColonia(), nuevaSucursal.getDireccion().getMunicipio(), cruds.consultarEstados( Integer.parseInt( request.getParameter("state") ) ) );
             String latLon[] = obtenerLatitud_Longitud( address );
+            nuevaSucursal.setLatitud( Float.parseFloat( latLon[0] ) );
+            nuevaSucursal.setLongitud( Float.parseFloat( latLon[1] ) );
             System.out.println("Direc " + address );
             System.out.println("LAtLon " + latLon[0] + " " + latLon[1] );
+            System.out.println("Fecha " + nuevaSucursal.getInauguracion() );
             
-            cruds.insertarSuc( nameSucursal, calle, colonia, deleg, codep, estado, tel, mail );
-            //cruds.insertarAdmin( namAdmin, dirAdmin ); Pedo con las Foreign key 
-            processRequest(request, response);
+            cruds.insertarDir( nuevaSucursal.getDireccion() );
+            int idDir = cruds.getIdDireccion( nuevaSucursal.getDireccion().getCalle() );
+            
+            if( idDir > 0 ) {
+                nuevaSucursal.getDireccion().setId( idDir );
+                cruds.insertarSuc( nuevaSucursal );
+                cruds.insertarTel( nuevaSucursal.getTelefonos() );
+                cruds.insertarMail( nuevaSucursal.getEmails() );
+                cruds.insertarSuc_has_Tel( nuevaSucursal.getNombre(), nuevaSucursal.getTelefonos() );
+                cruds.insertarSuc_has_Mail( nuevaSucursal.getNombre(), nuevaSucursal.getEmails() );
+                
+                processRequest(request, response);
+            }
         } else if( consulta != null && consulta.equals("prueba") ){
             String data = getDatosSucursal();
             response.getWriter().write( data );
@@ -93,7 +117,6 @@ public class RegistroSucursal extends HttpServlet {
             String msg = ( eliminado )? "Registro eliminado":"Error al eliminar";
             response.getWriter().write( msg );
         }
-        
     }
 
     @Override
@@ -183,6 +206,9 @@ public class RegistroSucursal extends HttpServlet {
             if( pos != -1 && pos2 != -1 ) {
                 latLon[0] = lat.substring( pos + 8 );
                 latLon[1] = lon.substring( pos2 + 8 );
+                
+                latLon[0] = latLon[0].substring( 0, latLon[0].length() - 1 );
+                latLon[1] = latLon[1].substring( 0, latLon[1].length() - 1 );
             }
         } catch (MalformedURLException ex) {
             latLon[0] = null;

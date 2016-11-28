@@ -180,7 +180,7 @@ function selectMunicipio() {
                 for( var i = 0; i < len; i++ ) {
                     dato = deleg[i].split("_");
                     option = document.createElement("option");
-                    option.value = dato[0];
+                    option.value = dato[1];
                     option.text = dato[1];
                     select.add(option);  
                 }

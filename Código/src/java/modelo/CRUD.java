@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.sql.Connection;
+import modelo.entidades.Direccion;
+import modelo.entidades.Sucursal;
 
 /**
  *
@@ -61,7 +63,7 @@ public class CRUD {
     }
     
     public ArrayList consultar( String tabla ) {
-        String sql = "SELECT idSUCURSAL, nombre, estado, tel, mail FROM sucursal";
+        String sql = "SELECT idSucursal, nombre, idEstado FROM sucursal";
         String row[]; 
         ArrayList rows = new ArrayList();
         
@@ -72,14 +74,36 @@ public class CRUD {
             
             while( r.next() ) {
                 n = r.getMetaData().getColumnCount();
-                row = new String[n];
+                row = new String[n + 2];
                 
                 for( int i = 1; i <= n; i++ ) {
                     row[i - 1] = r.getString( i );
                 }
+                
+                System.out.println("sql " + sql );
+                r = sentencia.executeQuery( sql );
+                if( r.next() ) {
+                    row[2] = r.getString( 1 );
+                }
+                
+                sql = "SELECT numero FROM telefonos as t, sucursal_has_telefonos as st, sucursal as s WHERE " +
+                        "st.idSucursal = " + row[0] + " AND t.idTel = st.idTel";
+                System.out.println("sql " + sql );
+                r = sentencia.executeQuery( sql );
+                if( r.next() ) {
+                    row[3] = r.getString( 1 );
+                }
+                
+                sql = "SELECT email FROM emails as e, sucursal_has_emails as se, sucursal as s WHERE " +
+                        "se.Sucursal_idSucursal = " + row[0] + " AND e.idMail = se.Emails_idMail";
+                System.out.println("sql " + sql );
+                r = sentencia.executeQuery( sql );
+                if( r.next() ) {
+                    row[4] = r.getString( 1 );
+                }
+                
                 rows.add( row );
             }
-            
         } catch (SQLException ex) {
             Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -101,9 +125,178 @@ public class CRUD {
         }   
     }
     
+    public void insertarSuc( Sucursal suc ) {
+        String sql = "INSERT INTO sucursal( Nombre, Inauguracion, Latitud, Longitud, idDireccion, idEstado ) VALUES" +
+                        "( " + suc.toString() + " )";
+        System.out.println("sql " + sql);
+        
+        try {
+            sentencia = con.getConn().createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE );
+            sentencia.executeUpdate( sql );
+            System.out.println("¡¡El registro finalizo con exito!!");
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }   
+    }
+    
+    public void insertarDir( Direccion dir ) {
+        String sql = "INSERT INTO direccion( Calle, Colonia, numExt, Deleg_mun, CodePostal, numInt, Estado_idEstado ) VALUES" +
+                        "( " + dir.toString() + " )";
+        System.out.println("sql " + sql);
+        
+        try {
+            sentencia = con.getConn().createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE );
+            sentencia.executeUpdate( sql );
+            System.out.println("¡¡El registro finalizo con exito!!");
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }   
+    }
+    
+    public int getIdDireccion( String calle ) {
+        String sql = "SELECT idDireccion FROM direccion WHERE Calle = " + "'" + calle + "'";
+        int id = -1;
+        
+        try {
+            sentencia = con.getConn().createStatement();
+            ResultSet r = sentencia.executeQuery( sql );
+            
+            while( r.next() ) {
+                id = Integer.parseInt( r.getString( 1 ) );
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return id;
+    }
+    
+    public void insertarTel( ArrayList tel ) {
+        String sql;
+        
+        try {
+            sentencia = con.getConn().createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE );
+            
+            for( int i = 0; i < tel.size(); i++ ) {
+                sql = "INSERT INTO telefonos( Numero ) VALUES( '" + tel.get(i) + "' )";
+                sentencia.executeUpdate( sql );
+            }
+            
+            System.out.println("¡¡El registro finalizo con exito!!");
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public void insertarMail( ArrayList mail ) {
+        String sql;
+        
+        try {
+            sentencia = con.getConn().createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE );
+            
+            for( int i = 0; i < mail.size(); i++ ) {
+                sql = "INSERT INTO emails( email ) VALUES( '" + mail.get(i) + "' )";
+                sentencia.executeUpdate( sql );
+            }
+            
+            System.out.println("¡¡El registro finalizo con exito!!");
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public void insertarSuc_has_Tel( String name, ArrayList tel ) {
+        String sql;
+        int idSuc = getIdSuc( name );
+        
+        try {
+            sentencia = con.getConn().createStatement();
+            
+            for( int i = 0; i < tel.size(); i++ ) {
+                sql = "INSERT INTO sucursal_has_telefonos VALUES( " + idSuc + ", " + getIdTel( (String)tel.get(i) ) + ")";
+                sentencia.executeUpdate(sql);
+            }
+            
+        } catch( SQLException e ) {
+            Logger.getLogger( CRUD.class.getName() ).log( Level.SEVERE, null, e );
+        }
+    }
+    
+    public int getIdTel( String num ) {
+        String sql = "SELECT idTel FROM telefonos WHERE numero = '" + num + "'";
+        int id = -1;
+        
+        try {
+            sentencia = con.getConn().createStatement();
+            ResultSet r = sentencia.executeQuery( sql );
+            
+            while( r.next() ) {
+                id = Integer.parseInt( r.getString( 1 ) );
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return id;
+    }
+    
+    public void insertarSuc_has_Mail( String name, ArrayList mail ) {
+        String sql;
+        int idSuc = getIdSuc( name );
+        
+        try {
+            sentencia = con.getConn().createStatement();
+            
+            for( int i = 0; i < mail.size(); i++ ) {
+                sql = "INSERT INTO sucursal_has_emails VALUES( " + idSuc + ", " + getIdMail( (String)mail.get(i) ) + ")";
+                sentencia.executeUpdate(sql);
+            }
+            
+        } catch( SQLException e ) {
+            Logger.getLogger( CRUD.class.getName() ).log( Level.SEVERE, null, e );
+        }
+    }
+    
+    public int getIdMail( String mail ) {
+        String sql = "SELECT idMail FROM emails WHERE email = '" + mail + "'";
+        int id = -1;
+        
+        try {
+            sentencia = con.getConn().createStatement();
+            ResultSet r = sentencia.executeQuery( sql );
+            
+            while( r.next() ) {
+                id = Integer.parseInt( r.getString( 1 ) );
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return id;
+    }
+    
+    public int getIdSuc( String name ) {
+        String sql = "SELECT idSucursal FROM sucursal WHERE nombre = '" + name + "'";
+        int id = -1;
+        
+        try {
+            sentencia = con.getConn().createStatement();
+            ResultSet r = sentencia.executeQuery( sql );
+            
+            while( r.next() ) {
+                id = Integer.parseInt( r.getString( 1 ) );
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return id;
+    }
+    
     public void insertarAdmin( String nameAdmin, String dir ) {
         String sql = "INSERT INTO administrador VALUES( " + idAdmin + ", '" + nameAdmin + "', " + 12 + ", '" + dir + "' )";
         System.out.println("sql " + sql);
+        
         try {
             sentencia = con.getConn().createStatement( ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE );
             sentencia.executeUpdate( sql );
@@ -207,6 +400,29 @@ public class CRUD {
        }
        
        return row.substring(0, row.length() - 2 );
+    }
+    
+    public String consultarEstados( int id ) {
+       String sql = "SELECT nombre FROM estado WHERE idEstado = " + id; 
+       String row = "";
+       
+       try {
+           sentencia = con.getConn().createStatement();
+           ResultSet r = sentencia.executeQuery(sql);
+           int n;
+           
+           while( r.next() ) {
+                n = r.getMetaData().getColumnCount();
+                
+                for( int i = 1; i <= n; i++ ) {
+                    row += r.getString( i );
+                }
+           }
+       } catch( SQLException ex ) {
+           Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+       }
+       
+       return row;
     }
     
     public String consultarDelegaciones( String idState ) {
