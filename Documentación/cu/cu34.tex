@@ -8,39 +8,51 @@
 
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
-	\begin{UseCase}{CU31}{Ingresar al sistema.}{
-		Permite a un actor autenticarse mediante su nombre de usuario y contraseña para poder realizar operaciones dentro del sistema.
+	\begin{UseCase}{CU34}{Suspender Servicios.}{
+		Permite al gerente de sucursal, recepcionista, suspender un servicio debido a fechas de expiración, cambios de servicios.
+	Con el fin de no hacer una eliminacion total si no parcial con el objetivo de activar nuevamente el servicio en el sistema.
 	}
 		\UCitem{Versión}{1.0}
-		\UCitem{Actor}{Gerente de Operaciones, Gerente de Sucursal, Recepcionista, Ejecutivo de Ventas, Instructor, Encargado de área, Cliente, Usario y RH.}
-		\UCitem{Propósito}{Disponer de las funcionalidades del sistema en cualquier momento mediante el nombre de usuario y contraseña.}
-		\UCitem{Entradas}{Nombre de usuario y contraseña.}
+		\UCitem{Actor}{Gerente de Sucursal, Recepcionista}
+		\UCitem{Propósito}{Dar de baja un servicio del sistema, con el objetivo de que no se cuente su participación dentro del sistema y de la sucursal, sin embargo el servicio seguira existiendo pero con un estado de inactividad.}
+		\UCitem{Entradas}{Estado del servicio}
 		\UCitem{Origen}{Teclado.}
-		\UCitem{Salidas}{\IUref{IU6}{Pantalla de perfil de empleado.} o \IUref{IU5}{Perfil de usuario.}}
-		\UCitem{Destino}{Pantalla.}
-		\UCitem{Precondiciones}{El cliente debe contar con un registro previo.}
-		\UCitem{Postcondiciones}{}
-		\UCitem{Errores}{{\bf E16:} ``Nombre de usuario y/o contraseña son incorrectos'' -- El sistema muestra el Mensaje {\bf MSG16-}``El nombre de usuario y/o contraseña son incorrectos. Veríficalos.'' y continua al paso 3.}
+		\UCitem{Salidas}{Se muestra un mensaje de "servicio actualizado".}
+		\UCitem{Destino}{El dato ya no se mostrará en el área de consultas, mas no será eliminado totalmente del sistema.}
+		\UCitem{Precondiciones}{
+Para suspender un servicio se requiere que esté registrado previamente.
+		Se requiere que el servicio no se haya eliminado del sistema.}
+		\UCitem{Postcondiciones}{El actor puede cambiar el estado del servicio nuevamente.}
+		\UCitem{Errores}{
+No se cuenta con ningun dato registrado.
+		No se efectua correctamente la operacion.}
 		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
-		\UCitem{Autor}{Roberto Mendoza Saavedra}
-		\UCitem{Revisor}{Francisco García Enriquez}
+		\UCitem{Autor}{Francisco Garcia Enriquez}
+		\UCitem{Revisor}{Roberto mendoza Saavedra}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes, seleccionando la opción de ``Clientes'' que aparece en la \IUref{IU6}{Pantalla de perfil de empleado.}
-		\UCpaso Muestra las operaciones disponibles para el actor mediante la \IUref{IU7}{Pantalla de operaciones del empleado.}
-		\UCpaso[\UCactor] Solicita la baja del registro del cliente seleccionando la opción de ``Actualizar/Baja de la \IUref{IU7}{Pantalla de operaciones del empleado.}
-		\UCpaso Solicita el nombre(s), apellido paterno, materno o CURP del cliente mediante la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
-		\UCpaso[\UCactor] Proporciona el nombre(s), apellido paterno, materno o CURP, dependiendo el filtro de búsqueda que desee.
-		\UCpaso[\UCactor] Solicita la búsqueda del registro(s) presionando el botón \IUbutton{Buscar} de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
-		\UCpaso Verifica si los datos que se ingresaron coinciden con algún registro [E5].
-		\UCpaso Muestra un registro breve del cliente(s) con los datos de Nombre, Apellido paterno, Apellido materno, CURP y las opciones de ``Editar'' y ``Baja'' a través de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
-		\UCpaso[\UCactor] Solicita la baja del registro del cliente seleccionando la opción de ``Baja'' de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.} La baja de un registro está dada por la \BRref{BR100}{Control de la información del cliente.} 
-		\UCpaso Muestra un mensaje de confirmación {\bf MS19-}``¿Estás seguro de dar de baja el registro?''.
-		\UCpaso[\UCactor] Selecciona el botón \IUbutton{Aceptar} a través de la \IUref{IU9.2}{Pantalla de Búsqueda de Cliente-baja.}
-		\UCpaso Inhabilita el registro seleccionado.
-		\UCpaso Direcciona a la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
+		\UCpaso Solicita ingreso al sistema.
+		\UCpaso Toma la sesion del actor
+		\UCpaso Mustra en la página principal el menú de opciones.
+		\UCpaso[\UCactor] Selecciona del menú la opción servicios.
+		\UCpaso Muestra las opciones que el actor puede realizar: Agregar servicio, consultar servicios, eliminar servicios, suspender servicios y actualizar servicios.
+		\UCpaso[\UCactor] Selecciona la opción, Actualizar servicios.
+		\UCpaso Carga una tabla con los servicios registrados, adjunto de un boton de edición [Trayectoria A].
+		\UCpaso[\UCactor] Presiona el boton de editar.
+		\UCpaso Muestra una página deonde se cargan los datos del servicio en los campos del formulario.
+		\UCpaso[\UCactor] Cambia el estado del servicio seleccionado a inactivo, en el "campo estado del servicio".
+		\UCpaso[\UCactor] Confirma el cambio presionando el boton de actualizar.
+		\UCpaso Actualza el estado del servicio y muestra un mensaje MSG.- "Los datos se actualizaron correctamente". \Trayref{A}
+		\UCpaso[\UCactor] Puede consultar el estado del servicio en la sección de consultas.
+		\UCpaso[\UCactor] Finaliza su operacion dentro del área y puede regresar al menú de opciones de la sección servicios.
 	\end{UCtrayectoria}
+
+		\begin{UCtrayectoriaA}{A}{No existe ningun dato registrado.}
+			\UCpaso muestra el mensaje MS7- "No existe ningun registro".
+			\UCpaso[\UCactor] Finaliza su operación dentro del área de consulta.
+			\UCpaso[\UCactor] puede regresar al menú de opciones de la sección, mediante el boton de "regresar al menu de inició".
+		\end{UCtrayectoriaA}
 	
 		%-------------------------------------- TERMINA descripción del caso de uso.

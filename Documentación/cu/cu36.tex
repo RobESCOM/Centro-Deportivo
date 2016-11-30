@@ -1,0 +1,66 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU36}{Actualizar Servicios.}{
+		Permite al gerente de sucursal, recepcionista, actualizar los datos que crea necesarios con el fin de corregir errores en los datos registrados o posibles modificaciones.
+	}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Gerente de Sucursal, Recepcionista}
+		\UCitem{Propósito}{Hacer modificaciónes en los servicios registrados a fin de corregir datos o alguna actualización en ellos.}
+		\UCitem{Entradas}{Nombre, ubicación, estado del servicio, costo, horario, responsable y descripción.}
+		\UCitem{Origen}{Desde el teclado.}
+		\UCitem{Salidas}{Se muestra un mensaje de "servicio actualizado".}
+		\UCitem{Destino}{Los datos serán almacenados en el sistema y se verán reflejados en el área de consulta de servicios.}
+		\UCitem{Precondiciones}{
+		Que exista el servicio registrado previamente para hacer modificaciones.
+		Se requiere que el servicio no se haya eliminado del sistema.
+		Se requiere que no se haya eliminado totalmente todas las áreas e instructores.}
+
+		\UCitem{Postcondiciones}{El actor puede visualizar los cambios en la sección de consultar servicios.}
+		\UCitem{Errores}{
+		Que los campos no cumplan con los tipos de datos solicitados.
+		No se efectua correctamente la operacion.}
+
+		\UCitem{Tipo}{Caso de uso primario.}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Francisco Garcia Enriquez}
+		\UCitem{Revisor}{Roberto mendoza Saavedra}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso Solicita ingreso al sistema.
+		\UCpaso Toma la sesion del actor
+		\UCpaso Mustra en la página principal el menú de opciones.
+		\UCpaso[\UCactor] Selecciona del menú la opción servicios.
+		\UCpaso Muestra las opciones que el actor puede realizar: Agregar servicio, consultar servicios, eliminar servicios, suspender servicios y actualizar servicios.
+		\UCpaso[\UCactor] Selecciona la opción, Actualizar servicios. 
+		\UCpaso carga una tabla con los servicios registrados, adjunto de un boton de edición.
+		\UCpaso[\UCactor] Presiona el boton de editar, en el servicio que desea modificar.
+		\UCpaso sistema muestra una página donde se cargan los datos del servicio en los campos del formulario. Plantilla UI Modificar Servicio.
+		\UCpaso[\UCactor] modifica los datos que considere necesarios [Trayectoria B][Trayectoria C]
+		\UCpaso[\UCactor] Confirma el registro y presiona el boton de actualizar datos.
+		\UCpaso Actualiza los datos y muestra un mensaje MSG18- "los datos se han actualizado exitosamente."
+		\UCpaso[\UCactor] puede regresar al menú de opciones mediante el boton de "regresar al menú de inicio".
+	\end{UCtrayectoria}
+
+		\begin{UCtrayectoriaA}{A}{No se cuenta con ningun registro.}
+		\UCpaso muestra un mensaje MSG-7 "No existe ningun registro".
+		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaA}{B}{No se ingresaron los campos obligatorios.}
+			\UCpaso[\UCactor] No llena algun campo del formulario y confirma la actualización.
+			\UCpaso Muestra un mensaje MSG-3 "Ingresa los campos obligatorios marcados con * para continuar", campos obligatorios se muestran en Plantilla UI campos Obligatorios Servicios.
+		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaA}{C}{El dato no corresponde al tipo de dato esperado.}
+			\UCpaso Muestra un mensaje MSG-4 "Ingresa el valor correcto de acuerdo al formato que aparece en el campo."
+		\end{UCtrayectoriaA}
+	
+		%-------------------------------------- TERMINA descripción del caso de uso.

@@ -2,50 +2,68 @@
 % \IUref{IUModPS}{Modificar Planta de Selección}
 % \IUref{IUEliPS}{Eliminar Planta de Selección}
 
-% 
-
 
 % Copie este bloque por cada caso de uso:
 %-------------------------------------- COMIENZA descripción del caso de uso.
 
+
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
-\begin{UseCase}{CU35}{Asignar instructor a curso.}{
-		Los cursos ofrecidos en cada sucursal tienen que ser impartidos por un personal calificado, éste no necesariamente debe contar con una certificación. Este caso de uso se implenta cuando se registra en el sistema a un nuevo empleado con el puesto de instructor o cada vez que se vayan a abrir nuevos cursos.
+	\begin{UseCase}{CU35}{Registrar Servicios.}{
+		Permite al gerente de sucursal, recepcionista, registrar un servicio en el sistema, añadiendo atributos como: nombre, tipo de servicio, areá en actividad, estado, responsables y descripción.
 	}
-		\UCitem{Versión}{0.2}
-		\UCitem{Actor}{Gerente de sucursal.}
-		\UCitem{Propósito}{Mantener al usuario de las instalaciones del GYM al tanto de quien es la persona encargada de instruirlo en el curso al cual está inscrito o va a inscribir. También mantiene informado al instructor, al enviarle un correo electrónico, en que horarios fue asignado y que cursos imparte.}
-		\UCitem{Entradas}{Selección de la sucursal, selección del curso de la lista desplegable, selección del instructor de la lista desplegable.}
-		\UCitem{Origen}{Teclado.}
-		\UCitem{Salidas}{Mensaje de asignación satisfactoria. Correo al instructor con los cursos y horarios a los que fue asignado. }
-		\UCitem{Destino}{Pantalla. Servidor de correo electrónico.}
-		\UCitem{Precondiciones}{1. Debe de existir al menos un curso registrado en el sistema.
-		
-		2. Los cursos registrados ya tienen una sucursal y horario asignado.
-		
-		3. Debe existir en el sistema al menos una sucursal y que al menos cuente con una área.}
-		\UCitem{Postcondiciones}{El sistema tendrá registradas las asignaciones de los intructores que impartirán los cursos ofertados por las distintas sucursales. }
-		\UCitem{Errores}{}
-		\UCitem{Tipo}{Caso de uso primario}
-		\UCitem{Observaciones}{El instructor puede ser asignado a una o máximo dos sucursales, éstas no pueden ser muy lejanas. }
-		\UCitem{Autor}{Fernández Quiñones Isaac.}
-		\UCitem{Reviso}{}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Gerente de Sucursal, Recepcionista}
+		\UCitem{Propósito}{Dar de alta un servicio en el sistema, para poder inscribir dicho servicio en la adquisisción de membresias.}
+		\UCitem{Entradas}{Nombre, ubicación, estado del servicio, costo, horario, responsable y descripción.}
+		\UCitem{Origen}{Desde el teclado.}
+		\UCitem{Salidas}{Se muestra un mensaje de "Servicio registrado".}
+		\UCitem{Destino}{Los datos serán almacenados en el sistema y se verán reflejados en el área de consulta de servicios.}
+		\UCitem{Precondiciones}{
+		Que no exista un sevicio registrado previamente, con el mismo nombre.
+		Que exista al menos una área registrada en el sistema para registrar dicho servicio.
+		Que exista al menos un instructor que funga el papel de responsable.}
+		\UCitem{Postcondiciones}{El servicio registrado se verá reflejado en la sección de consultar servicios.}
+		\UCitem{Errores}{
+		No se puede registrar un servicio sin que existan áreas e instructores disponibles.
+		No se efectua correctamente la operacion.
+		Que la información registrada no corresponda a los tipos de datos esperados.
+		Que no se carguen en el sistema las áreas e instructores disponibles.}
+		\UCitem{Tipo}{Caso de uso primario.}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Francisco Garcia Enriquez}
+		\UCitem{Revisor}{Roberto mendoza Saavedra}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Ingresa a la plataforma web.
-		\UCpaso Muestra la \IUref{IU23}{Pantalla de Control de Acceso} \label{CU35Login} para entrar en el sistema.
-		\UCpaso[\UCactor] Ingresa su usuario y contraseña. \label{CU35Credenciales}
-		\UCpaso Válida que el actor se encuentre dado de alta en el sistema. Se utiliza la regla \BRref{BR117}{Determinar si el usuario tiene acceso al sistema.} \Trayref{A}.
-		%Faltan mas pasos 		
-		
-		
+		\UCpaso Solicita ingreso al sistema.
+		\UCpaso Toma la sesion del actor
+		\UCpaso Mustra en la página principal el menú de opciones.
+		\UCpaso[\UCactor] Selecciona del menú la opción servicios.
+		\UCpaso Muestra las opciones que el actor puede realizar: Agregar servicio, consultar servicios, eliminar servicios, suspender servicios y actualizar servicios.
+		\UCpaso[\UCactor] Selecciona la opción, Registrar servicios. 
+		\UCpaso[\UCactor] Ingresa el tipo de servicio.
+		\UCpaso Carga en la lista desplegable las áreas disponibles. \Trayref{C}
+		\UCpaso[\UCactor] selecciona un área de la lista.
+		\UCpaso[\UCactor] Define un estado en el campo estado del servicio.
+		\UCpaso[\UCactor] Ingresa el costo del servicio.
+		\UCpaso[\UCactor] Define el horario de disponibilidad del servicio.
+		\UCpaso[\UCactor] Ingresa la descripción del servicio en el campo descripción.
+		\UCpaso[\UCactor] Confirma el registro presionando el boton registrar servicio. \Trayref{A} \Trayref{B}
+		\UCpaso registra el servicio y muestra un mensaje "Servicio registrado".
+		\UCpaso[\UCactor] Puede regresar al menú de opciones mediante el boton de "regresar al menú de inicio"
+
 	\end{UCtrayectoria}
-		
-		\begin{UCtrayectoriaA}{A}{El actor no esta dado de alta en el sistema.}
-			\UCpaso Muestra el Mensaje {\bf MSG1-}``El usuario o contraseña no son correctos.''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
-			\UCpaso Muestra el Mensaje {\bf MSG1-}``Contacte al gerente de operaciones para que lo registre o teclee nuevamente su usuario y contraseña.''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
-			\UCpaso Continua en el paso \ref{CU35Credenciales} del \UCref{CU35}.
+
+		\begin{UCtrayectoriaA}{A}{Los datos no corresponden al tipo de dato esperado.}
+		\UCpaso muestra el mensaje MS7- "Los datos no corresponden al formato especificado por en el formulario".
 		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaA}{B}{No se llenan los campos obligaorios.}
+			\UCpaso muestra el mensaje MS7- "Falta llenar los campos obligatorios" mostrados en Plantilla de campos obligatorios.
+		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaA}{C}{No existen áreas registradas.}
+			\UCpaso muestra el mensaje MS20- "No se puede registrar un servicio, sin que existan áreas registradas."
+		\end{UCtrayectoriaA}
+	
+		%-------------------------------------- TERMINA descripción del caso de uso.
