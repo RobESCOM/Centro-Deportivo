@@ -13,12 +13,17 @@
 		\UCitem{Propósito}{Que se pueda cambiar el estado activo de un área en caso de que existan modificaciones en el uso.}
 		\UCitem{Entradas}{Nombre del Área, lista desplegable con las áreas.}
 		\UCitem{Origen}{Desde el teclado o mouse.}
-		\UCitem{Salidas}{Mensaje de que el área ha sido desactivada.}
+
+		\UCitem{Salidas}{{\bf MSG19-}``El área ha sido desactivada.''}
+
 		\UCitem{Destino}{El estado del área se verá reflejado en el área de consultas, ya que no aparecerá dentro de esa sección.
 Precondiciones: Que el área se encuentre previamente registrada.}
 		\UCitem{Precondiciones}{Que el área se encuentre registrada previamente.El administrador es el único usuario que puede dar de baja un área.}
 		\UCitem{Postcondiciones}{El área registrada se verá reflejada en la sección de consultas.}
-		\UCitem{Errores}{Que el sistema no efectué la operación requerida.}
+
+		\UCitem{Errores}{
+{\bf E7:} ``No se tiene ningún registro.'' -- El sistema muestra el Mensaje {\bf MSG7-}``No existe ningun registro.''}
+
 		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Francisco García Enríquez.}

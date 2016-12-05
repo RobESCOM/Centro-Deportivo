@@ -13,12 +13,13 @@
 		\UCitem{Propósito}{Hacer cambios en la información que describe el area que se encuentra registrada. }
 		\UCitem{Entradas}{Nombre del Área, Tipo de área, largo, ancho, capacidad, responsable y descripción.}
 		\UCitem{Origen}{Los datos serán digitados desde el teclado.}
-		\UCitem{Salidas}{Mensaje de que los datos han sido modificados correctamente.}
+		\UCitem{Salidas}{{\bf MSG18-}``Los datos se han actualizado exitosamente''.}
 		\UCitem{Destino}{Los datos se verán reflejados en el área de consultas.}
 		\UCitem{Precondiciones}{Que el área se encuentre registrada previamente.}
 		\UCitem{Postcondiciones}{El área registrada se verá reflejada en la sección de consultas.}
-		\UCitem{Errores}{Que el sistema no efectué la operación requerida.
-		Que los datos ingresados no correspondan al tipo de dato que se pide.}
+		\UCitem{Errores}{{\bf E3:} ``No se ingresaron todos los campos obligatorios.'' -- El sistema muestra el Mensaje {\bf MSG3-}``Ingresa los campos obligatorios marcados con * para continuar.'' y continua con el paso 10.
+{\bf E4:} ``El formato del dato es incorrecto''  -- El sistema muestra el Mensaje {\bf MSG4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo.''
+{\bf E8:} ``Nombre de área ya existente'' -- El sistema muestra el Mensaje {\bf MSG8-}``El nombre de área ya se encuentra registrado.''}
 		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Francisco García Enríquez.}

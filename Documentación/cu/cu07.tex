@@ -9,11 +9,14 @@
 		\UCitem{Propósito}{Agregar nuevas áreas al sistema para realizar alguna actividad.}
 		\UCitem{Entradas}{Nombre del Área, Tipo de área, largo, ancho, capacidad, responsable y descripción.}
 		\UCitem{Origen}{Desde el teclado.}
-		\UCitem{Salidas}{Mensaje de registro exitoso.}
+		\UCitem{Salidas}{{\bf MS19-}``El registro fue exitoso.''}
 		\UCitem{Destino}{Los datos serán almacenados en el sistema y se verán reflejados en la tabla de la sección de consultar áreas.}
 		\UCitem{Precondiciones}{Que no esté esa área registrada previamente con el mismo nombre.Que exista alguna actividad que pueda utilizar dicha área.}
 		\UCitem{Postcondiciones}{El área registrada se podrá visualizar en la sección de consultar áreas}
-		\UCitem{Errores}{Que la información registrada no corresponda a los tipos de datos esperados. Error al no llenar los campos obligatorios.}
+		\UCitem{Errores}{
+{\bf E3:} ``No se ingresaron todos los campos obligatorios.'' -- El sistema muestra el Mensaje {\bf MSG3-}``Ingresa los campos obligatorios marcados con * para continuar.'' mostrados en \IUref{IU8}{Pantalla de campos obligatorios de áreas.} y continua con el paso 10.
+{\bf E4:} ``El formato del dato es incorrecto''  -- El sistema muestra el Mensaje {\bf MSG4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo.''
+{\bf E8:} ``Nombre de área ya existente'' -- El sistema muestra el Mensaje {\bf MSG8-}``El nombre de área ya se encuentra registrado.'' }
 		\UCitem{Tipo}{Caso de uso primario}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Francisco García Enríquez.}
@@ -24,7 +27,7 @@
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU6}{Pantalla de perfil de empleado}.
 		\UCpaso Toma la sesión de gerente de sucursal.
-		\UCpaso Muestra en la página principal del gerente de sucursal, las opciones que tiene disponibles para realizar operaciones el actor. 
+		\UCpaso Muestra en la página principal del gerente de sucursal, las opciones que tiene disponibles para realizar operaciones el actor. \IUref{IU8}{Pantalla de menú inicial.} 
 		\UCpaso[\UCactor] Selecciona del menú, la opción Áreas.
 		\UCpaso Muestra las opciones que el gerente pueda realizar.
 		\UCpaso[\UCactor] Selecciona la opción de Registrar Áreas.
@@ -41,7 +44,7 @@
 		\UCpaso Manda un mensaje mensaje {\bf MS3-}``Ingresa los campos obligatorios marcados con * para continuar.'' , refiriéndose a  que el campo responsable debe ser ingresado.
 		\UCpaso[\UCactor] Ingresa el nombre en el campo responsable \Trayref{A}.
 		\UCpaso[\UCactor] Confirma el registro, presionando el botón de registrar área.
-		\UCpaso Hace el registro y muestra una pantalla con un {\bf MS19-}``El registro fue exitoso.''
+		\UCpaso Hace el registro y muestra una pantalla con un {\bf MS19-}``El registro fue exitoso.'' \IUref{IU8}{Pantalla de registro exitoso.}
 	\end{UCtrayectoria}
 		
 		\begin{UCtrayectoriaA}{A}{El gerente de sucursal introduce espacios en blanco al inicio o caracteres especiales en el campo.}

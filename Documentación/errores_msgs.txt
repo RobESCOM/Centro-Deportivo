@@ -54,6 +54,8 @@ MSG19 =
 
 MSG19 = Acceso correcto
 
+MSG20 = Registro eliminado correctamente.
+
 
 
 
