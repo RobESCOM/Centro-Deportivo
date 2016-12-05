@@ -8,18 +8,18 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 	\begin{UseCase}{CU6.0}{Consultar Áreas Registradas}{
-		Para esta sección el gerente podrá consultar las áreas que se encuentran disponibles.
+		Para esta sección el gerente de sucursal podrá consultar las áreas que se encuentran disponibles.
 	}
 		\UCitem{Versión}{1.0}
 		\UCitem{Actor}{Gerente de sucursal}
-		\UCitem{Propósito}{Que el Gerente pueda visualuzar las áreas que se encuentran disponibles.}
+		\UCitem{Propósito}{Que el Gerente de sucursal pueda visualuzar las áreas que se encuentran disponibles.}
 		\UCitem{Entradas}{El nombre del área mediante una lista desplegable. \IUref{IU8}{Pantalla de consulta de areas.}}
 		\UCitem{Origen}{Los datos serán mostrados por medio de una tabla.}
 		\UCitem{Salidas}{Se mostrará el nombre del área con todos sus atributos tales como:
 			      Nombre,tipo de material, ancho, largo, capacidad,responsable.}
-		\UCitem{Destino}{Los daros serán mostrados en la pantalla mediante una tabla.}
+		\UCitem{Destino}{Los datos serán mostrados en la pantalla.}
 		\UCitem{Precondiciones}{Para visualizar las áreas se requiere, que el área se encuentre registrada previamente, en caso de haber áreas registradas no se mostrará dato alguno en la tabla, pero se podrá accesar al área de consulta.}
-		\UCitem{Postcondiciones}{El actor podrá regresar al menú de opciones para realizar otras operaciones en el sistema. \IUref{IU8}{Pantalla para regresar al menu.}}
+		\UCitem{Postcondiciones}{El actor podrá regresar al menú de opciones para realizar otras operaciones en el sistema.}
 		\UCitem{Errores}{ {\bf E7:} ``No se tiene ningún registro.'' -- El sistema muestra el Mensaje {\bf MSG1-}``No existe ningun registro.'' y el actor puede regresar al menu principal.}
 		\UCitem{Tipo}{Caso de uso primario}
 		\UCitem{Observaciones}{}
