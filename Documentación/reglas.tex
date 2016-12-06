@@ -106,7 +106,7 @@ Esto podría generar un costo adicional al pago de su membresia.
 \end{BussinesRule}
 
 \begin{BussinesRule}{BR12}{Costo de membresía}
-	\BRitem[Descripción:] El costo de las membresias está determinado por el numero de cursos y/o servicios que el usuario adquiera, distribiudos de la siguiente manera:
+	\BRitem[Descripción:] El costo de las membresias está determinado por el numero de cursos y/o servicios que el usuario adquiera, distribuidos de la siguiente manera:
 
 - Basica: 
 		Servicios:Locker, regaderas.			
@@ -155,6 +155,75 @@ Esto podría generar un costo adicional al pago de su membresia.
 	\BRitem[Tipo:] Cronometrada.
 	\BRitem[Nivel:] PreAutorizada.
 \end{BussinesRule}
+
+\begin{BussinesRule}{BR100}{Control de la información dentro del Centro Deportivo.} 
+	\BRitem[Descripción:] Toda la información manejada dentro del Centro Deportivo podrá ser manipulada únicamente por el personal que labora dentro del mismo. Sin embargo, no todo el personal podrá hacer uso de esa información de la misma manera. Este uso va en función del tipo de permisos que tenga cada uno de los empleados. Esto es:
+		
+{\bf - Gerente de operaciones:}
+
+	*Alta : Sucursales, Empleados, Áreas, Cursos y Servicios.
+	
+	*Baja : Clientes, Sucursales, Empleados, Áreas, Cursos y Servicios.
+	
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes, Sucursales, Empleados, Áreas, Sucursales, Cursos y Servicios.
+
+{\bf- Gerente de sucursal:}
+	
+	*Alta : Sucursales, Áreas, Cursos y Servicios.
+	
+	*Baja : Clientes, Sucursales, Áreas, Cursos y Servicios.
+	
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes, Sucursales, Áreas, Cursos y Servicios.
+
+{\bf- Recepcionista:}
+
+	*Alta : Clientes, Cursos y Servicios.
+	
+	*Baja : Clientes, Cursos y Servicios.
+	
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes, Cursos y Servicios.
+
+{\bf- Ejecutivo de ventas:}
+
+	*Alta : Clientes.
+	
+	*Baja : Ninguno.
+	
+	*Consulta : Clientes, Sucursales, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes.
+
+{\bf- Encargado de área:}
+	
+	*Alta : Áreas.
+	
+	*Baja : Áreas.
+	
+	*Consulta : Sucursales, Áreas, Cursos y Servicios.
+	
+	*Actualización : Áreas.
+
+{\bf- Instructor:}
+	
+	*Alta : Ninguno.
+	
+	*Baja : Ninguno.
+	
+	*Consulta : Sucursales, Áreas, Cursos, Horario.
+	
+	*Actualización : Ninguno.
+
+
+	\BRitem[Tipo:] Cronometrada.
+	\BRitem[Nivel:] PreAutorizada.
+\end{BussinesRule}
+
 
 \begin{BussinesRule}{BR117}{Determinar si el usuario tiene acceso al sistema.} 
 	\BRitem[Descripción:] Un Gerente de operación de negocio necesita estar dado de altra en el sistema e introducir su usuario y contraseña de manera correcta.

@@ -130,7 +130,7 @@
 \BOOKMARK [2][-]{subsection.3.0.4}{IU22.1 Baja de curso}{subsection.3.0.1}% 130
 \BOOKMARK [2][-]{subsection.3.0.5}{IU23.1 Modificar un curso}{subsection.3.0.1}% 131
 \BOOKMARK [2][-]{subsection.3.0.6}{IU24 Pantalla de Consultar un Curso}{subsection.3.0.1}% 132
-\BOOKMARK [2][-]{subsection.3.0.7}{IU25 Pantalla de Inscribir cliente a curso}{subsection.3.0.1}% 133
+\BOOKMARK [2][-]{subsection.3.0.7}{IU26 Pantalla de Inscribir cliente a curso}{subsection.3.0.1}% 133
 \BOOKMARK [2][-]{subsection.3.0.8}{IU18 Pantalla de men\372 de ocpiones de la secci\363n \341reas.}{subsection.3.0.1}% 134
 \BOOKMARK [2][-]{subsection.3.0.9}{IU19 Pantalla de registro de \341rea}{subsection.3.0.1}% 135
 \BOOKMARK [2][-]{subsection.3.0.10}{IU20 Pantalla de Eliminar \341reas}{subsection.3.0.1}% 136
@@ -145,4 +145,5 @@
 \BOOKMARK [2][-]{subsection.3.0.19}{IU38 Pantalla de opciones para la recepsionista}{subsection.3.0.1}% 145
 \BOOKMARK [2][-]{subsection.3.0.20}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.3.0.1}% 146
 \BOOKMARK [2][-]{subsection.3.0.21}{IU99 Pantalla dar de baja sucursales}{subsection.3.0.1}% 147
-\BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 148
+\BOOKMARK [2][-]{subsection.3.0.22}{IU3 Pantalla de Registrar Cliente}{subsection.3.0.1}% 148
+\BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 149
