@@ -75,7 +75,7 @@
 
                                     <div class="6u 12u$(xsmall)">
                                         <label for="nameS">Nombre de la sucursal</label>
-                                        <input type="text" id="nameS" name="nameS" placeholder="On The Run" required>
+                                        <input type="text" id="nameS" name="nameS" placeholder="On The Run" onblur="consultarNombre(this)" required>
 
                                         <p id="age" title="Oh! no, god please help me!!">Fecha de inauguracion 
                                             <input type="text" id="datepicker" name="datepicker" onclick="mostrarFecha()">
@@ -85,16 +85,21 @@
                                         <select id="state" name="state">
                                             
                                         </select>
-
+                                    
                                         <section id="teles">
                                             <h4>Telefono(s)</h4>
-                                            <input type="text" id="tel" name="tels" placeholder="01 800 Any colour you like" onblur="verificarTel(this)" required>
-                                            <span id="mas" class="ui-icon-circle-plus" onclick="moreTel()">+</span>
+                                            <ul class="actions fit small">
+                                                <li><input type="text" id="tel" name="tels" placeholder="01 800 Any colour you like" onblur="verificarTel(this)" required></li>
+                                                <li><input type="button" class="botonPuls buttonPlus" value ="+" onclick="moreTel()"></li>
+                                            </ul>
                                         </section>
 
                                         <section id="mails">
                                             <h4>Mail(s)</h4>
-                                            <input type="email" id="email" name="email" placeholder="nile@song.more" onblur="moreMail()" required>
+                                            <ul class="actions fit small">
+                                                <li><input type="email" id="email" name="email" placeholder="nile@song.more" onblur="verificarMail()" required></li>
+                                                <li><input type="button" class="botonPuls buttonPlus" value ="+" onclick="moreMail()"></li>
+                                            </ul>
                                         </section>
                                     </div>
 
@@ -128,13 +133,23 @@
                                             <h4>Áreas</h4>
                                             <div class="6u 12u$(xsmall)">
                                             <details id="areas">
-                                                <summary onclick="mostrarAreas()">¿Con que áreas cuanta la sucursal?</summary>
+                                                <summary onclick="mostrarAreas()">¿Con qué áreas cuenta la sucursal?</summary>
                                                 <!-- <label>Valor: </label><input type="checkbox" value="Valor" name="areasSuc"/> -->
                                                 
                                             </details>
                                             </div>
-                                        </section>    
+                                        </section>
 
+                                        <section id="servicio">
+                                            <h4>Servicios</h4>
+                                            <div class="6u 12u$(xsmall)">
+                                            <details id="servicios">
+                                                <summary onclick="mostrarServicios()">¿Con qué serivicios cuenta la sucursal?</summary>
+                                                <!-- <label>Valor: </label><input type="checkbox" value="Valor" name="areasSuc"/> --> 
+                                            </details>
+                                            </div>
+                                        </section>
+                                        
                                         <h4>Datos del gerente</h4>
                                         <label for="adminPila">Nombre</label>
                                         <input type="text" id="adminPila" name="adminPila" placeholder="Pink" required>

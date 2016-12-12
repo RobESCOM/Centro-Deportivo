@@ -323,7 +323,7 @@ public class CRUD {
     }
     
     public String getNombreAreas() {
-        String sql = "SELECT nombre FROM area";
+        String sql = "SELECT nombre FROM areas";
         String row = ""; 
         
         try {
@@ -453,6 +453,33 @@ public class CRUD {
        }
        
        return ( row.equals("") )? row:row.substring(0, row.length() - 2 );
+    }
+    
+    public boolean existeNombreSucursal( String name ) {
+        String sql = "SELECT nombre FROM sucursal"; 
+        boolean existe = false;
+       
+        try {
+           sentencia = con.getConn().createStatement();
+           ResultSet r = sentencia.executeQuery(sql);
+           int n;
+           
+           while( r.next() ) {
+                n = r.getMetaData().getColumnCount();
+                
+                for( int i = 1; i <= n; i++ ) {
+                    if( name.equals( r.getString(i) ) ) {
+                        existe = true;
+                        break;
+                    }
+                }
+
+           }
+       } catch( SQLException ex ) {
+           Logger.getLogger(CRUD.class.getName()).log(Level.SEVERE, null, ex);
+       }
+       
+       return existe;
     }
     /* public static void main( String args[] ) {
         CRUD test = new CRUD();

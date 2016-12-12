@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import modelo.*;
-import modelo.entidades.Direccion;
 import modelo.entidades.Sucursal;
 /**
  *
@@ -122,10 +121,18 @@ public class RegistroSucursal extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String area = request.getParameter("areas");
+        String name = request.getParameter("buscarNombre");
+        String service = request.getParameter("servicio");
         
         if( area == null )
             doGet( request, response );
-        else {
+        else if( name != null && !"".equals(name) ) {
+            boolean existe = cruds.existeNombreSucursal(name);
+            response.getWriter().write( String.valueOf( existe ) );
+            
+        } else if( service != null && !"".equals(service) ){
+        
+        }else {
             area = cruds.getNombreAreas();
             response.getWriter().write( area );
         }

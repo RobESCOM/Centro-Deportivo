@@ -52,61 +52,58 @@ function verificarTel( id ) {
 }
 
 function moreTel() {
-    var desicionUser = confirm("Desea aniadir un numero telefonico mas?");
+    var desicionUser = confirm("Desea aniadir un numero telefónico más?");
 
     if (desicionUser) {
+        var lista = document.createElement("ul");
         var newTel = document.createElement("input");
-        document.getElementById("teles").appendChild(newTel).id = "tel" + contTels;
-        document.getElementById("tel" + contTels).setAttribute("type", "text");
-        document.getElementById("tel" + contTels).setAttribute("placeholder", "01 800 i wanna be sedated");
-        document.getElementById("tel" + contTels).setAttribute("onblur", "verificarTel(this)");
+        var botonMas = document.createElement("input");
+        var botonMenos = document.createElement("input");
+        
+        lista.setAttribute("class", "actions fit small" );
+        lista.setAttribute("id", "ul" + contTels );
+        document.getElementById("teles").appendChild( lista );
+        
+        var elementoLista = document.createElement("li");
+        newTel.setAttribute("type", "text");
+        newTel.setAttribute("placeholder", "01 800 i wanna be sedated");
+        newTel.setAttribute("onblur", "verificarTel(this)");
+        newTel.setAttribute("id", "tel" + contTels++ );
+        elementoLista.appendChild( newTel );
+        
+        var elementoLista2 = document.createElement("li");
+        botonMas.setAttribute("type", "button");
+        botonMas.setAttribute("class", "botonPuls buttonPlus");
+        botonMas.setAttribute("value", "+" );
+        botonMas.setAttribute("onclick", "moreTel()" );
+        elementoLista2.appendChild( botonMas );
+        
+        var elementoLista3 = document.createElement("li");
+        botonMenos.setAttribute("type", "button");
+        botonMenos.setAttribute("class", "botonPuls buttonPlus");
+        botonMenos.setAttribute("value", "-" );
+        botonMenos.setAttribute("onclick", "removeTelMail( this )" );
+        elementoLista3.appendChild( botonMenos );
+        
+        lista.appendChild( elementoLista );
+        lista.appendChild( elementoLista2 );
+        lista.appendChild( elementoLista3 );
     }
+}
+
+function removeTelMail( id ) {
+    var ul = id.parentNode;
+    var padre = ul.parentNode;
+    var abuelo = padre.parentNode;
+    
+    abuelo.removeChild( padre );
 }
 
 function mostrarFecha() {
     document.getElementById("ui-datepicker-div").style.display = "block";
 }
-//Fucnion original para verificar y aniadir mas telefonos
-/* function moreTel( id ) {
- if( typeof id === "undefined" ){
- id = document.getElementById("tel");
- var tel = id.value;
- } else {
- tel = id.value;
- }
- 
- var regExp = /([a-z]|[A-Z])/g;
- var result = tel.match(regExp);
- 
- if (result !== null) {
- alert("Inserte un numero");
- id.focus();
- } else {
- result = id.value;
- 
- if ( result.length <= 15 && result !== "" ) {
- var desicionUser = confirm("Desea aniadir un numero telefonico mas?");
- 
- if (desicionUser) {
- var newTel = document.createElement("input");
- document.getElementById("teles").appendChild(newTel).id = "tel" + contTels;
- document.getElementById("tel" + contTels).setAttribute("type", "text");
- document.getElementById("tel" + contTels).setAttribute("placeholder", "01 800 i wanna be sedated");
- document.getElementById("tel" + contTels).focus();
- document.getElementById("tel" + contTels).setAttribute("onblur", "moreTel(this)");
- document.getElementById("tel" + contTels++).focus();
- }
- } else if( result === "" ) {
- alert("introduzca un numero telefonico valido");
- id.focus();
- }else {
- alert("El numero telefonico no debe contener mas de 15 digitos");
- id.focus();
- }
- }
- } */
 
-function moreMail(id) {
+function verificarMail( id ) {
     if (typeof id === "undefined") {
         id = document.getElementById("email");
         mail = id.value;
@@ -118,20 +115,52 @@ function moreMail(id) {
     //var result = mail.match( regExp ); //regresa todas las coincidencias
     var mailValido = regExp.test(mail);//si coincide regresa true en caso contrario false
 
-    if (mailValido) {
-        var desicionUser = confirm("Desea aniadir otro correo electronico?");
-
-        if (desicionUser) {
-            var newTel = document.createElement("input");
-            document.getElementById("mails").appendChild(newTel).id = "mails" + contMail;
-            document.getElementById("mails" + contMail).setAttribute("type", "email");
-            document.getElementById("mails" + contMail).setAttribute("placeholder", "nile@song.com");
-            document.getElementById("mails" + contMail++).setAttribute("onblur", "moreMail(this)");
-        }
+    if ( mailValido ) {
+        
     } else {
         alert("Direccion de correo electronica no valida");
         id.value = "";
     }
+}
+
+function moreMail() {
+    var desicionUser = confirm("Desea aniadir un correo electrónico?");
+    
+    if( desicionUser ) {
+        var newMail = document.createElement("input");
+        var lista = document.createElement("ul");
+        var botonMas = document.createElement("input");
+        var botonMenos = document.createElement("input");
+    
+        lista.setAttribute("class", "actions fit small" );
+        document.getElementById("mails").appendChild( lista );
+        
+        var elementoLista = document.createElement("li");
+        newMail.setAttribute("type", "email");
+        newMail.setAttribute("placeholder", "nile@song.com");
+        newMail.setAttribute("onblur", "verificarMail(this)");
+        newMail.setAttribute("id", "mails" + contMail++ );
+        elementoLista.appendChild( newMail );
+        
+        var elementoLista2 = document.createElement("li");
+        botonMas.setAttribute("type", "button");
+        botonMas.setAttribute("class", "botonPuls buttonPlus");
+        botonMas.setAttribute("value", "+" );
+        botonMas.setAttribute("onclick", "moreMail()" );
+        elementoLista2.appendChild( botonMas );
+        
+        var elementoLista3 = document.createElement("li");
+        botonMenos.setAttribute("type", "button");
+        botonMenos.setAttribute("class", "botonPuls buttonPlus");
+        botonMenos.setAttribute("value", "-" );
+        botonMenos.setAttribute("onclick", "removeTelMail( this )" );
+        elementoLista3.appendChild( botonMenos );
+        
+        lista.appendChild( elementoLista );
+        lista.appendChild( elementoLista2 );
+        lista.appendChild( elementoLista3 );
+    }
+    
 }
 
 function mostrarEstado() {
@@ -286,6 +315,50 @@ function mostrarAreas() {
         type: "post", //metodo a utilizar
         url: "RegSuc", //nombre del servlet en el servidor
         data: {areas: mge}, //mensaje: correo variable que se recibe en servlet mge contenido que se envia
+        success: function (data) {
+            if (data !== "") {
+                var areas = data.split("**");
+                var len = areas.length;
+                id.innerHTML = "<summary>¿Con que áreas cuanta la sucursal?</summary>";
+
+                /*<div class="6u 12u$(small)">
+                 <input type="checkbox" id="demo-copy" name="demo-copy">
+                 <label for="demo-copy">Email me a copy</label>
+                 </div> */
+                var div = document.createElement("div");
+                div.setAttribute("class", "12u$(small)");
+
+                for (var i = 0; i < len - 1; i++) {
+                    var etiqueta = document.createElement("label");
+                    var text = document.createTextNode(areas[i]);
+                    etiqueta.appendChild(text);
+                    etiqueta.setAttribute("for", areas[i]);
+
+                    var input = document.createElement("input");
+                    input.setAttribute("type", "checkbox");
+                    input.setAttribute("id", areas[i]);
+                    input.setAttribute("name", "areasSuc");
+
+                    div.appendChild(input);
+                    div.appendChild(etiqueta);
+                }
+                id.appendChild(div);
+            } else {
+                alert("No hay datos que mostrar");
+
+            }
+        }
+    });
+}
+
+function mostrarServicios() {
+    var id = document.getElementById("serivicios");
+    var mge = "servicios";
+
+    $.ajax({
+        type: "post", //metodo a utilizar
+        url: "RegSuc", //nombre del servlet en el servidor
+        data: {serivicio: mge}, //mensaje: correo variable que se recibe en servlet mge contenido que se envia
         success: function (data) {
             if (data !== "") {
                 var areas = data.split("**");
@@ -502,7 +575,21 @@ function getUbicacionEstado_Sucursal() {
     });
 }
 
-
+function consultarNombre( id ) {
+    var nombre = id.value;
+    
+    $.ajax( {
+        type: "post", //metodo a utilizar
+        url: "RegSuc", //nombre del servlet en el servidor
+        data: { buscarNombre: nombre }, //mensaje: correo variable que se recibe en servlet mge contenido que se envia
+        success: function (data) {
+            if( data === "true" ) {
+                alert("Ya existe una sucursal con el mismo nombre por favor seleccione otro");
+                id.value = "";
+            }
+        }
+    });
+}
 
 
 
