@@ -184,14 +184,14 @@
 \contentsline {subsection}{\numberline {3.0.9}IU19 Pantalla de registro de \IeC {\'a}rea}{80}{subsection.3.0.9}
 \contentsline {subsubsection}{Objetivo}{80}{section*.50}
 \contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.51}
-\contentsline {subsubsection}{Salidas}{81}{section*.52}
-\contentsline {subsubsection}{Entradas}{82}{section*.53}
+\contentsline {subsubsection}{Salidas}{80}{section*.52}
+\contentsline {subsubsection}{Entradas}{81}{section*.53}
 \contentsline {subsubsection}{Comandos}{82}{section*.54}
 \contentsline {subsubsection}{Mensajes}{82}{section*.55}
 \contentsline {subsection}{\numberline {3.0.10}IU20 Pantalla de Eliminar \IeC {\'a}reas}{82}{subsection.3.0.10}
 \contentsline {subsubsection}{Objetivo}{82}{section*.56}
 \contentsline {subsubsection}{Dise\IeC {\~n}o}{82}{section*.57}
-\contentsline {subsubsection}{Salidas}{83}{section*.58}
+\contentsline {subsubsection}{Salidas}{82}{section*.58}
 \contentsline {subsubsection}{Entradas}{83}{section*.59}
 \contentsline {subsubsection}{Comandos}{83}{section*.60}
 \contentsline {subsubsection}{Mensajes}{83}{section*.61}

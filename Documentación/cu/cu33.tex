@@ -20,7 +20,7 @@
 		\UCitem{Destino}{El dato se eliminará del sistema y los datos ya no serán visibles en la sección de consulta de servicios.}
 		\UCitem{Precondiciones}{Para eliminar un servicio se requiere que esté registrado previamente.}
 		\UCitem{Postcondiciones}{El actor puede registrar nuevamente el servicio eliminado.}
-		\UCitem{Errores}{No se efectue correctamente la operación y por lo tanto no se elimine el servicio.}
+		\UCitem{Errores}{{\bf E7:} ``No se tiene ningún registro.'' -- El sistema muestra el Mensaje {\bf MSG1-}``No existe ningun registro.'' y el actor puede regresar al menu principal. }
 		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Roberto Mendoza Saavedra}
@@ -30,7 +30,7 @@
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU6}{Pantalla de perfil de empleado}.
 		\UCpaso Toma la sesión de gerente de sucursal.
-		\UCpaso Muestra en la página principal las opciones que tiene disponibles para realizar operaciones el actor.
+		\UCpaso Muestra el menu de opciónes disponoibles para el actor.
 		\UCpaso[\UCactor] Selecciona del menú la opción Servicios.
 		\UCpaso Muestra las opciones que el gerente pueda realizar: Registrar Servicios, Consultar Servicios, Eliminar Servicios, Suspender Servicios y Actualizar Servicios. En la sección \IUref{IU18}{Pantalla de menu de opciones servicios}.
 		\UCpaso[\UCactor] Selecciona la opción de Eliminar servicios.

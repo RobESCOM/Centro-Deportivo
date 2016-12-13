@@ -14,7 +14,7 @@
 	}
 		\UCitem{Versión}{1.0}
 		\UCitem{Actor}{Gerente de Sucursal, Recepcionista}
-		\UCitem{Propósito}{Dar de baja un servicio del sistema, con el objetivo de que no se cuente su participación dentro del sistema y de la sucursal, sin embargo el servicio seguira existiendo pero con un estado de inactividad.}
+		\UCitem{Propósito}{Dar de baja un servicio del sistema, con el objetivo de que no se cuente su participación dentro del sistema y de la sucursal, sin embargo el servicio seguira existiendo pero con un estado inactivo.}
 		\UCitem{Entradas}{Estado del servicio}
 		\UCitem{Origen}{Teclado.}
 		\UCitem{Salidas}{Se muestra un mensaje de "servicio actualizado".}
@@ -24,8 +24,7 @@ Para suspender un servicio se requiere que esté registrado previamente.
 		Se requiere que el servicio no se haya eliminado del sistema.}
 		\UCitem{Postcondiciones}{El actor puede cambiar el estado del servicio nuevamente.}
 		\UCitem{Errores}{
-No se cuenta con ningun dato registrado.
-		No se efectua correctamente la operacion.}
+{\bf E7:} ``No se tiene ningún registro.'' -- El sistema muestra el Mensaje {\bf MSG1-}``No existe ningun registro.'' y el actor puede regresar al menu principal. }
 		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Francisco Garcia Enriquez}
@@ -35,13 +34,13 @@ No se cuenta con ningun dato registrado.
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso Solicita ingreso al sistema.
 		\UCpaso Toma la sesion del actor
-		\UCpaso Mustra en la página principal el menú de opciones.
+		\UCpaso Mustra en la página principal el menú de opciones. 
 		\UCpaso[\UCactor] Selecciona del menú la opción servicios.
 		\UCpaso Muestra las opciones que el actor puede realizar: Agregar servicio, consultar servicios, eliminar servicios, suspender servicios y actualizar servicios.
 		\UCpaso[\UCactor] Selecciona la opción, Actualizar servicios.
 		\UCpaso Carga una tabla con los servicios registrados, adjunto de un boton de edición [Trayectoria A].
 		\UCpaso[\UCactor] Presiona el boton de editar.
-		\UCpaso Muestra una página deonde se cargan los datos del servicio en los campos del formulario.
+		\UCpaso Muestra una página donde se cargan los datos del servicio en los campos del formulario.
 		\UCpaso[\UCactor] Cambia el estado del servicio seleccionado a inactivo, en el "campo estado del servicio".
 		\UCpaso[\UCactor] Confirma el cambio presionando el boton de actualizar.
 		\UCpaso Actualza el estado del servicio y muestra un mensaje MSG.- "Los datos se actualizaron correctamente". \Trayref{A}

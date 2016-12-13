@@ -15,12 +15,13 @@
 		\UCitem{Actor}{Gerente de sucursal, Recepcionista}
 		\UCitem{Propósito}{Consultar los servicios que se encuentran registrados en el sistema.}
 		\UCitem{Entradas}{Desde el teclado o mouse.}
-		\UCitem{Origen}{Los datos serán mostrados desde una tabla}
+		\UCitem{Origen}{Desde el teclado.}
 		\UCitem{Salidas}{Se mostrará el área del servicio con sus atributos, tales como: Nombre, ubicación, estado del servicio, costo, horario, responsable y descripción.}
 		\UCitem{Destino}{Los datos serán mostrados desde una tabla.}
 		\UCitem{Precondiciones}{Para visualizar un servicio se requiere que el servicio se encunetre registrado, tener un área registrada previamente y al menos un instructor registrado.}
 		\UCitem{Postcondiciones}{El actor podrá regresar al menú de opciones para realizar otras operaciones dentro del sistema.}
-		\UCitem{Errores}{Que el sistema no detecte datos incorrectos y se visualicen en la tabla de consulta.}
+		\UCitem{Errores}{
+{\bf E7:} ``No se tiene ningún registro.'' -- El sistema muestra el Mensaje {\bf MSG1-}``No existe ningun registro.'' y el actor puede regresar al menu principal. }
 		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Francisco García Enríquez}
@@ -30,14 +31,14 @@
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] El Solicita ingreso al sistema.
 		\UCpaso Toma la sesion del actor.
-		\UCpaso Mustra en la página principal el menú de opciones.
-		\UCpaso[\UCactor] Mustra en la página principal el menú de opciones.
+		\UCpaso Muestra en la página principal las opciones que tiene disponibles para realizar operaciones el actor. \IUref{IU8}{Pantalla de menu de opciones inicial.}
+		\UCpaso[\UCactor] Selecciona del menú la opción Servicios.
 		\UCpaso Muestra las opciones que el actor puede realizar: Agregar servicio, Consultar servicios, Eliminar servicios, Suspender servicios y actualizar servicios.
 		\UCpaso[\UCactor] Selecciona la opción, consultar servicios.
 		\UCpaso Muestra los datos de los servicios registrados mediante una tabla.
 		\UCpaso[\UCactor] puede visualizar los datos de los servicios registrados.
 		\UCpaso[\UCactor] Finaliza su operacion dentro del área de conuslta.
-		\UCpaso[\UCactor] Puede regresar al menu de opciones de la sección, mediante el boton de menú de inicio.
+		\UCpaso[\UCactor] Regresará al menú de opciones de la sección \IUref{IU18}{Pantalla de menu de opciones áreas} mediante el botón de menú de inicio.	
 	\end{UCtrayectoria}
 
 \begin{UCtrayectoriaA}{A}{No existe ningun dato registrado.}

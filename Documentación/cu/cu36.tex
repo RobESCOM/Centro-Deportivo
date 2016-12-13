@@ -25,9 +25,10 @@
 
 		\UCitem{Postcondiciones}{El actor puede visualizar los cambios en la sección de consultar servicios.}
 		\UCitem{Errores}{
-		Que los campos no cumplan con los tipos de datos solicitados.
-		No se efectua correctamente la operacion.}
-
+		{\bf E3:} ``No se ingresaron todos los campos obligatorios.'' -- El sistema muestra el Mensaje {\bf MSG3-}``Ingresa los campos obligatorios marcados con * para continuar.'' mostrados en \IUref{IU8}{Pantalla de campos obligatorios de áreas.}
+{\bf E4:} ``El formato del dato es incorrecto''  -- El sistema muestra el Mensaje {\bf MSG4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo.''
+{\bf E8:} ``Nombre de área ya existente'' -- El sistema muestra el Mensaje {\bf MSG8-}``El nombre de área ya se encuentra registrado.''
+}
 		\UCitem{Tipo}{Caso de uso primario.}
 		\UCitem{Observaciones}{}
 		\UCitem{Autor}{Francisco Garcia Enriquez}
@@ -44,9 +45,9 @@
 		\UCpaso carga una tabla con los servicios registrados, adjunto de un boton de edición.
 		\UCpaso[\UCactor] Presiona el boton de editar, en el servicio que desea modificar.
 		\UCpaso sistema muestra una página donde se cargan los datos del servicio en los campos del formulario. Plantilla UI Modificar Servicio.
-		\UCpaso[\UCactor] modifica los datos que considere necesarios [Trayectoria B][Trayectoria C]
-		\UCpaso[\UCactor] Confirma el registro y presiona el boton de actualizar datos.
-		\UCpaso Actualiza los datos y muestra un mensaje MSG18- "los datos se han actualizado exitosamente."
+		\UCpaso[\UCactor] modifica los datos que considere necesarios.
+		\UCpaso[\UCactor] Confirma el registro y presiona el boton de actualizar datos \Trayref{A} \Trayref{B} \Trayref{C}.
+		\UCpaso Actualiza los datos y muestra un mensaje {\bf MSG18-}``Los datos se han actualizado exitosamente''.
 		\UCpaso[\UCactor] puede regresar al menú de opciones mediante el boton de "regresar al menú de inicio".
 	\end{UCtrayectoria}
 
