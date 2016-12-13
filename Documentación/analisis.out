@@ -136,15 +136,17 @@
 \BOOKMARK [2][-]{subsection.3.0.10}{IU20 Pantalla de Eliminar \341reas}{subsection.3.0.1}% 136
 \BOOKMARK [2][-]{subsection.3.0.11}{IU22 Pantalla de Actualizaci\363n de \341reas}{subsection.3.0.1}% 137
 \BOOKMARK [2][-]{subsection.3.0.12}{IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{subsection.3.0.1}% 138
-\BOOKMARK [2][-]{subsection.3.0.13}{IU23 Pantalla de Control de Acceso}{subsection.3.0.1}% 139
-\BOOKMARK [2][-]{subsection.3.0.14}{IU32 Pantalla de formulario para registro de nueva sucursal.}{subsection.3.0.1}% 140
-\BOOKMARK [2][-]{subsection.3.0.15}{IU33 Pantalla de visualizaci\363n de sucursal en mapa.}{subsection.3.0.1}% 141
-\BOOKMARK [2][-]{subsection.3.0.16}{IU34 A\361adir otro campo}{subsection.3.0.1}% 142
-\BOOKMARK [2][-]{subsection.3.0.17}{IU35 A\361adir otro email}{subsection.3.0.1}% 143
-\BOOKMARK [2][-]{subsection.3.0.18}{IU97 Pantalla para consultar sucursales registradas}{subsection.3.0.1}% 144
-\BOOKMARK [2][-]{subsection.3.0.19}{IU37 P\341gina de inicio}{subsection.3.0.1}% 145
-\BOOKMARK [2][-]{subsection.3.0.20}{IU38 Pantalla de opciones para la recepsionista}{subsection.3.0.1}% 146
-\BOOKMARK [2][-]{subsection.3.0.21}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.3.0.1}% 147
-\BOOKMARK [2][-]{subsection.3.0.22}{IU99 Pantalla dar de baja sucursales}{subsection.3.0.1}% 148
-\BOOKMARK [2][-]{subsection.3.0.23}{IU3 Pantalla de Registrar Cliente}{subsection.3.0.1}% 149
-\BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 150
+\BOOKMARK [2][-]{subsection.3.0.13}{IU8 Pantalla de Registro Exitoso.}{subsection.3.0.1}% 139
+\BOOKMARK [2][-]{subsection.3.0.14}{IU9 Pantalla de Consulta de \301reas.}{subsection.3.0.1}% 140
+\BOOKMARK [2][-]{subsection.3.0.15}{IU23 Pantalla de Control de Acceso}{subsection.3.0.1}% 141
+\BOOKMARK [2][-]{subsection.3.0.16}{IU32 Pantalla de formulario para registro de nueva sucursal.}{subsection.3.0.1}% 142
+\BOOKMARK [2][-]{subsection.3.0.17}{IU33 Pantalla de visualizaci\363n de sucursal en mapa.}{subsection.3.0.1}% 143
+\BOOKMARK [2][-]{subsection.3.0.18}{IU34 A\361adir otro campo}{subsection.3.0.1}% 144
+\BOOKMARK [2][-]{subsection.3.0.19}{IU35 A\361adir otro email}{subsection.3.0.1}% 145
+\BOOKMARK [2][-]{subsection.3.0.20}{IU97 Pantalla para consultar sucursales registradas}{subsection.3.0.1}% 146
+\BOOKMARK [2][-]{subsection.3.0.21}{IU37 P\341gina de inicio}{subsection.3.0.1}% 147
+\BOOKMARK [2][-]{subsection.3.0.22}{IU38 Pantalla de opciones para la recepsionista}{subsection.3.0.1}% 148
+\BOOKMARK [2][-]{subsection.3.0.23}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.3.0.1}% 149
+\BOOKMARK [2][-]{subsection.3.0.24}{IU99 Pantalla dar de baja sucursales}{subsection.3.0.1}% 150
+\BOOKMARK [2][-]{subsection.3.0.25}{IU3 Pantalla de Registrar Cliente}{subsection.3.0.1}% 151
+\BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 152
