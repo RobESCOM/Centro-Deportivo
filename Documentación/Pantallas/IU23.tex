@@ -1,0 +1,208 @@
+\subsection{IU18 Pantalla de menú de ocpiones de la sección áreas.}
+
+\subsubsection{Objetivo}
+	El gerente podrá seleccionar una opcion del menú areas.
+
+\subsubsection{Diseño}
+	Esta pantalla se encuentra en la seccion de opciones del menu áreas de la sección principal. 
+
+\IUfig[.5]{gui/menuOpciones}{IU18}{Pantalla de Menú de opciones.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+El gerente podrá escoger alguna opción del menú con tan solo dar un click.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Registrar áreas}: Muestra un formulario para registrar áreas en la sucursal.
+	\item \IUbutton{Consultar áreas}: Muestra las áreas registradas en la sucursal.
+	\item \IUbutton{Eliminar áreas}: Muestra una lista desplegable donde el gerente puede eliminar las áreas registradas.
+	\item \IUbutton{Actualizar áreas}: Muestra un formulario en donde se pueden modificar los datos de las áreas.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG0} Ningun mensaje de error.
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{IU19 Pantalla de registro de área}
+
+\subsubsection{Objetivo}
+	El gerente podrá registrar nuevas áreas en la sucursal.
+
+\subsubsection{Diseño}
+	Esta pantalla en la opción registrar áreas que se encuentra en la seccion de opciones del menu áreas de la sección principal.
+
+\IUfig[.6]{gui/registrarArea}{IU19}{Pantalla de registo de nueva área.}
+
+\subsubsection{Salidas}
+Mensaje de área registrada exitosamente.
+
+\subsubsection{Entradas}
+Nombre de área, Tipo de área, Largo, Ancho, Capacidad, Responsable y Descripción.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Registrar área}: Es la acción para dar de alta una nueva área.
+	\item \IUbutton{Limpiar}: Limpia el formulario, deja los campos en blanco.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG1} Campo nombre: Debe contener letras y espacios en blanco.
+	\end{Citemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{IU20 Pantalla de Eliminar áreas}
+
+\subsubsection{Objetivo}
+	El gerente podrá dar de baja alguna área que se encuentre registrada.
+
+\subsubsection{Diseño}
+	Esta pantalla se encuentra en la sección de áreas del menú principal.
+
+\IUfig[.6]{gui/eliminarAreas}{IU20}{Pantalla de eliminar áreas.}
+
+\subsubsection{Salidas}
+
+	Mensaje de registro eliminado correctamete.
+
+\subsubsection{Entradas}
+Entrada directamente sobre el mouse, en la opción eliminar de la lista desplegable de las áreas.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Eliminar}: Esta opción permite eliminar un área registrada.
+	\item \IUbutton{Regresar al menú principal}: Esta opción permite regresar al menú principal.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Ningun mensaje de error.
+	\end{Citemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU22 Pantalla de Actualización de áreas}
+
+\subsubsection{Objetivo}
+	El gerente podrá actualizar una área qeu se encuentre registrada a fin de modificar su contenido.
+
+\subsubsection{Diseño}
+	Esta pantalla se encuentra en la sección de áreas del menú principal.
+
+\IUfig[.6]{gui/actualizaArea}{IU22}{Pantalla de actualización áreas.}
+
+\subsubsection{Salidas}
+
+	Mensaje de datos actualizados correctamente.
+
+\subsubsection{Entradas}
+En caso de ser necesario el gerente podrá actualizar los datos: Nombre de área, Tipo de área, Largo, Ancho, Capacidad, Responsable y Descripción.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Registrar área}: Es la acción para dar de alta una nueva área.
+	\item \IUbutton{Limpiar}: Limpia el formulario, deja los campos en blanco.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Ningun mensaje de error.
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU23.0 Pantalla de Control de acceso Gerente de Sucursal}
+
+\subsubsection{Objetivo}
+	Controlar el acceso al sistema mediante una contraseña a fin de que cada usuario acceda solo a las operaciones permitidas para su perfil.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece al iniciar el sistema. Para ingresar al mismo se debe escribir el nombre de usuario y contraseña del gerente de sucursal. 
+
+\IUfig[.6]{gui/iu21-0}{IU21.0}{Pantalla de Control de Acceso a Gerente de Sucursal.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+Número de Gerente de sucursal y contraseña unica.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Entrar}: Verifica que el Gerente de Sucursal se encuentre registrado y la contraseña sea la correcta. Si la verificación es correcta, se muestra la \IUref{IU21.1}{Pantalla de inicio acceso a Gerente de sucrsal}.
+	\item \IUbutton{Ayuda}: Muestra la ayuda de esta pantalla \IUref{IU50}{Pantalla de Ayuda}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Error al verificar los datos de Gerente de sucursal, vuelva a intentarlo.
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU8 Pantalla de Registro Exitoso.}
+
+\subsubsection{Objetivo}
+	Confirmar al actor que el dato ha sido registrado correctamente.
+
+\subsubsection{Diseño}
+	Esta página debe aparecer a la hora de registrar una área. 
+
+\IUfig[.6]{gui/RegistroExitoso}{IU8}{Pantalla de Registro Exitoso.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+Ninguna
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Menu de inicio}: Manda al usuario al menú de inicio
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Error al verificar los datos de Gerente de sucursal, vuelva a intentarlo.
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU9 Pantalla de Consulta de Áreas.}
+
+\subsubsection{Objetivo}
+	El actor podrá consultar las áreas que se encuentran registradas.
+
+\subsubsection{Diseño}
+	En está sección aparecerán las áreas que se encuentren registradas.
+
+\IUfig[.6]{gui/ConsultaAreas}{IU9}{Pantalla de Registro Exitoso.}
+
+\subsubsection{Salidas}
+
+	Datos de las áreas registradas.
+
+\subsubsection{Entradas}
+Ninguna
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Menu de inicio}: Manda al usuario al menú de inicio
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} No se encuentra ninguna área registrada.
+	\end{Citemize}

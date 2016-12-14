@@ -1,0 +1,100 @@
+E1 = El cliente es menor de edad. 
+E2 = Existe un registro con la misma CURP.
+E3 = No se ingresaron todos los campos obligatorios.
+E4 = El formato del dato es incorrecto
+E5 = La clave CURP, nombre o apellidos no existen.
+E6 = Error de eliminacion de registro no existente
+E7 = No se tiene ningún registro
+E8 = Nombre de área ya existente
+E9 = Un mismo gerente está asignado a más de una sucursal
+E10 = No existe ninguna área registrada.
+E11 = NO existe ningún servicio registrado.
+E12 = Nombre de sucursal ya existe.
+E13 = El empleado es menor de 18 años.
+E14 = Usuario no identificado
+E15 = No se ingresa clave de usuario
+
+MSG1 = Debes ser mayor de 18 años para continuar con el registro y adquirir tú membresía. Una vez finalizado el registro podrás dar de alta a un afiliado menor de edad.
+
+MSG2 = Este cliente ya existe. Ingresa una nueva CURP o consulta los clientes registrados.
+
+MSG3 = Ingresa los campos obligatorios marcados con * para continuar.
+
+MSG4 = Ingresa el valor correcto de acuerdo al formato que aparece en el campo.
+
+MSG5 = La clave CURP, nombre(s) o apellidos no existen. Ingresa un dato válido.
+
+MSG6 = El registro no existe.
+
+MSG7 = No existe ningun registro.
+
+MSG8 = El nombre de área ya se encuentra registrado.
+
+MSG9 = No puedes asignar a un gerente a más de una sucursal
+
+MSG10 = Debe de existir al menos una área registrada para asociar a la sucursal.
+
+MSG11 = Debe de existir al menos un servicio registrado para asociar a la sucursal.
+
+MSG12 = El nombre de la sucursal ya se encuentra registrado.
+
+MSG13 = Tus empleados deben contar con la mayoría de edad (+18).
+
+MSG14 = Usted no se encuentra identificado en el sistema.
+
+MSG15 = Ingrese su clave de acceso.
+
+MSG16 = Registro exitoso. Tú número de cliente y/o empleado es: [{\em Número de cliente}]
+
+MSG17 = Registro exitoso. Tú número de cliente es: [{\em Número de cliente}]. Ahora, puedes cotizar la membresía que mejor se adapte a lo que buscas...COTÍZALA y acude a tú sucursal más cercana.
+
+MSG18 = Los datos se han actualizado exitosamente
+
+MSG19 = 
+
+MSG19 = Acceso correcto
+
+MSG20 = Registro eliminado correctamente.
+
+
+
+
+BR101 = Control de la información del Centro Deportivo
+Las operaciones del alta, bajas, cambios y consulta van en función de acuerdo al tipo de permisos que tenga cada uno de los empleados. Esto es:
+
+- Gerente de operaciones:
+	*Alta : Sucursales, Empleados, Áreas, Cursos y Servicios.
+	*Baja : Clientes, Sucursales, Empleados, Áreas, Cursos y Servicios.
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos y Servicios, 			Ventas
+	*Actualización : Clientes, Sucursales, Empleados, Áreas, Sucursales, Cursos y 			Servicios.
+
+
+- Gerente de sucursal:
+	*Alta : Sucursales, Áreas, Cursos y Servicios.
+	*Baja : Clientes, Sucursales, Áreas, Cursos y Servicios.
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos y Servicios, Ventas
+	*Actualización : Clientes, Sucursales, Áreas, Cursos y Servicios.
+
+- Recepcionista:
+	*Alta : Clientes, Cursos y Servicios.
+	*Baja : Clientes, Cursos y Servicios.
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos y Servicios, Ventas
+	*Actualización : Clientes, Cursos y Servicios.
+
+- Ejecutivo de ventas:
+	*Alta : Clientes.
+	*Baja : Ninguno.
+	*Consulta : Clientes, Sucursales, Cursos y Servicios, Ventas
+	*Actualización : Clientes.
+
+- Encargado de área:
+	*Alta : Áreas.
+	*Baja : Áreas.
+	*Consulta : Sucursales, Áreas, Cursos y Servicios.
+	*Actualización : Áreas.
+
+- Instructor:
+	*Alta : Ninguno.
+	*Baja : Ninguno.
+	*Consulta : Sucursales, Áreas, Cursos, Horario.
+	*Actualización : Ninguno.

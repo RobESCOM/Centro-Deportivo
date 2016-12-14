@@ -1,0 +1,50 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU33}{Eliminar Servicios.}{
+		Permite al gerente de sucursal, recepcionista, eliminar un servicio a causa de equivocación al registrar algun dato.
+	}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Gerente de sucursal, Recepcionista}
+		\UCitem{Propósito}{Eliminar un servicio registrado en el sistema.}
+		\UCitem{Entradas}{Desde el teclado o mouse y mediante una lista desplegable.}
+		\UCitem{Origen}{Los datos serán mostrados desde una lista deplegable.}
+		\UCitem{Salidas}{Se muestra un mensaje de "eliminación exitosa".}
+		\UCitem{Destino}{El dato se eliminará del sistema y los datos ya no serán visibles en la sección de consulta de servicios.}
+		\UCitem{Precondiciones}{Para eliminar un servicio se requiere que esté registrado previamente.}
+		\UCitem{Postcondiciones}{El actor puede registrar nuevamente el servicio eliminado.}
+		\UCitem{Errores}{{\bf E7:} ``No se tiene ningún registro.'' -- El sistema muestra el Mensaje {\bf MSG1-}``No existe ningun registro.'' y el actor puede regresar al menu principal. }
+		\UCitem{Tipo}{Caso de uso primario.}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Roberto Mendoza Saavedra}
+		\UCitem{Revisor}{Francisco García Enriquez}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU6}{Pantalla de perfil de empleado}.
+		\UCpaso Toma la sesión de gerente de sucursal.
+		\UCpaso Muestra el menu de opciónes disponoibles para el actor.
+		\UCpaso[\UCactor] Selecciona del menú la opción Servicios.
+		\UCpaso Muestra las opciones que el gerente pueda realizar: Registrar Servicios, Consultar Servicios, Eliminar Servicios, Suspender Servicios y Actualizar Servicios. En la sección \IUref{IU18}{Pantalla de menu de opciones servicios}.
+		\UCpaso[\UCactor] Selecciona la opción de Eliminar servicios.
+		\UCpaso Carga una lista desplegable con los servicios registrados. \Trayref{A}
+		\UCpaso[\UCactor] Selecciona de la lista desplegable el servicio que desea eliminar.
+		\UCpaso[\UCactor] Confirma la operación y presiona el boton eliminar.
+		\UCpaso Elimina el registro del sistema y muestra un mensaje MS7.-"El registro fue eliminado correctamente".
+		\UCpaso[\UCactor] Puede regresar al menu de opciones de la sección, mediante el boton de menú de inicio.
+	\end{UCtrayectoria}
+
+	\begin{UCtrayectoriaA}{A}{No existe ningun dato registrado.}
+		\UCpaso muestra el mensaje MS7- "No existe ningun registro".
+		\UCpaso[\UCactor] Finaliza su operación dentro del área de consulta.
+		\UCpaso[\UCactor] puede regresar al menú de opciones de la sección, mediante el boton de "regresar al menu de inició".
+		\end{UCtrayectoriaA}
+	
+		%-------------------------------------- TERMINA descripción del caso de uso.

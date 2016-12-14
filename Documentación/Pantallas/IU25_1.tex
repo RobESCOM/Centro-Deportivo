@@ -1,0 +1,28 @@
+\subsection{IU26 Pantalla de Inscribir cliente a curso}
+
+
+
+\subsubsection{Objetivo}
+	El Gerente de Sucursal incribira un cliente a un cursos en el sistema de gimnasios san pancho.
+
+\subsubsection{Diseño}
+Esta pantalla aparece al seleccionar la pestaña Incribir cliente a curso{IU21.1}{Pantalla de acceso a gerente de sursal} del acceso a gerente de sucursal. 
+
+\IUfig[.5]{gui/IU25}{IU25.1}{Pantalla de Inncribir cliente a un curso en el sistema.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+Nombre de Curso,costo horario, fecha de inicio, fecha de termino y numero de Cliente de Gimnasios San Pancho
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Enviar}: Verifica que el curso se encuentre registrado y el cliente de igual forma. Si la verificación es correcta, se asocia un cliente a un curso en la base de datos del sistema la \IUref{IU22.1}{Pantalla de Alta de cliente en curso}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG25} Error al registrar cliente a un curso, vuelva a intentarlo.
+	\end{Citemize}

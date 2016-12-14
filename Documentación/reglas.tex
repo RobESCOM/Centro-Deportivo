@@ -1,0 +1,240 @@
+%---------------------------------------------------------
+\section{Glosario de Términos del Negocio}
+
+\begin{description}
+	\item[Login:] Sección del sistema que auténtica al usuario mediante un username y password, permitiéndonos identificar su tipo (cliente, usuario, recepcionista, ejecutivo de ventas, gerente de sucursal, gerente de operaciones, encargado de área e instructor) brindándole acceso a su perfil.
+	\item[Username:] Nombre único que identifica a cada usuario dentro del sistema.
+	\item[Password:] Clave de acceso conformada por carácteres alfanuméricos asociada a un username.
+	\item[Usuario del sistema:] Persona que interactúa con el sistema.  
+	\item[Cliente:] Persona registrada en el sistema que genera el pago de la memebresia. Este puede actuar también como usuario.
+	\item[Membresia:] Contrato que específica los beneficios a los que el usuario tiene acceso generando un costo a partir de los mismos. Esos pueden ser cursos y servicios.
+	\item[Servicio:] Recursos materiales y de infraestructura a los que el usuario tiene derecho por el pago de su membresía.
+	\item[Curso:] Actividad deportiva que el usuario práctica por el pago de su membresía.
+	\item[Area:] Lugar dentro de la sucursal donde se imparten cursos.
+	\item[Sucursal:] Establecimiento del centro deportivo.
+	\item[Horario:] Distribición de las horas en que se imparte un curso.
+	\item[Cupo: ] Capacidad mpaxima dentro de un área o curso.
+	\item[Cliente Moral:] Persona que se registra en el sistema como empresa.
+	\item[Usuario:] Persona que utiliza las áreas, servicios y cursos del centro deportivo.
+	\item[Recepcionista:] Persona que se ubica en la entrada de cada sucursal y da la bienvenida al cliente y/o Usuario.
+	\item[Gerente de Sucursal:] Persona encargada de cada sucursal.
+	\item[Gerente de operaciones:] Persona encargada del centro deportivo como conjunto.
+	\item[Encargado de area:] Persona encargada de las áreas de sucursal.
+	\item[Ejecutivo de ventas:] Persona que vende membresías.
+	\item[Instructor:] Persona que imparte cursos.
+	\item[CVV2:] Ultimos tres digitos de la parte trasera de la tarjeta de crédito y/o débito.
+	\item[Básica:] Tipo de membresía.
+	\item[Plus:] Tipo de membresía.
+	\item[Premium:] Tipo de membresía.
+\end{description}
+
+%---------------------------------------------------------
+\section{Hechos del Negocio}
+
+\begin{description}
+	\item[Pago {\em de} un Cliente:]
+\end{description}
+
+%---------------------------------------------------------
+\section{Reglas de Negocio}
+
+\begin{BussinesRule}{BR1}{Determinar si un cliente puede comprar una membresia.} 
+	\BRitem[Descripción:] El cliente deberá ser mayor de edad para adquirir una membresia.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR2}{Determinar si un usuario puede inscribir un curso.}
+	\BRitem[Descripción:] El usuario deberá tener o estar afiliado a una membresia y existir disponiblidad de cupo.
+Esto podría generar un costo adicional al pago de su membresia.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR3}{Validar el horario del curso inscrito.}
+	\BRitem[Descripción:] El horario del curso inscrito por el usuario no puede tener traslapes con otros cursos.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR4}{Tiempo de tolerancio en el acceso a un curso.}
+	\BRitem[Descripción:] El usuario no podrá acceder al curso con mas 20 minutos iniciado el curso. 
+	\BRitem[Tipo:] Ejecutiva.
+	\BRitem[Nivel:] PostAutorizada.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR5}{Upgrade de membresía.}
+	\BRitem[Descripción:] El usuario podrá subir de categoría siempre y cuando no tenga una membresía de tipo premium.
+	\BRitem[Tipo:] Ejecutiva.
+	\BRitem[Nivel:] PostAutorizada.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR6}{Horario de servicio del gimnasio.}
+	\BRitem[Descripción:] Los usuarios solo podrán ingresar de 6:00 am a las 10:00 pm.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR7}{Validar horario de instructor.}
+	\BRitem[Descripción:] Un instructor no puede estar ascociado a dos cursos en el mismo horario.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR8}{Determinar la contratación de un empleado}
+	\BRitem[Descripción:] No se puede contratar a un empleado que sea menor de edad.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR9}{Pago de membresía}
+	\BRitem[Descripción:] El pago de la membresia deberá ser en una sola exhibicion ya sea en efectivo o con tarjeta de debito y/o tarjeta de debito.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR10}{Registro de áreas}
+	\BRitem[Descripción:] Una área solo puede registrarse a menos que haya espacio suficiente en la sucursal.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR11}{Registro de áreas}
+	\BRitem[Descripción:] Una área solo puede registrarse a menos que haya espacio suficiente en la sucursal.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR12}{Costo de membresía}
+	\BRitem[Descripción:] El costo de las membresias está determinado por el numero de cursos y/o servicios que el usuario adquiera, distribuidos de la siguiente manera:
+
+- Basica: 
+		Servicios:Locker, regaderas.			
+			Areas: Gimnasio
+			cursos: Ninguno
+
+- Plus: 
+		Servicios:Locker, regaderas, alberca, spa, nutición.
+			Areas: Gimnasio
+			cursos: 1 Curso
+
+- Premium: 
+		Servicios:Locker, regaderas, alberca, spa, nutición, área de bronceado.
+			Areas: Gimnasio
+			cursos: 2 Cursos
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR13}{Costo de curso.} 
+	\BRitem[Descripción:] El costo de los cursos estarán definidos por su duración, dias de la semana en que se imparten, horario en que se imparten y el numero de instructores capacitados para impartir dicho curso.
+	\BRitem[Tipo:] Ejecutiva.
+	\BRitem[Nivel:] PreAutorizada.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR14}{Costo de servicios adicionales a la membresía.} 
+	\BRitem[Descripción:] El costo de los servicios estarán definidos por la capacidad de recursos y materiales e infraestructura en el momento de la adquisisión.
+	\BRitem[Tipo:] Ejecutiva.
+	\BRitem[Nivel:] PreAutorizada.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR15}{Costo de servicios adicionales a la membresía.} 
+	\BRitem[Descripción:] El costo de los cursos estarán definidos por su duración, dias de la semana en que se imparten, horario en que se imparten y el numero de instructores capacitados para impartir dicho curso.
+	\BRitem[Tipo:] Ejecutiva.
+	\BRitem[Nivel:] PreAutorizada.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR16}{Elección de un instructor para impartir un curso.} 
+	\BRitem[Descripción:] Para que un instructor sea asociado a un curso este deberá poseer una certificación.
+	\BRitem[Tipo:] Ejecutiva.
+	\BRitem[Nivel:] PreAutorizada.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR17}{Registro de cursos.} 
+	\BRitem[Descripción:] Para el registro de nuevos cursos se debe contar con el área disponible en la sucursal que cuente con las caracteristicas ideales para el mismo.
+	\BRitem[Tipo:] Cronometrada.
+	\BRitem[Nivel:] PreAutorizada.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR100}{Control de la información dentro del Centro Deportivo.} 
+	\BRitem[Descripción:] Toda la información manejada dentro del Centro Deportivo podrá ser manipulada únicamente por el personal que labora dentro del mismo. Sin embargo, no todo el personal podrá hacer uso de esa información de la misma manera. Este uso va en función del tipo de permisos que tenga cada uno de los empleados. Esto es:
+		
+{\bf - Gerente de operaciones:}
+
+	*Alta : Sucursales, Empleados, Áreas, Cursos y Servicios.
+	
+	*Baja : Clientes, Sucursales, Empleados, Áreas, Cursos y Servicios.
+	
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes, Sucursales, Empleados, Áreas, Sucursales, Cursos y Servicios.
+
+{\bf- Gerente de sucursal:}
+	
+	*Alta : Sucursales, Áreas, Cursos y Servicios.
+	
+	*Baja : Clientes, Sucursales, Áreas, Cursos y Servicios.
+	
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes, Sucursales, Áreas, Cursos y Servicios.
+
+{\bf- Recepcionista:}
+
+	*Alta : Clientes, Cursos y Servicios.
+	
+	*Baja : Clientes, Cursos y Servicios.
+	
+	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes, Cursos y Servicios.
+
+{\bf- Ejecutivo de ventas:}
+
+	*Alta : Clientes.
+	
+	*Baja : Ninguno.
+	
+	*Consulta : Clientes, Sucursales, Cursos, Servicios y Ventas.
+	
+	*Actualización : Clientes.
+
+{\bf- Encargado de área:}
+	
+	*Alta : Áreas.
+	
+	*Baja : Áreas.
+	
+	*Consulta : Sucursales, Áreas, Cursos y Servicios.
+	
+	*Actualización : Áreas.
+
+{\bf- Instructor:}
+	
+	*Alta : Ninguno.
+	
+	*Baja : Ninguno.
+	
+	*Consulta : Sucursales, Áreas, Cursos, Horario.
+	
+	*Actualización : Ninguno.
+
+
+	\BRitem[Tipo:] Cronometrada.
+	\BRitem[Nivel:] PreAutorizada.
+\end{BussinesRule}
+
+
+\begin{BussinesRule}{BR117}{Determinar si el usuario tiene acceso al sistema.} 
+	\BRitem[Descripción:] Un Gerente de operación de negocio necesita estar dado de altra en el sistema e introducir su usuario y contraseña de manera correcta.
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+\begin{BussinesRule}{BR118}{Determinar si los datos de los campos de un formulario son del tipo adecuado} 
+	\BRitem[Descripción:] Los campos pueden ser del tipo cadena de carácteres, valores númericos y valores alfanúmericos
+	\BRitem[Tipo:] Habilitadora.
+	\BRitem[Nivel:] Estricta.
+\end{BussinesRule}
+
+

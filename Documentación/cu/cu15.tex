@@ -1,0 +1,56 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU15}{Eliminar del sistema una sucursal.}{
+		Permite eliminar un registro del sistema, debido a que ocurrió un error en el registro de la sucursal o porque se efectuaron registros de prueba y no se necesitan mantener estos en el sistema.
+	}
+		\UCitem{Versión}{0.2}
+		\UCitem{Actor}{Gerente de operación de negocio}
+		\UCitem{Propósito}{Eliminar un registro de prueba o algún registro que tenga un error.}
+		\UCitem{Entradas}{Click sobre la sucursal a eliminar.}
+		\UCitem{Origen}{El mouse del actor.}
+		\UCitem{Salidas}{Se mostrará un mensaje de confirmación y posteriormente un mensaje de eliminación correcta o fallida.}
+		\UCitem{Destino}{Los mensajes a mostrar se desplegarán en la pantalla del computador del actor.}
+		\UCitem{Precondiciones}{El actor ingresó al sistema mediante un login. El sistema se encuentra en la pantalla que  despliega un listado de los registros agregados recientemente.}
+		\UCitem{Postcondiciones}{El sistema tendrá un registro menos de una sucursal.}
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{En ocaciones solo se introduce mal un solo dato. En lugar de borrar directamente el registro el sistema debe mostrar al actor si prefiere actualizar los datos referentes a la sucursal que seleccionó. Además se debe tener una opción para buscar sucursales.}
+		\UCitem{Autor}{Fernández Quiñones Isaac.}
+		\UCitem{Revisor}{Francisco García Enríquez}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Ingresa a la plataforma web.
+		\UCpaso Despliega la \IUref{IU23}{Pantalla de Control de Acceso} \label{CU15Login} para acceder al sistema.
+		\UCpaso[\UCactor] Proporciona su userName y password. 
+		\UCpaso Válida que el actor se encuentre dado de alta en el sistema. \Trayref{A}.
+		\UCpaso Despliega la \IUref{IU99}{Pantalla dar de baja sucursal}. \label{CU15Sucursales}
+		\UCpaso[\UCactor] Pone el mouse sobre la fila de la tabla correspondiente a la sucursal que quiere eliminar.
+		\UCpaso[\UCactor] Presiona el botón izquierdo de su mouse.
+		\UCpaso Muestra el mensaje {\bf MSG1-}``¿Está [{\em seguro}] de querer eliminar este registro.''. \Trayref{B}
+		\UCpaso Elimina el registro. \label{CU15Eliminar}
+		\UCpaso Muestra el \IUref{UI88}{Mensaje de registro eliminado satisfactoriamente}.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El actor no cuenta con las credenciales válidas para poder ingresar al sistema.}
+			\UCpaso Muestra el mensaje {\bf MSG1-}``Usuario [{\em y/o}] contraseñas no validos.''.
+			\UCpaso[\UCactor] Oprimé el botón \IUbutton{Aceptar}.
+			\UCpaso Continua en el paso \ref{CU11Login} del \UCref{CU15}.
+		\end{UCtrayectoriaA}
+		
+		
+		\begin{UCtrayectoriaA}{B}{El actor no desea la eliminación del registro}
+			\UCpaso[\UCactor] Presionó el botón \IUbutton{Cancelar} del mensaje de confirmación.
+			\UCpaso Continua en el paso \ref{CU15Sucursales} del \UCref{CU15}. 
+		\end{UCtrayectoriaA}		
+%-------------------------------------- TERMINA descripción del caso de uso.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

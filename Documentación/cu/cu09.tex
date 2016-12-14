@@ -1,0 +1,57 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+%-------------------------------------- TERMINA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU9.0}{Actualizar datos de área}{
+		En esta sección el gerente de sucursal podrá modificar los datos del área que se registró, con el proposito de hacer cambios pertinentes en la información que describe el área que se encuentra registrada, con el fin de corregir errores o modificaciones en el área. 
+	}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Gerente de sucursal}
+		\UCitem{Propósito}{Hacer cambios en la información que describe el area que se encuentra registrada. }
+		\UCitem{Entradas}{Nombre del Área, Tipo de área, largo, ancho, capacidad, responsable y descripción.}
+		\UCitem{Origen}{Los datos serán digitados desde el teclado.}
+		\UCitem{Salidas}{{\bf MSG18-}``Los datos se han actualizado exitosamente''.}
+		\UCitem{Destino}{Los datos se verán reflejados en el área de consultas.}
+		\UCitem{Precondiciones}{Que el área se encuentre registrada previamente.}
+		\UCitem{Postcondiciones}{El área registrada se verá reflejada en la sección de consultas.}
+		\UCitem{Errores}{{\bf E3:} ``No se ingresaron todos los campos obligatorios.'' -- El sistema muestra el Mensaje {\bf MSG3-}``Ingresa los campos obligatorios marcados con * para continuar.'' y continua con el paso 10.
+{\bf E4:} ``El formato del dato es incorrecto''  -- El sistema muestra el Mensaje {\bf MSG4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo.''
+{\bf E8:} ``Nombre de área ya existente'' -- El sistema muestra el Mensaje {\bf MSG8-}``El nombre de área ya se encuentra registrado.''}
+		\UCitem{Tipo}{Caso de uso primario.}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Francisco García Enríquez.}
+		\UCitem{Revisor}{Martin Carrillo.}
+	\end{UseCase}
+
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU6}{Pantalla de perfil de empleado}.
+		\UCpaso Toma la sesión del gerente de sucursal.
+		\UCpaso[\UCactor] Selecciona del menú principal la opción Áreas.
+		\UCpaso Muestra las opciones que el gerente pueda realizar: Registrar Áreas, Consultar Áreas, Eliminar Áreas, Dar de Baja Áreas y Actualizar Áreas.
+		\UCpaso[\UCactor] Selecciona la opción de actualizar datos. \IUref{IU18}{Pantalla de menu de opciones áreas}.
+		\UCpaso Muestra una tabla con las áreas registradas actualmente, adjunto de un boton de edición
+		\UCpaso[\UCactor] Selecciona el boton editar del campo que desea realizar cambios.
+		\UCpaso Muestra una pantalla, en ella un formulario con los datos del área que se desea modificar.\IUref{IU22}{Pantalla para actualización de áreas}.
+		\UCpaso[\UCactor] Ingresa nuevos datos en los campos que crea convenientes. \Trayref{A} \Trayref{B}
+		\UCpaso[\UCactor] Confirma el registro, presionando el botón de registrar área.
+		\UCpaso Muestra una pantalla con un mensaje, {\bf MSG18-}``Los datos se han actualizado exitosamente''.
+	\end{UCtrayectoria}
+
+		\begin{UCtrayectoriaA}{A}{El gerente de sucursal introduce espacios en blanco al inicio o caracteres especiales en el campo.}
+			\UCpaso[\UCactor] introduce espacios en blanco al inicio o caracteres especiales en el campo nombre.
+			\UCpaso mostrará {\bf MS4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo, mostrados en la \IUref{IU19}{Pantalla para registro de áreas}.''
+		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaA}{B}{El gerente de sucursal introduce tipo de dato incorrecto.}
+			\UCpaso[\UCactor] introduce espacios en blanco al inicio o caracteres especiales en el campo nombre.
+			\UCpaso mostrará {\bf MS4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo, mostrados en la \IUref{IU19}{Pantalla para registro de áreas}.''
+		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaA}{C}{El gerente de sucursal ingresa un nombre ya existente.}
+			\UCpaso[\UCactor] introduce un nombre ya existente.
+			\UCpaso mostrará {\bf MS8-}``El nombre de área ya se encuentra registrado.''
+		\end{UCtrayectoriaA}
