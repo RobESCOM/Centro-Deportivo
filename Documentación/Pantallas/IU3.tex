@@ -1,17 +1,24 @@
 \subsection{IU3 Pantalla de Registrar Cliente}
 
 \subsubsection{Objetivo}
-	Ingresar los datos de un cliente al sistema para que almacene su información.
+	Ingresar los datos de un cliente al sistema para que se almacene su información.
 
 \subsubsection{Diseño}
-Esta pantalla aparece al seleccionar la opción ``Registrar'' de la \IUref{IU7}{Pantalla de operaciones del empleado.} Se compone de un formulario con campos de texto para que se digite la información.
+Esta pantalla aparece al seleccionar la opción ``Registrar'' de la \IUref{IU1}{Página principal.} Se compone de un formulario con campos de texto para que se digite la información.
 
-\IUfig[.5]{gui/IU3}{IU3}{Pantalla de Registrar Clientes.}
+Todos los campos marcados con * son obligatorios.
+
+\IUfig[.6]{gui/formClientes}{IU3}{Pantalla de Registrar Clientes.}
 
 \subsubsection{Comandos}
 \begin{itemize}
-	\item \IUbutton{Guardar}: Verifica que el curso se encuentre registrado y el cliente de igual forma. Si la verificación es correcta, se asocia un cliente a un curso en la base de datos del sistema la \IUref{IU22.1}{Pantalla de Alta de cliente en curso}.
+	\item \IUbutton{Guardar}: Verifica que el CURP del cliente no se encuentre registrado previamente y que todos los campos hayan sido llenados de forma correcta. Si la verificación es correcta, se muestra el mensaje {\bf MSG16-}``Registro exitoso. Tú número de cliente es: [{\em Número de cliente}]'' y se redirecciona a la \IUref{IU4}{Venta de Membresía.} 
 \end{itemize}
+
+\begin{itemize}
+	\item \IUbutton{Reset}: Limpia todos los campos de texto que hayan sido rellenados con alguna información para que se vuelvan a introducir los datos.
+\end{itemize}
+
 
 %\subsubsection{Mensajes}%
 	%\begin{Citemize}%

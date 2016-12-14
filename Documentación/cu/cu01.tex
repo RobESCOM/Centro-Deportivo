@@ -23,7 +23,7 @@ una membresía. El registro de la información del cliente sólo lo podrá reali
 		\UCitem{Propósito}{Tener un historial sobre las membresías y/o servicios contratados por el cliente en el momento que se desee.}
 		\UCitem{Entradas}{Nombre(s), Apellido Paterno, Apellido Materno, Fecha de Nacimiento, CURP, RFC, Sexo, Calle, Número exterior, Número interior, Colonia, Estado, Delegación/Municipio, Código Postal, Calle anterior, calle Posterior, Referencias, Correo electrónico, Teléfonos, Tipo de sangre, Enfermedades, Condición médica.}
 		\UCitem{Origen}{Teclado}
-		\UCitem{Salidas}{Mensaje de registro exitoso, número de cliente, envío de correo electrónico de confirmación a la cuenta de correo del cliente, muestra la \IUref{IU8}{Pantalla de cotización.}}
+		\UCitem{Salidas}{Mensaje de registro exitoso, número de cliente, envío de correo electrónico de confirmación a la cuenta de correo del cliente, muestra la \IUref{IU4}{Venta de Membresía.}}
 		\UCitem{Destino}{Servidor de correo, pantalla.}
 		\UCitem{Precondiciones}{No tener registrado otro cliente con la misma CURP y contar con la mayoría de edad (+18).}
 		\UCitem{Postcondiciones}{Habrá un cliente más registrado en el sistema.}
@@ -41,9 +41,9 @@ una membresía. El registro de la información del cliente sólo lo podrá reali
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU6}{Pantalla de perfil de empleado} \Trayref{A}.
-		\UCpaso Muestra las operaciones disponibles para el actor mediante la \IUref{IU7}{Pantalla de operaciones del empleado.}
-		\UCpaso[\UCactor] Solicita el registro de un nuevo cliente seleccionando la opción ``Registrar'' de la \IUref{IU7}{Pantalla de operaciones del empleado.}
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU1}{Página principal} \Trayref{A}.
+		\UCpaso Muestra las operaciones disponibles para el actor mediante la \IUref{IU2}{Pantalla de opciones cliente.}
+		\UCpaso[\UCactor] Solicita el registro de un nuevo cliente seleccionando la opción ``Registrar cliente'' de la \IUref{IU2}{Pantalla de opciones cliente.}
 		\UCpaso Solicita los datos del cliente a registrar mostrando la \IUref{IU3}{Pantalla de Registrar Cliente.}
 		\UCpaso[\UCactor] Proporciona los datos personales de acuerdo a la \IUref{IU3}{Pantalla de Registrar Cliente.}
 		\UCpaso Verifica la mayoría de edad del cliente [E1].
@@ -56,7 +56,7 @@ una membresía. El registro de la información del cliente sólo lo podrá reali
 		\UCpaso Verifica que todos los datos proporcionados tengan el formato especificado en el modelo de entidades de acuerdo al tipo de dato de cada campo [E4].
 		\UCpaso Valida que no exista previamente un registro de cliente con la misma CURP [E2].
 		\UCpaso Registra todos los datos proporcionados del cliente y muestra el Mensaje {\bf MSG16-}``Registro exitoso. Tú número de cliente es: [{\em Número de cliente}]'' \Trayref{B}.
-		\UCpaso Direcciona a la \IUref{IU8}{Pantalla de cotización.}
+		\UCpaso Direcciona a la \IUref{IU4}{Pantalla de venta de membresía.}
 \end{UCtrayectoria}
 
 \begin{UCtrayectoriaA}{A}{El actor que realizará el nuevo registro será el propio cliente.}
@@ -66,7 +66,7 @@ una membresía. El registro de la información del cliente sólo lo podrá reali
 		
 		\begin{UCtrayectoriaA}{B}{El propio cliente concluye su proceso de registro.}
 			\UCpaso Registra todos los datos proporcionado por el cliente y muestra el Mensaje {\bf MSG17-}``Registro exitoso. Tú número de cliente es: [{\em Número de cliente}]. Ahora, puedes cotizar la membresía que mejor se adapte a lo que buscas...COTÍZALA y acude a tú sucursal más cercana.'' 
-			\UCpaso Direcciona a la \IUref{IU8}{Pantalla de cotización.}
+			\UCpaso Direcciona a la \IUref{IU1}{Página principal.}
 		\end{UCtrayectoriaA}
 
 

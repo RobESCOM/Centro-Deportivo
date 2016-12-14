@@ -121,15 +121,16 @@ CREATE TABLE IF NOT EXISTS `gimnasio`.`Direccion` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1;
 
-
+-- insert into Cliente (Nombre,ApellidoP,ApellidoM,CURP,FechaNacim,CuentaActiva,Membresia_idMembresia,) values ('1993/10/04');
 -- -----------------------------------------------------
 -- Table `gimnasio`.`Cliente`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `gimnasio`.`Cliente` (
   `idCliente` INT(11) NOT NULL AUTO_INCREMENT,
   `Nombre` VARCHAR(45) NOT NULL,
-  `ApellidoP` VARCHAR(45) NULL DEFAULT NULL,
+  `ApellidoP` VARCHAR(45) NOT NULL NULL,
   `ApellidoM` VARCHAR(45) NULL DEFAULT NULL,
+  `Sexo` ENUM('Masculino','Femenino') NOT NULL,
   `CURP` VARCHAR(45) NULL DEFAULT NULL,
   `FechaNacim` DATE NULL DEFAULT NULL,
   `CuentaActiva` ENUM('Activo','No activo') NULL DEFAULT NULL,
