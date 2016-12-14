@@ -131,7 +131,7 @@ public class RegistroSucursal extends HttpServlet {
             response.getWriter().write( String.valueOf( existe ) );
             
         } else if( service != null && !"".equals(service) ){
-        
+			
         }else {
             area = cruds.getNombreAreas();
             response.getWriter().write( area );
