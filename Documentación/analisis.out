@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \BOOKMARK [0][-]{chapter.1}{Modelo de Negocios}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Glosario de T\351rminos del Negocio}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Hechos del Negocio}{chapter.1}% 3
@@ -151,3 +152,159 @@
 \BOOKMARK [2][-]{subsection.3.0.25}{IU3 Pantalla de Registrar Cliente}{subsection.3.0.1}% 151
 \BOOKMARK [2][-]{subsection.3.0.26}{IU1 P\341gina principal}{subsection.3.0.1}% 152
 \BOOKMARK [0][-]{chapter.4}{Modelo del Dominio del problema}{}% 153
+=======
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Definici\363n del problema}{chapter.1}% 2
+\BOOKMARK [0][-]{chapter.2}{Modelo de Negocios}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Glosario de T\351rminos del Negocio}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Hechos del Negocio}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.3}{Reglas de Negocio}{chapter.2}% 6
+\BOOKMARK [0][-]{chapter.3}{Modelo de Casos de Uso}{}% 7
+\BOOKMARK [1][-]{section.3.1}{CU1 Registrar cliente.}{chapter.3}% 8
+\BOOKMARK [2][-]{subsection.3.1.1}{Descripci\363n completa}{section.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.1.2}{Atributos importantes}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.3}{Trayectorias del Caso de Uso}{section.3.1}% 11
+\BOOKMARK [1][-]{section.3.2}{CU2 Consultar datos del cliente.}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{Descripci\363n completa}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{Atributos importantes}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.3}{Trayectorias del Caso de Uso}{section.3.2}% 15
+\BOOKMARK [1][-]{section.3.3}{CU3 Actualizar datos del cliente.}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.1}{Descripci\363n completa}{section.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.2}{Atributos importantes}{section.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.3}{Trayectorias del Caso de Uso}{section.3.3}% 19
+\BOOKMARK [1][-]{section.3.4}{CU4 Dar de baja un cliente.}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.4.1}{Descripci\363n completa}{section.3.4}% 21
+\BOOKMARK [2][-]{subsection.3.4.2}{Atributos importantes}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.3}{Trayectorias del Caso de Uso}{section.3.4}% 23
+\BOOKMARK [1][-]{section.3.5}{CU6.0 Consultar \301reas Registradas}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.5.1}{Descripci\363n completa}{section.3.5}% 25
+\BOOKMARK [2][-]{subsection.3.5.2}{Atributos importantes}{section.3.5}% 26
+\BOOKMARK [2][-]{subsection.3.5.3}{Trayectorias del Caso de Uso}{section.3.5}% 27
+\BOOKMARK [1][-]{section.3.6}{CU7.0 Registrar \341reas}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.6.1}{Descripci\363n completa}{section.3.6}% 29
+\BOOKMARK [2][-]{subsection.3.6.2}{Atributos importantes}{section.3.6}% 30
+\BOOKMARK [2][-]{subsection.3.6.3}{Trayectorias del Caso de Uso}{section.3.6}% 31
+\BOOKMARK [1][-]{section.3.7}{CU8.0 Eliminar \341reas}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.7.1}{Descripci\363n completa}{section.3.7}% 33
+\BOOKMARK [2][-]{subsection.3.7.2}{Atributos importantes}{section.3.7}% 34
+\BOOKMARK [2][-]{subsection.3.7.3}{Trayectorias del Caso de Uso}{section.3.7}% 35
+\BOOKMARK [1][-]{section.3.8}{CU9.0 Actualizar datos de \341rea}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.8.1}{Descripci\363n completa}{section.3.8}% 37
+\BOOKMARK [2][-]{subsection.3.8.2}{Atributos importantes}{section.3.8}% 38
+\BOOKMARK [2][-]{subsection.3.8.3}{Trayectorias del Caso de Uso}{section.3.8}% 39
+\BOOKMARK [1][-]{section.3.9}{CU10.0 Desactivar \341rea}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.9.1}{Descripci\363n completa}{section.3.9}% 41
+\BOOKMARK [2][-]{subsection.3.9.2}{Atributos importantes}{section.3.9}% 42
+\BOOKMARK [2][-]{subsection.3.9.3}{Trayectorias del Caso de Uso}{section.3.9}% 43
+\BOOKMARK [1][-]{section.3.10}{CU11 Registrar en el sistema una nueva sucursal.}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.10.1}{Descripci\363n completa}{section.3.10}% 45
+\BOOKMARK [2][-]{subsection.3.10.2}{Atributos importantes}{section.3.10}% 46
+\BOOKMARK [2][-]{subsection.3.10.3}{Trayectorias del Caso de Uso}{section.3.10}% 47
+\BOOKMARK [1][-]{section.3.11}{CU12 Actualizar los datos de una sucursal.}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.11.1}{Descripci\363n completa}{section.3.11}% 49
+\BOOKMARK [2][-]{subsection.3.11.2}{Atributos importantes}{section.3.11}% 50
+\BOOKMARK [2][-]{subsection.3.11.3}{Trayectorias del Caso de Uso}{section.3.11}% 51
+\BOOKMARK [1][-]{section.3.12}{CU13 Baja de sucursal.}{chapter.3}% 52
+\BOOKMARK [2][-]{subsection.3.12.1}{Descripci\363n completa}{section.3.12}% 53
+\BOOKMARK [2][-]{subsection.3.12.2}{Atributos importantes}{section.3.12}% 54
+\BOOKMARK [2][-]{subsection.3.12.3}{Trayectorias del Caso de Uso}{section.3.12}% 55
+\BOOKMARK [1][-]{section.3.13}{CU14 Ubicar geogr\341ficamente una sucursal}{chapter.3}% 56
+\BOOKMARK [2][-]{subsection.3.13.1}{Descripci\363n completa}{section.3.13}% 57
+\BOOKMARK [2][-]{subsection.3.13.2}{Atributos importantes}{section.3.13}% 58
+\BOOKMARK [2][-]{subsection.3.13.3}{Trayectorias del Caso de Uso}{section.3.13}% 59
+\BOOKMARK [1][-]{section.3.14}{CU15 Eliminar del sistema una sucursal.}{chapter.3}% 60
+\BOOKMARK [2][-]{subsection.3.14.1}{Descripci\363n completa}{section.3.14}% 61
+\BOOKMARK [2][-]{subsection.3.14.2}{Atributos importantes}{section.3.14}% 62
+\BOOKMARK [2][-]{subsection.3.14.3}{Trayectorias del Caso de Uso}{section.3.14}% 63
+\BOOKMARK [1][-]{section.3.15}{CU21 Alta de un curso}{chapter.3}% 64
+\BOOKMARK [2][-]{subsection.3.15.1}{Descripci\363n completa}{section.3.15}% 65
+\BOOKMARK [2][-]{subsection.3.15.2}{Atributos importantes}{section.3.15}% 66
+\BOOKMARK [2][-]{subsection.3.15.3}{Trayectorias del Caso de Uso}{section.3.15}% 67
+\BOOKMARK [1][-]{section.3.16}{CU22 Baja de un curso}{chapter.3}% 68
+\BOOKMARK [2][-]{subsection.3.16.1}{Descripci\363n completa}{section.3.16}% 69
+\BOOKMARK [2][-]{subsection.3.16.2}{Atributos importantes}{section.3.16}% 70
+\BOOKMARK [2][-]{subsection.3.16.3}{Trayectorias del Caso de Uso}{section.3.16}% 71
+\BOOKMARK [1][-]{section.3.17}{CU23 Moficar un curso}{chapter.3}% 72
+\BOOKMARK [2][-]{subsection.3.17.1}{Descripci\363n completa}{section.3.17}% 73
+\BOOKMARK [2][-]{subsection.3.17.2}{Atributos importantes}{section.3.17}% 74
+\BOOKMARK [2][-]{subsection.3.17.3}{Trayectorias del Caso de Uso}{section.3.17}% 75
+\BOOKMARK [1][-]{section.3.18}{CU24 Consultar un Curso}{chapter.3}% 76
+\BOOKMARK [2][-]{subsection.3.18.1}{Descripci\363n completa}{section.3.18}% 77
+\BOOKMARK [2][-]{subsection.3.18.2}{Atributos importantes}{section.3.18}% 78
+\BOOKMARK [2][-]{subsection.3.18.3}{Trayectorias del Caso de Uso}{section.3.18}% 79
+\BOOKMARK [1][-]{section.3.19}{CU25 Inscribir cliente a un curso}{chapter.3}% 80
+\BOOKMARK [2][-]{subsection.3.19.1}{Descripci\363n completa}{section.3.19}% 81
+\BOOKMARK [2][-]{subsection.3.19.2}{Atributos importantes}{section.3.19}% 82
+\BOOKMARK [2][-]{subsection.3.19.3}{Trayectorias del Caso de Uso}{section.3.19}% 83
+\BOOKMARK [1][-]{section.3.20}{CU26 Registrar pago de membres\355a en sucursal.}{chapter.3}% 84
+\BOOKMARK [2][-]{subsection.3.20.1}{Descripci\363n completa}{section.3.20}% 85
+\BOOKMARK [2][-]{subsection.3.20.2}{Atributos importantes}{section.3.20}% 86
+\BOOKMARK [2][-]{subsection.3.20.3}{Trayectorias del Caso de Uso}{section.3.20}% 87
+\BOOKMARK [1][-]{section.3.21}{CU28.0 Registrar ingreso a \341rea}{chapter.3}% 88
+\BOOKMARK [2][-]{subsection.3.21.1}{Descripci\363n completa}{section.3.21}% 89
+\BOOKMARK [2][-]{subsection.3.21.2}{Atributos importantes}{section.3.21}% 90
+\BOOKMARK [2][-]{subsection.3.21.3}{Trayectorias del Caso de Uso}{section.3.21}% 91
+\BOOKMARK [1][-]{section.3.22}{CU29.0 Registrar salida de \341rea}{chapter.3}% 92
+\BOOKMARK [2][-]{subsection.3.22.1}{Descripci\363n completa}{section.3.22}% 93
+\BOOKMARK [2][-]{subsection.3.22.2}{Atributos importantes}{section.3.22}% 94
+\BOOKMARK [2][-]{subsection.3.22.3}{Trayectorias del Caso de Uso}{section.3.22}% 95
+\BOOKMARK [1][-]{section.3.23}{CU30 Registrar usuarios por area}{chapter.3}% 96
+\BOOKMARK [2][-]{subsection.3.23.1}{Descripci\363n completa}{section.3.23}% 97
+\BOOKMARK [2][-]{subsection.3.23.2}{Atributos importantes}{section.3.23}% 98
+\BOOKMARK [2][-]{subsection.3.23.3}{Trayectorias del Caso de Uso}{section.3.23}% 99
+\BOOKMARK [1][-]{section.3.24}{CU31 Ingresar al sistema.}{chapter.3}% 100
+\BOOKMARK [2][-]{subsection.3.24.1}{Descripci\363n completa}{section.3.24}% 101
+\BOOKMARK [2][-]{subsection.3.24.2}{Atributos importantes}{section.3.24}% 102
+\BOOKMARK [2][-]{subsection.3.24.3}{Trayectorias del Caso de Uso}{section.3.24}% 103
+\BOOKMARK [1][-]{section.3.25}{CU32 Consultar Servicios.}{chapter.3}% 104
+\BOOKMARK [2][-]{subsection.3.25.1}{Descripci\363n completa}{section.3.25}% 105
+\BOOKMARK [2][-]{subsection.3.25.2}{Atributos importantes}{section.3.25}% 106
+\BOOKMARK [2][-]{subsection.3.25.3}{Trayectorias del Caso de Uso}{section.3.25}% 107
+\BOOKMARK [1][-]{section.3.26}{CU33 Eliminar Servicios.}{chapter.3}% 108
+\BOOKMARK [2][-]{subsection.3.26.1}{Descripci\363n completa}{section.3.26}% 109
+\BOOKMARK [2][-]{subsection.3.26.2}{Atributos importantes}{section.3.26}% 110
+\BOOKMARK [2][-]{subsection.3.26.3}{Trayectorias del Caso de Uso}{section.3.26}% 111
+\BOOKMARK [1][-]{section.3.27}{CU34 Suspender Servicios.}{chapter.3}% 112
+\BOOKMARK [2][-]{subsection.3.27.1}{Descripci\363n completa}{section.3.27}% 113
+\BOOKMARK [2][-]{subsection.3.27.2}{Atributos importantes}{section.3.27}% 114
+\BOOKMARK [2][-]{subsection.3.27.3}{Trayectorias del Caso de Uso}{section.3.27}% 115
+\BOOKMARK [1][-]{section.3.28}{CU35 Registrar Servicios.}{chapter.3}% 116
+\BOOKMARK [2][-]{subsection.3.28.1}{Descripci\363n completa}{section.3.28}% 117
+\BOOKMARK [2][-]{subsection.3.28.2}{Atributos importantes}{section.3.28}% 118
+\BOOKMARK [2][-]{subsection.3.28.3}{Trayectorias del Caso de Uso}{section.3.28}% 119
+\BOOKMARK [1][-]{section.3.29}{CU36 Actualizar Servicios.}{chapter.3}% 120
+\BOOKMARK [2][-]{subsection.3.29.1}{Descripci\363n completa}{section.3.29}% 121
+\BOOKMARK [2][-]{subsection.3.29.2}{Atributos importantes}{section.3.29}% 122
+\BOOKMARK [2][-]{subsection.3.29.3}{Trayectorias del Caso de Uso}{section.3.29}% 123
+\BOOKMARK [1][-]{section.3.30}{CU37 Asignar instructor a curso.}{chapter.3}% 124
+\BOOKMARK [2][-]{subsection.3.30.1}{Descripci\363n completa}{section.3.30}% 125
+\BOOKMARK [2][-]{subsection.3.30.2}{Atributos importantes}{section.3.30}% 126
+\BOOKMARK [2][-]{subsection.3.30.3}{Trayectorias del Caso de Uso}{section.3.30}% 127
+\BOOKMARK [0][-]{chapter.4}{Modelo de la Interacci\363n}{}% 128
+\BOOKMARK [1][-]{subsection.4.0.1}{IU21.0 Pantalla de Control de acceso Gerente de Sucursal}{chapter.4}% 129
+\BOOKMARK [2][-]{subsection.4.0.2}{IU21.1 Pantalla principal de acceso a Gerente de Sucursal}{subsection.4.0.1}% 130
+\BOOKMARK [2][-]{subsection.4.0.3}{IU21.2 Pantalla de alta de curso en el sistema}{subsection.4.0.1}% 131
+\BOOKMARK [2][-]{subsection.4.0.4}{IU22.1 Baja de curso}{subsection.4.0.1}% 132
+\BOOKMARK [2][-]{subsection.4.0.5}{IU23.1 Modificar un curso}{subsection.4.0.1}% 133
+\BOOKMARK [2][-]{subsection.4.0.6}{IU24 Pantalla de Consultar un Curso}{subsection.4.0.1}% 134
+\BOOKMARK [2][-]{subsection.4.0.7}{IU26 Pantalla de Inscribir cliente a curso}{subsection.4.0.1}% 135
+\BOOKMARK [2][-]{subsection.4.0.8}{IU18 Pantalla de men\372 de ocpiones de la secci\363n \341reas.}{subsection.4.0.1}% 136
+\BOOKMARK [2][-]{subsection.4.0.9}{IU19 Pantalla de registro de \341rea}{subsection.4.0.1}% 137
+\BOOKMARK [2][-]{subsection.4.0.10}{IU20 Pantalla de Eliminar \341reas}{subsection.4.0.1}% 138
+\BOOKMARK [2][-]{subsection.4.0.11}{IU22 Pantalla de Actualizaci\363n de \341reas}{subsection.4.0.1}% 139
+\BOOKMARK [2][-]{subsection.4.0.12}{IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{subsection.4.0.1}% 140
+\BOOKMARK [2][-]{subsection.4.0.13}{IU8 Pantalla de Registro Exitoso.}{subsection.4.0.1}% 141
+\BOOKMARK [2][-]{subsection.4.0.14}{IU9 Pantalla de Consulta de \301reas.}{subsection.4.0.1}% 142
+\BOOKMARK [2][-]{subsection.4.0.15}{IU23 Pantalla de Control de Acceso}{subsection.4.0.1}% 143
+\BOOKMARK [2][-]{subsection.4.0.16}{IU32 Pantalla de formulario para registro de nueva sucursal.}{subsection.4.0.1}% 144
+\BOOKMARK [2][-]{subsection.4.0.17}{IU33 Pantalla de visualizaci\363n de sucursal en mapa.}{subsection.4.0.1}% 145
+\BOOKMARK [2][-]{subsection.4.0.18}{IU34 A\361adir otro campo}{subsection.4.0.1}% 146
+\BOOKMARK [2][-]{subsection.4.0.19}{IU35 A\361adir otro email}{subsection.4.0.1}% 147
+\BOOKMARK [2][-]{subsection.4.0.20}{IU97 Pantalla para consultar sucursales registradas}{subsection.4.0.1}% 148
+\BOOKMARK [2][-]{subsection.4.0.21}{IU37 P\341gina de inicio}{subsection.4.0.1}% 149
+\BOOKMARK [2][-]{subsection.4.0.22}{IU38 Pantalla de opciones para la recepsionista}{subsection.4.0.1}% 150
+\BOOKMARK [2][-]{subsection.4.0.23}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.4.0.1}% 151
+\BOOKMARK [2][-]{subsection.4.0.24}{IU99 Pantalla dar de baja sucursales}{subsection.4.0.1}% 152
+\BOOKMARK [2][-]{subsection.4.0.25}{IU3 Pantalla de Registrar Cliente}{subsection.4.0.1}% 153
+\BOOKMARK [0][-]{chapter.5}{Modelo del Dominio del problema}{}% 154
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940

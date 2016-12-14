@@ -4,6 +4,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/Roberto/Documents/ADOO/GYM/Centro-Deportivo/Código/web/ventaMembresia.html</file>
             <file>file:/C:/Users/Roberto/Documents/ADOO/GYM/Centro-Deportivo/Código/web/inicio.html</file>
             <file>file:/C:/Users/Roberto/Documents/ADOO/GYM/Centro-Deportivo/Código/src/java/Registro/Registro.java</file>
@@ -12,6 +13,17 @@
             <file>file:/C:/Users/Roberto/Documents/ADOO/GYM/Centro-Deportivo/Código/web/opcionesCliente.html</file>
             <file>file:/C:/Users/Roberto/Documents/ADOO/GYM/Centro-Deportivo/Código/src/java/Registro/Cliente.java</file>
             <file>file:/C:/Users/Roberto/Documents/ADOO/GYM/Centro-Deportivo/Código/src/java/BaseDeDatos/ConexionBaseDeDatos.java</file>
+=======
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/src/java/modelo/entidades/Direccion.java</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/src/java/controlador/RegistroSucursal.java</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/src/java/controlador/Estado.java</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/src/java/modelo/entidades/Sucursal.java</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/web/sucursal.html</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/web/consultar.jsp</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/web/inicio.html</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/src/java/modelo/CRUD.java</file>
+            <file>file:/C:/Users/Bad/Desktop/GitHub/Centro-Deportivo/Código/web/assets/js/FuncionesJS.js</file>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
         </group>
     </open-files>
 </project-private>
