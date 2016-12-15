@@ -16,7 +16,7 @@
 		\UCitem{Propósito}{Disponer de las funcionalidades del sistema en cualquier momento mediante el nombre de usuario y contraseña.}
 		\UCitem{Entradas}{Nombre de usuario y contraseña.}
 		\UCitem{Origen}{Teclado.}
-		\UCitem{Salidas}{\IUref{IU6}{Pantalla de perfil de empleado.} o \IUref{IU5}{Perfil de usuario.}}
+		\UCitem{Salidas}{Se mostrará la página principal de acuerdo al tipo de usuario que se haya logueado.}
 		\UCitem{Destino}{Pantalla.}
 		\UCitem{Precondiciones}{El cliente debe contar con un registro previo.}
 		\UCitem{Postcondiciones}{}
@@ -28,19 +28,13 @@
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes, seleccionando la opción de ``Clientes'' que aparece en la \IUref{IU6}{Pantalla de perfil de empleado.}
-		\UCpaso Muestra las operaciones disponibles para el actor mediante la \IUref{IU7}{Pantalla de operaciones del empleado.}
-		\UCpaso[\UCactor] Solicita la baja del registro del cliente seleccionando la opción de ``Actualizar/Baja de la \IUref{IU7}{Pantalla de operaciones del empleado.}
-		\UCpaso Solicita el nombre(s), apellido paterno, materno o CURP del cliente mediante la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
-		\UCpaso[\UCactor] Proporciona el nombre(s), apellido paterno, materno o CURP, dependiendo el filtro de búsqueda que desee.
-		\UCpaso[\UCactor] Solicita la búsqueda del registro(s) presionando el botón \IUbutton{Buscar} de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
-		\UCpaso Verifica si los datos que se ingresaron coinciden con algún registro [E5].
-		\UCpaso Muestra un registro breve del cliente(s) con los datos de Nombre, Apellido paterno, Apellido materno, CURP y las opciones de ``Editar'' y ``Baja'' a través de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
-		\UCpaso[\UCactor] Solicita la baja del registro del cliente seleccionando la opción de ``Baja'' de la \IUref{IU9}{Pantalla de Búsqueda de Cliente.} La baja de un registro está dada por la \BRref{BR100}{Control de la información del cliente.} 
-		\UCpaso Muestra un mensaje de confirmación {\bf MS19-}``¿Estás seguro de dar de baja el registro?''.
-		\UCpaso[\UCactor] Selecciona el botón \IUbutton{Aceptar} a través de la \IUref{IU9.2}{Pantalla de Búsqueda de Cliente-baja.}
-		\UCpaso Inhabilita el registro seleccionado.
-		\UCpaso Direcciona a la \IUref{IU9}{Pantalla de Búsqueda de Cliente.}
+		\UCpaso Solicita el username y password para acceder al perfil del usuario mediante la \IUref{IU23}{Pantalla de Control de Acceso}.
+		\UCpaso[\UCactor] Proporciona su username y password.
+		\UCpaso[\UCactor] Solicita el ingreso a su perfil de usuario presionando el botón \IUbutton{Entrar} de la \IUref{IU23}{Pantalla de Control de Acceso}.
+		\UCpaso Valida si el username y password coinciden con algún registro en el sistema [E3].
+		\UCpaso Muestra el perfil de usuario.
 	\end{UCtrayectoria}
+	
+	
 	
 		%-------------------------------------- TERMINA descripción del caso de uso.

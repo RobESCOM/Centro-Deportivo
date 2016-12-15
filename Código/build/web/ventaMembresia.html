@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Membresia</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="spectral/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    </head>
+    <body>
+
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Centro Deportivo San Pancho</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="inicio.html">Home</a></li>
+                                    <li><a href="sucursal.html">Sucursal</a></li>
+                                    <li><a href="">Areas</a></li>
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>¡Ya eres parte de nosotros!</h2>
+                    
+                </header>
+
+                <section class="wrapper style5">
+                    <h3>Venta de Membresía</h3>
+                    <div class="inner">
+                        <section>
+                            <!--<h4>Formulario</h4>-->
+                            <form method="post" action = "Registro">
+                                <div class="row uniform">
+
+                                    <div class="12u$(xsmall)">
+                                        <div>
+                                            <h4>Tipo de membresía: *</h4>
+                                            <input type="radio" id="membresia1" name="tipoMembresia" value="Basica" />
+                                            <label for="membresia1">Básica</label>
+                                            <input type="radio" id="membresia2" name="tipoMembresia" value="Gold" />
+                                            <label for="membresia2">Gold</label>
+                                           <input type="radio" id="membresia3" name="tipoMembresia" value="Platinum" />
+                                            <label for="membresia3">Platinum</label>
+                                            <a href="inicio.html">Volver a página principal</a>
+                                        </div>
+
+                                    </div>
+
+
+                                   <!-- <div class="12u$">
+                                        <h3>DATOS PERSONALES</h3>
+
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="nombre">Nombre(s):*</label>
+                                        <input type="text" name="nombreCliente" />
+                                    </div>
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="apPaterno">Apellido Paterno:*</label>
+                                        <input type="text" name="apPaterno" />
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="apMaterno">Apellido Materno:</label>
+                                        <input type="text" name="apMaterno" />
+                                    </div>
+
+                                    <div class="6u 12u$(xsmall)">
+                                        <label for="fNacimiento">Fecha de Nacimiento:*</label>
+                                        <input type="text" name="fechaNacimiento" placeholder="aaaa/mm/dd" />
+                                    </div>
+                                    <div class="12u$(xsmall)">
+                                        <h6>Sexo: *</h6>
+                                        <input type="radio" id="hombre" name="sexo" />
+                                        <label for="hombre">Masculino</label>
+                                        <input type="radio" id="mujer" name="sexo" />
+                                        <label for="mujer">Femenino</label>                                    
+                                    </div>
+                                    <div>
+                                        <label for="curp">CURP:*</label>
+                                        <input type="text" name="curp" />
+                                    </div>
+                                    <div>
+                                        <label for="RFC">RFC:</label>
+                                        <input type="text" name="rfc" />
+                                    </div>
+                                </div>
+
+                                <div class="12u$(xsmall)">
+                                    <h4>SERVICIOS ADICIONALES</h4>
+                                </div>-->
+
+                                
+
+                              
+                                   <div class="row uniform">
+                                    <div class="6u 12u$(xsmall)">
+                                                                         
+                                        <h4>Servicios Adicionales:</h4>
+                                        <input type="checkbox" name="servicios" value="regaderas" id="regaderas"/>
+                                        <label for="regaderas">Regaderas</label>
+                                        <input type="checkbox" name="servicios" value="locker" id="locker"/>
+                                        <label for="locker">Locker</label>
+                                        <input type="checkbox" name="servicios" value="spa" id="spa"/>
+                                        <label for="spa">Spa</label>
+                                        <input type="checkbox" name="servicios" value="nutriologo" id="nutriologo"/>
+                                        <label for="nutriologo">Nutriólogo</label>
+                                        <input type="checkbox" name="servicios" value="alberca" id="alberca"/>
+                                        <label for="alberca">Alberca</label>
+                                    </div>
+                                    
+                                   
+                                       <div class="row uniform">
+                                    <div class="6u 12u$(xsmall)">
+                                         <h4>Cursos Adicionales:</h4>
+                                        <input type="checkbox" name="cursos" value="zumba" id="zumba"/>
+                                        <label for="zumba">Zumba</label>
+                                        <input type="checkbox" name="cursos" value="taekwondo" id="taekwondo"/>
+                                        <label for="taekwondo">Tae Kwon Do</label>
+                                        <input type="checkbox" name="cursos" value="mma" id="mma"/>
+                                        <label for="mma">MMA</label>
+                                        <input type="checkbox" name="cursos" value="box" id="box"/>
+                                        <label for="box">Box</label>
+                                        <input type="checkbox" name="cursos" value="natacion" id="natacion"/>
+                                        <label for="natacion">Natación</label>
+                                        <input type="checkbox" name="gimnasia" value="gimnasia" id="gimnasia"/>
+                                        <label for="gimnasia">Gimnasia</label>
+                                        <input type="checkbox" name="cursos" value="poledance" id="poleDance"/>
+                                        <label for="poledance">Pole Dance</label>
+                                    </div>
+                                    
+                                 
+                                    <div class="row uniform">
+                                    <div class="12u$(xsmall)">
+                                        <h4>Medio de pago: *</h4>
+                                        <input type="radio" id="efectivo" name="medioPago" />
+                                        <label for="efectivo">Efectivo</label>
+                                        <input type="radio" id="tdc" name="medioPago" />
+                                        <label for="tdc">Tarjeta de débito/crédito</label>                                    
+                                    </div>
+
+                                
+                                <div class="12u$">
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Comprar" class="special" /></li>
+                                        <li><input type="reset" value="Reset" /></li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">RGBA Group</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="spectral/js/jquery.min.js"></script>
+        <script src="spectral/js/jquery.scrollex.min.js"></script>
+        <script src="spectral/js/jquery.scrolly.min.js"></script> 
+        <script src="spectral/js/skel.min.js"></script>
+        <script src="spectral/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="spectral/js/main.js"></script>
+
+    </body>
+</html>

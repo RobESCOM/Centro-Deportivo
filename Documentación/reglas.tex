@@ -2,30 +2,31 @@
 \section{Glosario de Términos del Negocio}
 
 \begin{description}
-	\item[Login:] Sección del sistema que auténtica al usuario mediante un username y password, permitiéndonos identificar su tipo (cliente, usuario, recepcionista, ejecutivo de ventas, gerente de sucursal, gerente de operaciones, encargado de área e instructor) brindándole acceso a su perfil.
-	\item[Username:] Nombre único que identifica a cada usuario dentro del sistema.
-	\item[Password:] Clave de acceso conformada por carácteres alfanuméricos asociada a un username.
-	\item[Usuario del sistema:] Persona que interactúa con el sistema.  
-	\item[Cliente:] Persona registrada en el sistema que genera el pago de la memebresia. Este puede actuar también como usuario.
-	\item[Membresia:] Contrato que específica los beneficios a los que el usuario tiene acceso generando un costo a partir de los mismos. Esos pueden ser cursos y servicios.
-	\item[Servicio:] Recursos materiales y de infraestructura a los que el usuario tiene derecho por el pago de su membresía.
-	\item[Curso:] Actividad deportiva que el usuario práctica por el pago de su membresía.
 	\item[Area:] Lugar dentro de la sucursal donde se imparten cursos.
-	\item[Sucursal:] Establecimiento del centro deportivo.
-	\item[Horario:] Distribición de las horas en que se imparte un curso.
-	\item[Cupo: ] Capacidad mpaxima dentro de un área o curso.
-	\item[Cliente Moral:] Persona que se registra en el sistema como empresa.
-	\item[Usuario:] Persona que utiliza las áreas, servicios y cursos del centro deportivo.
-	\item[Recepcionista:] Persona que se ubica en la entrada de cada sucursal y da la bienvenida al cliente y/o Usuario.
-	\item[Gerente de Sucursal:] Persona encargada de cada sucursal.
-	\item[Gerente de operaciones:] Persona encargada del centro deportivo como conjunto.
-	\item[Encargado de area:] Persona encargada de las áreas de sucursal.
-	\item[Ejecutivo de ventas:] Persona que vende membresías.
-	\item[Instructor:] Persona que imparte cursos.
-	\item[CVV2:] Ultimos tres digitos de la parte trasera de la tarjeta de crédito y/o débito.
 	\item[Básica:] Tipo de membresía.
+	\item[Cliente:] Persona registrada en el sistema que genera el pago de la memebresia. Este puede actuar también como usuario.
+	\item[Cliente Moral:] Persona que se registra en el sistema como empresa.
+	\item[Cupo: ] Capacidad mpaxima dentro de un área o curso.
+	\item[Curso:] Actividad deportiva que el usuario práctica por el pago de su membresía.
+	\item[CVV2:] Ultimos tres digitos de la parte trasera de la tarjeta de crédito y/o débito.
+	\item[Ejecutivo de ventas:] Persona que vende membresías.
+	\item[Encargado de area:] Persona encargada de las áreas de sucursal.
+	\item[Gerente de operaciones:] Persona encargada del centro deportivo como conjunto.
+	\item[Gerente de Sucursal:] Persona encargada de cada sucursal.
+	\item[Horario:] Distribición de las horas en que se imparte un curso.
+	\item[Instructor:] Persona que imparte cursos.
+	\item[Login:] Sección del sistema que auténtica al usuario mediante un username y password, permitiéndonos identificar su tipo (cliente, usuario, recepcionista, ejecutivo de ventas, gerente de sucursal, gerente de operaciones, encargado de área e instructor) brindándole acceso a su perfil.
+	\item[Membresia:] Contrato que específica los beneficios a los que el usuario tiene acceso generando un costo a partir de los mismos. Esos pueden ser cursos y servicios.
+	\item[Password:] Clave de acceso conformada por carácteres alfanuméricos asociada a un username.
 	\item[Plus:] Tipo de membresía.
 	\item[Premium:] Tipo de membresía.
+	\item[Recepcionista:] Persona que se ubica en la entrada de cada sucursal y da la bienvenida al cliente y/o Usuario.
+	\item[Servicio:] Recursos materiales y de infraestructura a los que el usuario tiene derecho por el pago de su membresía.
+	\item[Sucursal:] Establecimiento del centro deportivo.
+	\item[Username:] Nombre único que identifica a cada usuario dentro del sistema.
+	\item[Usuario:] Persona que utiliza las áreas, servicios y cursos del centro deportivo.
+	\item[Usuario del sistema:] Persona que interactúa con el sistema. 
+		
 \end{description}
 
 %---------------------------------------------------------
@@ -152,74 +153,6 @@ Esto podría generar un costo adicional al pago de su membresia.
 
 \begin{BussinesRule}{BR17}{Registro de cursos.} 
 	\BRitem[Descripción:] Para el registro de nuevos cursos se debe contar con el área disponible en la sucursal que cuente con las caracteristicas ideales para el mismo.
-	\BRitem[Tipo:] Cronometrada.
-	\BRitem[Nivel:] PreAutorizada.
-\end{BussinesRule}
-
-\begin{BussinesRule}{BR100}{Control de la información dentro del Centro Deportivo.} 
-	\BRitem[Descripción:] Toda la información manejada dentro del Centro Deportivo podrá ser manipulada únicamente por el personal que labora dentro del mismo. Sin embargo, no todo el personal podrá hacer uso de esa información de la misma manera. Este uso va en función del tipo de permisos que tenga cada uno de los empleados. Esto es:
-		
-{\bf - Gerente de operaciones:}
-
-	*Alta : Sucursales, Empleados, Áreas, Cursos y Servicios.
-	
-	*Baja : Clientes, Sucursales, Empleados, Áreas, Cursos y Servicios.
-	
-	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
-	
-	*Actualización : Clientes, Sucursales, Empleados, Áreas, Sucursales, Cursos y Servicios.
-
-{\bf- Gerente de sucursal:}
-	
-	*Alta : Sucursales, Áreas, Cursos y Servicios.
-	
-	*Baja : Clientes, Sucursales, Áreas, Cursos y Servicios.
-	
-	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
-	
-	*Actualización : Clientes, Sucursales, Áreas, Cursos y Servicios.
-
-{\bf- Recepcionista:}
-
-	*Alta : Clientes, Cursos y Servicios.
-	
-	*Baja : Clientes, Cursos y Servicios.
-	
-	*Consulta : Clientes, Sucursales, Empleados, Áreas, Cursos, Servicios y Ventas.
-	
-	*Actualización : Clientes, Cursos y Servicios.
-
-{\bf- Ejecutivo de ventas:}
-
-	*Alta : Clientes.
-	
-	*Baja : Ninguno.
-	
-	*Consulta : Clientes, Sucursales, Cursos, Servicios y Ventas.
-	
-	*Actualización : Clientes.
-
-{\bf- Encargado de área:}
-	
-	*Alta : Áreas.
-	
-	*Baja : Áreas.
-	
-	*Consulta : Sucursales, Áreas, Cursos y Servicios.
-	
-	*Actualización : Áreas.
-
-{\bf- Instructor:}
-	
-	*Alta : Ninguno.
-	
-	*Baja : Ninguno.
-	
-	*Consulta : Sucursales, Áreas, Cursos, Horario.
-	
-	*Actualización : Ninguno.
-
-
 	\BRitem[Tipo:] Cronometrada.
 	\BRitem[Nivel:] PreAutorizada.
 \end{BussinesRule}

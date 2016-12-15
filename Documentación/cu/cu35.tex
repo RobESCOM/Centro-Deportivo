@@ -8,7 +8,7 @@
 
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
-	\begin{UseCase}{CU35}{Registrar Servicios.}{
+	\begin{UseCase}{CU35}{Registrar Servicios}{
 		Permite al gerente de sucursal, recepcionista, registrar un servicio en el sistema, añadiendo atributos como: nombre, tipo de servicio, areá en actividad, estado, responsables y descripción.
 	}
 		\UCitem{Versión}{1.0}
@@ -24,7 +24,7 @@
 		Que exista al menos un instructor que funga el papel de responsable.}
 		\UCitem{Postcondiciones}{El servicio registrado se verá reflejado en la sección de consultar servicios.}
 		\UCitem{Errores}{
-		{\bf E3:} ``No se ingresaron todos los campos obligatorios.'' -- El sistema muestra el Mensaje {\bf MSG3-}``Ingresa los campos obligatorios marcados con * para continuar.'' mostrados en \IUref{IU8}{Pantalla de campos obligatorios de áreas.}
+		{\bf E3:} ``No se ingresaron todos los campos obligatorios.'' -- El sistema muestra el Mensaje {\bf MSG3-}``Ingresa los campos obligatorios marcados con * para continuar.'' mostrados en \IUref{IU10}{Pantalla de campos obligatorios de servicios.}
 {\bf E4:} ``El formato del dato es incorrecto''  -- El sistema muestra el Mensaje {\bf MSG4-}``Ingresa el valor correcto de acuerdo al formato que aparece en el campo.''
 {\bf E8:} ``Nombre de área ya existente'' -- El sistema muestra el Mensaje {\bf MSG8-}``El nombre de área ya se encuentra registrado.''
 }
@@ -41,7 +41,7 @@
 		\UCpaso[\UCactor] Selecciona del menú la opción servicios.
 		\UCpaso Muestra las opciones que el actor puede realizar: Agregar servicio, consultar servicios, eliminar servicios, suspender servicios y actualizar servicios.
 		\UCpaso[\UCactor] Selecciona la opción, Registrar servicios. 
-		\UCpaso Carga un formulario en la página de registrar servicios.
+		\UCpaso Carga un formulario en la página de registrar servicios. Mostrado en la pantalla \IUref{IU10}{Pantalla de registrar servicios.}
 		\UCpaso[\UCactor] Ingresa el tipo de servicio.
 		\UCpaso Carga en la lista desplegable las áreas disponibles. \Trayref{C}
 		\UCpaso[\UCactor] selecciona un área de la lista.
