@@ -1,934 +1,334 @@
 \select@language {spanish}
-<<<<<<< HEAD
-\contentsline {chapter}{\numberline {1}Modelo de Negocios}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Glosario de T\IeC {\'e}rminos del Negocio}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Hechos del Negocio}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Reglas de Negocio}{2}{section.1.3}
-<<<<<<< HEAD
-\contentsline {chapter}{\numberline {2}Modelo de Casos de Uso}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}CU1 Registrar cliente.}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Descripci\IeC {\'o}n completa}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Atributos importantes}{7}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Trayectorias del Caso de Uso}{7}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}CU2 Consultar datos del cliente.}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Descripci\IeC {\'o}n completa}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Atributos importantes}{9}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Trayectorias del Caso de Uso}{9}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}CU3 Actualizar datos del cliente.}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Descripci\IeC {\'o}n completa}{11}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Atributos importantes}{11}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Trayectorias del Caso de Uso}{11}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}CU4 Dar de baja un cliente.}{13}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Descripci\IeC {\'o}n completa}{13}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Atributos importantes}{13}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Trayectorias del Caso de Uso}{13}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}CU6.0 Consultar \IeC {\'A}reas Registradas}{15}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Descripci\IeC {\'o}n completa}{15}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Atributos importantes}{15}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Trayectorias del Caso de Uso}{15}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}CU7.0 Registrar \IeC {\'a}reas}{17}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Descripci\IeC {\'o}n completa}{17}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Atributos importantes}{17}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Trayectorias del Caso de Uso}{17}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}CU8.0 Eliminar \IeC {\'a}reas}{19}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Descripci\IeC {\'o}n completa}{19}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Atributos importantes}{19}{subsection.2.7.2}
-\contentsline {subsection}{\numberline {2.7.3}Trayectorias del Caso de Uso}{19}{subsection.2.7.3}
-\contentsline {section}{\numberline {2.8}CU9.0 Actualizar datos de \IeC {\'a}rea}{21}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Descripci\IeC {\'o}n completa}{21}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Atributos importantes}{21}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Trayectorias del Caso de Uso}{21}{subsection.2.8.3}
-\contentsline {section}{\numberline {2.9}CU10.0 Desactivar \IeC {\'a}rea}{23}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Descripci\IeC {\'o}n completa}{23}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Atributos importantes}{23}{subsection.2.9.2}
-\contentsline {subsection}{\numberline {2.9.3}Trayectorias del Caso de Uso}{23}{subsection.2.9.3}
-\contentsline {section}{\numberline {2.10}CU11 Registrar en el sistema una nueva sucursal.}{25}{section.2.10}
-\contentsline {subsection}{\numberline {2.10.1}Descripci\IeC {\'o}n completa}{25}{subsection.2.10.1}
-\contentsline {subsection}{\numberline {2.10.2}Atributos importantes}{25}{subsection.2.10.2}
-\contentsline {subsection}{\numberline {2.10.3}Trayectorias del Caso de Uso}{25}{subsection.2.10.3}
-\contentsline {section}{\numberline {2.11}CU12 Actualizar los datos de una sucursal.}{29}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Descripci\IeC {\'o}n completa}{29}{subsection.2.11.1}
-\contentsline {subsection}{\numberline {2.11.2}Atributos importantes}{29}{subsection.2.11.2}
-\contentsline {subsection}{\numberline {2.11.3}Trayectorias del Caso de Uso}{29}{subsection.2.11.3}
-\contentsline {section}{\numberline {2.12}CU13 Baja de sucursal.}{31}{section.2.12}
-\contentsline {subsection}{\numberline {2.12.1}Descripci\IeC {\'o}n completa}{31}{subsection.2.12.1}
-\contentsline {subsection}{\numberline {2.12.2}Atributos importantes}{31}{subsection.2.12.2}
-\contentsline {subsection}{\numberline {2.12.3}Trayectorias del Caso de Uso}{31}{subsection.2.12.3}
-\contentsline {section}{\numberline {2.13}CU14 Ubicar geogr\IeC {\'a}ficamente una sucursal}{33}{section.2.13}
-\contentsline {subsection}{\numberline {2.13.1}Descripci\IeC {\'o}n completa}{33}{subsection.2.13.1}
-\contentsline {subsection}{\numberline {2.13.2}Atributos importantes}{33}{subsection.2.13.2}
-\contentsline {subsection}{\numberline {2.13.3}Trayectorias del Caso de Uso}{33}{subsection.2.13.3}
-\contentsline {section}{\numberline {2.14}CU15 Eliminar del sistema una sucursal.}{35}{section.2.14}
-\contentsline {subsection}{\numberline {2.14.1}Descripci\IeC {\'o}n completa}{35}{subsection.2.14.1}
-\contentsline {subsection}{\numberline {2.14.2}Atributos importantes}{35}{subsection.2.14.2}
-\contentsline {subsection}{\numberline {2.14.3}Trayectorias del Caso de Uso}{35}{subsection.2.14.3}
-\contentsline {section}{\numberline {2.15}CU21 Alta de un curso}{37}{section.2.15}
-\contentsline {subsection}{\numberline {2.15.1}Descripci\IeC {\'o}n completa}{37}{subsection.2.15.1}
-\contentsline {subsection}{\numberline {2.15.2}Atributos importantes}{37}{subsection.2.15.2}
-\contentsline {subsection}{\numberline {2.15.3}Trayectorias del Caso de Uso}{37}{subsection.2.15.3}
-\contentsline {section}{\numberline {2.16}CU22 Baja de un curso}{40}{section.2.16}
-\contentsline {subsection}{\numberline {2.16.1}Descripci\IeC {\'o}n completa}{40}{subsection.2.16.1}
-\contentsline {subsection}{\numberline {2.16.2}Atributos importantes}{40}{subsection.2.16.2}
-\contentsline {subsection}{\numberline {2.16.3}Trayectorias del Caso de Uso}{40}{subsection.2.16.3}
-\contentsline {section}{\numberline {2.17}CU23 Moficar un curso}{43}{section.2.17}
-\contentsline {subsection}{\numberline {2.17.1}Descripci\IeC {\'o}n completa}{43}{subsection.2.17.1}
-\contentsline {subsection}{\numberline {2.17.2}Atributos importantes}{43}{subsection.2.17.2}
-\contentsline {subsection}{\numberline {2.17.3}Trayectorias del Caso de Uso}{43}{subsection.2.17.3}
-\contentsline {section}{\numberline {2.18}CU24 Consultar un Curso}{46}{section.2.18}
-\contentsline {subsection}{\numberline {2.18.1}Descripci\IeC {\'o}n completa}{46}{subsection.2.18.1}
-\contentsline {subsection}{\numberline {2.18.2}Atributos importantes}{46}{subsection.2.18.2}
-\contentsline {subsection}{\numberline {2.18.3}Trayectorias del Caso de Uso}{46}{subsection.2.18.3}
-\contentsline {section}{\numberline {2.19}CU25 Inscribir cliente a un curso}{49}{section.2.19}
-\contentsline {subsection}{\numberline {2.19.1}Descripci\IeC {\'o}n completa}{49}{subsection.2.19.1}
-\contentsline {subsection}{\numberline {2.19.2}Atributos importantes}{49}{subsection.2.19.2}
-\contentsline {subsection}{\numberline {2.19.3}Trayectorias del Caso de Uso}{49}{subsection.2.19.3}
-\contentsline {section}{\numberline {2.20}CU26 Registrar pago de membres\IeC {\'\i }a en sucursal.}{51}{section.2.20}
-\contentsline {subsection}{\numberline {2.20.1}Descripci\IeC {\'o}n completa}{51}{subsection.2.20.1}
-\contentsline {subsection}{\numberline {2.20.2}Atributos importantes}{51}{subsection.2.20.2}
-\contentsline {subsection}{\numberline {2.20.3}Trayectorias del Caso de Uso}{51}{subsection.2.20.3}
-\contentsline {section}{\numberline {2.21}CU28.0 Registrar ingreso a \IeC {\'a}rea}{53}{section.2.21}
-\contentsline {subsection}{\numberline {2.21.1}Descripci\IeC {\'o}n completa}{53}{subsection.2.21.1}
-\contentsline {subsection}{\numberline {2.21.2}Atributos importantes}{53}{subsection.2.21.2}
-\contentsline {subsection}{\numberline {2.21.3}Trayectorias del Caso de Uso}{53}{subsection.2.21.3}
-\contentsline {section}{\numberline {2.22}CU29.0 Registrar salida de \IeC {\'a}rea}{55}{section.2.22}
-\contentsline {subsection}{\numberline {2.22.1}Descripci\IeC {\'o}n completa}{55}{subsection.2.22.1}
-\contentsline {subsection}{\numberline {2.22.2}Atributos importantes}{55}{subsection.2.22.2}
-\contentsline {subsection}{\numberline {2.22.3}Trayectorias del Caso de Uso}{55}{subsection.2.22.3}
-\contentsline {section}{\numberline {2.23}CU30 Registrar usuarios por area}{57}{section.2.23}
-\contentsline {subsection}{\numberline {2.23.1}Descripci\IeC {\'o}n completa}{57}{subsection.2.23.1}
-\contentsline {subsection}{\numberline {2.23.2}Atributos importantes}{57}{subsection.2.23.2}
-\contentsline {subsection}{\numberline {2.23.3}Trayectorias del Caso de Uso}{57}{subsection.2.23.3}
-\contentsline {section}{\numberline {2.24}CU31 Ingresar al sistema.}{59}{section.2.24}
-\contentsline {subsection}{\numberline {2.24.1}Descripci\IeC {\'o}n completa}{59}{subsection.2.24.1}
-\contentsline {subsection}{\numberline {2.24.2}Atributos importantes}{59}{subsection.2.24.2}
-\contentsline {subsection}{\numberline {2.24.3}Trayectorias del Caso de Uso}{59}{subsection.2.24.3}
-\contentsline {section}{\numberline {2.25}CU32 Consultar Servicios.}{61}{section.2.25}
-\contentsline {subsection}{\numberline {2.25.1}Descripci\IeC {\'o}n completa}{61}{subsection.2.25.1}
-\contentsline {subsection}{\numberline {2.25.2}Atributos importantes}{61}{subsection.2.25.2}
-\contentsline {subsection}{\numberline {2.25.3}Trayectorias del Caso de Uso}{61}{subsection.2.25.3}
-\contentsline {section}{\numberline {2.26}CU33 Eliminar Servicios.}{63}{section.2.26}
-\contentsline {subsection}{\numberline {2.26.1}Descripci\IeC {\'o}n completa}{63}{subsection.2.26.1}
-\contentsline {subsection}{\numberline {2.26.2}Atributos importantes}{63}{subsection.2.26.2}
-\contentsline {subsection}{\numberline {2.26.3}Trayectorias del Caso de Uso}{63}{subsection.2.26.3}
-\contentsline {section}{\numberline {2.27}CU34 Suspender Servicios.}{65}{section.2.27}
-\contentsline {subsection}{\numberline {2.27.1}Descripci\IeC {\'o}n completa}{65}{subsection.2.27.1}
-\contentsline {subsection}{\numberline {2.27.2}Atributos importantes}{65}{subsection.2.27.2}
-\contentsline {subsection}{\numberline {2.27.3}Trayectorias del Caso de Uso}{65}{subsection.2.27.3}
-\contentsline {section}{\numberline {2.28}CU35 Registrar Servicios}{67}{section.2.28}
-\contentsline {subsection}{\numberline {2.28.1}Descripci\IeC {\'o}n completa}{67}{subsection.2.28.1}
-\contentsline {subsection}{\numberline {2.28.2}Atributos importantes}{67}{subsection.2.28.2}
-\contentsline {subsection}{\numberline {2.28.3}Trayectorias del Caso de Uso}{67}{subsection.2.28.3}
-\contentsline {section}{\numberline {2.29}CU36 Actualizar Servicios.}{69}{section.2.29}
-\contentsline {subsection}{\numberline {2.29.1}Descripci\IeC {\'o}n completa}{69}{subsection.2.29.1}
-\contentsline {subsection}{\numberline {2.29.2}Atributos importantes}{69}{subsection.2.29.2}
-\contentsline {subsection}{\numberline {2.29.3}Trayectorias del Caso de Uso}{69}{subsection.2.29.3}
-\contentsline {section}{\numberline {2.30}CU37 Asignar instructor a curso.}{71}{section.2.30}
-\contentsline {subsection}{\numberline {2.30.1}Descripci\IeC {\'o}n completa}{71}{subsection.2.30.1}
-\contentsline {subsection}{\numberline {2.30.2}Atributos importantes}{71}{subsection.2.30.2}
-\contentsline {subsection}{\numberline {2.30.3}Trayectorias del Caso de Uso}{71}{subsection.2.30.3}
-\contentsline {chapter}{\numberline {3}Modelo de la Interacci\IeC {\'o}n}{73}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}IU21.0 Pantalla de Control de acceso Gerente de Sucursal}{73}{subsection.3.0.1}
-\contentsline {subsubsection}{Objetivo}{73}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{73}{section*.3}
-\contentsline {subsubsection}{Salidas}{73}{section*.4}
-\contentsline {subsubsection}{Entradas}{74}{section*.5}
-\contentsline {subsubsection}{Comandos}{74}{section*.6}
-\contentsline {subsubsection}{Mensajes}{74}{section*.7}
-\contentsline {subsection}{\numberline {3.0.2}IU21.1 Pantalla principal de acceso a Gerente de Sucursal}{74}{subsection.3.0.2}
-\contentsline {subsubsection}{Objetivo}{74}{section*.8}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{74}{section*.9}
-\contentsline {subsubsection}{Salidas}{74}{section*.10}
-\contentsline {subsubsection}{Entradas}{74}{section*.11}
-\contentsline {subsubsection}{Comandos}{75}{section*.12}
-\contentsline {subsubsection}{Mensajes}{75}{section*.13}
-\contentsline {subsection}{\numberline {3.0.3}IU21.2 Pantalla de alta de curso en el sistema}{75}{subsection.3.0.3}
-\contentsline {subsubsection}{Objetivo}{75}{section*.14}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{75}{section*.15}
-\contentsline {subsubsection}{Salidas}{75}{section*.16}
-\contentsline {subsubsection}{Entradas}{76}{section*.17}
-\contentsline {subsubsection}{Comandos}{76}{section*.18}
-\contentsline {subsubsection}{Mensajes}{76}{section*.19}
-\contentsline {subsection}{\numberline {3.0.4}IU22.1 Baja de curso}{76}{subsection.3.0.4}
-\contentsline {subsubsection}{Objetivo}{76}{section*.20}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{76}{section*.21}
-\contentsline {subsubsection}{Salidas}{76}{section*.22}
-\contentsline {subsubsection}{Entradas}{76}{section*.23}
-\contentsline {subsubsection}{Comandos}{76}{section*.24}
-\contentsline {subsubsection}{Mensajes}{77}{section*.25}
-\contentsline {subsection}{\numberline {3.0.5}IU23.1 Modificar un curso}{77}{subsection.3.0.5}
-\contentsline {subsubsection}{Objetivo}{77}{section*.26}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{77}{section*.27}
-\contentsline {subsubsection}{Salidas}{77}{section*.28}
-\contentsline {subsubsection}{Entradas}{77}{section*.29}
-\contentsline {subsubsection}{Comandos}{77}{section*.30}
-\contentsline {subsubsection}{Mensajes}{77}{section*.31}
-\contentsline {subsection}{\numberline {3.0.6}IU24 Pantalla de Consultar un Curso}{77}{subsection.3.0.6}
-\contentsline {subsubsection}{Objetivo}{77}{section*.32}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{78}{section*.33}
-\contentsline {subsubsection}{Salidas}{78}{section*.34}
-\contentsline {subsubsection}{Entradas}{78}{section*.35}
-\contentsline {subsubsection}{Comandos}{78}{section*.36}
-\contentsline {subsubsection}{Mensajes}{78}{section*.37}
-\contentsline {subsection}{\numberline {3.0.7}IU26 Pantalla de Inscribir cliente a curso}{78}{subsection.3.0.7}
-\contentsline {subsubsection}{Objetivo}{78}{section*.38}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{78}{section*.39}
-\contentsline {subsubsection}{Salidas}{78}{section*.40}
-\contentsline {subsubsection}{Entradas}{79}{section*.41}
-\contentsline {subsubsection}{Comandos}{79}{section*.42}
-\contentsline {subsubsection}{Mensajes}{79}{section*.43}
-\contentsline {subsection}{\numberline {3.0.8}IU18 Pantalla de men\IeC {\'u} de ocpiones de la secci\IeC {\'o}n \IeC {\'a}reas.}{79}{subsection.3.0.8}
-\contentsline {subsubsection}{Objetivo}{79}{section*.44}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.45}
-\contentsline {subsubsection}{Salidas}{80}{section*.46}
-\contentsline {subsubsection}{Entradas}{80}{section*.47}
-\contentsline {subsubsection}{Comandos}{80}{section*.48}
-\contentsline {subsubsection}{Mensajes}{80}{section*.49}
-\contentsline {subsection}{\numberline {3.0.9}IU19 Pantalla de registro de \IeC {\'a}rea}{80}{subsection.3.0.9}
-\contentsline {subsubsection}{Objetivo}{80}{section*.50}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.51}
-\contentsline {subsubsection}{Salidas}{80}{section*.52}
-\contentsline {subsubsection}{Entradas}{81}{section*.53}
-\contentsline {subsubsection}{Comandos}{82}{section*.54}
-\contentsline {subsubsection}{Mensajes}{82}{section*.55}
-\contentsline {subsection}{\numberline {3.0.10}IU20 Pantalla de Eliminar \IeC {\'a}reas}{82}{subsection.3.0.10}
-\contentsline {subsubsection}{Objetivo}{82}{section*.56}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{82}{section*.57}
-\contentsline {subsubsection}{Salidas}{82}{section*.58}
-\contentsline {subsubsection}{Entradas}{83}{section*.59}
-\contentsline {subsubsection}{Comandos}{83}{section*.60}
-\contentsline {subsubsection}{Mensajes}{83}{section*.61}
-\contentsline {subsection}{\numberline {3.0.11}IU22 Pantalla de Actualizaci\IeC {\'o}n de \IeC {\'a}reas}{83}{subsection.3.0.11}
-\contentsline {subsubsection}{Objetivo}{83}{section*.62}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{83}{section*.63}
-\contentsline {subsubsection}{Salidas}{83}{section*.64}
-\contentsline {subsubsection}{Entradas}{83}{section*.65}
-\contentsline {subsubsection}{Comandos}{83}{section*.66}
-\contentsline {subsubsection}{Mensajes}{83}{section*.67}
-\contentsline {subsection}{\numberline {3.0.12}IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{83}{subsection.3.0.12}
-\contentsline {subsubsection}{Objetivo}{83}{section*.68}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{84}{section*.69}
-\contentsline {subsubsection}{Salidas}{85}{section*.70}
-\contentsline {subsubsection}{Entradas}{85}{section*.71}
-\contentsline {subsubsection}{Comandos}{85}{section*.72}
-\contentsline {subsubsection}{Mensajes}{85}{section*.73}
-\contentsline {subsection}{\numberline {3.0.13}IU8 Pantalla de Registro Exitoso.}{85}{subsection.3.0.13}
-\contentsline {subsubsection}{Objetivo}{85}{section*.74}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{85}{section*.75}
-\contentsline {subsubsection}{Salidas}{85}{section*.76}
-\contentsline {subsubsection}{Entradas}{85}{section*.77}
-\contentsline {subsubsection}{Comandos}{86}{section*.78}
-\contentsline {subsubsection}{Mensajes}{86}{section*.79}
-\contentsline {subsection}{\numberline {3.0.14}IU9 Pantalla de Consulta de \IeC {\'A}reas.}{86}{subsection.3.0.14}
-\contentsline {subsubsection}{Objetivo}{86}{section*.80}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{86}{section*.81}
-\contentsline {subsubsection}{Salidas}{86}{section*.82}
-\contentsline {subsubsection}{Entradas}{86}{section*.83}
-\contentsline {subsubsection}{Comandos}{86}{section*.84}
-\contentsline {subsubsection}{Mensajes}{86}{section*.85}
-\contentsline {subsection}{\numberline {3.0.15}IU10 Pantalla de Registro de servicios.}{87}{subsection.3.0.15}
-\contentsline {subsubsection}{Objetivo}{87}{section*.86}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{87}{section*.87}
-\contentsline {subsubsection}{Salidas}{87}{section*.88}
-\contentsline {subsubsection}{Entradas}{87}{section*.89}
-\contentsline {subsubsection}{Comandos}{87}{section*.90}
-\contentsline {subsubsection}{Mensajes}{87}{section*.91}
-\contentsline {subsection}{\numberline {3.0.16}IU11 Pantalla de consulta de servicios.}{88}{subsection.3.0.16}
-\contentsline {subsubsection}{Objetivo}{88}{section*.92}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{88}{section*.93}
-\contentsline {subsubsection}{Salidas}{89}{section*.94}
-\contentsline {subsubsection}{Entradas}{89}{section*.95}
-\contentsline {subsubsection}{Comandos}{89}{section*.96}
-\contentsline {subsubsection}{Mensajes}{89}{section*.97}
-\contentsline {subsection}{\numberline {3.0.17}IU12 Pantalla de eliminar servicios.}{89}{subsection.3.0.17}
-\contentsline {subsubsection}{Objetivo}{89}{section*.98}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{89}{section*.99}
-\contentsline {subsubsection}{Salidas}{89}{section*.100}
-\contentsline {subsubsection}{Entradas}{90}{section*.101}
-\contentsline {subsubsection}{Comandos}{90}{section*.102}
-\contentsline {subsubsection}{Mensajes}{90}{section*.103}
-\contentsline {subsection}{\numberline {3.0.18}IU13 Pantalla de edicion de servicios.}{90}{subsection.3.0.18}
-\contentsline {subsubsection}{Objetivo}{90}{section*.104}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{90}{section*.105}
-\contentsline {subsubsection}{Salidas}{90}{section*.106}
-\contentsline {subsubsection}{Entradas}{90}{section*.107}
-\contentsline {subsubsection}{Comandos}{91}{section*.108}
-\contentsline {subsubsection}{Mensajes}{91}{section*.109}
-\contentsline {subsection}{\numberline {3.0.19}IU23 Pantalla de Control de Acceso}{91}{subsection.3.0.19}
-\contentsline {subsubsection}{Objetivo}{91}{section*.110}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{91}{section*.111}
-\contentsline {subsubsection}{Salidas}{91}{section*.112}
-\contentsline {subsubsection}{Entradas}{91}{section*.113}
-\contentsline {subsubsection}{Comandos}{91}{section*.114}
-\contentsline {subsubsection}{Mensajes}{92}{section*.115}
-\contentsline {subsection}{\numberline {3.0.20}IU32 Pantalla de formulario para registro de nueva sucursal.}{92}{subsection.3.0.20}
-\contentsline {subsubsection}{Objetivo}{92}{section*.116}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{92}{section*.117}
-\contentsline {subsubsection}{Salidas}{92}{section*.118}
-\contentsline {subsubsection}{Entradas}{92}{section*.119}
-\contentsline {subsubsection}{Comandos}{92}{section*.120}
-\contentsline {subsubsection}{Mensajes}{92}{section*.121}
-\contentsline {subsection}{\numberline {3.0.21}IU33 Pantalla de visualizaci\IeC {\'o}n de sucursal en mapa.}{93}{subsection.3.0.21}
-\contentsline {subsubsection}{Objetivo}{94}{section*.122}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{94}{section*.123}
-\contentsline {subsubsection}{Salidas}{94}{section*.124}
-\contentsline {subsubsection}{Entradas}{94}{section*.125}
-\contentsline {subsubsection}{Comandos}{94}{section*.126}
-\contentsline {subsubsection}{Mensajes}{94}{section*.127}
-\contentsline {subsection}{\numberline {3.0.22}IU34 A\IeC {\~n}adir otro campo}{94}{subsection.3.0.22}
-\contentsline {subsubsection}{Objetivo}{94}{section*.128}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{95}{section*.129}
-\contentsline {subsubsection}{Salidas}{95}{section*.130}
-\contentsline {subsubsection}{Entradas}{95}{section*.131}
-\contentsline {subsubsection}{Comandos}{95}{section*.132}
-\contentsline {subsubsection}{Mensajes}{95}{section*.133}
-\contentsline {subsection}{\numberline {3.0.23}IU35 A\IeC {\~n}adir otro email}{95}{subsection.3.0.23}
-\contentsline {subsubsection}{Objetivo}{95}{section*.134}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{95}{section*.135}
-\contentsline {subsubsection}{Salidas}{95}{section*.136}
-\contentsline {subsubsection}{Entradas}{96}{section*.137}
-\contentsline {subsubsection}{Comandos}{96}{section*.138}
-\contentsline {subsubsection}{Mensajes}{96}{section*.139}
-\contentsline {subsection}{\numberline {3.0.24}IU97 Pantalla para consultar sucursales registradas}{96}{subsection.3.0.24}
-\contentsline {subsubsection}{Objetivo}{96}{section*.140}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{96}{section*.141}
-\contentsline {subsubsection}{Salidas}{96}{section*.142}
-\contentsline {subsubsection}{Entradas}{96}{section*.143}
-\contentsline {subsubsection}{Comandos}{96}{section*.144}
-\contentsline {subsubsection}{Mensajes}{97}{section*.145}
-\contentsline {subsection}{\numberline {3.0.25}IU37 P\IeC {\'a}gina de inicio}{97}{subsection.3.0.25}
-\contentsline {subsubsection}{Objetivo}{97}{section*.146}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{97}{section*.147}
-\contentsline {subsubsection}{Salidas}{97}{section*.148}
-\contentsline {subsubsection}{Entradas}{97}{section*.149}
-\contentsline {subsubsection}{Comandos}{97}{section*.150}
-\contentsline {subsubsection}{Mensajes}{97}{section*.151}
-\contentsline {subsection}{\numberline {3.0.26}IU38 Pantalla de opciones para la recepsionista}{98}{subsection.3.0.26}
-\contentsline {subsubsection}{Objetivo}{98}{section*.152}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{98}{section*.153}
-\contentsline {subsubsection}{Salidas}{98}{section*.154}
-\contentsline {subsubsection}{Entradas}{99}{section*.155}
-\contentsline {subsubsection}{Comandos}{99}{section*.156}
-\contentsline {subsubsection}{Mensajes}{99}{section*.157}
-\contentsline {subsection}{\numberline {3.0.27}IU39 Pantalla para el registro del pago de membres\IeC {\'\i }a}{99}{subsection.3.0.27}
-\contentsline {subsubsection}{Objetivo}{99}{section*.158}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{99}{section*.159}
-\contentsline {subsubsection}{Salidas}{99}{section*.160}
-\contentsline {subsubsection}{Entradas}{99}{section*.161}
-\contentsline {subsubsection}{Comandos}{99}{section*.162}
-\contentsline {subsubsection}{Mensajes}{100}{section*.163}
-\contentsline {subsection}{\numberline {3.0.28}IU99 Pantalla dar de baja sucursales}{100}{subsection.3.0.28}
-\contentsline {subsubsection}{Objetivo}{100}{section*.164}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{100}{section*.165}
-\contentsline {subsubsection}{Salidas}{100}{section*.166}
-\contentsline {subsubsection}{Entradas}{100}{section*.167}
-\contentsline {subsubsection}{Comandos}{100}{section*.168}
-\contentsline {subsubsection}{Mensajes}{101}{section*.169}
-\contentsline {subsection}{\numberline {3.0.29}IU3 Pantalla de Registrar Cliente}{101}{subsection.3.0.29}
-\contentsline {subsubsection}{Objetivo}{101}{section*.170}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{101}{section*.171}
-\contentsline {subsubsection}{Comandos}{101}{section*.172}
-\contentsline {chapter}{\numberline {4}Modelo del Dominio del problema}{102}{chapter.4}
-=======
-\contentsline {chapter}{\numberline {2}Modelo de Casos de Uso}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}CU1 Registrar cliente.}{6}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Descripci\IeC {\'o}n completa}{6}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Atributos importantes}{6}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Trayectorias del Caso de Uso}{6}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}CU2 Consultar datos del cliente.}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Descripci\IeC {\'o}n completa}{8}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Atributos importantes}{8}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Trayectorias del Caso de Uso}{8}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}CU3 Actualizar datos del cliente.}{10}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Descripci\IeC {\'o}n completa}{10}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Atributos importantes}{10}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Trayectorias del Caso de Uso}{10}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}CU4 Dar de baja un cliente.}{12}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Descripci\IeC {\'o}n completa}{12}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Atributos importantes}{12}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Trayectorias del Caso de Uso}{12}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}CU6.0 Consultar \IeC {\'A}reas Registradas}{14}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Descripci\IeC {\'o}n completa}{14}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Atributos importantes}{14}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Trayectorias del Caso de Uso}{14}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}CU7.0 Registrar \IeC {\'a}reas}{16}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Descripci\IeC {\'o}n completa}{16}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Atributos importantes}{16}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Trayectorias del Caso de Uso}{16}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}CU8.0 Eliminar \IeC {\'a}reas}{18}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Descripci\IeC {\'o}n completa}{18}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Atributos importantes}{18}{subsection.2.7.2}
-\contentsline {subsection}{\numberline {2.7.3}Trayectorias del Caso de Uso}{18}{subsection.2.7.3}
-\contentsline {section}{\numberline {2.8}CU9.0 Actualizar datos de \IeC {\'a}rea}{20}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Descripci\IeC {\'o}n completa}{20}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Atributos importantes}{20}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Trayectorias del Caso de Uso}{20}{subsection.2.8.3}
-\contentsline {section}{\numberline {2.9}CU10.0 Desactivar \IeC {\'a}rea}{22}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Descripci\IeC {\'o}n completa}{22}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Atributos importantes}{22}{subsection.2.9.2}
-\contentsline {subsection}{\numberline {2.9.3}Trayectorias del Caso de Uso}{22}{subsection.2.9.3}
-\contentsline {section}{\numberline {2.10}CU11 Registrar en el sistema una nueva sucursal.}{24}{section.2.10}
-\contentsline {subsection}{\numberline {2.10.1}Descripci\IeC {\'o}n completa}{24}{subsection.2.10.1}
-\contentsline {subsection}{\numberline {2.10.2}Atributos importantes}{24}{subsection.2.10.2}
-\contentsline {subsection}{\numberline {2.10.3}Trayectorias del Caso de Uso}{24}{subsection.2.10.3}
-\contentsline {section}{\numberline {2.11}CU12 Actualizar los datos de una sucursal.}{28}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Descripci\IeC {\'o}n completa}{28}{subsection.2.11.1}
-\contentsline {subsection}{\numberline {2.11.2}Atributos importantes}{28}{subsection.2.11.2}
-\contentsline {subsection}{\numberline {2.11.3}Trayectorias del Caso de Uso}{28}{subsection.2.11.3}
-\contentsline {section}{\numberline {2.12}CU13 Baja de sucursal.}{30}{section.2.12}
-\contentsline {subsection}{\numberline {2.12.1}Descripci\IeC {\'o}n completa}{30}{subsection.2.12.1}
-\contentsline {subsection}{\numberline {2.12.2}Atributos importantes}{30}{subsection.2.12.2}
-\contentsline {subsection}{\numberline {2.12.3}Trayectorias del Caso de Uso}{30}{subsection.2.12.3}
-\contentsline {section}{\numberline {2.13}CU14 Ubicar geogr\IeC {\'a}ficamente una sucursal}{32}{section.2.13}
-\contentsline {subsection}{\numberline {2.13.1}Descripci\IeC {\'o}n completa}{32}{subsection.2.13.1}
-\contentsline {subsection}{\numberline {2.13.2}Atributos importantes}{32}{subsection.2.13.2}
-\contentsline {subsection}{\numberline {2.13.3}Trayectorias del Caso de Uso}{32}{subsection.2.13.3}
-\contentsline {section}{\numberline {2.14}CU15 Eliminar del sistema una sucursal.}{34}{section.2.14}
-\contentsline {subsection}{\numberline {2.14.1}Descripci\IeC {\'o}n completa}{34}{subsection.2.14.1}
-\contentsline {subsection}{\numberline {2.14.2}Atributos importantes}{34}{subsection.2.14.2}
-\contentsline {subsection}{\numberline {2.14.3}Trayectorias del Caso de Uso}{34}{subsection.2.14.3}
-\contentsline {section}{\numberline {2.15}CU21 Alta de un curso}{36}{section.2.15}
-\contentsline {subsection}{\numberline {2.15.1}Descripci\IeC {\'o}n completa}{36}{subsection.2.15.1}
-\contentsline {subsection}{\numberline {2.15.2}Atributos importantes}{36}{subsection.2.15.2}
-\contentsline {subsection}{\numberline {2.15.3}Trayectorias del Caso de Uso}{36}{subsection.2.15.3}
-\contentsline {section}{\numberline {2.16}CU22 Baja de un curso}{39}{section.2.16}
-\contentsline {subsection}{\numberline {2.16.1}Descripci\IeC {\'o}n completa}{39}{subsection.2.16.1}
-\contentsline {subsection}{\numberline {2.16.2}Atributos importantes}{39}{subsection.2.16.2}
-\contentsline {subsection}{\numberline {2.16.3}Trayectorias del Caso de Uso}{39}{subsection.2.16.3}
-\contentsline {section}{\numberline {2.17}CU23 Moficar un curso}{42}{section.2.17}
-\contentsline {subsection}{\numberline {2.17.1}Descripci\IeC {\'o}n completa}{42}{subsection.2.17.1}
-\contentsline {subsection}{\numberline {2.17.2}Atributos importantes}{42}{subsection.2.17.2}
-\contentsline {subsection}{\numberline {2.17.3}Trayectorias del Caso de Uso}{42}{subsection.2.17.3}
-\contentsline {section}{\numberline {2.18}CU24 Consultar un Curso}{45}{section.2.18}
-\contentsline {subsection}{\numberline {2.18.1}Descripci\IeC {\'o}n completa}{45}{subsection.2.18.1}
-\contentsline {subsection}{\numberline {2.18.2}Atributos importantes}{45}{subsection.2.18.2}
-\contentsline {subsection}{\numberline {2.18.3}Trayectorias del Caso de Uso}{45}{subsection.2.18.3}
-\contentsline {section}{\numberline {2.19}CU25 Inscribir cliente a un curso}{48}{section.2.19}
-\contentsline {subsection}{\numberline {2.19.1}Descripci\IeC {\'o}n completa}{48}{subsection.2.19.1}
-\contentsline {subsection}{\numberline {2.19.2}Atributos importantes}{48}{subsection.2.19.2}
-\contentsline {subsection}{\numberline {2.19.3}Trayectorias del Caso de Uso}{48}{subsection.2.19.3}
-\contentsline {section}{\numberline {2.20}CU26 Registrar pago de membres\IeC {\'\i }a en sucursal.}{50}{section.2.20}
-\contentsline {subsection}{\numberline {2.20.1}Descripci\IeC {\'o}n completa}{50}{subsection.2.20.1}
-\contentsline {subsection}{\numberline {2.20.2}Atributos importantes}{50}{subsection.2.20.2}
-\contentsline {subsection}{\numberline {2.20.3}Trayectorias del Caso de Uso}{50}{subsection.2.20.3}
-\contentsline {section}{\numberline {2.21}CU28.0 Registrar ingreso a \IeC {\'a}rea}{52}{section.2.21}
-\contentsline {subsection}{\numberline {2.21.1}Descripci\IeC {\'o}n completa}{52}{subsection.2.21.1}
-\contentsline {subsection}{\numberline {2.21.2}Atributos importantes}{52}{subsection.2.21.2}
-\contentsline {subsection}{\numberline {2.21.3}Trayectorias del Caso de Uso}{52}{subsection.2.21.3}
-\contentsline {section}{\numberline {2.22}CU29.0 Registrar salida de \IeC {\'a}rea}{54}{section.2.22}
-\contentsline {subsection}{\numberline {2.22.1}Descripci\IeC {\'o}n completa}{54}{subsection.2.22.1}
-\contentsline {subsection}{\numberline {2.22.2}Atributos importantes}{54}{subsection.2.22.2}
-\contentsline {subsection}{\numberline {2.22.3}Trayectorias del Caso de Uso}{54}{subsection.2.22.3}
-\contentsline {section}{\numberline {2.23}CU30 Registrar usuarios por area}{56}{section.2.23}
-\contentsline {subsection}{\numberline {2.23.1}Descripci\IeC {\'o}n completa}{56}{subsection.2.23.1}
-\contentsline {subsection}{\numberline {2.23.2}Atributos importantes}{56}{subsection.2.23.2}
-\contentsline {subsection}{\numberline {2.23.3}Trayectorias del Caso de Uso}{56}{subsection.2.23.3}
-\contentsline {section}{\numberline {2.24}CU31 Ingresar al sistema.}{58}{section.2.24}
-\contentsline {subsection}{\numberline {2.24.1}Descripci\IeC {\'o}n completa}{58}{subsection.2.24.1}
-\contentsline {subsection}{\numberline {2.24.2}Atributos importantes}{58}{subsection.2.24.2}
-\contentsline {subsection}{\numberline {2.24.3}Trayectorias del Caso de Uso}{58}{subsection.2.24.3}
-\contentsline {section}{\numberline {2.25}CU32 Consultar Servicios.}{59}{section.2.25}
-\contentsline {subsection}{\numberline {2.25.1}Descripci\IeC {\'o}n completa}{59}{subsection.2.25.1}
-\contentsline {subsection}{\numberline {2.25.2}Atributos importantes}{59}{subsection.2.25.2}
-\contentsline {subsection}{\numberline {2.25.3}Trayectorias del Caso de Uso}{59}{subsection.2.25.3}
-\contentsline {section}{\numberline {2.26}CU33 Eliminar Servicios.}{61}{section.2.26}
-\contentsline {subsection}{\numberline {2.26.1}Descripci\IeC {\'o}n completa}{61}{subsection.2.26.1}
-\contentsline {subsection}{\numberline {2.26.2}Atributos importantes}{61}{subsection.2.26.2}
-\contentsline {subsection}{\numberline {2.26.3}Trayectorias del Caso de Uso}{61}{subsection.2.26.3}
-\contentsline {section}{\numberline {2.27}CU34 Suspender Servicios.}{63}{section.2.27}
-\contentsline {subsection}{\numberline {2.27.1}Descripci\IeC {\'o}n completa}{63}{subsection.2.27.1}
-\contentsline {subsection}{\numberline {2.27.2}Atributos importantes}{63}{subsection.2.27.2}
-\contentsline {subsection}{\numberline {2.27.3}Trayectorias del Caso de Uso}{63}{subsection.2.27.3}
-\contentsline {section}{\numberline {2.28}CU35 Registrar Servicios.}{65}{section.2.28}
-\contentsline {subsection}{\numberline {2.28.1}Descripci\IeC {\'o}n completa}{65}{subsection.2.28.1}
-\contentsline {subsection}{\numberline {2.28.2}Atributos importantes}{65}{subsection.2.28.2}
-\contentsline {subsection}{\numberline {2.28.3}Trayectorias del Caso de Uso}{65}{subsection.2.28.3}
-\contentsline {section}{\numberline {2.29}CU36 Actualizar Servicios.}{67}{section.2.29}
-\contentsline {subsection}{\numberline {2.29.1}Descripci\IeC {\'o}n completa}{67}{subsection.2.29.1}
-\contentsline {subsection}{\numberline {2.29.2}Atributos importantes}{67}{subsection.2.29.2}
-\contentsline {subsection}{\numberline {2.29.3}Trayectorias del Caso de Uso}{67}{subsection.2.29.3}
-\contentsline {section}{\numberline {2.30}CU37 Asignar instructor a curso.}{69}{section.2.30}
-\contentsline {subsection}{\numberline {2.30.1}Descripci\IeC {\'o}n completa}{69}{subsection.2.30.1}
-\contentsline {subsection}{\numberline {2.30.2}Atributos importantes}{69}{subsection.2.30.2}
-\contentsline {subsection}{\numberline {2.30.3}Trayectorias del Caso de Uso}{69}{subsection.2.30.3}
-\contentsline {chapter}{\numberline {3}Modelo de la Interacci\IeC {\'o}n}{71}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}IU21.0 Pantalla de Control de acceso Gerente de Sucursal}{71}{subsection.3.0.1}
-\contentsline {subsubsection}{Objetivo}{71}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{71}{section*.3}
-\contentsline {subsubsection}{Salidas}{71}{section*.4}
-\contentsline {subsubsection}{Entradas}{72}{section*.5}
-\contentsline {subsubsection}{Comandos}{72}{section*.6}
-\contentsline {subsubsection}{Mensajes}{72}{section*.7}
-\contentsline {subsection}{\numberline {3.0.2}IU21.1 Pantalla principal de acceso a Gerente de Sucursal}{72}{subsection.3.0.2}
-\contentsline {subsubsection}{Objetivo}{72}{section*.8}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{72}{section*.9}
-\contentsline {subsubsection}{Salidas}{72}{section*.10}
-\contentsline {subsubsection}{Entradas}{72}{section*.11}
-\contentsline {subsubsection}{Comandos}{73}{section*.12}
-\contentsline {subsubsection}{Mensajes}{73}{section*.13}
-\contentsline {subsection}{\numberline {3.0.3}IU21.2 Pantalla de alta de curso en el sistema}{73}{subsection.3.0.3}
-\contentsline {subsubsection}{Objetivo}{73}{section*.14}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{73}{section*.15}
-\contentsline {subsubsection}{Salidas}{73}{section*.16}
-\contentsline {subsubsection}{Entradas}{74}{section*.17}
-\contentsline {subsubsection}{Comandos}{74}{section*.18}
-\contentsline {subsubsection}{Mensajes}{74}{section*.19}
-\contentsline {subsection}{\numberline {3.0.4}IU22.1 Baja de curso}{74}{subsection.3.0.4}
-\contentsline {subsubsection}{Objetivo}{74}{section*.20}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{74}{section*.21}
-\contentsline {subsubsection}{Salidas}{74}{section*.22}
-\contentsline {subsubsection}{Entradas}{74}{section*.23}
-\contentsline {subsubsection}{Comandos}{74}{section*.24}
-\contentsline {subsubsection}{Mensajes}{75}{section*.25}
-\contentsline {subsection}{\numberline {3.0.5}IU23.1 Modificar un curso}{75}{subsection.3.0.5}
-\contentsline {subsubsection}{Objetivo}{75}{section*.26}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{75}{section*.27}
-\contentsline {subsubsection}{Salidas}{75}{section*.28}
-\contentsline {subsubsection}{Entradas}{75}{section*.29}
-\contentsline {subsubsection}{Comandos}{75}{section*.30}
-\contentsline {subsubsection}{Mensajes}{75}{section*.31}
-\contentsline {subsection}{\numberline {3.0.6}IU24 Pantalla de Consultar un Curso}{75}{subsection.3.0.6}
-\contentsline {subsubsection}{Objetivo}{75}{section*.32}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{76}{section*.33}
-\contentsline {subsubsection}{Salidas}{76}{section*.34}
-\contentsline {subsubsection}{Entradas}{76}{section*.35}
-\contentsline {subsubsection}{Comandos}{76}{section*.36}
-\contentsline {subsubsection}{Mensajes}{76}{section*.37}
-\contentsline {subsection}{\numberline {3.0.7}IU26 Pantalla de Inscribir cliente a curso}{76}{subsection.3.0.7}
-\contentsline {subsubsection}{Objetivo}{76}{section*.38}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{76}{section*.39}
-\contentsline {subsubsection}{Salidas}{76}{section*.40}
-\contentsline {subsubsection}{Entradas}{77}{section*.41}
-\contentsline {subsubsection}{Comandos}{77}{section*.42}
-\contentsline {subsubsection}{Mensajes}{77}{section*.43}
-\contentsline {subsection}{\numberline {3.0.8}IU18 Pantalla de men\IeC {\'u} de ocpiones de la secci\IeC {\'o}n \IeC {\'a}reas.}{77}{subsection.3.0.8}
-\contentsline {subsubsection}{Objetivo}{77}{section*.44}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{78}{section*.45}
-\contentsline {subsubsection}{Salidas}{78}{section*.46}
-\contentsline {subsubsection}{Entradas}{78}{section*.47}
-\contentsline {subsubsection}{Comandos}{78}{section*.48}
-\contentsline {subsubsection}{Mensajes}{78}{section*.49}
-\contentsline {subsection}{\numberline {3.0.9}IU19 Pantalla de registro de \IeC {\'a}rea}{78}{subsection.3.0.9}
-\contentsline {subsubsection}{Objetivo}{78}{section*.50}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{78}{section*.51}
-\contentsline {subsubsection}{Salidas}{79}{section*.52}
-\contentsline {subsubsection}{Entradas}{80}{section*.53}
-\contentsline {subsubsection}{Comandos}{80}{section*.54}
-\contentsline {subsubsection}{Mensajes}{80}{section*.55}
-\contentsline {subsection}{\numberline {3.0.10}IU20 Pantalla de Eliminar \IeC {\'a}reas}{80}{subsection.3.0.10}
-\contentsline {subsubsection}{Objetivo}{80}{section*.56}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.57}
-\contentsline {subsubsection}{Salidas}{81}{section*.58}
-\contentsline {subsubsection}{Entradas}{81}{section*.59}
-\contentsline {subsubsection}{Comandos}{81}{section*.60}
-\contentsline {subsubsection}{Mensajes}{81}{section*.61}
-\contentsline {subsection}{\numberline {3.0.11}IU22 Pantalla de Actualizaci\IeC {\'o}n de \IeC {\'a}reas}{81}{subsection.3.0.11}
-\contentsline {subsubsection}{Objetivo}{81}{section*.62}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{81}{section*.63}
-\contentsline {subsubsection}{Salidas}{81}{section*.64}
-\contentsline {subsubsection}{Entradas}{81}{section*.65}
-\contentsline {subsubsection}{Comandos}{81}{section*.66}
-\contentsline {subsubsection}{Mensajes}{81}{section*.67}
-\contentsline {subsection}{\numberline {3.0.12}IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{81}{subsection.3.0.12}
-\contentsline {subsubsection}{Objetivo}{81}{section*.68}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{82}{section*.69}
-\contentsline {subsubsection}{Salidas}{83}{section*.70}
-\contentsline {subsubsection}{Entradas}{83}{section*.71}
-\contentsline {subsubsection}{Comandos}{83}{section*.72}
-\contentsline {subsubsection}{Mensajes}{83}{section*.73}
-\contentsline {subsection}{\numberline {3.0.13}IU8 Pantalla de Registro Exitoso.}{83}{subsection.3.0.13}
-\contentsline {subsubsection}{Objetivo}{83}{section*.74}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{83}{section*.75}
-\contentsline {subsubsection}{Salidas}{83}{section*.76}
-\contentsline {subsubsection}{Entradas}{83}{section*.77}
-\contentsline {subsubsection}{Comandos}{84}{section*.78}
-\contentsline {subsubsection}{Mensajes}{84}{section*.79}
-\contentsline {subsection}{\numberline {3.0.14}IU9 Pantalla de Consulta de \IeC {\'A}reas.}{84}{subsection.3.0.14}
-\contentsline {subsubsection}{Objetivo}{84}{section*.80}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{84}{section*.81}
-\contentsline {subsubsection}{Salidas}{84}{section*.82}
-\contentsline {subsubsection}{Entradas}{84}{section*.83}
-\contentsline {subsubsection}{Comandos}{84}{section*.84}
-\contentsline {subsubsection}{Mensajes}{84}{section*.85}
-\contentsline {subsection}{\numberline {3.0.15}IU23 Pantalla de Control de Acceso}{85}{subsection.3.0.15}
-\contentsline {subsubsection}{Objetivo}{85}{section*.86}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{85}{section*.87}
-\contentsline {subsubsection}{Salidas}{86}{section*.88}
-\contentsline {subsubsection}{Entradas}{86}{section*.89}
-\contentsline {subsubsection}{Comandos}{86}{section*.90}
-\contentsline {subsubsection}{Mensajes}{86}{section*.91}
-\contentsline {subsection}{\numberline {3.0.16}IU32 Pantalla de formulario para registro de nueva sucursal.}{86}{subsection.3.0.16}
-\contentsline {subsubsection}{Objetivo}{86}{section*.92}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{86}{section*.93}
-\contentsline {subsubsection}{Salidas}{86}{section*.94}
-\contentsline {subsubsection}{Entradas}{86}{section*.95}
-\contentsline {subsubsection}{Comandos}{86}{section*.96}
-\contentsline {subsubsection}{Mensajes}{86}{section*.97}
-\contentsline {subsection}{\numberline {3.0.17}IU33 Pantalla de visualizaci\IeC {\'o}n de sucursal en mapa.}{87}{subsection.3.0.17}
-\contentsline {subsubsection}{Objetivo}{88}{section*.98}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{88}{section*.99}
-\contentsline {subsubsection}{Salidas}{88}{section*.100}
-\contentsline {subsubsection}{Entradas}{88}{section*.101}
-\contentsline {subsubsection}{Comandos}{88}{section*.102}
-\contentsline {subsubsection}{Mensajes}{88}{section*.103}
-\contentsline {subsection}{\numberline {3.0.18}IU34 A\IeC {\~n}adir otro campo}{88}{subsection.3.0.18}
-\contentsline {subsubsection}{Objetivo}{88}{section*.104}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{89}{section*.105}
-\contentsline {subsubsection}{Salidas}{89}{section*.106}
-\contentsline {subsubsection}{Entradas}{89}{section*.107}
-\contentsline {subsubsection}{Comandos}{89}{section*.108}
-\contentsline {subsubsection}{Mensajes}{89}{section*.109}
-\contentsline {subsection}{\numberline {3.0.19}IU35 A\IeC {\~n}adir otro email}{89}{subsection.3.0.19}
-\contentsline {subsubsection}{Objetivo}{89}{section*.110}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{89}{section*.111}
-\contentsline {subsubsection}{Salidas}{89}{section*.112}
-\contentsline {subsubsection}{Entradas}{90}{section*.113}
-\contentsline {subsubsection}{Comandos}{90}{section*.114}
-\contentsline {subsubsection}{Mensajes}{90}{section*.115}
-\contentsline {subsection}{\numberline {3.0.20}IU97 Pantalla para consultar sucursales registradas}{90}{subsection.3.0.20}
-\contentsline {subsubsection}{Objetivo}{90}{section*.116}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{90}{section*.117}
-\contentsline {subsubsection}{Salidas}{90}{section*.118}
-\contentsline {subsubsection}{Entradas}{90}{section*.119}
-\contentsline {subsubsection}{Comandos}{90}{section*.120}
-\contentsline {subsubsection}{Mensajes}{91}{section*.121}
-\contentsline {subsection}{\numberline {3.0.21}IU37 P\IeC {\'a}gina de inicio}{91}{subsection.3.0.21}
-\contentsline {subsubsection}{Objetivo}{91}{section*.122}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{91}{section*.123}
-\contentsline {subsubsection}{Salidas}{91}{section*.124}
-\contentsline {subsubsection}{Entradas}{91}{section*.125}
-\contentsline {subsubsection}{Comandos}{91}{section*.126}
-\contentsline {subsubsection}{Mensajes}{91}{section*.127}
-\contentsline {subsection}{\numberline {3.0.22}IU38 Pantalla de opciones para la recepsionista}{92}{subsection.3.0.22}
-\contentsline {subsubsection}{Objetivo}{92}{section*.128}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{92}{section*.129}
-\contentsline {subsubsection}{Salidas}{92}{section*.130}
-\contentsline {subsubsection}{Entradas}{93}{section*.131}
-\contentsline {subsubsection}{Comandos}{93}{section*.132}
-\contentsline {subsubsection}{Mensajes}{93}{section*.133}
-\contentsline {subsection}{\numberline {3.0.23}IU39 Pantalla para el registro del pago de membres\IeC {\'\i }a}{93}{subsection.3.0.23}
-\contentsline {subsubsection}{Objetivo}{93}{section*.134}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{93}{section*.135}
-\contentsline {subsubsection}{Salidas}{93}{section*.136}
-\contentsline {subsubsection}{Entradas}{93}{section*.137}
-\contentsline {subsubsection}{Comandos}{93}{section*.138}
-\contentsline {subsubsection}{Mensajes}{94}{section*.139}
-\contentsline {subsection}{\numberline {3.0.24}IU99 Pantalla dar de baja sucursales}{94}{subsection.3.0.24}
-\contentsline {subsubsection}{Objetivo}{94}{section*.140}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{94}{section*.141}
-\contentsline {subsubsection}{Salidas}{94}{section*.142}
-\contentsline {subsubsection}{Entradas}{94}{section*.143}
-\contentsline {subsubsection}{Comandos}{94}{section*.144}
-\contentsline {subsubsection}{Mensajes}{95}{section*.145}
-\contentsline {subsection}{\numberline {3.0.25}IU3 Pantalla de Registrar Cliente}{95}{subsection.3.0.25}
-\contentsline {subsubsection}{Objetivo}{95}{section*.146}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{95}{section*.147}
-\contentsline {subsubsection}{Comandos}{95}{section*.148}
-\contentsline {subsection}{\numberline {3.0.26}IU1 P\IeC {\'a}gina principal}{95}{subsection.3.0.26}
-\contentsline {subsubsection}{Objetivo}{95}{section*.149}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{95}{section*.150}
-\contentsline {subsubsection}{Comandos}{95}{section*.151}
-\contentsline {chapter}{\numberline {4}Modelo del Dominio del problema}{98}{chapter.4}
-=======
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Definici\IeC {\'o}n del problema}{2}{section.1.1}
 \contentsline {chapter}{\numberline {2}Modelo de Negocios}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Glosario de T\IeC {\'e}rminos del Negocio}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Hechos del Negocio}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Reglas de Negocio}{4}{section.2.3}
-\contentsline {chapter}{\numberline {3}Modelo de Casos de Uso}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}CU1 Registrar cliente.}{9}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Descripci\IeC {\'o}n completa}{9}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Atributos importantes}{9}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Trayectorias del Caso de Uso}{9}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}CU2 Consultar datos del cliente.}{11}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Descripci\IeC {\'o}n completa}{11}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Atributos importantes}{11}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Trayectorias del Caso de Uso}{11}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}CU3 Actualizar datos del cliente.}{13}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Descripci\IeC {\'o}n completa}{13}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Atributos importantes}{13}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Trayectorias del Caso de Uso}{13}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}CU4 Dar de baja un cliente.}{15}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Descripci\IeC {\'o}n completa}{15}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Atributos importantes}{15}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Trayectorias del Caso de Uso}{15}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}CU6.0 Consultar \IeC {\'A}reas Registradas}{17}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Descripci\IeC {\'o}n completa}{17}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Atributos importantes}{17}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Trayectorias del Caso de Uso}{17}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}CU7.0 Registrar \IeC {\'a}reas}{19}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Descripci\IeC {\'o}n completa}{19}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Atributos importantes}{19}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Trayectorias del Caso de Uso}{19}{subsection.3.6.3}
-\contentsline {section}{\numberline {3.7}CU8.0 Eliminar \IeC {\'a}reas}{21}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Descripci\IeC {\'o}n completa}{21}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Atributos importantes}{21}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Trayectorias del Caso de Uso}{21}{subsection.3.7.3}
-\contentsline {section}{\numberline {3.8}CU9.0 Actualizar datos de \IeC {\'a}rea}{23}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}Descripci\IeC {\'o}n completa}{23}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}Atributos importantes}{23}{subsection.3.8.2}
-\contentsline {subsection}{\numberline {3.8.3}Trayectorias del Caso de Uso}{23}{subsection.3.8.3}
-\contentsline {section}{\numberline {3.9}CU10.0 Desactivar \IeC {\'a}rea}{25}{section.3.9}
-\contentsline {subsection}{\numberline {3.9.1}Descripci\IeC {\'o}n completa}{25}{subsection.3.9.1}
-\contentsline {subsection}{\numberline {3.9.2}Atributos importantes}{25}{subsection.3.9.2}
-\contentsline {subsection}{\numberline {3.9.3}Trayectorias del Caso de Uso}{25}{subsection.3.9.3}
-\contentsline {section}{\numberline {3.10}CU11 Registrar en el sistema una nueva sucursal.}{27}{section.3.10}
-\contentsline {subsection}{\numberline {3.10.1}Descripci\IeC {\'o}n completa}{27}{subsection.3.10.1}
-\contentsline {subsection}{\numberline {3.10.2}Atributos importantes}{27}{subsection.3.10.2}
-\contentsline {subsection}{\numberline {3.10.3}Trayectorias del Caso de Uso}{27}{subsection.3.10.3}
-\contentsline {section}{\numberline {3.11}CU12 Actualizar los datos de una sucursal.}{31}{section.3.11}
-\contentsline {subsection}{\numberline {3.11.1}Descripci\IeC {\'o}n completa}{31}{subsection.3.11.1}
-\contentsline {subsection}{\numberline {3.11.2}Atributos importantes}{31}{subsection.3.11.2}
-\contentsline {subsection}{\numberline {3.11.3}Trayectorias del Caso de Uso}{31}{subsection.3.11.3}
-\contentsline {section}{\numberline {3.12}CU13 Baja de sucursal.}{33}{section.3.12}
-\contentsline {subsection}{\numberline {3.12.1}Descripci\IeC {\'o}n completa}{33}{subsection.3.12.1}
-\contentsline {subsection}{\numberline {3.12.2}Atributos importantes}{33}{subsection.3.12.2}
-\contentsline {subsection}{\numberline {3.12.3}Trayectorias del Caso de Uso}{33}{subsection.3.12.3}
-\contentsline {section}{\numberline {3.13}CU14 Ubicar geogr\IeC {\'a}ficamente una sucursal}{35}{section.3.13}
-\contentsline {subsection}{\numberline {3.13.1}Descripci\IeC {\'o}n completa}{35}{subsection.3.13.1}
-\contentsline {subsection}{\numberline {3.13.2}Atributos importantes}{35}{subsection.3.13.2}
-\contentsline {subsection}{\numberline {3.13.3}Trayectorias del Caso de Uso}{35}{subsection.3.13.3}
-\contentsline {section}{\numberline {3.14}CU15 Eliminar del sistema una sucursal.}{37}{section.3.14}
-\contentsline {subsection}{\numberline {3.14.1}Descripci\IeC {\'o}n completa}{37}{subsection.3.14.1}
-\contentsline {subsection}{\numberline {3.14.2}Atributos importantes}{37}{subsection.3.14.2}
-\contentsline {subsection}{\numberline {3.14.3}Trayectorias del Caso de Uso}{37}{subsection.3.14.3}
-\contentsline {section}{\numberline {3.15}CU21 Alta de un curso}{39}{section.3.15}
-\contentsline {subsection}{\numberline {3.15.1}Descripci\IeC {\'o}n completa}{39}{subsection.3.15.1}
-\contentsline {subsection}{\numberline {3.15.2}Atributos importantes}{39}{subsection.3.15.2}
-\contentsline {subsection}{\numberline {3.15.3}Trayectorias del Caso de Uso}{39}{subsection.3.15.3}
-\contentsline {section}{\numberline {3.16}CU22 Baja de un curso}{42}{section.3.16}
-\contentsline {subsection}{\numberline {3.16.1}Descripci\IeC {\'o}n completa}{42}{subsection.3.16.1}
-\contentsline {subsection}{\numberline {3.16.2}Atributos importantes}{42}{subsection.3.16.2}
-\contentsline {subsection}{\numberline {3.16.3}Trayectorias del Caso de Uso}{42}{subsection.3.16.3}
-\contentsline {section}{\numberline {3.17}CU23 Moficar un curso}{45}{section.3.17}
-\contentsline {subsection}{\numberline {3.17.1}Descripci\IeC {\'o}n completa}{45}{subsection.3.17.1}
-\contentsline {subsection}{\numberline {3.17.2}Atributos importantes}{45}{subsection.3.17.2}
-\contentsline {subsection}{\numberline {3.17.3}Trayectorias del Caso de Uso}{45}{subsection.3.17.3}
-\contentsline {section}{\numberline {3.18}CU24 Consultar un Curso}{48}{section.3.18}
-\contentsline {subsection}{\numberline {3.18.1}Descripci\IeC {\'o}n completa}{48}{subsection.3.18.1}
-\contentsline {subsection}{\numberline {3.18.2}Atributos importantes}{48}{subsection.3.18.2}
-\contentsline {subsection}{\numberline {3.18.3}Trayectorias del Caso de Uso}{48}{subsection.3.18.3}
-\contentsline {section}{\numberline {3.19}CU25 Inscribir cliente a un curso}{51}{section.3.19}
-\contentsline {subsection}{\numberline {3.19.1}Descripci\IeC {\'o}n completa}{51}{subsection.3.19.1}
-\contentsline {subsection}{\numberline {3.19.2}Atributos importantes}{51}{subsection.3.19.2}
-\contentsline {subsection}{\numberline {3.19.3}Trayectorias del Caso de Uso}{51}{subsection.3.19.3}
-\contentsline {section}{\numberline {3.20}CU26 Registrar pago de membres\IeC {\'\i }a en sucursal.}{53}{section.3.20}
-\contentsline {subsection}{\numberline {3.20.1}Descripci\IeC {\'o}n completa}{53}{subsection.3.20.1}
-\contentsline {subsection}{\numberline {3.20.2}Atributos importantes}{53}{subsection.3.20.2}
-\contentsline {subsection}{\numberline {3.20.3}Trayectorias del Caso de Uso}{53}{subsection.3.20.3}
-\contentsline {section}{\numberline {3.21}CU28.0 Registrar ingreso a \IeC {\'a}rea}{55}{section.3.21}
-\contentsline {subsection}{\numberline {3.21.1}Descripci\IeC {\'o}n completa}{55}{subsection.3.21.1}
-\contentsline {subsection}{\numberline {3.21.2}Atributos importantes}{55}{subsection.3.21.2}
-\contentsline {subsection}{\numberline {3.21.3}Trayectorias del Caso de Uso}{55}{subsection.3.21.3}
-\contentsline {section}{\numberline {3.22}CU29.0 Registrar salida de \IeC {\'a}rea}{57}{section.3.22}
-\contentsline {subsection}{\numberline {3.22.1}Descripci\IeC {\'o}n completa}{57}{subsection.3.22.1}
-\contentsline {subsection}{\numberline {3.22.2}Atributos importantes}{57}{subsection.3.22.2}
-\contentsline {subsection}{\numberline {3.22.3}Trayectorias del Caso de Uso}{57}{subsection.3.22.3}
-\contentsline {section}{\numberline {3.23}CU30 Registrar usuarios por area}{59}{section.3.23}
-\contentsline {subsection}{\numberline {3.23.1}Descripci\IeC {\'o}n completa}{59}{subsection.3.23.1}
-\contentsline {subsection}{\numberline {3.23.2}Atributos importantes}{59}{subsection.3.23.2}
-\contentsline {subsection}{\numberline {3.23.3}Trayectorias del Caso de Uso}{59}{subsection.3.23.3}
-\contentsline {section}{\numberline {3.24}CU31 Ingresar al sistema.}{61}{section.3.24}
-\contentsline {subsection}{\numberline {3.24.1}Descripci\IeC {\'o}n completa}{61}{subsection.3.24.1}
-\contentsline {subsection}{\numberline {3.24.2}Atributos importantes}{61}{subsection.3.24.2}
-\contentsline {subsection}{\numberline {3.24.3}Trayectorias del Caso de Uso}{61}{subsection.3.24.3}
-\contentsline {section}{\numberline {3.25}CU32 Consultar Servicios.}{63}{section.3.25}
-\contentsline {subsection}{\numberline {3.25.1}Descripci\IeC {\'o}n completa}{63}{subsection.3.25.1}
-\contentsline {subsection}{\numberline {3.25.2}Atributos importantes}{63}{subsection.3.25.2}
-\contentsline {subsection}{\numberline {3.25.3}Trayectorias del Caso de Uso}{63}{subsection.3.25.3}
-\contentsline {section}{\numberline {3.26}CU33 Eliminar Servicios.}{65}{section.3.26}
-\contentsline {subsection}{\numberline {3.26.1}Descripci\IeC {\'o}n completa}{65}{subsection.3.26.1}
-\contentsline {subsection}{\numberline {3.26.2}Atributos importantes}{65}{subsection.3.26.2}
-\contentsline {subsection}{\numberline {3.26.3}Trayectorias del Caso de Uso}{65}{subsection.3.26.3}
-\contentsline {section}{\numberline {3.27}CU34 Suspender Servicios.}{67}{section.3.27}
-\contentsline {subsection}{\numberline {3.27.1}Descripci\IeC {\'o}n completa}{67}{subsection.3.27.1}
-\contentsline {subsection}{\numberline {3.27.2}Atributos importantes}{67}{subsection.3.27.2}
-\contentsline {subsection}{\numberline {3.27.3}Trayectorias del Caso de Uso}{67}{subsection.3.27.3}
-\contentsline {section}{\numberline {3.28}CU35 Registrar Servicios.}{69}{section.3.28}
-\contentsline {subsection}{\numberline {3.28.1}Descripci\IeC {\'o}n completa}{69}{subsection.3.28.1}
-\contentsline {subsection}{\numberline {3.28.2}Atributos importantes}{69}{subsection.3.28.2}
-\contentsline {subsection}{\numberline {3.28.3}Trayectorias del Caso de Uso}{69}{subsection.3.28.3}
-\contentsline {section}{\numberline {3.29}CU36 Actualizar Servicios.}{71}{section.3.29}
-\contentsline {subsection}{\numberline {3.29.1}Descripci\IeC {\'o}n completa}{71}{subsection.3.29.1}
-\contentsline {subsection}{\numberline {3.29.2}Atributos importantes}{71}{subsection.3.29.2}
-\contentsline {subsection}{\numberline {3.29.3}Trayectorias del Caso de Uso}{71}{subsection.3.29.3}
-\contentsline {section}{\numberline {3.30}CU37 Asignar instructor a curso.}{73}{section.3.30}
-\contentsline {subsection}{\numberline {3.30.1}Descripci\IeC {\'o}n completa}{73}{subsection.3.30.1}
-\contentsline {subsection}{\numberline {3.30.2}Atributos importantes}{73}{subsection.3.30.2}
-\contentsline {subsection}{\numberline {3.30.3}Trayectorias del Caso de Uso}{73}{subsection.3.30.3}
-\contentsline {chapter}{\numberline {4}Modelo de la Interacci\IeC {\'o}n}{75}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}IU21.0 Pantalla de Control de acceso Gerente de Sucursal}{75}{subsection.4.0.1}
-\contentsline {subsubsection}{Objetivo}{75}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{75}{section*.3}
-\contentsline {subsubsection}{Salidas}{75}{section*.4}
-\contentsline {subsubsection}{Entradas}{76}{section*.5}
-\contentsline {subsubsection}{Comandos}{76}{section*.6}
-\contentsline {subsubsection}{Mensajes}{76}{section*.7}
-\contentsline {subsection}{\numberline {4.0.2}IU21.1 Pantalla principal de acceso a Gerente de Sucursal}{76}{subsection.4.0.2}
-\contentsline {subsubsection}{Objetivo}{76}{section*.8}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{76}{section*.9}
-\contentsline {subsubsection}{Salidas}{76}{section*.10}
-\contentsline {subsubsection}{Entradas}{76}{section*.11}
-\contentsline {subsubsection}{Comandos}{77}{section*.12}
-\contentsline {subsubsection}{Mensajes}{77}{section*.13}
-\contentsline {subsection}{\numberline {4.0.3}IU21.2 Pantalla de alta de curso en el sistema}{77}{subsection.4.0.3}
-\contentsline {subsubsection}{Objetivo}{77}{section*.14}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{77}{section*.15}
-\contentsline {subsubsection}{Salidas}{77}{section*.16}
-\contentsline {subsubsection}{Entradas}{78}{section*.17}
-\contentsline {subsubsection}{Comandos}{78}{section*.18}
-\contentsline {subsubsection}{Mensajes}{78}{section*.19}
-\contentsline {subsection}{\numberline {4.0.4}IU22.1 Baja de curso}{78}{subsection.4.0.4}
-\contentsline {subsubsection}{Objetivo}{78}{section*.20}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{78}{section*.21}
-\contentsline {subsubsection}{Salidas}{78}{section*.22}
-\contentsline {subsubsection}{Entradas}{78}{section*.23}
-\contentsline {subsubsection}{Comandos}{78}{section*.24}
-\contentsline {subsubsection}{Mensajes}{79}{section*.25}
-\contentsline {subsection}{\numberline {4.0.5}IU23.1 Modificar un curso}{79}{subsection.4.0.5}
-\contentsline {subsubsection}{Objetivo}{79}{section*.26}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{79}{section*.27}
-\contentsline {subsubsection}{Salidas}{79}{section*.28}
-\contentsline {subsubsection}{Entradas}{79}{section*.29}
-\contentsline {subsubsection}{Comandos}{79}{section*.30}
-\contentsline {subsubsection}{Mensajes}{79}{section*.31}
-\contentsline {subsection}{\numberline {4.0.6}IU24 Pantalla de Consultar un Curso}{79}{subsection.4.0.6}
-\contentsline {subsubsection}{Objetivo}{79}{section*.32}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.33}
-\contentsline {subsubsection}{Salidas}{80}{section*.34}
-\contentsline {subsubsection}{Entradas}{80}{section*.35}
-\contentsline {subsubsection}{Comandos}{80}{section*.36}
-\contentsline {subsubsection}{Mensajes}{80}{section*.37}
-\contentsline {subsection}{\numberline {4.0.7}IU26 Pantalla de Inscribir cliente a curso}{80}{subsection.4.0.7}
-\contentsline {subsubsection}{Objetivo}{80}{section*.38}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.39}
-\contentsline {subsubsection}{Salidas}{80}{section*.40}
-\contentsline {subsubsection}{Entradas}{81}{section*.41}
-\contentsline {subsubsection}{Comandos}{81}{section*.42}
-\contentsline {subsubsection}{Mensajes}{81}{section*.43}
-\contentsline {subsection}{\numberline {4.0.8}IU18 Pantalla de men\IeC {\'u} de ocpiones de la secci\IeC {\'o}n \IeC {\'a}reas.}{81}{subsection.4.0.8}
-\contentsline {subsubsection}{Objetivo}{81}{section*.44}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{82}{section*.45}
-\contentsline {subsubsection}{Salidas}{82}{section*.46}
-\contentsline {subsubsection}{Entradas}{82}{section*.47}
-\contentsline {subsubsection}{Comandos}{82}{section*.48}
-\contentsline {subsubsection}{Mensajes}{82}{section*.49}
-\contentsline {subsection}{\numberline {4.0.9}IU19 Pantalla de registro de \IeC {\'a}rea}{82}{subsection.4.0.9}
-\contentsline {subsubsection}{Objetivo}{82}{section*.50}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{82}{section*.51}
-\contentsline {subsubsection}{Salidas}{83}{section*.52}
-\contentsline {subsubsection}{Entradas}{84}{section*.53}
-\contentsline {subsubsection}{Comandos}{84}{section*.54}
-\contentsline {subsubsection}{Mensajes}{84}{section*.55}
-\contentsline {subsection}{\numberline {4.0.10}IU20 Pantalla de Eliminar \IeC {\'a}reas}{84}{subsection.4.0.10}
-\contentsline {subsubsection}{Objetivo}{84}{section*.56}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{84}{section*.57}
-\contentsline {subsubsection}{Salidas}{85}{section*.58}
-\contentsline {subsubsection}{Entradas}{85}{section*.59}
-\contentsline {subsubsection}{Comandos}{85}{section*.60}
-\contentsline {subsubsection}{Mensajes}{85}{section*.61}
-\contentsline {subsection}{\numberline {4.0.11}IU22 Pantalla de Actualizaci\IeC {\'o}n de \IeC {\'a}reas}{85}{subsection.4.0.11}
-\contentsline {subsubsection}{Objetivo}{85}{section*.62}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{85}{section*.63}
-\contentsline {subsubsection}{Salidas}{85}{section*.64}
-\contentsline {subsubsection}{Entradas}{85}{section*.65}
-\contentsline {subsubsection}{Comandos}{85}{section*.66}
-\contentsline {subsubsection}{Mensajes}{85}{section*.67}
-\contentsline {subsection}{\numberline {4.0.12}IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{85}{subsection.4.0.12}
-\contentsline {subsubsection}{Objetivo}{85}{section*.68}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{86}{section*.69}
-\contentsline {subsubsection}{Salidas}{87}{section*.70}
-\contentsline {subsubsection}{Entradas}{87}{section*.71}
-\contentsline {subsubsection}{Comandos}{87}{section*.72}
-\contentsline {subsubsection}{Mensajes}{87}{section*.73}
-\contentsline {subsection}{\numberline {4.0.13}IU8 Pantalla de Registro Exitoso.}{87}{subsection.4.0.13}
-\contentsline {subsubsection}{Objetivo}{87}{section*.74}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{87}{section*.75}
-\contentsline {subsubsection}{Salidas}{87}{section*.76}
-\contentsline {subsubsection}{Entradas}{87}{section*.77}
-\contentsline {subsubsection}{Comandos}{88}{section*.78}
-\contentsline {subsubsection}{Mensajes}{88}{section*.79}
-\contentsline {subsection}{\numberline {4.0.14}IU9 Pantalla de Consulta de \IeC {\'A}reas.}{88}{subsection.4.0.14}
-\contentsline {subsubsection}{Objetivo}{88}{section*.80}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{88}{section*.81}
-\contentsline {subsubsection}{Salidas}{88}{section*.82}
-\contentsline {subsubsection}{Entradas}{88}{section*.83}
-\contentsline {subsubsection}{Comandos}{88}{section*.84}
-\contentsline {subsubsection}{Mensajes}{88}{section*.85}
-\contentsline {subsection}{\numberline {4.0.15}IU23 Pantalla de Control de Acceso}{89}{subsection.4.0.15}
-\contentsline {subsubsection}{Objetivo}{89}{section*.86}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{89}{section*.87}
-\contentsline {subsubsection}{Salidas}{90}{section*.88}
-\contentsline {subsubsection}{Entradas}{90}{section*.89}
-\contentsline {subsubsection}{Comandos}{90}{section*.90}
-\contentsline {subsubsection}{Mensajes}{90}{section*.91}
-\contentsline {subsection}{\numberline {4.0.16}IU32 Pantalla de formulario para registro de nueva sucursal.}{90}{subsection.4.0.16}
-\contentsline {subsubsection}{Objetivo}{90}{section*.92}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{90}{section*.93}
-\contentsline {subsubsection}{Salidas}{90}{section*.94}
-\contentsline {subsubsection}{Entradas}{90}{section*.95}
-\contentsline {subsubsection}{Comandos}{90}{section*.96}
-\contentsline {subsubsection}{Mensajes}{90}{section*.97}
-\contentsline {subsection}{\numberline {4.0.17}IU33 Pantalla de visualizaci\IeC {\'o}n de sucursal en mapa.}{91}{subsection.4.0.17}
-\contentsline {subsubsection}{Objetivo}{92}{section*.98}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{92}{section*.99}
-\contentsline {subsubsection}{Salidas}{92}{section*.100}
-\contentsline {subsubsection}{Entradas}{92}{section*.101}
-\contentsline {subsubsection}{Comandos}{92}{section*.102}
-\contentsline {subsubsection}{Mensajes}{92}{section*.103}
-\contentsline {subsection}{\numberline {4.0.18}IU34 A\IeC {\~n}adir otro campo}{92}{subsection.4.0.18}
-\contentsline {subsubsection}{Objetivo}{92}{section*.104}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{93}{section*.105}
-\contentsline {subsubsection}{Salidas}{93}{section*.106}
-\contentsline {subsubsection}{Entradas}{93}{section*.107}
-\contentsline {subsubsection}{Comandos}{93}{section*.108}
-\contentsline {subsubsection}{Mensajes}{93}{section*.109}
-\contentsline {subsection}{\numberline {4.0.19}IU35 A\IeC {\~n}adir otro email}{93}{subsection.4.0.19}
-\contentsline {subsubsection}{Objetivo}{93}{section*.110}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{93}{section*.111}
-\contentsline {subsubsection}{Salidas}{93}{section*.112}
-\contentsline {subsubsection}{Entradas}{94}{section*.113}
-\contentsline {subsubsection}{Comandos}{94}{section*.114}
-\contentsline {subsubsection}{Mensajes}{94}{section*.115}
-\contentsline {subsection}{\numberline {4.0.20}IU97 Pantalla para consultar sucursales registradas}{94}{subsection.4.0.20}
-\contentsline {subsubsection}{Objetivo}{94}{section*.116}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{94}{section*.117}
-\contentsline {subsubsection}{Salidas}{94}{section*.118}
-\contentsline {subsubsection}{Entradas}{94}{section*.119}
-\contentsline {subsubsection}{Comandos}{94}{section*.120}
-\contentsline {subsubsection}{Mensajes}{95}{section*.121}
-\contentsline {subsection}{\numberline {4.0.21}IU37 P\IeC {\'a}gina de inicio}{95}{subsection.4.0.21}
-\contentsline {subsubsection}{Objetivo}{95}{section*.122}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{95}{section*.123}
-\contentsline {subsubsection}{Salidas}{95}{section*.124}
-\contentsline {subsubsection}{Entradas}{95}{section*.125}
-\contentsline {subsubsection}{Comandos}{95}{section*.126}
-\contentsline {subsubsection}{Mensajes}{95}{section*.127}
-\contentsline {subsection}{\numberline {4.0.22}IU38 Pantalla de opciones para la recepsionista}{96}{subsection.4.0.22}
-\contentsline {subsubsection}{Objetivo}{96}{section*.128}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{96}{section*.129}
-\contentsline {subsubsection}{Salidas}{96}{section*.130}
-\contentsline {subsubsection}{Entradas}{97}{section*.131}
-\contentsline {subsubsection}{Comandos}{97}{section*.132}
-\contentsline {subsubsection}{Mensajes}{97}{section*.133}
-\contentsline {subsection}{\numberline {4.0.23}IU39 Pantalla para el registro del pago de membres\IeC {\'\i }a}{97}{subsection.4.0.23}
-\contentsline {subsubsection}{Objetivo}{97}{section*.134}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{97}{section*.135}
-\contentsline {subsubsection}{Salidas}{97}{section*.136}
-\contentsline {subsubsection}{Entradas}{97}{section*.137}
-\contentsline {subsubsection}{Comandos}{97}{section*.138}
-\contentsline {subsubsection}{Mensajes}{98}{section*.139}
-\contentsline {subsection}{\numberline {4.0.24}IU99 Pantalla dar de baja sucursales}{98}{subsection.4.0.24}
-\contentsline {subsubsection}{Objetivo}{98}{section*.140}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{98}{section*.141}
-\contentsline {subsubsection}{Salidas}{98}{section*.142}
-\contentsline {subsubsection}{Entradas}{98}{section*.143}
-\contentsline {subsubsection}{Comandos}{98}{section*.144}
-\contentsline {subsubsection}{Mensajes}{99}{section*.145}
-\contentsline {subsection}{\numberline {4.0.25}IU3 Pantalla de Registrar Cliente}{99}{subsection.4.0.25}
-\contentsline {subsubsection}{Objetivo}{99}{section*.146}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{99}{section*.147}
-\contentsline {subsubsection}{Comandos}{99}{section*.148}
-\contentsline {chapter}{\numberline {5}Modelo del Dominio del problema}{100}{chapter.5}
->>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
->>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+\contentsline {chapter}{\numberline {3}Modelo de Casos de Uso}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}CU1 Registrar cliente.}{8}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Descripci\IeC {\'o}n completa}{8}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Atributos importantes}{8}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Trayectorias del Caso de Uso}{8}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}CU2 Consultar datos del cliente.}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Descripci\IeC {\'o}n completa}{10}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Atributos importantes}{10}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Trayectorias del Caso de Uso}{10}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}CU3 Actualizar datos del cliente.}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Descripci\IeC {\'o}n completa}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Atributos importantes}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Trayectorias del Caso de Uso}{12}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}CU4 Dar de baja un cliente.}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Descripci\IeC {\'o}n completa}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Atributos importantes}{14}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Trayectorias del Caso de Uso}{14}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}CU6.0 Consultar \IeC {\'A}reas Registradas}{16}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Descripci\IeC {\'o}n completa}{16}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Atributos importantes}{16}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Trayectorias del Caso de Uso}{16}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}CU7.0 Registrar \IeC {\'a}reas}{18}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Descripci\IeC {\'o}n completa}{18}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Atributos importantes}{18}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Trayectorias del Caso de Uso}{18}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}CU8.0 Eliminar \IeC {\'a}reas}{20}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Descripci\IeC {\'o}n completa}{20}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Atributos importantes}{20}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Trayectorias del Caso de Uso}{20}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}CU9.0 Actualizar datos de \IeC {\'a}rea}{22}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Descripci\IeC {\'o}n completa}{22}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Atributos importantes}{22}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}Trayectorias del Caso de Uso}{22}{subsection.3.8.3}
+\contentsline {section}{\numberline {3.9}CU10.0 Desactivar \IeC {\'a}rea}{24}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Descripci\IeC {\'o}n completa}{24}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Atributos importantes}{24}{subsection.3.9.2}
+\contentsline {subsection}{\numberline {3.9.3}Trayectorias del Caso de Uso}{24}{subsection.3.9.3}
+\contentsline {section}{\numberline {3.10}CU11 Registrar en el sistema una nueva sucursal.}{26}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Descripci\IeC {\'o}n completa}{26}{subsection.3.10.1}
+\contentsline {subsection}{\numberline {3.10.2}Atributos importantes}{26}{subsection.3.10.2}
+\contentsline {subsection}{\numberline {3.10.3}Trayectorias del Caso de Uso}{26}{subsection.3.10.3}
+\contentsline {section}{\numberline {3.11}CU12 Actualizar los datos de una sucursal.}{30}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Descripci\IeC {\'o}n completa}{30}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Atributos importantes}{30}{subsection.3.11.2}
+\contentsline {subsection}{\numberline {3.11.3}Trayectorias del Caso de Uso}{30}{subsection.3.11.3}
+\contentsline {section}{\numberline {3.12}CU13 Baja de sucursal.}{32}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Descripci\IeC {\'o}n completa}{32}{subsection.3.12.1}
+\contentsline {subsection}{\numberline {3.12.2}Atributos importantes}{32}{subsection.3.12.2}
+\contentsline {subsection}{\numberline {3.12.3}Trayectorias del Caso de Uso}{32}{subsection.3.12.3}
+\contentsline {section}{\numberline {3.13}CU14 Ubicar geogr\IeC {\'a}ficamente una sucursal}{34}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Descripci\IeC {\'o}n completa}{34}{subsection.3.13.1}
+\contentsline {subsection}{\numberline {3.13.2}Atributos importantes}{34}{subsection.3.13.2}
+\contentsline {subsection}{\numberline {3.13.3}Trayectorias del Caso de Uso}{34}{subsection.3.13.3}
+\contentsline {section}{\numberline {3.14}CU15 Eliminar del sistema una sucursal.}{36}{section.3.14}
+\contentsline {subsection}{\numberline {3.14.1}Descripci\IeC {\'o}n completa}{36}{subsection.3.14.1}
+\contentsline {subsection}{\numberline {3.14.2}Atributos importantes}{36}{subsection.3.14.2}
+\contentsline {subsection}{\numberline {3.14.3}Trayectorias del Caso de Uso}{36}{subsection.3.14.3}
+\contentsline {section}{\numberline {3.15}CU21 Alta de un curso}{38}{section.3.15}
+\contentsline {subsection}{\numberline {3.15.1}Descripci\IeC {\'o}n completa}{38}{subsection.3.15.1}
+\contentsline {subsection}{\numberline {3.15.2}Atributos importantes}{38}{subsection.3.15.2}
+\contentsline {subsection}{\numberline {3.15.3}Trayectorias del Caso de Uso}{38}{subsection.3.15.3}
+\contentsline {section}{\numberline {3.16}CU22 Baja de un curso}{41}{section.3.16}
+\contentsline {subsection}{\numberline {3.16.1}Descripci\IeC {\'o}n completa}{41}{subsection.3.16.1}
+\contentsline {subsection}{\numberline {3.16.2}Atributos importantes}{41}{subsection.3.16.2}
+\contentsline {subsection}{\numberline {3.16.3}Trayectorias del Caso de Uso}{41}{subsection.3.16.3}
+\contentsline {section}{\numberline {3.17}CU23 Moficar un curso}{44}{section.3.17}
+\contentsline {subsection}{\numberline {3.17.1}Descripci\IeC {\'o}n completa}{44}{subsection.3.17.1}
+\contentsline {subsection}{\numberline {3.17.2}Atributos importantes}{44}{subsection.3.17.2}
+\contentsline {subsection}{\numberline {3.17.3}Trayectorias del Caso de Uso}{44}{subsection.3.17.3}
+\contentsline {section}{\numberline {3.18}CU24 Consultar un Curso}{47}{section.3.18}
+\contentsline {subsection}{\numberline {3.18.1}Descripci\IeC {\'o}n completa}{47}{subsection.3.18.1}
+\contentsline {subsection}{\numberline {3.18.2}Atributos importantes}{47}{subsection.3.18.2}
+\contentsline {subsection}{\numberline {3.18.3}Trayectorias del Caso de Uso}{47}{subsection.3.18.3}
+\contentsline {section}{\numberline {3.19}CU25 Inscribir cliente a un curso}{50}{section.3.19}
+\contentsline {subsection}{\numberline {3.19.1}Descripci\IeC {\'o}n completa}{50}{subsection.3.19.1}
+\contentsline {subsection}{\numberline {3.19.2}Atributos importantes}{50}{subsection.3.19.2}
+\contentsline {subsection}{\numberline {3.19.3}Trayectorias del Caso de Uso}{50}{subsection.3.19.3}
+\contentsline {section}{\numberline {3.20}CU26 Registrar pago de membres\IeC {\'\i }a en sucursal.}{52}{section.3.20}
+\contentsline {subsection}{\numberline {3.20.1}Descripci\IeC {\'o}n completa}{52}{subsection.3.20.1}
+\contentsline {subsection}{\numberline {3.20.2}Atributos importantes}{52}{subsection.3.20.2}
+\contentsline {subsection}{\numberline {3.20.3}Trayectorias del Caso de Uso}{52}{subsection.3.20.3}
+\contentsline {section}{\numberline {3.21}CU28.0 Registrar ingreso a \IeC {\'a}rea}{54}{section.3.21}
+\contentsline {subsection}{\numberline {3.21.1}Descripci\IeC {\'o}n completa}{54}{subsection.3.21.1}
+\contentsline {subsection}{\numberline {3.21.2}Atributos importantes}{54}{subsection.3.21.2}
+\contentsline {subsection}{\numberline {3.21.3}Trayectorias del Caso de Uso}{54}{subsection.3.21.3}
+\contentsline {section}{\numberline {3.22}CU29.0 Registrar salida de \IeC {\'a}rea}{56}{section.3.22}
+\contentsline {subsection}{\numberline {3.22.1}Descripci\IeC {\'o}n completa}{56}{subsection.3.22.1}
+\contentsline {subsection}{\numberline {3.22.2}Atributos importantes}{56}{subsection.3.22.2}
+\contentsline {subsection}{\numberline {3.22.3}Trayectorias del Caso de Uso}{56}{subsection.3.22.3}
+\contentsline {section}{\numberline {3.23}CU30 Registrar usuarios por area}{58}{section.3.23}
+\contentsline {subsection}{\numberline {3.23.1}Descripci\IeC {\'o}n completa}{58}{subsection.3.23.1}
+\contentsline {subsection}{\numberline {3.23.2}Atributos importantes}{58}{subsection.3.23.2}
+\contentsline {subsection}{\numberline {3.23.3}Trayectorias del Caso de Uso}{58}{subsection.3.23.3}
+\contentsline {section}{\numberline {3.24}CU31 Ingresar al sistema.}{60}{section.3.24}
+\contentsline {subsection}{\numberline {3.24.1}Descripci\IeC {\'o}n completa}{60}{subsection.3.24.1}
+\contentsline {subsection}{\numberline {3.24.2}Atributos importantes}{60}{subsection.3.24.2}
+\contentsline {subsection}{\numberline {3.24.3}Trayectorias del Caso de Uso}{60}{subsection.3.24.3}
+\contentsline {section}{\numberline {3.25}CU32 Consultar Servicios.}{61}{section.3.25}
+\contentsline {subsection}{\numberline {3.25.1}Descripci\IeC {\'o}n completa}{61}{subsection.3.25.1}
+\contentsline {subsection}{\numberline {3.25.2}Atributos importantes}{61}{subsection.3.25.2}
+\contentsline {subsection}{\numberline {3.25.3}Trayectorias del Caso de Uso}{61}{subsection.3.25.3}
+\contentsline {section}{\numberline {3.26}CU33 Eliminar Servicios.}{63}{section.3.26}
+\contentsline {subsection}{\numberline {3.26.1}Descripci\IeC {\'o}n completa}{63}{subsection.3.26.1}
+\contentsline {subsection}{\numberline {3.26.2}Atributos importantes}{63}{subsection.3.26.2}
+\contentsline {subsection}{\numberline {3.26.3}Trayectorias del Caso de Uso}{63}{subsection.3.26.3}
+\contentsline {section}{\numberline {3.27}CU34 Suspender Servicios.}{65}{section.3.27}
+\contentsline {subsection}{\numberline {3.27.1}Descripci\IeC {\'o}n completa}{65}{subsection.3.27.1}
+\contentsline {subsection}{\numberline {3.27.2}Atributos importantes}{65}{subsection.3.27.2}
+\contentsline {subsection}{\numberline {3.27.3}Trayectorias del Caso de Uso}{65}{subsection.3.27.3}
+\contentsline {section}{\numberline {3.28}CU35 Registrar Servicios}{67}{section.3.28}
+\contentsline {subsection}{\numberline {3.28.1}Descripci\IeC {\'o}n completa}{67}{subsection.3.28.1}
+\contentsline {subsection}{\numberline {3.28.2}Atributos importantes}{67}{subsection.3.28.2}
+\contentsline {subsection}{\numberline {3.28.3}Trayectorias del Caso de Uso}{67}{subsection.3.28.3}
+\contentsline {section}{\numberline {3.29}CU36 Actualizar Servicios.}{69}{section.3.29}
+\contentsline {subsection}{\numberline {3.29.1}Descripci\IeC {\'o}n completa}{69}{subsection.3.29.1}
+\contentsline {subsection}{\numberline {3.29.2}Atributos importantes}{69}{subsection.3.29.2}
+\contentsline {subsection}{\numberline {3.29.3}Trayectorias del Caso de Uso}{69}{subsection.3.29.3}
+\contentsline {section}{\numberline {3.30}CU37 Asignar instructor a curso.}{71}{section.3.30}
+\contentsline {subsection}{\numberline {3.30.1}Descripci\IeC {\'o}n completa}{71}{subsection.3.30.1}
+\contentsline {subsection}{\numberline {3.30.2}Atributos importantes}{71}{subsection.3.30.2}
+\contentsline {subsection}{\numberline {3.30.3}Trayectorias del Caso de Uso}{71}{subsection.3.30.3}
+\contentsline {chapter}{\numberline {4}Modelo de la Interacci\IeC {\'o}n}{73}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}IU21.0 Pantalla de Control de acceso Gerente de Sucursal}{73}{subsection.4.0.1}
+\contentsline {subsubsection}{Objetivo}{73}{section*.2}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{73}{section*.3}
+\contentsline {subsubsection}{Salidas}{73}{section*.4}
+\contentsline {subsubsection}{Entradas}{74}{section*.5}
+\contentsline {subsubsection}{Comandos}{74}{section*.6}
+\contentsline {subsubsection}{Mensajes}{74}{section*.7}
+\contentsline {subsection}{\numberline {4.0.2}IU21.1 Pantalla principal de acceso a Gerente de Sucursal}{74}{subsection.4.0.2}
+\contentsline {subsubsection}{Objetivo}{74}{section*.8}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{74}{section*.9}
+\contentsline {subsubsection}{Salidas}{74}{section*.10}
+\contentsline {subsubsection}{Entradas}{74}{section*.11}
+\contentsline {subsubsection}{Comandos}{75}{section*.12}
+\contentsline {subsubsection}{Mensajes}{75}{section*.13}
+\contentsline {subsection}{\numberline {4.0.3}IU21.2 Pantalla de alta de curso en el sistema}{75}{subsection.4.0.3}
+\contentsline {subsubsection}{Objetivo}{75}{section*.14}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{75}{section*.15}
+\contentsline {subsubsection}{Salidas}{75}{section*.16}
+\contentsline {subsubsection}{Entradas}{76}{section*.17}
+\contentsline {subsubsection}{Comandos}{76}{section*.18}
+\contentsline {subsubsection}{Mensajes}{76}{section*.19}
+\contentsline {subsection}{\numberline {4.0.4}IU22.1 Baja de curso}{76}{subsection.4.0.4}
+\contentsline {subsubsection}{Objetivo}{76}{section*.20}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{76}{section*.21}
+\contentsline {subsubsection}{Salidas}{76}{section*.22}
+\contentsline {subsubsection}{Entradas}{76}{section*.23}
+\contentsline {subsubsection}{Comandos}{76}{section*.24}
+\contentsline {subsubsection}{Mensajes}{77}{section*.25}
+\contentsline {subsection}{\numberline {4.0.5}IU23.1 Modificar un curso}{77}{subsection.4.0.5}
+\contentsline {subsubsection}{Objetivo}{77}{section*.26}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{77}{section*.27}
+\contentsline {subsubsection}{Salidas}{77}{section*.28}
+\contentsline {subsubsection}{Entradas}{77}{section*.29}
+\contentsline {subsubsection}{Comandos}{77}{section*.30}
+\contentsline {subsubsection}{Mensajes}{77}{section*.31}
+\contentsline {subsection}{\numberline {4.0.6}IU24 Pantalla de Consultar un Curso}{77}{subsection.4.0.6}
+\contentsline {subsubsection}{Objetivo}{77}{section*.32}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{78}{section*.33}
+\contentsline {subsubsection}{Salidas}{78}{section*.34}
+\contentsline {subsubsection}{Entradas}{78}{section*.35}
+\contentsline {subsubsection}{Comandos}{78}{section*.36}
+\contentsline {subsubsection}{Mensajes}{78}{section*.37}
+\contentsline {subsection}{\numberline {4.0.7}IU26 Pantalla de Inscribir cliente a curso}{78}{subsection.4.0.7}
+\contentsline {subsubsection}{Objetivo}{78}{section*.38}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{78}{section*.39}
+\contentsline {subsubsection}{Salidas}{78}{section*.40}
+\contentsline {subsubsection}{Entradas}{79}{section*.41}
+\contentsline {subsubsection}{Comandos}{79}{section*.42}
+\contentsline {subsubsection}{Mensajes}{79}{section*.43}
+\contentsline {subsection}{\numberline {4.0.8}IU18 Pantalla de men\IeC {\'u} de ocpiones de la secci\IeC {\'o}n \IeC {\'a}reas.}{79}{subsection.4.0.8}
+\contentsline {subsubsection}{Objetivo}{79}{section*.44}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.45}
+\contentsline {subsubsection}{Salidas}{80}{section*.46}
+\contentsline {subsubsection}{Entradas}{80}{section*.47}
+\contentsline {subsubsection}{Comandos}{80}{section*.48}
+\contentsline {subsubsection}{Mensajes}{80}{section*.49}
+\contentsline {subsection}{\numberline {4.0.9}IU19 Pantalla de registro de \IeC {\'a}rea}{80}{subsection.4.0.9}
+\contentsline {subsubsection}{Objetivo}{80}{section*.50}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{80}{section*.51}
+\contentsline {subsubsection}{Salidas}{80}{section*.52}
+\contentsline {subsubsection}{Entradas}{81}{section*.53}
+\contentsline {subsubsection}{Comandos}{82}{section*.54}
+\contentsline {subsubsection}{Mensajes}{82}{section*.55}
+\contentsline {subsection}{\numberline {4.0.10}IU20 Pantalla de Eliminar \IeC {\'a}reas}{82}{subsection.4.0.10}
+\contentsline {subsubsection}{Objetivo}{82}{section*.56}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{82}{section*.57}
+\contentsline {subsubsection}{Salidas}{82}{section*.58}
+\contentsline {subsubsection}{Entradas}{83}{section*.59}
+\contentsline {subsubsection}{Comandos}{83}{section*.60}
+\contentsline {subsubsection}{Mensajes}{83}{section*.61}
+\contentsline {subsection}{\numberline {4.0.11}IU22 Pantalla de Actualizaci\IeC {\'o}n de \IeC {\'a}reas}{83}{subsection.4.0.11}
+\contentsline {subsubsection}{Objetivo}{83}{section*.62}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{83}{section*.63}
+\contentsline {subsubsection}{Salidas}{83}{section*.64}
+\contentsline {subsubsection}{Entradas}{83}{section*.65}
+\contentsline {subsubsection}{Comandos}{83}{section*.66}
+\contentsline {subsubsection}{Mensajes}{83}{section*.67}
+\contentsline {subsection}{\numberline {4.0.12}IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{83}{subsection.4.0.12}
+\contentsline {subsubsection}{Objetivo}{83}{section*.68}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{84}{section*.69}
+\contentsline {subsubsection}{Salidas}{85}{section*.70}
+\contentsline {subsubsection}{Entradas}{85}{section*.71}
+\contentsline {subsubsection}{Comandos}{85}{section*.72}
+\contentsline {subsubsection}{Mensajes}{85}{section*.73}
+\contentsline {subsection}{\numberline {4.0.13}IU8 Pantalla de Registro Exitoso.}{85}{subsection.4.0.13}
+\contentsline {subsubsection}{Objetivo}{85}{section*.74}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{85}{section*.75}
+\contentsline {subsubsection}{Salidas}{85}{section*.76}
+\contentsline {subsubsection}{Entradas}{85}{section*.77}
+\contentsline {subsubsection}{Comandos}{86}{section*.78}
+\contentsline {subsubsection}{Mensajes}{86}{section*.79}
+\contentsline {subsection}{\numberline {4.0.14}IU9 Pantalla de Consulta de \IeC {\'A}reas.}{86}{subsection.4.0.14}
+\contentsline {subsubsection}{Objetivo}{86}{section*.80}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{86}{section*.81}
+\contentsline {subsubsection}{Salidas}{86}{section*.82}
+\contentsline {subsubsection}{Entradas}{86}{section*.83}
+\contentsline {subsubsection}{Comandos}{86}{section*.84}
+\contentsline {subsubsection}{Mensajes}{86}{section*.85}
+\contentsline {subsection}{\numberline {4.0.15}IU10 Pantalla de Registro de servicios.}{87}{subsection.4.0.15}
+\contentsline {subsubsection}{Objetivo}{87}{section*.86}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{87}{section*.87}
+\contentsline {subsubsection}{Salidas}{87}{section*.88}
+\contentsline {subsubsection}{Entradas}{87}{section*.89}
+\contentsline {subsubsection}{Comandos}{87}{section*.90}
+\contentsline {subsubsection}{Mensajes}{87}{section*.91}
+\contentsline {subsection}{\numberline {4.0.16}IU11 Pantalla de consulta de servicios.}{88}{subsection.4.0.16}
+\contentsline {subsubsection}{Objetivo}{88}{section*.92}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{88}{section*.93}
+\contentsline {subsubsection}{Salidas}{89}{section*.94}
+\contentsline {subsubsection}{Entradas}{89}{section*.95}
+\contentsline {subsubsection}{Comandos}{89}{section*.96}
+\contentsline {subsubsection}{Mensajes}{89}{section*.97}
+\contentsline {subsection}{\numberline {4.0.17}IU12 Pantalla de eliminar servicios.}{89}{subsection.4.0.17}
+\contentsline {subsubsection}{Objetivo}{89}{section*.98}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{89}{section*.99}
+\contentsline {subsubsection}{Salidas}{89}{section*.100}
+\contentsline {subsubsection}{Entradas}{90}{section*.101}
+\contentsline {subsubsection}{Comandos}{90}{section*.102}
+\contentsline {subsubsection}{Mensajes}{90}{section*.103}
+\contentsline {subsection}{\numberline {4.0.18}IU13 Pantalla de edicion de servicios.}{90}{subsection.4.0.18}
+\contentsline {subsubsection}{Objetivo}{90}{section*.104}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{90}{section*.105}
+\contentsline {subsubsection}{Salidas}{90}{section*.106}
+\contentsline {subsubsection}{Entradas}{90}{section*.107}
+\contentsline {subsubsection}{Comandos}{91}{section*.108}
+\contentsline {subsubsection}{Mensajes}{91}{section*.109}
+\contentsline {subsection}{\numberline {4.0.19}IU23 Pantalla de Control de Acceso}{91}{subsection.4.0.19}
+\contentsline {subsubsection}{Objetivo}{91}{section*.110}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{91}{section*.111}
+\contentsline {subsubsection}{Salidas}{91}{section*.112}
+\contentsline {subsubsection}{Entradas}{91}{section*.113}
+\contentsline {subsubsection}{Comandos}{91}{section*.114}
+\contentsline {subsubsection}{Mensajes}{92}{section*.115}
+\contentsline {subsection}{\numberline {4.0.20}IU32 Pantalla de formulario para registro de nueva sucursal.}{92}{subsection.4.0.20}
+\contentsline {subsubsection}{Objetivo}{92}{section*.116}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{92}{section*.117}
+\contentsline {subsubsection}{Salidas}{92}{section*.118}
+\contentsline {subsubsection}{Entradas}{92}{section*.119}
+\contentsline {subsubsection}{Comandos}{92}{section*.120}
+\contentsline {subsubsection}{Mensajes}{92}{section*.121}
+\contentsline {subsection}{\numberline {4.0.21}IU33 Pantalla de visualizaci\IeC {\'o}n de sucursal en mapa.}{93}{subsection.4.0.21}
+\contentsline {subsubsection}{Objetivo}{94}{section*.122}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{94}{section*.123}
+\contentsline {subsubsection}{Salidas}{94}{section*.124}
+\contentsline {subsubsection}{Entradas}{94}{section*.125}
+\contentsline {subsubsection}{Comandos}{94}{section*.126}
+\contentsline {subsubsection}{Mensajes}{94}{section*.127}
+\contentsline {subsection}{\numberline {4.0.22}IU34 A\IeC {\~n}adir otro campo}{94}{subsection.4.0.22}
+\contentsline {subsubsection}{Objetivo}{94}{section*.128}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{95}{section*.129}
+\contentsline {subsubsection}{Salidas}{95}{section*.130}
+\contentsline {subsubsection}{Entradas}{95}{section*.131}
+\contentsline {subsubsection}{Comandos}{95}{section*.132}
+\contentsline {subsubsection}{Mensajes}{95}{section*.133}
+\contentsline {subsection}{\numberline {4.0.23}IU35 A\IeC {\~n}adir otro email}{95}{subsection.4.0.23}
+\contentsline {subsubsection}{Objetivo}{95}{section*.134}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{95}{section*.135}
+\contentsline {subsubsection}{Salidas}{95}{section*.136}
+\contentsline {subsubsection}{Entradas}{96}{section*.137}
+\contentsline {subsubsection}{Comandos}{96}{section*.138}
+\contentsline {subsubsection}{Mensajes}{96}{section*.139}
+\contentsline {subsection}{\numberline {4.0.24}IU97 Pantalla para consultar sucursales registradas}{96}{subsection.4.0.24}
+\contentsline {subsubsection}{Objetivo}{96}{section*.140}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{96}{section*.141}
+\contentsline {subsubsection}{Salidas}{96}{section*.142}
+\contentsline {subsubsection}{Entradas}{96}{section*.143}
+\contentsline {subsubsection}{Comandos}{96}{section*.144}
+\contentsline {subsubsection}{Mensajes}{97}{section*.145}
+\contentsline {subsection}{\numberline {4.0.25}IU37 P\IeC {\'a}gina de inicio}{97}{subsection.4.0.25}
+\contentsline {subsubsection}{Objetivo}{97}{section*.146}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{97}{section*.147}
+\contentsline {subsubsection}{Salidas}{97}{section*.148}
+\contentsline {subsubsection}{Entradas}{97}{section*.149}
+\contentsline {subsubsection}{Comandos}{97}{section*.150}
+\contentsline {subsubsection}{Mensajes}{97}{section*.151}
+\contentsline {subsection}{\numberline {4.0.26}IU38 Pantalla de opciones para la recepsionista}{98}{subsection.4.0.26}
+\contentsline {subsubsection}{Objetivo}{98}{section*.152}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{98}{section*.153}
+\contentsline {subsubsection}{Salidas}{98}{section*.154}
+\contentsline {subsubsection}{Entradas}{99}{section*.155}
+\contentsline {subsubsection}{Comandos}{99}{section*.156}
+\contentsline {subsubsection}{Mensajes}{99}{section*.157}
+\contentsline {subsection}{\numberline {4.0.27}IU39 Pantalla para el registro del pago de membres\IeC {\'\i }a}{99}{subsection.4.0.27}
+\contentsline {subsubsection}{Objetivo}{99}{section*.158}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{99}{section*.159}
+\contentsline {subsubsection}{Salidas}{99}{section*.160}
+\contentsline {subsubsection}{Entradas}{99}{section*.161}
+\contentsline {subsubsection}{Comandos}{99}{section*.162}
+\contentsline {subsubsection}{Mensajes}{100}{section*.163}
+\contentsline {subsection}{\numberline {4.0.28}IU99 Pantalla dar de baja sucursales}{100}{subsection.4.0.28}
+\contentsline {subsubsection}{Objetivo}{100}{section*.164}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{100}{section*.165}
+\contentsline {subsubsection}{Salidas}{100}{section*.166}
+\contentsline {subsubsection}{Entradas}{100}{section*.167}
+\contentsline {subsubsection}{Comandos}{100}{section*.168}
+\contentsline {subsubsection}{Mensajes}{101}{section*.169}
+\contentsline {subsection}{\numberline {4.0.29}IU3 Pantalla de Registrar Cliente}{101}{subsection.4.0.29}
+\contentsline {subsubsection}{Objetivo}{101}{section*.170}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{101}{section*.171}
+\contentsline {subsubsection}{Comandos}{101}{section*.172}
+\contentsline {subsection}{\numberline {4.0.30}IU1 P\IeC {\'a}gina principal}{101}{subsection.4.0.30}
+\contentsline {subsubsection}{Objetivo}{101}{section*.173}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{101}{section*.174}
+\contentsline {subsubsection}{Comandos}{101}{section*.175}
+\contentsline {chapter}{\numberline {5}Modelo del Dominio del problema}{104}{chapter.5}
