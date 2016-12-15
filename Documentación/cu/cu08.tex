@@ -1,0 +1,51 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+%-------------------------------------- TERMINA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU8.0}{Eliminar áreas}{
+		En esta sección el gerente de sucursal podrá eliminar un área que se encuentre registrada, ya sea a causa de posibles errores como duplicación de contenido o errores en el registro de los datos.
+	}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Gerente de sucursal}
+		\UCitem{Propósito}{Eliminar los registros del área del sistema en caso de ser necesario.}
+		\UCitem{Entradas}{Nombre del área por medio de lista desplegable.}
+		\UCitem{Origen}{Los datos serán digitados desde el teclado o bien seleccionados desde una lista desplegable.}
+		\UCitem{Salidas}
+		{
+		{\bf MSG20-}``Registro eliminado correctamente.''		
+		{\bf MSG7-}``No existe ningun registro.'' }
+
+		\UCitem{Destino}{El área ya no aparecerá en la lista desplegable.
+		En la sección consultas el área ya no aparecerá mas.}
+		\UCitem{Precondiciones}{Que el área se encuentre registrada previamente.}
+		\UCitem{Postcondiciones}{El registro ya no se encontrará en la sección de consultas.}
+		\UCitem{Errores}{ {\bf E07:} ``No se tiene ningún registro'' -- El sistema muestra el Mensaje {\bf MSG7-}``No existe ningun registro.''
+		{\bf E06:} ``Error de eliminacion de registro no existente'' -- El sistema muestra el Mensaje {\bf MSG7-}``El registro no existe.''}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Francisco García Enríquez.}
+		\UCitem{Revisor}{Martin Carrillo.}
+	\end{UseCase}
+
+\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Solicita el ingreso al apartado de clientes seleccionando la opción ``Clientes'' de la \IUref{IU23}{Pantalla de perfil de empleado}.
+		\UCpaso Toma la sesión de gerente de sucursal.
+		\UCpaso Muestra en la página principal del gerente de sucursal, las opciones que tiene disponibles para realizar operaciones el actor. En la sección \IUref{IU18}{Pantalla de menu de opciones inicial}.
+		\UCpaso[\UCactor] Selecciona del menú principal la opción Áreas.
+		\UCpaso Muestra las opciones que el gerente pueda realizar. \IUref{IU8}{Pantalla de menú de opciones de áreas.}
+		\UCpaso[\UCactor] Selecciona la opción eliminar áreas.
+		\UCpaso Carga en una lista las áreas registradas \Trayref{A}.
+		\UCpaso[\UCactor] Selecciona de la lista delegable el área que desea eliminar. \IUref{IU20}{Pantalla de eliminacion de áreas.}
+		\UCpaso[\UCactor] Confirma la operación y presiona el botón eliminar.
+		\UCpaso Elimina el dato y muestra un mensaje {\bf MS20-}``El dato fue eliminado correctamente''.
+		\UCpaso Muestra una opción para regresar al menú de opciones.En la sección \IUref{IU18}{Pantalla de menu de opciones de regreso}. 
+	\end{UCtrayectoria}
+
+\begin{UCtrayectoriaA}{A}{No existe ningun dato registrado.}
+			\UCpaso[\UCactor] Muestra el mensaje {\bf MS7-}``No existe ningun registro''
+			\UCpaso[\UCactor] Finaliza su operación dentro del área de consulta. 
+			\UCpaso[\UCactor] Puede regresar al menú de opciones de la sección \IUref{IU18}{Pantalla de menu de opciones de regreso} mediante el botón de menú de inicio.
+		\end{UCtrayectoriaA}
