@@ -206,3 +206,123 @@ Ninguna
 	\begin{Citemize}
 		\item {\bf MSG5} No se encuentra ninguna área registrada.
 	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU10 Pantalla de Registro de servicios.}
+
+\subsubsection{Objetivo}
+	El actor podrá dar de alta un servicio nuevo.
+
+\subsubsection{Diseño}
+	En está sección el actor podrá dar de alta un servicio nuevo
+
+\IUfig[.6]{gui/registraServ}{IU10}{Pantalla de Registro Exitoso.}
+
+\subsubsection{Salidas}
+
+	Mensaje de registro exitoso
+
+\subsubsection{Entradas}
+Nombre, horario, costo, estado, ubicacion, descripcion.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Menu de inicio}: Manda al usuario al menú de inicio
+	\item \IUbutton{Enviar}: El actor registra el servicio en el sistema.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} Servicio Registrado correctamente
+	\end{Citemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU11 Pantalla de consulta de servicios.}
+
+\subsubsection{Objetivo}
+	El actor podrá consultar un servicio existente.
+
+\subsubsection{Diseño}
+	En está sección el actor podrá consultar un servicio que se encuentre disponible.
+
+\IUfig[.6]{gui/ConsultaServ}{IU11}{Pantalla de Consulta de servicio.}
+
+\subsubsection{Salidas}
+
+	Desde pantalla.
+
+\subsubsection{Entradas}
+Nombre, horario, costo, estado, ubicacion, descripcion.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Menu de inicio}: Manda al usuario al menú de inicio
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} No se encuentra ningun dato registrado
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU12 Pantalla de eliminar servicios.}
+
+\subsubsection{Objetivo}
+	El actor podrá eliminar un servicio del sistema.
+
+\subsubsection{Diseño}
+	En está sección el actor eliminar un servicio existente.
+
+\IUfig[.6]{gui/eliminaServ}{IU12}{Pantalla de eliminar servicios.}
+
+\subsubsection{Salidas}
+
+	Servicio eliminado exitosamente.
+
+\subsubsection{Entradas}
+Nombre desde lista desplegable.
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Menu de inicio}: Manda al usuario al menú de inicio
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} No se encuentra ningun dato registrado
+	\end{Citemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{IU13 Pantalla de edicion de  servicios.}
+
+\subsubsection{Objetivo}
+	El actor podrá consultar los servicios para editarlosposteriormente.
+
+\subsubsection{Diseño}
+	En está sección el actor podrá visualizar los servicios que se encuentren disponibles.
+
+\IUfig[.6]{gui/EditaServ}{IU13}{Pantalla de edicion servicios.}
+
+\subsubsection{Salidas}
+
+	Nombre, Costo,Descripcion,Horario,estado Servicio, Ubicacion
+
+\subsubsection{Entradas}
+Mediante el mouse
+
+\subsubsection{Comandos}
+\begin{itemize}
+	\item \IUbutton{Menu de inicio}: Manda al usuario al menú de inicio
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf MSG5} No se encuentra ningun dato registrado
+	\end{Citemize}
