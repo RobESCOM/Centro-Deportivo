@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.26)  14 DEC 2016 18:31
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.25)  14 DEC 2016 12:49
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2016 16:25
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.26)  14 DEC 2016 15:17
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 entering extended mode
 **./analisis.tex
 (analisis.tex
@@ -929,7 +941,19 @@ Package babel Info: Redefining spanish shorthand "?
 [1
 
 
+<<<<<<< HEAD
 ] <images/headerInp.png, id=738, 1858.945pt x 358.33875pt>
+=======
+<<<<<<< HEAD
+] <images/headerInp.png, id=715, 1858.945pt x 358.33875pt>
+=======
+<<<<<<< HEAD
+] <images/headerInp.png, id=728, 1858.945pt x 358.33875pt>
+=======
+] <images/headerInp.png, id=711, 1858.945pt x 358.33875pt>
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
 Package pdftex.def Info: images/headerInp.png used on input line 84.
@@ -976,7 +1000,11 @@ Package babel Info: Redefining spanish shorthand "?
 [2 <./images/headerInp.png>]
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
+<<<<<<< HEAD
 Package pdftex.def Info: images/headerInp.png used on input line 151.
+=======
+Package pdftex.def Info: images/headerInp.png used on input line 157.
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -987,6 +1015,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 
 Package spanish Warning: Replacing `OT1/cmbr/m/sc' by 
+<<<<<<< HEAD
 (spanish)                faked small caps on input line 151.
 
 Package babel Info: Redefining spanish shorthand <<
@@ -1013,6 +1042,34 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 151.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 151.
+=======
+(spanish)                faked small caps on input line 157.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 157.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 157.
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 [3])
 \tf@toc=\write4
 \openout4 = `analisis.toc'.
@@ -1354,8 +1411,29 @@ Package babel Info: Redefining spanish shorthand "~
 Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand "?
+<<<<<<< HEAD
 (babel)             in language  on input line 32.
 <images/CasosDeUso.png, id=879, 962.09438pt x 563.10374pt>
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 29.
+<images/CasosDeUso.png, id=860, 962.09438pt x 563.10374pt>
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 29.
+<<<<<<< HEAD
+<images/CasosDeUso.png, id=846, 962.09438pt x 563.10374pt>
+=======
+<images/CasosDeUso.png, id=836, 962.09438pt x 563.10374pt>
+File: images/CasosDeUso.png Graphic file (type png)
+ <use images/CasosDeUso.png>
+Package pdftex.def Info: images/CasosDeUso.png used on input line 33.
+=======
+(babel)             in language  on input line 32.
+<images/CasosDeUso.png, id=848, 962.09438pt x 563.10374pt>
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/CasosDeUso.png Graphic file (type png)
  <use images/CasosDeUso.png>
 Package pdftex.def Info: images/CasosDeUso.png used on input line 36.
@@ -1390,9 +1468,33 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
+<<<<<<< HEAD
  [7
 
  <./images/CasosDeUso.png>] <images/uc/default.png, id=886, 926.46124pt x 57.21375pt>
+=======
+<<<<<<< HEAD
+ [6
+
+ <./images/CasosDeUso.png>]
+<<<<<<< HEAD
+<images/uc/default.png, id=853, 926.46124pt x 57.21375pt>
+=======
+<images/uc/default.png, id=867, 926.46124pt x 57.21375pt>
+=======
+<<<<<<< HEAD
+ [5
+
+ <./images/CasosDeUso.png>] <images/uc/default.png, id=843, 926.46124pt x 57.21375pt>
+=======
+ [8
+
+ <./images/CasosDeUso.png>]
+<images/uc/default.png, id=856, 926.46124pt x 57.21375pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/default.png Graphic file (type png)
 
 <use images/uc/default.png>
@@ -1439,7 +1541,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
+<<<<<<< HEAD
 <images/uc/iu.png, id=887, 61.22874pt x 55.20625pt>
+=======
+<<<<<<< HEAD
+<images/uc/iu.png, id=854, 61.22874pt x 55.20625pt>
+=======
+<<<<<<< HEAD
+<images/uc/iu.png, id=868, 61.22874pt x 55.20625pt>
+=======
+<<<<<<< HEAD
+<images/uc/iu.png, id=844, 61.22874pt x 55.20625pt>
+=======
+<images/uc/iu.png, id=857, 61.22874pt x 55.20625pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 26.
@@ -1496,7 +1614,25 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
+<<<<<<< HEAD
 [8 <./images/uc/default.png> <./images/uc/iu.png>] <images/uc/actor.png, id=900, 96.36pt x 74.2775pt>
+=======
+<<<<<<< HEAD
+[7 <./images/uc/default.png> <./images/uc/iu.png>]
+<<<<<<< HEAD
+<images/uc/actor.png, id=866, 96.36pt x 74.2775pt>
+=======
+<images/uc/actor.png, id=880, 96.36pt x 74.2775pt>
+=======
+<<<<<<< HEAD
+[6 <./images/uc/default.png> <./images/uc/iu.png>] <images/uc/actor.png, id=856, 96.36pt x 74.2775pt>
+=======
+[9 <./images/uc/default.png> <./images/uc/iu.png>]
+<images/uc/actor.png, id=873, 96.36pt x 74.2775pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/actor.png Graphic file (type png)
 
 <use images/uc/actor.png>
@@ -1506,7 +1642,25 @@ File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 44.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
+<<<<<<< HEAD
  <images/uc/usecase.png, id=902, 91.34125pt x 61.22874pt>
+=======
+<<<<<<< HEAD
+
+<images/uc/usecase.png, id=882, 91.34125pt x 61.22874pt>
+=======
+<<<<<<< HEAD
+ <images/uc/usecase.png, id=858, 91.34125pt x 61.22874pt>
+=======
+
+<<<<<<< HEAD
+<images/uc/usecase.png, id=868, 91.34125pt x 61.22874pt>
+=======
+<images/uc/usecase.png, id=875, 91.34125pt x 61.22874pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/usecase.png Graphic file (type png)
 
 <use images/uc/usecase.png>
@@ -3792,7 +3946,15 @@ Package pdftex.def Info: images/uc/usecase.png used on input line 81.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `CU11Login' on page 27 undefined on input line 81.
+=======
+<<<<<<< HEAD
+LaTeX Warning: Reference `CU11Login' on page 26 undefined on input line 81.
+=======
+LaTeX Warning: Reference `CU11Login' on page 28 undefined on input line 81.
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 
 File: images/headerInp.png Graphic file (type png)
 <use images/headerInp.png>
@@ -4897,7 +5059,15 @@ Package pdftex.def Info: images/uc/usecase.png used on input line 47.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
 
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `CU11Login' on page 37 undefined on input line 47.
+=======
+<<<<<<< HEAD
+LaTeX Warning: Reference `CU11Login' on page 36 undefined on input line 47.
+=======
+LaTeX Warning: Reference `CU11Login' on page 38 undefined on input line 47.
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 
 File: images/uc/actor.png Graphic file (type png)
 <use images/uc/actor.png>
@@ -8565,6 +8735,116 @@ Package babel Info: Redefining spanish shorthand "~
 Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "?
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 69.
+<secuencia/DiagramaSecuenciaMapa.jpg, id=2066, 1390.19376pt x 673.51625pt>
+File: secuencia/DiagramaSecuenciaMapa.jpg Graphic file (type jpg)
+
+<use secuencia/DiagramaSecuenciaMapa.jpg>
+Package pdftex.def Info: secuencia/DiagramaSecuenciaMapa.jpg used on input line
+ 73.
+(pdftex.def)             Requested size: 563.99857pt x 273.23505pt.
+
+Overfull \hbox (93.99857pt too wide) in paragraph at lines 73--74
+ [][] 
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 77.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 77.
+[73
+
+ <./secuencia/DiagramaSecuenciaMapa.jpg>]
+<secuencia/DiagramaSecuenciaRegistroSucursal.jpg, id=2072, 1460.45625pt x 2966.
+08125pt>
+File: secuencia/DiagramaSecuenciaRegistroSucursal.jpg Graphic file (type jpg)
+ <use secuencia/DiagramaSecuenciaRegistroSucursal.jpg>
+Package pdftex.def Info: secuencia/DiagramaSecuenciaRegistroSucursal.jpg used o
+n input line 81.
+(pdftex.def)             Requested size: 563.99857pt x 1145.40714pt.
+
+Overfull \hbox (93.99857pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 539.57379pt on input line 83.
+
+File: images/headerInp.png Graphic file (type png)
+<use images/headerInp.png>
+Package pdftex.def Info: images/headerInp.png used on input line 88.
+(pdftex.def)             Requested size: 181.56552pt x 35.0pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 38.75003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 88.
+[74 <./secuencia/DiagramaSecuenciaRegistroSucursal.jpg>]
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 88.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 88.
+(Pantallas/IU21_0.tex
+=======
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 (babel)             in language  on input line 72.
 (Pantallas/IU21_0.tex
 
@@ -8583,7 +8863,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
+<<<<<<< HEAD
 <images/gui/iu21-0.png, id=2080, 1308.89pt x 603.25375pt>
+=======
+<<<<<<< HEAD
+<images/gui/iu21-0.png, id=2079, 1308.89pt x 603.25375pt>
+=======
+<<<<<<< HEAD
+<images/gui/iu21-0.png, id=2117, 1308.89pt x 603.25375pt>
+=======
+<<<<<<< HEAD
+<images/gui/iu21-0.png, id=2035, 1308.89pt x 603.25375pt>
+=======
+<images/gui/iu21-0.png, id=2199, 1308.89pt x 603.25375pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/iu21-0.png Graphic file (type png)
  <use images/gui/iu21-0.png>
 Package pdftex.def Info: images/gui/iu21-0.png used on input line 10.
@@ -8612,7 +8908,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 19.
+<<<<<<< HEAD
  [73
+=======
+<<<<<<< HEAD
+ [75
+=======
+<<<<<<< HEAD
+ [71
+=======
+ [75
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 
  <./images/gui/iu21-0.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmbr on input line 21.
@@ -8648,7 +8956,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{IU21.0}) has b
 <to be read again> 
                    \relax 
 l.10 ...rincipal de acceso a Gerente de Sucursal.}
+<<<<<<< HEAD
                                                    <images/gui/Iu21-1.png, id=2092, 1239.63126pt x 578.16pt>
+=======
+<<<<<<< HEAD
+                                                  
+<<<<<<< HEAD
+<images/gui/Iu21-1.png, id=2091, 1239.63126pt x 578.16pt>
+=======
+<images/gui/Iu21-1.png, id=2129, 1239.63126pt x 578.16pt>
+=======
+<<<<<<< HEAD
+                                                   <images/gui/Iu21-1.png, id=2047, 1239.63126pt x 578.16pt>
+=======
+                                                  
+<images/gui/Iu21-1.png, id=2212, 1239.63126pt x 578.16pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/Iu21-1.png Graphic file (type png)
 
 <use images/gui/Iu21-1.png>
@@ -8693,7 +9019,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
+<<<<<<< HEAD
 [74 <./images/gui/Iu21-1.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[76 <./images/gui/Iu21-1.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[72 <./images/gui/Iu21-1.png (PNG copy)>]
+=======
+[76 <./images/gui/Iu21-1.png (PNG copy)>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 27.
@@ -8712,7 +9050,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 
+<<<<<<< HEAD
 <images/gui/IU21-2.png, id=2110, 480.79625pt x 596.2275pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU21-2.png, id=2108, 480.79625pt x 596.2275pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU21-2.png, id=2147, 480.79625pt x 596.2275pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU21-2.png, id=2064, 480.79625pt x 596.2275pt>
+=======
+<images/gui/IU21-2.png, id=2230, 480.79625pt x 596.2275pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/IU21-2.png Graphic file (type png)
  <use images/gui/IU21-2.png>
 Package pdftex.def Info: images/gui/IU21-2.png used on input line 9.
@@ -8752,7 +9106,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
+<<<<<<< HEAD
 [75 <./images/gui/IU21-2.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[77 <./images/gui/IU21-2.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[73 <./images/gui/IU21-2.png (PNG copy)>]
+=======
+[77 <./images/gui/IU21-2.png (PNG copy)>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 20.
@@ -8775,7 +9141,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 
+<<<<<<< HEAD
 <images/gui/IU22.png, id=2124, 1145.27875pt x 513.92pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU22.png, id=2122, 1145.27875pt x 513.92pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU22.png, id=2161, 1145.27875pt x 513.92pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU22.png, id=2078, 1145.27875pt x 513.92pt>
+=======
+<images/gui/IU22.png, id=2245, 1145.27875pt x 513.92pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/IU22.png Graphic file (type png)
  <use images/gui/IU22.png>
 Package pdftex.def Info: images/gui/IU22.png used on input line 10.
@@ -8820,7 +9202,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 27.
+<<<<<<< HEAD
 [76 <./images/gui/IU22.png (PNG copy)>]) (Pantallas/IU23_1.tex
+=======
+<<<<<<< HEAD
+[78 <./images/gui/IU22.png (PNG copy)>]) (Pantallas/IU23_1.tex
+=======
+<<<<<<< HEAD
+[74 <./images/gui/IU22.png (PNG copy)>]) (Pantallas/IU23_1.tex
+=======
+[78 <./images/gui/IU22.png (PNG copy)>]) (./Pantallas/IU23_1.tex
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
@@ -8834,7 +9228,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 
+<<<<<<< HEAD
 <images/gui/IU23.png, id=2139, 1277.77374pt x 526.96875pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU23.png, id=2137, 1277.77374pt x 526.96875pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU23.png, id=2177, 1277.77374pt x 526.96875pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU23.png, id=2094, 1277.77374pt x 526.96875pt>
+=======
+<images/gui/IU23.png, id=2261, 1277.77374pt x 526.96875pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/IU23.png Graphic file (type png)
  <use images/gui/IU23.png>
 Package pdftex.def Info: images/gui/IU23.png used on input line 9.
@@ -8857,7 +9267,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
+<<<<<<< HEAD
  <images/gui/IU24.png, id=2141, 1279.78125pt x 514.92375pt>
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<images/gui/IU24.png, id=2139, 1279.78125pt x 514.92375pt>
+=======
+<images/gui/IU24.png, id=2179, 1279.78125pt x 514.92375pt>
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+File: images/gui/IU24.png Graphic file (type png)
+=======
+<<<<<<< HEAD
+ <images/gui/IU24.png, id=2096, 1279.78125pt x 514.92375pt>
+=======
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+
+<images/gui/IU24.png, id=2263, 1279.78125pt x 514.92375pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/IU24.png Graphic file (type png)
  <use images/gui/IU24.png>
 Package pdftex.def Info: images/gui/IU24.png used on input line 10.
@@ -8898,7 +9327,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
+<<<<<<< HEAD
 [77 <./images/gui/IU23.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[79 <./images/gui/IU23.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[75 <./images/gui/IU23.png (PNG copy)>]
+=======
+[79 <./images/gui/IU23.png (PNG copy)>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 21.
@@ -8916,6 +9357,22 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ <images/gui/IU25.png, id=2154, 410.53375pt x 570.13pt>
+=======
+<<<<<<< HEAD
+ <images/gui/IU25.png, id=2194, 410.53375pt x 570.13pt>
+=======
+<<<<<<< HEAD
+=======
+ <images/gui/IU25.png, id=2281, 410.53375pt x 570.13pt>
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+File: images/gui/IU25.png Graphic file (type png)
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 
 <images/gui/IU25.png, id=2156, 410.53375pt x 570.13pt>
 File: images/gui/IU25.png Graphic file (type png)
@@ -8957,7 +9414,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
+<<<<<<< HEAD
 [78 <./images/gui/IU24.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[80 <./images/gui/IU24.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[76 <./images/gui/IU24.png (PNG copy)>]
+=======
+[80 <./images/gui/IU24.png (PNG copy)>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 22.
@@ -8976,7 +9445,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 
+<<<<<<< HEAD
 <images/gui/menuOpciones.png, id=2172, 914.41624pt x 367.3725pt>
+=======
+<<<<<<< HEAD
+<images/gui/menuOpciones.png, id=2171, 913.4125pt x 557.08125pt>
+=======
+<<<<<<< HEAD
+<images/gui/menuOpciones.png, id=2210, 914.41624pt x 367.3725pt>
+=======
+<<<<<<< HEAD
+<images/gui/menuOpciones.png, id=2127, 913.4125pt x 557.08125pt>
+=======
+<images/gui/menuOpciones.png, id=2299, 913.4125pt x 557.08125pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/menuOpciones.png Graphic file (type png)
  <use images/gui/menuOpciones.png>
 Package pdftex.def Info: images/gui/menuOpciones.png used on input line 9.
@@ -9017,7 +9502,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
+<<<<<<< HEAD
 [79 <./images/gui/IU25.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[81 <./images/gui/IU25.png (PNG copy)>]
+=======
+<<<<<<< HEAD
+[77 <./images/gui/IU25.png (PNG copy)>]
+=======
+[81 <./images/gui/IU25.png (PNG copy)>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand >>
@@ -9030,7 +9527,25 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 33.
+<<<<<<< HEAD
  <images/gui/registrarArea.png, id=2183, 279.0425pt x 521.95pt>
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<images/gui/registrarArea.png, id=2182, 279.0425pt x 521.95pt>
+=======
+<images/gui/registrarArea.png, id=2221, 279.0425pt x 521.95pt>
+=======
+<<<<<<< HEAD
+ <images/gui/registrarArea.png, id=2138, 279.0425pt x 521.95pt>
+=======
+
+<images/gui/registrarArea.png, id=2311, 279.0425pt x 521.95pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/registrarArea.png Graphic file (type png)
 
 <use images/gui/registrarArea.png>
@@ -9070,8 +9585,27 @@ Package babel Info: Redefining spanish shorthand "~
 Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 49.
 Package babel Info: Redefining spanish shorthand "?
+<<<<<<< HEAD
 (babel)             in language  on input line 49.
 [80 <./images/gui/menuOpciones.png>]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 46.
+[82 <./images/gui/menuOpciones.png>]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 49.
+[80 <./images/gui/menuOpciones.png>]
+=======
+(babel)             in language  on input line 46.
+<<<<<<< HEAD
+[78 <./images/gui/menuOpciones.png>]
+=======
+[82 <./images/gui/menuOpciones.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
 Package pdftex.def Info: images/headerInp.png used on input line 52.
@@ -9106,8 +9640,27 @@ Package babel Info: Redefining spanish shorthand "~
 Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 52.
 Package babel Info: Redefining spanish shorthand "?
+<<<<<<< HEAD
 (babel)             in language  on input line 52.
 [81 <./images/gui/registrarArea.png>]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 49.
+[83 <./images/gui/registrarArea.png>]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 52.
+[81 <./images/gui/registrarArea.png>]
+=======
+(babel)             in language  on input line 49.
+<<<<<<< HEAD
+[79 <./images/gui/registrarArea.png>]
+=======
+[83 <./images/gui/registrarArea.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand >>
@@ -9120,7 +9673,25 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 61.
+<<<<<<< HEAD
  <images/gui/eliminarAreas.png, id=2206, 564.1075pt x 596.2275pt>
+=======
+<<<<<<< HEAD
+
+<images/gui/eliminarAreas.png, id=2244, 564.1075pt x 596.2275pt>
+=======
+<<<<<<< HEAD
+ <images/gui/eliminarAreas.png, id=2159, 564.1075pt x 596.2275pt>
+=======
+
+<<<<<<< HEAD
+<images/gui/eliminarAreas.png, id=2203, 564.1075pt x 596.2275pt>
+=======
+<images/gui/eliminarAreas.png, id=2333, 564.1075pt x 596.2275pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/eliminarAreas.png Graphic file (type png)
 
 <use images/gui/eliminarAreas.png>
@@ -9160,8 +9731,27 @@ Package babel Info: Redefining spanish shorthand "~
 Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 78.
 Package babel Info: Redefining spanish shorthand "?
+<<<<<<< HEAD
 (babel)             in language  on input line 78.
 [82 <./images/gui/eliminarAreas.png>]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 75.
+[84 <./images/gui/eliminarAreas.png>]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 78.
+[82 <./images/gui/eliminarAreas.png>]
+=======
+(babel)             in language  on input line 75.
+<<<<<<< HEAD
+[80 <./images/gui/eliminarAreas.png>]
+=======
+[84 <./images/gui/eliminarAreas.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand >>
@@ -9174,7 +9764,25 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 91.
+<<<<<<< HEAD
  <images/gui/actualizaArea.png, id=2218, 301.125pt x 553.06625pt>
+=======
+<<<<<<< HEAD
+
+<images/gui/actualizaArea.png, id=2256, 301.125pt x 553.06625pt>
+=======
+<<<<<<< HEAD
+ <images/gui/actualizaArea.png, id=2172, 301.125pt x 553.06625pt>
+=======
+
+<<<<<<< HEAD
+<images/gui/actualizaArea.png, id=2215, 301.125pt x 553.06625pt>
+=======
+<images/gui/actualizaArea.png, id=2346, 301.125pt x 553.06625pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/actualizaArea.png Graphic file (type png)
 
 <use images/gui/actualizaArea.png>
@@ -9235,8 +9843,27 @@ Package babel Info: Redefining spanish shorthand "~
 Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 136.
 Package babel Info: Redefining spanish shorthand "?
+<<<<<<< HEAD
 (babel)             in language  on input line 136.
 [83]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 130.
+[85]
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 136.
+[83]
+=======
+(babel)             in language  on input line 130.
+<<<<<<< HEAD
+[81]
+=======
+[85]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
 Package pdftex.def Info: images/headerInp.png used on input line 136.
@@ -9272,7 +9899,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 136.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 136.
+<<<<<<< HEAD
 [84 <./images/gui/actualizaArea.png>]
+=======
+<<<<<<< HEAD
+[86 <./images/gui/actualizaArea.png>]
+=======
+<<<<<<< HEAD
+[82 <./images/gui/actualizaArea.png>]
+=======
+[86 <./images/gui/actualizaArea.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 141.
@@ -9294,7 +9933,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 153.
 
+<<<<<<< HEAD
 <images/gui/RegistroExitoso.png, id=2242, 1282.7925pt x 561.09625pt>
+=======
+<<<<<<< HEAD
+<images/gui/RegistroExitoso.png, id=2241, 1282.7925pt x 561.09625pt>
+=======
+<<<<<<< HEAD
+<images/gui/RegistroExitoso.png, id=2281, 1282.7925pt x 561.09625pt>
+=======
+<<<<<<< HEAD
+<images/gui/RegistroExitoso.png, id=2197, 1282.7925pt x 561.09625pt>
+=======
+<images/gui/RegistroExitoso.png, id=2374, 1282.7925pt x 561.09625pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/RegistroExitoso.png Graphic file (type png)
  <use images/gui/RegistroExitoso.png>
 Package pdftex.def Info: images/gui/RegistroExitoso.png used on input line 161.
@@ -9335,7 +9990,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 173.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 173.
+<<<<<<< HEAD
 [85]
+=======
+<<<<<<< HEAD
+[87]
+=======
+<<<<<<< HEAD
+[83]
+=======
+[87]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 183.
 Package babel Info: Redefining spanish shorthand >>
@@ -9348,7 +10015,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 183.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 183.
+<<<<<<< HEAD
  <images/gui/ConsultaAreas.png, id=2256, 816.04875pt x 676.5275pt>
+=======
+<<<<<<< HEAD
+ <images/gui/ConsultaAreas.png, id=2255, 816.04875pt x 676.5275pt>
+=======
+<<<<<<< HEAD
+ <images/gui/ConsultaAreas.png, id=2295, 816.04875pt x 676.5275pt>
+=======
+<<<<<<< HEAD
+ <images/gui/ConsultaAreas.png, id=2211, 816.04875pt x 676.5275pt>
+=======
+ <images/gui/ConsultaAreas.png, id=2389, 816.04875pt x 676.5275pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/ConsultaAreas.png Graphic file (type png)
  <use images/gui/ConsultaAreas.png>
 Package pdftex.def Info: images/gui/ConsultaAreas.png used on input line 191.
@@ -9400,9 +10083,32 @@ Package babel Info: Redefining spanish shorthand "~
 Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 218.
 Package babel Info: Redefining spanish shorthand "?
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 6.
+[88 <./images/gui/RegistroExitoso.png>]
+<images/gui/Login.png, id=2270, 354.32375pt x 252.945pt>
+=======
+<<<<<<< HEAD
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 (babel)             in language  on input line 218.
 [86 <./images/gui/RegistroExitoso.png>] <images/gui/registraServ.png, id=2272, 336.25626pt x 544.0325pt>
 File: images/gui/registraServ.png Graphic file (type png)
+<<<<<<< HEAD
+=======
+=======
+(babel)             in language  on input line 6.
+<<<<<<< HEAD
+[84 <./images/gui/RegistroExitoso.png>] <images/gui/Login.png, id=2226, 354.32375pt x 252.945pt>
+=======
+[88 <./images/gui/RegistroExitoso.png>]
+<images/gui/Login.png, id=2406, 354.32375pt x 252.945pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+File: images/gui/Login.png Graphic file (type png)
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 
 <use images/gui/registraServ.png>
 Package pdftex.def Info: images/gui/registraServ.png used on input line 221.
@@ -9622,6 +10328,21 @@ File: images/gui/Login.png Graphic file (type png)
 <use images/gui/Login.png>
 Package pdftex.def Info: images/gui/Login.png used on input line 9.
 (pdftex.def)             Requested size: 235.0pt x 167.76631pt.
+<<<<<<< HEAD
+=======
+=======
+(babel)             in language  on input line 11.
+<<<<<<< HEAD
+[89 <./images/gui/ConsultaAreas.png> <./images/gui/Login.png>]
+=======
+<<<<<<< HEAD
+[85 <./images/gui/ConsultaAreas.png> <./images/gui/Login.png>]
+=======
+[89 <./images/gui/ConsultaAreas.png> <./images/gui/Login.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 20.
@@ -9678,7 +10399,24 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 32.
+<<<<<<< HEAD
  <images/gui/registro.png, id=2338, 1028.34187pt x 1174.3875pt>
+=======
+
+<<<<<<< HEAD
+<images/gui/registro.png, id=2282, 1028.34187pt x 1174.3875pt>
+=======
+<<<<<<< HEAD
+<images/gui/registro.png, id=2377, 1028.34187pt x 1174.3875pt>
+=======
+<<<<<<< HEAD
+<images/gui/registro.png, id=2238, 1028.34187pt x 1174.3875pt>
+=======
+<images/gui/registro.png, id=2419, 1028.34187pt x 1174.3875pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/registro.png Graphic file (type png)
 
 <use images/gui/registro.png>
@@ -9740,6 +10478,21 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 65.
 [92 <./images/gui/Login.png>]
+<<<<<<< HEAD
+=======
+=======
+(babel)             in language  on input line 68.
+<<<<<<< HEAD
+[90]
+=======
+<<<<<<< HEAD
+[86]
+=======
+[90]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
 Package pdftex.def Info: images/headerInp.png used on input line 68.
@@ -9775,7 +10528,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 68.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 68.
+<<<<<<< HEAD
 [93 <./images/gui/registro.png>] <images/gui/mapaU.png, id=2360, 1016.29688pt x 435.12563pt>
+=======
+<<<<<<< HEAD
+[91 <./images/gui/registro.png>]
+<images/gui/mapaU.png, id=2305, 1016.29688pt x 435.12563pt>
+=======
+<<<<<<< HEAD
+[93 <./images/gui/registro.png>]
+<images/gui/mapaU.png, id=2400, 1016.29688pt x 435.12563pt>
+=======
+<<<<<<< HEAD
+[87 <./images/gui/registro.png>] <images/gui/mapaU.png, id=2262, 1016.29688pt x 435.12563pt>
+=======
+[91 <./images/gui/registro.png>]
+<images/gui/mapaU.png, id=2444, 1016.29688pt x 435.12563pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/mapaU.png Graphic file (type png)
  <use images/gui/mapaU.png>
 Package pdftex.def Info: images/gui/mapaU.png used on input line 71.
@@ -9797,7 +10569,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 93.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 93.
+<<<<<<< HEAD
  <images/gui/NTelefon.png, id=2362, 355.3275pt x 144.54pt>
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<images/gui/NTelefon.png, id=2307, 355.3275pt x 144.54pt>
+=======
+<images/gui/NTelefon.png, id=2402, 355.3275pt x 144.54pt>
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+File: images/gui/NTelefon.png Graphic file (type png)
+=======
+<<<<<<< HEAD
+ <images/gui/NTelefon.png, id=2264, 355.3275pt x 144.54pt>
+=======
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+
+<images/gui/NTelefon.png, id=2446, 355.3275pt x 144.54pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/NTelefon.png Graphic file (type png)
  <use images/gui/NTelefon.png>
 Package pdftex.def Info: images/gui/NTelefon.png used on input line 101.
@@ -9838,7 +10629,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 101.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 101.
+<<<<<<< HEAD
 [94 <./images/gui/mapaU.png>]
+=======
+<<<<<<< HEAD
+[92 <./images/gui/mapaU.png>]
+=======
+<<<<<<< HEAD
+[94 <./images/gui/mapaU.png>]
+=======
+<<<<<<< HEAD
+[88 <./images/gui/mapaU.png>]
+=======
+[92 <./images/gui/mapaU.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 112.
@@ -9860,7 +10667,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 124.
 
+<<<<<<< HEAD
 <images/gui/NMail.png, id=2378, 340.27126pt x 138.5175pt>
+=======
+<<<<<<< HEAD
+<images/gui/NMail.png, id=2324, 340.27126pt x 138.5175pt>
+=======
+<<<<<<< HEAD
+<images/gui/NMail.png, id=2418, 340.27126pt x 138.5175pt>
+=======
+<<<<<<< HEAD
+<images/gui/NMail.png, id=2280, 340.27126pt x 138.5175pt>
+=======
+<images/gui/NMail.png, id=2464, 340.27126pt x 138.5175pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/NMail.png Graphic file (type png)
  <use images/gui/NMail.png>
 Package pdftex.def Info: images/gui/NMail.png used on input line 132.
@@ -9905,7 +10728,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 144.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 144.
+<<<<<<< HEAD
 [95 <./images/gui/NTelefon.png>]
+=======
+<<<<<<< HEAD
+[93 <./images/gui/NTelefon.png>]
+=======
+<<<<<<< HEAD
+[95 <./images/gui/NTelefon.png>]
+=======
+<<<<<<< HEAD
+[89 <./images/gui/NTelefon.png>]
+=======
+[93 <./images/gui/NTelefon.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 144.
@@ -9922,7 +10761,25 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 155.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 155.
+<<<<<<< HEAD
  <images/gui/consulta.png, id=2395, 800.23969pt x 367.3725pt>
+=======
+<<<<<<< HEAD
+
+<images/gui/consulta.png, id=2341, 800.23969pt x 367.3725pt>
+=======
+<<<<<<< HEAD
+ <images/gui/consulta.png, id=2297, 800.23969pt x 367.3725pt>
+=======
+
+<<<<<<< HEAD
+<images/gui/consulta.png, id=2435, 800.23969pt x 367.3725pt>
+=======
+<images/gui/consulta.png, id=2482, 800.23969pt x 367.3725pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/consulta.png Graphic file (type png)
 
 <use images/gui/consulta.png>
@@ -9971,7 +10828,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 181.
+<<<<<<< HEAD
 [96 <./images/gui/NMail.png>]
+=======
+<<<<<<< HEAD
+[94 <./images/gui/NMail.png>]
+=======
+<<<<<<< HEAD
+[96 <./images/gui/NMail.png>]
+=======
+<<<<<<< HEAD
+[90 <./images/gui/NMail.png>]
+=======
+[94 <./images/gui/NMail.png>]
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 186.
 Package babel Info: Redefining spanish shorthand >>
@@ -9984,7 +10857,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 186.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 186.
+<<<<<<< HEAD
  <images/gui/inicio.png, id=2413, 1015.54407pt x 578.16pt>
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<images/gui/inicio.png, id=2359, 1015.54407pt x 578.16pt>
+=======
+<images/gui/inicio.png, id=2453, 1015.54407pt x 578.16pt>
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+File: images/gui/inicio.png Graphic file (type png)
+=======
+<<<<<<< HEAD
+ <images/gui/inicio.png, id=2315, 1015.54407pt x 578.16pt>
+=======
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+
+<images/gui/inicio.png, id=2501, 1015.54407pt x 578.16pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/inicio.png Graphic file (type png)
  <use images/gui/inicio.png>
 Package pdftex.def Info: images/gui/inicio.png used on input line 194.
@@ -10045,7 +10937,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 218.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 218.
+<<<<<<< HEAD
 [97 <./images/gui/consulta.png>] <images/gui/opcionRecepcionista.png, id=2428, 752.0597pt x 239.39438pt>
+=======
+<<<<<<< HEAD
+[95 <./images/gui/consulta.png>]
+<images/gui/opcionRecepcionista.png, id=2374, 752.0597pt x 239.39438pt>
+=======
+<<<<<<< HEAD
+[97 <./images/gui/consulta.png>]
+<images/gui/opcionRecepcionista.png, id=2468, 752.0597pt x 239.39438pt>
+=======
+<<<<<<< HEAD
+[91 <./images/gui/consulta.png>] <images/gui/opcionRecepcionista.png, id=2330, 752.0597pt x 239.39438pt>
+=======
+[95 <./images/gui/consulta.png>]
+<images/gui/opcionRecepcionista.png, id=2518, 752.0597pt x 239.39438pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/opcionRecepcionista.png Graphic file (type png)
 
 <use images/gui/opcionRecepcionista.png>
@@ -10086,7 +10997,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 233.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 233.
+<<<<<<< HEAD
 [98 <./images/gui/inicio.png> <./images/gui/opcionRecepcionista.png>]
+=======
+<<<<<<< HEAD
+[96 <./images/gui/inicio.png> <./images/gui/opcionRecepcionista.png>]
+=======
+<<<<<<< HEAD
+[98 <./images/gui/inicio.png> <./images/gui/opcionRecepcionista.png>]
+=======
+[96 <./images/gui/inicio.png> <./images/gui/opcionRecepcionista.png>]
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 235.
@@ -10104,7 +11027,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 246.
 
+<<<<<<< HEAD
 <images/gui/pagoMem.png, id=2441, 712.16063pt x 484.81125pt>
+=======
+<<<<<<< HEAD
+<images/gui/pagoMem.png, id=2386, 712.16063pt x 484.81125pt>
+=======
+<<<<<<< HEAD
+<images/gui/pagoMem.png, id=2481, 712.16063pt x 484.81125pt>
+=======
+<<<<<<< HEAD
+<images/gui/pagoMem.png, id=2343, 712.16063pt x 484.81125pt>
+=======
+<images/gui/pagoMem.png, id=2531, 712.16063pt x 484.81125pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/pagoMem.png Graphic file (type png)
  <use images/gui/pagoMem.png>
 Package pdftex.def Info: images/gui/pagoMem.png used on input line 254.
@@ -10149,7 +11088,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 271.
+<<<<<<< HEAD
 [99 <./images/gui/pagoMem.png>]
+=======
+<<<<<<< HEAD
+[97 <./images/gui/pagoMem.png>]
+=======
+<<<<<<< HEAD
+[99 <./images/gui/pagoMem.png>]
+=======
+[97 <./images/gui/pagoMem.png>]
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 276.
 Package babel Info: Redefining spanish shorthand >>
@@ -10162,7 +11113,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 276.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 276.
+<<<<<<< HEAD
  <images/gui/baja.png, id=2456, 1184.425pt x 552.0625pt>
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<images/gui/baja.png, id=2401, 1184.425pt x 552.0625pt>
+=======
+<images/gui/baja.png, id=2497, 1184.425pt x 552.0625pt>
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+File: images/gui/baja.png Graphic file (type png)
+=======
+<<<<<<< HEAD
+ <images/gui/baja.png, id=2358, 1184.425pt x 552.0625pt>
+=======
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+
+<images/gui/baja.png, id=2547, 1184.425pt x 552.0625pt>
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/baja.png Graphic file (type png)
  <use images/gui/baja.png>
 Package pdftex.def Info: images/gui/baja.png used on input line 284.
@@ -10211,7 +11181,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 302.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 302.
+<<<<<<< HEAD
 [100 <./images/gui/baja.png>]) (Pantallas/IU3.tex
+=======
+<<<<<<< HEAD
+[98 <./images/gui/baja.png>]) (Pantallas/IU3.tex
+=======
+<<<<<<< HEAD
+[100 <./images/gui/baja.png>]) (./Pantallas/IU3.tex
+=======
+[98 <./images/gui/baja.png>]) (./Pantallas/IU3.tex
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
@@ -10229,7 +11211,20 @@ File: images/uc/iu.png Graphic file (type png)
 Package pdftex.def Info: images/uc/iu.png used on input line 7.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 
+<<<<<<< HEAD
 <images/gui/formClientes.png, id=2472, 1027.84pt x 2990.17125pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU3.png, id=2418, 221.32687pt x 297.36093pt>
+=======
+<<<<<<< HEAD
+<images/gui/IU3.png, id=2513, 221.32687pt x 297.36093pt>
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+File: images/gui/IU3.png Graphic file (type png)
+=======
+<<<<<<< HEAD
+<images/gui/formClientes.png, id=2374, 1027.84pt x 2990.17125pt>
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 File: images/gui/formClientes.png Graphic file (type png)
  <use images/gui/formClientes.png>
 Package pdftex.def Info: images/gui/formClientes.png used on input line 11.
@@ -10289,7 +11284,16 @@ Package pdftex.def Info: images/uc/iu.png used on input line 33.
 )
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
+<<<<<<< HEAD
 Package pdftex.def Info: images/headerInp.png used on input line 91.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: images/headerInp.png used on input line 106.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: images/headerInp.png used on input line 88.
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -10299,7 +11303,98 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
+<<<<<<< HEAD
 (babel)             in language  on input line 91.
+=======
+<<<<<<< HEAD
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 106.
+[99 <./images/gui/IU3.png>]
+Cap\'{\i }tulo 5.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 106.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 106.
+<images/baseDeDatos.png, id=2431, 1531.22063pt x 959.08313pt>
+File: images/baseDeDatos.png Graphic file (type png)
+
+<use images/baseDeDatos.png>
+Package pdftex.def Info: images/baseDeDatos.png used on input line 110.
+(pdftex.def)             Requested size: 563.99857pt x 353.26006pt.
+
+Overfull \hbox (93.99857pt too wide) in paragraph at lines 110--111
+ [][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+[100
+
+ <./images/baseDeDatos.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+ (analisis.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+Package rerunfilecheck Info: File `analisis.out' has not changed.
+(rerunfilecheck)             Checksum: 93D693547B2B096C98FC9C1786C32CF6;12675.
+=======
+(babel)             in language  on input line 88.
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 Package babel Info: Redefining spanish shorthand >>
 (babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand "=
@@ -10454,7 +11549,20 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `analisis.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 4430117ACD724B56C580C8DC61CB103D;13249.
+=======
+(rerunfilecheck)             Checksum: 3E1D2595FA43E0A555DC9674CC33F571;12880.
+=======
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+
+Package rerunfilecheck Info: Checksums for `analisis.out':
+(rerunfilecheck)             Before: 5D323051A0CB79B8085D1202A2CB9495;12637
+(rerunfilecheck)             After:  D571783FBC441AC69AB0D23B67D9864A;12722.
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -10465,6 +11573,7 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
@@ -10472,6 +11581,26 @@ Here is how much of TeX's memory you used:
  155823 string characters out of 3139246
  256478 words of memory out of 3000000
  13452 multiletter control sequences out of 15000+200000
+=======
+<<<<<<< HEAD
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
+ ) 
+Here is how much of TeX's memory you used:
+ 11346 strings out of 493334
+ 154966 string characters out of 3139258
+ 256167 words of memory out of 3000000
+ 13433 multiletter control sequences out of 15000+200000
+=======
+<<<<<<< HEAD
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
+ ) 
+Here is how much of TeX's memory you used:
+ 11342 strings out of 493334
+ 154729 string characters out of 3139246
+ 256214 words of memory out of 3000000
+ 13428 multiletter control sequences out of 15000+200000
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
  16117 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,16n,45p,682b,681s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -10527,9 +11656,584 @@ i600\cmbrbx10.pk> <C:\Users\Roberto\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pub
 \Roberto\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi720\cmbr10.pk> <C:\Users\Roberto\AppData\Local\MiKT
 eX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr17.pk> <C:\Users\Roberto\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\publ
 ic\cmbright\dpi864\cmbr17.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
+<<<<<<< HEAD
 Output written on analisis.pdf (109 pages, 5416176 bytes).
 PDF statistics:
  3301 PDF objects out of 3580 (max. 8388607)
  1158 named destinations out of 1200 (max. 500000)
  1453 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on analisis.pdf (103 pages, 5289582 bytes).
+PDF statistics:
+ 3191 PDF objects out of 3580 (max. 8388607)
+ 1121 named destinations out of 1200 (max. 500000)
+ 1377 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+ ) 
+Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 11375 strings out of 493014
+ 156365 string characters out of 6133351
+ 255455 words of memory out of 5000000
+ 13434 multiletter control sequences out of 15000+600000
+=======
+ 11454 strings out of 493029
+ 156755 string characters out of 6136234
+ 255179 words of memory out of 5000000
+ 13402 multiletter control sequences out of 15000+600000
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+ 16117 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,16n,45p,680b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{IU50} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{UI30.1} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{IU30.1} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{IU30.0} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{UI25.1} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{IU24.1} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{UI23} has been referenced but does not exist, repla
+ced by a fixed one
+
+pdfTeX warning (dest): name{UI22.1} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{UI21} has been referenced but does not exist, repla
+ced by a fixed one
+
+pdfTeX warning (dest): name{IU21.1} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{UI88} has been referenced but does not exist, repla
+ced by a fixed one
+
+pdfTeX warning (dest): name{IU9.2} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{IU5.1} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{IU5} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU9.1} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{IU1} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU7} has been referenced but does not exist, replac
+ed by a fixed one
+
+pdfTeX warning (dest): name{IU6} has been referenced but does not exist, replac
+ed by a fixed one
+
+<<<<<<< HEAD
+ <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\
+cmbrsy10.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbr
+ight\dpi375\cmbr8.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pu
+blic\cmbright\dpi600\cmbr9.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\public\cmbright\dpi540\cmbrbx10.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsl10.pk> <C:\Users\Bad\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk> <C:\Users\Bad\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi720\cmbrbx10.pk> <C:
+\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\cmbr
+bx10.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright
+\dpi450\cmbr8.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public
+\cmbright\dpi375\cmbrsl8.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\public\cmbright\dpi525\cmbr8.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\public\cmbright\dpi600\cmbr10.pk> <C:\Users\Bad\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrbx10.pk> <C:\Users\Bad\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\cmbr10.pk> <C:\Users
+\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi720\cmbr10.pk>
+ <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\
+cmbr17.pk> <C:\Users\Bad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrig
+ht\dpi864\cmbr17.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosym/ma
+rvosym.pfb>
+Output written on analisis.pdf (105 pages, 5061673 bytes).
+PDF statistics:
+ 3212 PDF objects out of 3580 (max. 8388607)
+ 1120 named destinations out of 1200 (max. 500000)
+ 1390 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+<<<<<<< HEAD
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/hfbright/hfbr9.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/hfbright/hfbrsl8.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on analisis.pdf (107 pages, 3600581 bytes).
+PDF statistics:
+ 2806 PDF objects out of 2984 (max. 8388607)
+ 2604 compressed objects within 27 object streams
+ 1163 named destinations out of 1200 (max. 500000)
+ 1424 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+pdfTeX warning (dest): name{subsection.3.0.25} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.24} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.23} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.22} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.21} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.20} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.19} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.18} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.17} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.16} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.15} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.14} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.13} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.12} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.11} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.0.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.30.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.30.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.30.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.30} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.29.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.29.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.29.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.29} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.28.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.28.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.28.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.28} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.27.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.27.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.27.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.27} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.26.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.26.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.26.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.26} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.25.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.25.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.25.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.24.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.24.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.24.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.23.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.23.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.23.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.22.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.22.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.22.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.21.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.21.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.21.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.20.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.20.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.20.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.19.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.19.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.19.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.18.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.18.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.18.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.17.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.17.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.17.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.16.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.16.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.16.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.15.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.15.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.15.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.14.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.14.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.14.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.13.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.13.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.13.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.12.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.12.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.12.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.11.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.11.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.11.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.10.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.10.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.10.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.9.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.9.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.9.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.8.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.8.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.8.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.7.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.7.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.7.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.6.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.6.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.6.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/hfbright/hfbr9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/hfbright/hfbrbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/hfbright/hfbrsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hf
+bright/hfbrsl8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/h
+fbrsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym
+.pfb>
+Output written on analisis.pdf (105 pages, 3551933 bytes).
+PDF statistics:
+ 2881 PDF objects out of 2984 (max. 8388607)
+ 2689 compressed objects within 27 object streams
+ 1263 named destinations out of 1440 (max. 500000)
+ 1372 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> f43b72f511fbe02ec55740d5cd735b774a056940
+>>>>>>> 2f3b21d57be9aaa3097a9aef0eb39c48bda3d43c
+>>>>>>> 3370078343d4c1a915a79d45ed9685a0ff7a52cb
+>>>>>>> 744a86086f7db29eddbd5dfcdf782d7449308ffe
 
