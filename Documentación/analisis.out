@@ -125,36 +125,41 @@
 \BOOKMARK [2][-]{subsection.3.30.1}{Descripci\363n completa}{section.3.30}% 125
 \BOOKMARK [2][-]{subsection.3.30.2}{Atributos importantes}{section.3.30}% 126
 \BOOKMARK [2][-]{subsection.3.30.3}{Trayectorias del Caso de Uso}{section.3.30}% 127
-\BOOKMARK [0][-]{chapter.4}{}{}% 128
-\BOOKMARK [0][-]{chapter.5}{Modelo de la Interacci\363n}{}% 129
-\BOOKMARK [1][-]{subsection.5.0.1}{IU21.0 Pantalla de Control de acceso Gerente de Sucursal}{chapter.5}% 130
-\BOOKMARK [2][-]{subsection.5.0.2}{IU21.1 Pantalla principal de acceso a Gerente de Sucursal}{subsection.5.0.1}% 131
-\BOOKMARK [2][-]{subsection.5.0.3}{IU21.2 Pantalla de alta de curso en el sistema}{subsection.5.0.1}% 132
-\BOOKMARK [2][-]{subsection.5.0.4}{IU22.1 Baja de curso}{subsection.5.0.1}% 133
-\BOOKMARK [2][-]{subsection.5.0.5}{IU23.1 Modificar un curso}{subsection.5.0.1}% 134
-\BOOKMARK [2][-]{subsection.5.0.6}{IU24 Pantalla de Consultar un Curso}{subsection.5.0.1}% 135
-\BOOKMARK [2][-]{subsection.5.0.7}{IU26 Pantalla de Inscribir cliente a curso}{subsection.5.0.1}% 136
-\BOOKMARK [2][-]{subsection.5.0.8}{IU18 Pantalla de men\372 de ocpiones de la secci\363n \341reas.}{subsection.5.0.1}% 137
-\BOOKMARK [2][-]{subsection.5.0.9}{IU19 Pantalla de registro de \341rea}{subsection.5.0.1}% 138
-\BOOKMARK [2][-]{subsection.5.0.10}{IU20 Pantalla de Eliminar \341reas}{subsection.5.0.1}% 139
-\BOOKMARK [2][-]{subsection.5.0.11}{IU22 Pantalla de Actualizaci\363n de \341reas}{subsection.5.0.1}% 140
-\BOOKMARK [2][-]{subsection.5.0.12}{IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{subsection.5.0.1}% 141
-\BOOKMARK [2][-]{subsection.5.0.13}{IU8 Pantalla de Registro Exitoso.}{subsection.5.0.1}% 142
-\BOOKMARK [2][-]{subsection.5.0.14}{IU9 Pantalla de Consulta de \301reas.}{subsection.5.0.1}% 143
-\BOOKMARK [2][-]{subsection.5.0.15}{IU10 Pantalla de Registro de servicios.}{subsection.5.0.1}% 144
-\BOOKMARK [2][-]{subsection.5.0.16}{IU11 Pantalla de consulta de servicios.}{subsection.5.0.1}% 145
-\BOOKMARK [2][-]{subsection.5.0.17}{IU12 Pantalla de eliminar servicios.}{subsection.5.0.1}% 146
-\BOOKMARK [2][-]{subsection.5.0.18}{IU13 Pantalla de edicion de servicios.}{subsection.5.0.1}% 147
-\BOOKMARK [2][-]{subsection.5.0.19}{IU23 Pantalla de Control de Acceso}{subsection.5.0.1}% 148
-\BOOKMARK [2][-]{subsection.5.0.20}{IU32 Pantalla de formulario para registro de nueva sucursal.}{subsection.5.0.1}% 149
-\BOOKMARK [2][-]{subsection.5.0.21}{IU33 Pantalla de visualizaci\363n de sucursal en mapa.}{subsection.5.0.1}% 150
-\BOOKMARK [2][-]{subsection.5.0.22}{IU34 A\361adir otro campo}{subsection.5.0.1}% 151
-\BOOKMARK [2][-]{subsection.5.0.23}{IU35 A\361adir otro email}{subsection.5.0.1}% 152
-\BOOKMARK [2][-]{subsection.5.0.24}{IU97 Pantalla para consultar sucursales registradas}{subsection.5.0.1}% 153
-\BOOKMARK [2][-]{subsection.5.0.25}{IU37 P\341gina de inicio}{subsection.5.0.1}% 154
-\BOOKMARK [2][-]{subsection.5.0.26}{IU38 Pantalla de opciones para la recepsionista}{subsection.5.0.1}% 155
-\BOOKMARK [2][-]{subsection.5.0.27}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.5.0.1}% 156
-\BOOKMARK [2][-]{subsection.5.0.28}{IU99 Pantalla dar de baja sucursales}{subsection.5.0.1}% 157
-\BOOKMARK [2][-]{subsection.5.0.29}{IU3 Pantalla de Registrar Cliente}{subsection.5.0.1}% 158
-\BOOKMARK [2][-]{subsection.5.0.30}{IU1 P\341gina principal}{subsection.5.0.1}% 159
-\BOOKMARK [0][-]{chapter.6}{Modelo del Dominio del problema}{}% 160
+\BOOKMARK [1][-]{section.3.31}{CU38 Venta/compra de una membres\355a.}{chapter.3}% 128
+\BOOKMARK [2][-]{subsection.3.31.1}{Descripci\363n completa}{section.3.31}% 129
+\BOOKMARK [2][-]{subsection.3.31.2}{Atributos importantes}{section.3.31}% 130
+\BOOKMARK [2][-]{subsection.3.31.3}{Trayectorias del Caso de Uso}{section.3.31}% 131
+\BOOKMARK [0][-]{chapter.4}{}{}% 132
+\BOOKMARK [0][-]{chapter.5}{Modelo de la Interacci\363n}{}% 133
+\BOOKMARK [1][-]{subsection.5.0.1}{IU21.0 Pantalla de Control de acceso Gerente de Sucursal}{chapter.5}% 134
+\BOOKMARK [2][-]{subsection.5.0.2}{IU21.1 Pantalla principal de acceso a Gerente de Sucursal}{subsection.5.0.1}% 135
+\BOOKMARK [2][-]{subsection.5.0.3}{IU21.2 Pantalla de alta de curso en el sistema}{subsection.5.0.1}% 136
+\BOOKMARK [2][-]{subsection.5.0.4}{IU22.1 Baja de curso}{subsection.5.0.1}% 137
+\BOOKMARK [2][-]{subsection.5.0.5}{IU23.1 Modificar un curso}{subsection.5.0.1}% 138
+\BOOKMARK [2][-]{subsection.5.0.6}{IU24 Pantalla de Consultar un Curso}{subsection.5.0.1}% 139
+\BOOKMARK [2][-]{subsection.5.0.7}{IU26 Pantalla de Inscribir cliente a curso}{subsection.5.0.1}% 140
+\BOOKMARK [2][-]{subsection.5.0.8}{IU18 Pantalla de men\372 de ocpiones de la secci\363n \341reas.}{subsection.5.0.1}% 141
+\BOOKMARK [2][-]{subsection.5.0.9}{IU19 Pantalla de registro de \341rea}{subsection.5.0.1}% 142
+\BOOKMARK [2][-]{subsection.5.0.10}{IU20 Pantalla de Eliminar \341reas}{subsection.5.0.1}% 143
+\BOOKMARK [2][-]{subsection.5.0.11}{IU22 Pantalla de Actualizaci\363n de \341reas}{subsection.5.0.1}% 144
+\BOOKMARK [2][-]{subsection.5.0.12}{IU23.0 Pantalla de Control de acceso Gerente de Sucursal}{subsection.5.0.1}% 145
+\BOOKMARK [2][-]{subsection.5.0.13}{IU8 Pantalla de Registro Exitoso.}{subsection.5.0.1}% 146
+\BOOKMARK [2][-]{subsection.5.0.14}{IU9 Pantalla de Consulta de \301reas.}{subsection.5.0.1}% 147
+\BOOKMARK [2][-]{subsection.5.0.15}{IU10 Pantalla de Registro de servicios.}{subsection.5.0.1}% 148
+\BOOKMARK [2][-]{subsection.5.0.16}{IU11 Pantalla de consulta de servicios.}{subsection.5.0.1}% 149
+\BOOKMARK [2][-]{subsection.5.0.17}{IU12 Pantalla de eliminar servicios.}{subsection.5.0.1}% 150
+\BOOKMARK [2][-]{subsection.5.0.18}{IU13 Pantalla de edicion de servicios.}{subsection.5.0.1}% 151
+\BOOKMARK [2][-]{subsection.5.0.19}{IU23 Pantalla de Control de Acceso}{subsection.5.0.1}% 152
+\BOOKMARK [2][-]{subsection.5.0.20}{IU32 Pantalla de formulario para registro de nueva sucursal.}{subsection.5.0.1}% 153
+\BOOKMARK [2][-]{subsection.5.0.21}{IU33 Pantalla de visualizaci\363n de sucursal en mapa.}{subsection.5.0.1}% 154
+\BOOKMARK [2][-]{subsection.5.0.22}{IU34 A\361adir otro campo}{subsection.5.0.1}% 155
+\BOOKMARK [2][-]{subsection.5.0.23}{IU35 A\361adir otro email}{subsection.5.0.1}% 156
+\BOOKMARK [2][-]{subsection.5.0.24}{IU97 Pantalla para consultar sucursales registradas}{subsection.5.0.1}% 157
+\BOOKMARK [2][-]{subsection.5.0.25}{IU37 P\341gina de inicio}{subsection.5.0.1}% 158
+\BOOKMARK [2][-]{subsection.5.0.26}{IU38 Pantalla de opciones para la recepsionista}{subsection.5.0.1}% 159
+\BOOKMARK [2][-]{subsection.5.0.27}{IU39 Pantalla para el registro del pago de membres\355a}{subsection.5.0.1}% 160
+\BOOKMARK [2][-]{subsection.5.0.28}{IU99 Pantalla dar de baja sucursales}{subsection.5.0.1}% 161
+\BOOKMARK [2][-]{subsection.5.0.29}{IU100 Venta/compra de membres\355a}{subsection.5.0.1}% 162
+\BOOKMARK [2][-]{subsection.5.0.30}{IU3 Pantalla de Registrar Cliente}{subsection.5.0.1}% 163
+\BOOKMARK [2][-]{subsection.5.0.31}{IU1 P\341gina principal}{subsection.5.0.1}% 164
+\BOOKMARK [0][-]{chapter.6}{Modelo del Dominio del problema}{}% 165

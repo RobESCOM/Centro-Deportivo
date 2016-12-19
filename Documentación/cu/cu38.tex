@@ -1,0 +1,66 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU38}{Venta/compra de una membresía.}{
+		La venta de una membresía la puede realizar un ejecutivo de ventas, una recepcionista o el mismo cliente, el cual lo puede hacer desde su hogar. Para poder llevar a cabo la venta/compra de la membresía es necesario dar de alta en el sistema al cliente. Registrar su forma de pago. Se debe alamcenar el tipo de membresía que será la asignada al cliente, como también se debe mostrar el costo total de la membresía.\IUref{IU100}{Venta/compra de membresía}
+	}
+		\UCitem{Versión}{0.4}
+		\UCitem{Actor}{ejecutivo de ventas, recepcionista y cliente.}
+		\UCitem{Propósito}{Poder registrar los datos personales del cliente, la venta de las membresías, quién vendio dicha membresía y la fecha de la compra/venta ésta. Con ésta información podemos saber la cantidad de membresías vendidas en un mes, nuestro mejor vendedor y poder obtener estadísticas.}
+		\UCitem{Entradas}{La membresía que el cliente quiera adquirir.}
+		\UCitem{Origen}{mouse.}
+		\UCitem{Salidas}{Se redireccionará al actor a la página de registro del cliente. ver \IUref{CU1}{Registrar cliente} }
+		\UCitem{Destino}{Pantalla.}
+		\UCitem{Precondiciones}{}
+		\UCitem{Postcondiciones}{En el sistema se tendrá un nuevo registro de un cliente, así como la el registro de un membresía vendida, quién la vendio y la fecha. }
+		\UCitem{Errores}{1. {\bf MSG1-}``El [{\em CURP}] introducido no está registrado.'' Continua en el paso \ref{CU100CURP} del \UCref{CU38}.}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{}
+		\UCitem{Autor}{Fernández Quiñones Isaac.}
+		\UCitem{Revisor}{Francisco García Enríquez}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Ingresó a la página de incio. \Trayref{A}
+		\UCpaso Despliega la \IUref{IU37}{Página de inicio} \label{CU100RegistroRecepEjec}.
+		\UCpaso [\UCactor] Presiona el botón \IUbutton{Adquiere tu membresía}
+		\UCpaso Desplaza la página hasta la \IUref{IU100}{Venta/compra de membresía}
+		\UCpaso [\UCactor] Presiona el botón \IUbutton{¡Comprala YA!} de la membresía que quiere adquirir.
+		\UCpaso carga la página para el registro del cliente. Ver caso de uso \IUref{CU1}{Registrar cliente}
+		\UCpaso Despliega la \IUref{IU39}{Pantalla para el registro del pago de membresías}
+		\UCpaso Carga el monto total a pagar por la membresía que el cliente quiere adquirir.
+		\UCpaso [\UCactor] Introduce el CURP.
+		\UCpaso verifica que el CURP introducido corresponda con algún registro de cliente. E1 \label{CU100CURP}
+		\UCpaso [\UCactor] Presiona el botón \IUbutton{comprar}
+		\UCpaso Muestra el mensaje {\bf MSG2-}``¿Cuál será su forma de pago?''.
+		\UCpaso Muestra las opciones "Tarjeta de crédito" y "Pago en efectivo". \Trayref{B}
+		\UCpaso Muestra el mensaje {\bf MSG2-}``Su pago a sido realizado correctamente''. \label{CU100Pago}
+		\UCpaso Activa la cuenta del cliente.
+		\UCpaso Carga la página de inicio. \IUref{IU37}{Página de inicio}
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El actor es el ejecutivo de ventas o la recepcionista.}
+			\UCpaso[\UCactor] ejecuta el caso de uso \IUref{CU31}{Ingresar al sistema}
+			\UCpaso Continua en el paso \ref{CU100RegistroRecepEjec} del \UCref{CU38}.
+		\end{UCtrayectoriaA}
+		
+		\begin{UCtrayectoriaA}{B}{El cliente quiere pagar en efectivo}
+			\UCpaso Manda un folio al correo del actor.
+			\UCpaso Continua en el paso \ref{CU100Pago} del \UCref{CU38}. 
+		\end{UCtrayectoriaA}
+
+		\begin{UCtrayectoriaA}{C}{El cliente quiere pagar con tarjeta de crédito}
+			\UCpaso Registra los datos de la tarjeta de crédito del cliente.
+			\UCpaso Continua en el paso \ref{CU100Pago} del \UCref{CU38}. 
+		\end{UCtrayectoriaA}		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
