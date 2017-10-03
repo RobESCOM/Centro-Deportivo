@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>acceso</servlet-name>
+        <servlet-class>controlador.acceso</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>servletConsultas</servlet-name>
+        <servlet-class>controlador.servletConsultas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>servletGer</servlet-name>
+        <servlet-class>controlador.servletGer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>servletEmp</servlet-name>
+        <servlet-class>controlador.servletEmp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ActualizaEmpleado</servlet-name>
+        <servlet-class>controlador.ActualizaEmpleado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegistroEmpleado</servlet-name>
+        <servlet-class>controlador.RegistroEmpleado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaDireccion</servlet-name>
+        <servlet-class>controlador.AltaDireccion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletConsultas</servlet-name>
+        <url-pattern>/servletConsultas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>acceso</servlet-name>
+        <url-pattern>/acceso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>servletGer</servlet-name>
+        <url-pattern>/servletGer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>servletEmp</servlet-name>
+        <url-pattern>/servletEmp</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
